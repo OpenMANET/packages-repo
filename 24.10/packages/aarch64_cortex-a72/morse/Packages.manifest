@@ -1,0 +1,531 @@
+Package: dpp-handler
+Version: 1
+Depends: libc, wpa_supplicant_s1g, libwpa_client_s1g
+Source: feeds/morse/features/dpp-handler
+SourceName: dpp-handler
+Section: net
+SourceDateEpoch: 1760011748
+Maintainer: Morse Micro
+Architecture: aarch64_cortex-a72
+Installed-Size: 81920
+Filename: dpp-handler_1_aarch64_cortex-a72.ipk
+Size: 8877
+SHA256sum: 27ad027dbc75bf323f6ec88a936defdb2c25a56fda32b02ef703ade216eac855
+Description:  This package adds a ubus (rpcd ucode) handler for DPP related
+ actions (push button to initiate, and set UCI config if successful).
+ Currently, success is detected by a wpa_event_listener.
+
+Package: gst1-mod-rtspclientsink
+Version: 1.20.5-r1
+Depends: libc, libgst1rtspserver
+Source: feeds/morse/multimedia/gst1-rtsp-server
+SourceName: gst1-rtsp-server
+License: LGPL-2.1-or-later
+LicenseFiles: COPYING
+Section: multimedia
+SourceDateEpoch: 1760011748
+URL: https://gstreamer.freedesktop.org/
+Maintainer: Morse Micro
+Architecture: aarch64_cortex-a72
+Installed-Size: 143360
+Filename: gst1-mod-rtspclientsink_1.20.5-r1_aarch64_cortex-a72.ipk
+Size: 27741
+SHA256sum: 5d8fc53451456f8f63b199fe6844bb094dbf8545be446d0eb903a98933ad3069
+Description:  GStreamer RTSP client sink plugin.
+
+Package: hostapd_s1g
+Version: 1.16.4-r2
+Depends: libc, kmod-morse, libnl200, libopenssl3, libubus20250102
+Source: feeds/morse/essentials/hostapd_s1g
+SourceName: hostapd_s1g
+License: BSD-3-Clause
+Section: net
+Require-User: network=101:network=101
+SourceDateEpoch: 1760011748
+Maintainer: Morse Micro <info@morsemicro.com>
+Architecture: aarch64_cortex-a72
+Installed-Size: 1976320
+Filename: hostapd_s1g_1.16.4-r2_aarch64_cortex-a72.ipk
+Size: 859820
+SHA256sum: cc6b617603a6fe762e03fb01fd19f931150563a225edb19c1a0344a3498b8488
+Description:  This package contains a full featured Morse Micro patched
+ Authenticator.
+
+Package: libgst1rtspserver
+Version: 1.20.5-r1
+Depends: libc, libgstreamer1, libgst1app, libgst1net, libgst1rtp, libgst1rtsp, libgst1sdp, gst1-mod-rtpmanager, gst1-mod-rtp, gst1-mod-rtsp
+Source: feeds/morse/multimedia/gst1-rtsp-server
+SourceName: gst1-rtsp-server
+License: LGPL-2.1-or-later
+LicenseFiles: COPYING
+Section: multimedia
+SourceDateEpoch: 1760011748
+URL: https://gstreamer.freedesktop.org/
+Maintainer: Morse Micro
+Architecture: aarch64_cortex-a72
+Installed-Size: 337920
+Filename: libgst1rtspserver_1.20.5-r1_aarch64_cortex-a72.ipk
+Size: 105439
+SHA256sum: 89cd9068629ba7b55994cfba7a3d15ef7c66aa413744f9fa111b227e3e781808
+Description:  GStreamer RTSP server.
+
+Package: libwpa_client_s1g
+Version: 1.16.4-r2
+Depends: libc, wpa_supplicant_s1g
+Source: feeds/morse/essentials/wpa_supplicant_s1g
+SourceName: wpa_supplicant_s1g
+License: BSD-3-Clause
+Section: net
+SourceDateEpoch: 1760011748
+Maintainer: Morse Micro <info@morsemicro.com>
+Architecture: aarch64_cortex-a72
+Installed-Size: 71680
+Filename: libwpa_client_s1g_1.16.4-r2_aarch64_cortex-a72.ipk
+Size: 17851
+SHA256sum: 0fb6072aae80eaf9bd7ff16e239a5036b9f210f11ac8a22b9b92ddbb6e595d9c
+Description:  wpa_supplicant_s1g client library
+
+Package: luci-app-camera
+Version: git-25.282.43748-263b4c4
+Depends: libc, rpcd-mod-onvif, luci-lib-httpclient, mediamtx
+Source: feeds/morse/luci/luci-app-camera
+SourceName: luci-app-camera
+License: Apache-2.0
+Section: luci
+SourceDateEpoch: 1760011748
+URL: https://github.com/openwrt/luci
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 163840
+Filename: luci-app-camera_git-25.282.43748-263b4c4_all.ipk
+Size: 78414
+SHA256sum: 3e6f3e80116ab8eccb95096489f879802216a53a76fd722b56cccfc8c0ce5800
+Description:  LuCI Camera Viewer
+
+Package: luci-i18n-camera-ja
+Version: git-25.282.43748-263b4c4
+Depends: libc, luci-app-camera
+Source: feeds/morse/luci/luci-app-camera
+SourceName: luci-app-camera
+License: Apache-2.0
+Section: luci
+SourceDateEpoch: 1760011748
+Architecture: all
+Installed-Size: 10240
+Filename: luci-i18n-camera-ja_git-25.282.43748-263b4c4_all.ipk
+Size: 2687
+SHA256sum: b6de2b18602fd7e158a5e26928b357dbefc532089e6ea9bfa2b884788450bb29
+Description:  Translation for luci-app-camera - 日本語 (Japanese)
+
+Package: mediamtx
+Version: 1.4.0-r1
+Depends: libc
+Source: feeds/morse/multimedia/mediamtx
+SourceName: mediamtx
+Section: multimedia
+SourceDateEpoch: 1760011748
+URL: https://github.com/bluenviron/mediamtx
+Architecture: aarch64_cortex-a72
+Installed-Size: 19773440
+Filename: mediamtx_1.4.0-r1_aarch64_cortex-a72.ipk
+Size: 7266085
+SHA256sum: e5ea30d46f95b2b7a056cb98a751afb76b2c486059312233a0744d5d38fe8af8
+Description:  Ready-to-use server and proxy that allows users to publish, read and proxy live video and audio streams through various protocols.
+ 
+ If libcamera is enabled, it will try to build its rpicamera support.
+
+Package: morse-bcf-info
+Version: 1.0-r1
+Depends: libc, libelf1
+Source: feeds/morse/features/morse-bcf-info
+SourceName: morse-bcf-info
+Section: utils
+SourceDateEpoch: 1760011748
+Architecture: aarch64_cortex-a72
+Installed-Size: 71680
+Filename: morse-bcf-info_1.0-r1_aarch64_cortex-a72.ipk
+Size: 4657
+SHA256sum: c9195c22eee847dd95c141a1b264b7f57caa9a49854c415bdd79b5002b673fa1
+Description:  Parse Morse wifi chip BCF files and emit JSON metadata
+
+Package: morse-board-config-hotplug-model
+Version: 1.16.4-r6
+Depends: libc, morse-board-config
+Source: feeds/morse/essentials/mm-board-config
+SourceName: morse-board-config
+Section: firmware
+SourceDateEpoch: 1760011748
+Maintainer: Morse Micro <info@morsemicro.com>
+Architecture: aarch64_cortex-a72
+Installed-Size: 10240
+Filename: morse-board-config-hotplug-model_1.16.4-r6_aarch64_cortex-a72.ipk
+Size: 1354
+SHA256sum: 89a37a34e09d0a154a9bca9ce1a515fa0d6c5e66fdc752f60989fc6909bc5ff1
+Description:  When enabled, a hotplug script will be installed to
+ append a relevant module type suffix based on the value
+ programmed into the Morse chips OTP bits.
+
+Package: morse-board-config
+Version: 1.16.4-r6
+Depends: libc
+Source: feeds/morse/essentials/mm-board-config
+SourceName: morse-board-config
+Section: firmware
+SourceDateEpoch: 1760011748
+URL: https://github.com/MorseMicro/morse-firmware.git
+Maintainer: Morse Micro <info@morsemicro.com>
+Architecture: aarch64_cortex-a72
+Installed-Size: 61440
+Filename: morse-board-config_1.16.4-r6_aarch64_cortex-a72.ipk
+Size: 5634
+SHA256sum: d12149c7b5bfa3cb71c5ce23f1adac4674b40013c64c2e25615e2342c8991b2b
+Description:  Morse Micro WIFI HaLow Board Config File
+
+Package: morse-boot-prints
+Version: 2
+Depends: libc, morse-mode
+Source: feeds/morse/features/morse-boot-prints
+SourceName: morse-boot-prints
+Section: utils
+SourceDateEpoch: 1760011748
+Maintainer: Morse Micro
+Architecture: aarch64_cortex-a72
+Installed-Size: 30720
+Filename: morse-boot-prints_2_aarch64_cortex-a72.ipk
+Size: 3051
+SHA256sum: 2046eb9cce2869f4b4fc8e26bdc0eb0d1d0a4ceedea52feb170c2da5e15e1a1b
+Description:  Morse Boot Info Prints
+
+Package: morse-bundle
+Version: 2
+Depends: libc, morse-boot-prints, gpiod-tools, ucode
+Source: feeds/morse/hardware/morse-bundle
+SourceName: morse-bundle
+Section: net
+SourceDateEpoch: 1760011748
+Maintainer: Morse Micro
+Architecture: aarch64_cortex-a72
+Installed-Size: 40960
+Filename: morse-bundle_2_aarch64_cortex-a72.ipk
+Size: 9421
+SHA256sum: a411d2077fd46ee26670f911bf5389b6262fb57207f9f9159d595ec819747d55
+Description:  This package contains minor config/scripts adaptations for
+ morse releases.
+
+Package: morse-button
+Version: 1
+Depends: libc, netifd-morse
+Source: feeds/morse/hardware/morse-button
+SourceName: morse-button
+Section: utils
+SourceDateEpoch: 1760011748
+Maintainer: Morse Micro
+Architecture: aarch64_cortex-a72
+Installed-Size: 10240
+Filename: morse-button_1_aarch64_cortex-a72.ipk
+Size: 1187
+SHA256sum: 2d28000932ce153303680b86a6920679edef9aac2a97adeadd3b6ccf04ff8ea5
+Description:  Add a button handler script for morse devices.
+
+Package: morse-copy-coredump
+Version: 1
+Depends: libc, kmod-morse
+Source: feeds/morse/features/morse-copy-coredump
+SourceName: morse-copy-coredump
+Section: net
+SourceDateEpoch: 1760011748
+Maintainer: Morse Micro
+Architecture: aarch64_cortex-a72
+Installed-Size: 10240
+Filename: morse-copy-coredump_1_aarch64_cortex-a72.ipk
+Size: 1523
+SHA256sum: 8fae64959c715ea883f25cbe8e52b56e4407db78eac7614a9ad583a430b94e27
+Description:  Copy morse driver coredumps from sysfs to /var/log
+ when they appear (detected via hotplug).
+
+Package: morse-fw-6108-tlm
+Version: 1.16.4-r2
+Depends: libc
+Provides: morse-fw
+Source: feeds/morse/essentials/morse-fw
+SourceName: morse-fw
+Section: opt
+SourceDateEpoch: 1760011748
+URL: https://github.com/MorseMicro/morse-firmware.git
+Maintainer: Morse Micro <info@morsemicro.com>
+Architecture: aarch64_cortex-a72
+Installed-Size: 460800
+Filename: morse-fw-6108-tlm_1.16.4-r2_aarch64_cortex-a72.ipk
+Size: 246361
+SHA256sum: ed07440905154eed9d377742f6e5856381c7348a3a95437ebe44abe076508122
+Description:  This firmware reduces the per-station table size in the chip to
+ allow a large number of associations in AP mode.
+
+Package: morse-fw-6108
+Version: 1.16.4-r2
+Depends: libc
+Provides: morse-fw
+Source: feeds/morse/essentials/morse-fw
+SourceName: morse-fw
+Section: opt
+SourceDateEpoch: 1760011748
+URL: https://github.com/MorseMicro/morse-firmware.git
+Maintainer: Morse Micro <info@morsemicro.com>
+Architecture: aarch64_cortex-a72
+Installed-Size: 471040
+Filename: morse-fw-6108_1.16.4-r2_aarch64_cortex-a72.ipk
+Size: 251690
+SHA256sum: 15f4be6fb43305b07ac58c841510bb7fbe7ec2e22f0691d81c0dd55b0cdca957
+Description:  Morse Micro WIFI HaLow standard firmware for 6108
+
+Package: morse-fw-8108-flm
+Version: 1.16.4-r2
+Depends: libc
+Provides: morse-fw
+Source: feeds/morse/essentials/morse-fw
+SourceName: morse-fw
+Section: firmware
+SourceDateEpoch: 1760011748
+URL: https://github.com/MorseMicro/morse-firmware.git
+Maintainer: Morse Micro <info@morsemicro.com>
+Architecture: aarch64_cortex-a72
+Installed-Size: 624640
+Filename: morse-fw-8108-flm_1.16.4-r2_aarch64_cortex-a72.ipk
+Size: 339014
+SHA256sum: 92cb218bcd8176e6c775f0cc291e2b7c6261dc6c5a042c35bc5b3edc8a2c7cac
+Description:  This firmware implements the functionality of the mac80211
+ module (and some wpa_supplicant functionality) on the 8108.
+ This will allow you to reduce host processor CPU usage
+ and maintain association if the host processor is turned off.
+ However, it currently only supports station/client mode
+ (i.e. not AP/mesh/adhoc).
+
+Package: morse-fw-8108-tlm
+Version: 1.16.4-r2
+Depends: libc
+Provides: morse-fw
+Source: feeds/morse/essentials/morse-fw
+SourceName: morse-fw
+Section: firmware
+SourceDateEpoch: 1760011748
+URL: https://github.com/MorseMicro/morse-firmware.git
+Maintainer: Morse Micro <info@morsemicro.com>
+Architecture: aarch64_cortex-a72
+Installed-Size: 460800
+Filename: morse-fw-8108-tlm_1.16.4-r2_aarch64_cortex-a72.ipk
+Size: 226409
+SHA256sum: 7077c2d8eda8e2c6da3527459495e06735b8a3a6e7de5e66202763df02ae4114
+Description:  This firmware reduces the per-station table size in the chip to
+ allow a large number of associations in AP mode.
+
+Package: morse-fw-8108
+Version: 1.16.4-r2
+Depends: libc
+Provides: morse-fw
+Source: feeds/morse/essentials/morse-fw
+SourceName: morse-fw
+Section: opt
+SourceDateEpoch: 1760011748
+URL: https://github.com/MorseMicro/morse-firmware.git
+Maintainer: Morse Micro <info@morsemicro.com>
+Architecture: aarch64_cortex-a72
+Installed-Size: 460800
+Filename: morse-fw-8108_1.16.4-r2_aarch64_cortex-a72.ipk
+Size: 230161
+SHA256sum: 3ba6259223077ab46c28f5b304e65f281168e3794cdd23a1cbee154cca22639e
+Description:  Morse Micro WIFI HaLow standard firmware for 8108
+
+Package: morse-leds
+Version: 1
+Depends: libc
+Source: feeds/morse/hardware/morse-leds
+SourceName: morse-leds
+Section: utils
+SourceDateEpoch: 1760011748
+Maintainer: Morse Micro
+Architecture: aarch64_cortex-a72
+Installed-Size: 10240
+Filename: morse-leds_1_aarch64_cortex-a72.ipk
+Size: 3213
+SHA256sum: 515910a9e64b4d15d21c28a781e36671e325b23c7475994597bf961b29583dd2
+Description:  Override default LED status handler to handle new
+ states and more complex LEDs (e.g. PWM)
+ (both for the status, and to set
+ the colour of the other LEDs since the OpenWrt LED
+ configurator doesn't know how to set the colour on
+ PWM LEDs).
+
+Package: morse-mode
+Version: 1
+Depends: libc, netifd-morse, morse-regdb
+Source: feeds/morse/features/morse-mode
+SourceName: morse-mode
+Section: utils
+SourceDateEpoch: 1760011748
+Maintainer: Morse Micro
+Architecture: aarch64_cortex-a72
+Installed-Size: 10240
+Filename: morse-mode_1_aarch64_cortex-a72.ipk
+Size: 2823
+SHA256sum: a82a339c42111a4153ae54eb85a3fb1674fa05d8dfbfd3e11c5e9e92b5437b60
+Description:  Access morse mode info via ubus
+
+Package: morse-regdb
+Version: v2.4.1-r1
+Depends: libc
+Source: feeds/morse/essentials/morse-regdb
+SourceName: morse-regdb
+Section: net
+SourceDateEpoch: 1760011748
+URL: https://bitbucket.org/morsemicro/morse_regdb/src/master/
+Architecture: all
+Installed-Size: 51200
+Filename: morse-regdb_v2.4.1-r1_all.ipk
+Size: 6150
+SHA256sum: 7892ad020663b368bef96f03a9470a50b7ca6efab9ea5a3a25eb1bf0a6c4e819
+Description:  Regulatory data for 802.11ah in a csv.
+
+Package: morse_mesh11sd
+Version: 1.2.0-r1
+Depends: libc
+Provides: mesh11sd
+Source: feeds/morse/features/morse_mesh11sd
+SourceName: morse_mesh11sd
+License: GPL-2.0-or-later
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1760011748
+URL: https://github.com/opennds/mesh11sd
+Maintainer: Rob White <rob@blue-wave.net>
+Architecture: all
+Installed-Size: 30720
+Filename: morse_mesh11sd_1.2.0-r1_all.ipk
+Size: 6794
+SHA256sum: 78d515eae26ab32337ca42019a9b0f4dbbc2b1cc2efbc4a9e5339c390bfb8c73
+Description:  Mesh11sd is a dynamic parameter configuration daemon for 802.11s mesh networks.
+ It was originally designed to leverage 802.11s mesh networking at Captive Portal venues.
+ This is the open source version and it enables easy and automated mesh network operation with multiple mesh nodes.
+ It allows all mesh parameters supported by the wireless driver to be set in the uci config file.
+ Settings take effect immediately without having to restart the wireless network.
+ Default settings give rapid and reliable layer 2 mesh convergence.
+ Without mesh11sd, many mesh parameters cannot be set in the uci wireless config file as the mesh interface must be up before the parameters can be set.
+ Some of those that are supported, would fail to be implemented when the network is (re)started resulting in errors or dropped nodes.
+ The mesh11sd daemon dynamically checks configured parameters and sets them as required.
+ This version does not require a Captive Portal to be running.
+ The modified morse_mesh11sd would allow reconfiguring the wpa supplicant everytime there is 11sMesh config modification.
+
+Package: morsecli
+Version: 1.16.4-r5
+Depends: libc, kmod-morse, libnl200, libusb-1.0-0
+Provides: morsectrl
+Source: feeds/morse/essentials/morsecli
+SourceName: morsecli
+License: GPLv2
+Section: net
+SourceDateEpoch: 1760011748
+Maintainer: Morse Micro <info@morsemicro.com>
+Architecture: aarch64_cortex-a72
+Installed-Size: 215040
+Filename: morsecli_1.16.4-r5_aarch64_cortex-a72.ipk
+Size: 72926
+SHA256sum: 23bfc86a27cf678ec54d9f0c2c795f09c43f27a1084cf3e0942e8a22fcfa677b
+Description:  Morse Micro WIFI HaLow driver command line tool
+
+Package: netifd-morse
+Version: 1
+Depends: libc, netifd, kmod-morse, kmod-cfg80211, morse-regdb, wpa_supplicant_s1g, hostapd_s1g, morsecli
+Source: feeds/morse/essentials/netifd-morse
+SourceName: netifd-morse
+License: GPLv2
+Section: net
+SourceDateEpoch: 1760011748
+Maintainer: Morse Micro <info@morsemicro.com>
+Architecture: aarch64_cortex-a72
+Installed-Size: 112640
+Filename: netifd-morse_1_aarch64_cortex-a72.ipk
+Size: 27071
+SHA256sum: caeb7f0beb3da53cf5c0265e7ead2fb7bc9c20b0d4c3de0f08749e42e67f6250
+Description:  Morse Micro HaLow support for netifd
+
+Package: persistent-vars-storage-bcm2711
+Version: 1
+Depends: libc, bcm27xx-userland
+Provides: persistent-vars-storage
+Source: feeds/morse/hardware/persistent-vars-storage-bcm2711
+SourceName: persistent-vars-storage-bcm2711
+Section: Utilities
+SourceDateEpoch: 1760011748
+Maintainer: Morse Micro
+Architecture: aarch64_cortex-a72
+Installed-Size: 10240
+Filename: persistent-vars-storage-bcm2711_1_aarch64_cortex-a72.ipk
+Size: 1527
+SHA256sum: 4368a5fdc88cbe984b72ac242fae42ff54de481b557436c737f9e5a366710a2e
+Description:  Reads (or maybe writes in future) key-value pairs from(/into) the RPi 4 EEPROM memory
+
+Package: rpcd-mod-onvif
+Version: 1.0.4-r1
+Depends: libc, rpcd, libubox20240329, libubus20250102, libopenssl3, zlib
+Source: feeds/morse/multimedia/rpcd-mod-onvif
+SourceName: rpcd-mod-onvif
+License: GPL-2.0
+Section: multimedia
+SourceDateEpoch: 1760011748
+Architecture: aarch64_cortex-a72
+Installed-Size: 2304000
+Filename: rpcd-mod-onvif_1.0.4-r1_aarch64_cortex-a72.ipk
+Size: 440280
+SHA256sum: 5c6c101fedd4c178cff0bd5866fc56cf113af15c21651e12c0aab10e76d8ad2b
+Description:  Communication with with ONVIF devices via ubus.
+
+Package: smart_manager
+Version: 1.16.4-r1
+Depends: libc, kmod-morse, libnl200, libpthread, libconfig11, hostapd_s1g
+Source: feeds/morse/features/smart-manager
+SourceName: smart_manager
+License: BSD-3-Clause
+Section: net
+Require-User: network=101:network=101
+SourceDateEpoch: 1760011748
+Maintainer: Morse Micro
+Architecture: aarch64_cortex-a72
+Installed-Size: 215040
+Filename: smart_manager_1.16.4-r1_aarch64_cortex-a72.ipk
+Size: 63230
+SHA256sum: f3ef01e956dba029374728a988fee9d5957c6ed79cd778301f12f2cbbf523b33
+Description:  Morse Micro HaLow DCS Smart Manager
+
+Package: wireshark
+Version: 4.4.2-r1
+Depends: libc, libgcrypt, glib2, libpcap1, libxml2, libgnutls, libcap, libcares, libnl200
+Source: feeds/morse/net/wireshark
+SourceName: wireshark
+License: GPL-2.0
+Section: utils
+SourceDateEpoch: 1760011748
+URL: https://wwww.wireshark.org
+Maintainer: Morse Micro <info@morsemicro.com>
+Architecture: aarch64_cortex-a72
+Installed-Size: 125091840
+Filename: wireshark_4.4.2-r1_aarch64_cortex-a72.ipk
+Size: 26970389
+SHA256sum: acd8e7e0e16a96d27f8db3b5d88977783b0866d67dabf746045c1213fb8db6be
+Description:  Wireshark is a packet analyzer
+
+Package: wpa_supplicant_s1g
+Version: 1.16.4-r2
+Depends: libc, kmod-morse, libnl200, libopenssl3, libubus20250102
+Source: feeds/morse/essentials/wpa_supplicant_s1g
+SourceName: wpa_supplicant_s1g
+License: BSD-3-Clause
+Section: net
+Require-User: network=101:network=101
+SourceDateEpoch: 1760011748
+Maintainer: Morse Micro <info@morsemicro.com>
+Architecture: aarch64_cortex-a72
+Installed-Size: 2764800
+Filename: wpa_supplicant_s1g_1.16.4-r2_aarch64_cortex-a72.ipk
+Size: 1244492
+SHA256sum: a565e8dd64b235ae7156cf11adbcfb2e2664eb0614c16343671a4cca3ff53719
+Description:  Morse Micro HaLow wpa_supplicant
+

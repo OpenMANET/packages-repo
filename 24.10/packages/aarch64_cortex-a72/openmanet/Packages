@@ -1,0 +1,496 @@
+Package: adsbtocot
+Version: 1-r2
+Depends: libc, python3, dump1090, rtl-sdr
+License: MIT
+Section: utils
+Architecture: aarch64_cortex-a72
+Installed-Size: 2856960
+Filename: adsbtocot_1-r2_aarch64_cortex-a72.ipk
+Size: 613051
+SHA256sum: 653a780fc6f8a4d917ccdbb95b0336001b2d1e5047a96e194ed5999f55435715
+Description:  Installs ADSBCOT from PyPI and provides a procd service to forward ADS-B tracks
+ from dump1090 to CoT/TAK (multicast or unicast).
+
+Package: alfred
+Version: 2024.3-r1
+Depends: libc, libnl-tiny1, librt, lua, libgps30
+License: GPL-2.0-only MIT
+Section: net
+URL: https://www.open-mesh.org/
+Architecture: aarch64_cortex-a72
+Installed-Size: 215040
+Filename: alfred_2024.3-r1_aarch64_cortex-a72.ipk
+Size: 34403
+SHA256sum: e0d223a53665dab0b04c1253930ebb3a3d9724886686f1f49a379e3ed8911b10
+Description:  alfred is a user space daemon for distributing arbitrary local information
+ over the mesh/network in a decentralized fashion. This data can be anything
+ which appears to be useful - originally designed to replace the batman-adv
+ visualization (vis), you may distribute hostnames, phone books, administration
+ information, DNS information, the local weather forecast ...
+ 
+ alfred runs as daemon in the background of the system. A user may insert
+ information by using the alfred binary on the command line, or use special
+ programs to communicate with alfred (done via unix sockets). alfred then takes
+ care of distributing the local information to other alfred servers on other
+ nodes. This is done via IPv6 link-local multicast, and does not require any
+ configuration. A user can request data from alfred, and will receive the
+ information available from all alfred servers in the network.
+
+Package: avahi-daemon-service-http
+Version: 0.8-r8
+Depends: libc, avahi-daemon
+License: LGPL-2.1-or-later
+Section: net
+URL: http://www.avahi.org/
+CPE-ID: cpe:/a:avahi:avahi
+Architecture: aarch64_cortex-a72
+Installed-Size: 10240
+Filename: avahi-daemon-service-http_0.8-r8_aarch64_cortex-a72.ipk
+Size: 1550
+SHA256sum: 26d77956dd7309d6999e8404e448a6c5cc34e7645f24ae1adb1b518c96b0098f
+Description:  Avahi is an mDNS/DNS-SD (aka RendezVous/Bonjour/ZeroConf)
+ implementation (library). It facilitates
+ service discovery on a local network -- this means that
+ you can plug your laptop or computer into a network and
+ instantly be able to view other people who you can chat with,
+ find printers to print to or find files being shared.
+ This kind of technology is already found in MacOS X
+ (branded 'Rendezvous', 'Bonjour' and sometimes 'ZeroConf')
+ and is very convenient.
+ .
+ This package contains the service definition for announcing HTTP service.
+
+Package: avahi-daemon-service-ssh
+Version: 0.8-r8
+Depends: libc, avahi-daemon
+License: LGPL-2.1-or-later
+Section: net
+URL: http://www.avahi.org/
+CPE-ID: cpe:/a:avahi:avahi
+Architecture: aarch64_cortex-a72
+Installed-Size: 10240
+Filename: avahi-daemon-service-ssh_0.8-r8_aarch64_cortex-a72.ipk
+Size: 1526
+SHA256sum: aa57c377ebe5bb15bf4c281ef940218faeb4afdaba721a93542f76237cc82b14
+Description:  Avahi is an mDNS/DNS-SD (aka RendezVous/Bonjour/ZeroConf)
+ implementation (library). It facilitates
+ service discovery on a local network -- this means that
+ you can plug your laptop or computer into a network and
+ instantly be able to view other people who you can chat with,
+ find printers to print to or find files being shared.
+ This kind of technology is already found in MacOS X
+ (branded 'Rendezvous', 'Bonjour' and sometimes 'ZeroConf')
+ and is very convenient.
+ .
+ This package contains the service definition for announcing SSH service.
+
+Package: avahi-dbus-daemon
+Version: 0.8-r8
+Depends: libc, libavahi-dbus-support, libexpat, librt, libdaemon
+Provides: avahi-daemon
+License: LGPL-2.1-or-later
+Section: net
+URL: http://www.avahi.org/
+CPE-ID: cpe:/a:avahi:avahi
+Architecture: aarch64_cortex-a72
+Installed-Size: 143360
+Filename: avahi-dbus-daemon_0.8-r8_aarch64_cortex-a72.ipk
+Size: 41676
+SHA256sum: e06ca2f90ec6c6e6fd4af32e1930bf43925ce5065e373c010251c45f4e653204
+Description:  Avahi is an mDNS/DNS-SD (aka RendezVous/Bonjour/ZeroConf)
+ implementation (library). It facilitates
+ service discovery on a local network -- this means that
+ you can plug your laptop or computer into a network and
+ instantly be able to view other people who you can chat with,
+ find printers to print to or find files being shared.
+ This kind of technology is already found in MacOS X
+ (branded 'Rendezvous', 'Bonjour' and sometimes 'ZeroConf')
+ and is very convenient.
+ .
+ This package contains an mDNS/DNS-SD daemon.
+
+Package: avahi-utils
+Version: 0.8-r8
+Depends: libc, libavahi-client, libgdbm
+License: LGPL-2.1-or-later
+Section: net
+URL: http://www.avahi.org/
+CPE-ID: cpe:/a:avahi:avahi
+Architecture: aarch64_cortex-a72
+Installed-Size: 604160
+Filename: avahi-utils_0.8-r8_aarch64_cortex-a72.ipk
+Size: 47676
+SHA256sum: d817fa6c77f06a5d4a0a2b57082ddb2ad5161d75ebf383c4ea110f7e48336d45
+Description:  Avahi is an mDNS/DNS-SD (aka RendezVous/Bonjour/ZeroConf)
+ implementation (library). It facilitates
+ service discovery on a local network -- this means that
+ you can plug your laptop or computer into a network and
+ instantly be able to view other people who you can chat with,
+ find printers to print to or find files being shared.
+ This kind of technology is already found in MacOS X
+ (branded 'Rendezvous', 'Bonjour' and sometimes 'ZeroConf')
+ and is very convenient.
+ .
+ This packages installs the following avahi utility programs:
+ avahi-browse, avahi-publish, avahi-resolve, avahi-set-host-name.
+ It also automatically adds the required libavahi-client package.
+ For more information please see the avahi documentation.
+
+Package: bsp-bcm2711
+Version: 1.0-r2
+Depends: libc, bsp-common
+License: GPLv2
+Section: utils
+Architecture: aarch64_cortex-a72
+Installed-Size: 10240
+Filename: bsp-bcm2711_1.0-r2_aarch64_cortex-a72.ipk
+Size: 1789
+SHA256sum: 6bf160918d469fa3dffffe08f89036d2c20a39d8ad2a772c35c696fd84b3cd2d
+Description:  This package provides board support for the OpenMANET BCM2711 board.
+
+Package: bsp-bcm271x
+Version: 1.0-r2
+Depends: libc, bsp-common
+License: GPLv2
+Section: utils
+Architecture: aarch64_cortex-a72
+Installed-Size: 10240
+Filename: bsp-bcm271x_1.0-r2_aarch64_cortex-a72.ipk
+Size: 1788
+SHA256sum: 271bfa74125d28c9ad595768ce03ef237963b357d66a14a736540426a9973a1c
+Description:  This package provides board support for the OpenMANET BCM271x board.
+
+Package: bsp-common
+Version: 1.0-r2
+Depends: libc
+License: GPLv2
+Section: utils
+Architecture: aarch64_cortex-a72
+Installed-Size: 10240
+Filename: bsp-common_1.0-r2_aarch64_cortex-a72.ipk
+Size: 1735
+SHA256sum: d8d6ab4e21d69aa2101a74888dc0087c41bbcb4240bd755c25fc9d0a492ee009
+Description:  This package provides common board support files for OpenMANET boards.
+
+Package: golang-src
+Version: 1.25.4-r2
+Depends: libc, libstdcpp6, libtiff6
+License: BSD-3-Clause
+Section: lang
+URL: https://go.dev/
+CPE-ID: cpe:/a:golang:go
+Architecture: aarch64_cortex-a72
+Installed-Size: 137768960
+Filename: golang-src_1.25.4-r2_aarch64_cortex-a72.ipk
+Size: 30754102
+SHA256sum: f339f195b5099198ca5682270a44d844d6ab399f5bb1749ce1a37d0c6678b4c4
+Description:  The Go programming language is an open source project to make
+ programmers more productive.
+ 
+ Go is expressive, concise, clean, and efficient. Its concurrency
+ mechanisms make it easy to write programs that get the most out of
+ multicore and networked machines, while its novel type system enables
+ flexible and modular program construction. Go compiles quickly to
+ machine code yet has the convenience of garbage collection and the power
+ of run-time reflection. It's a fast, statically typed, compiled language
+ that feels like a dynamically typed, interpreted language.
+ 
+ This package provides the Go programming language source files needed
+ for cross-compilation.
+
+Package: golang
+Version: 1.25.4-r2
+Depends: libc, golang-src
+License: BSD-3-Clause
+Section: lang
+URL: https://go.dev/
+CPE-ID: cpe:/a:golang:go
+Architecture: aarch64_cortex-a72
+Installed-Size: 125388800
+Filename: golang_1.25.4-r2_aarch64_cortex-a72.ipk
+Size: 45734432
+SHA256sum: 95b257e376dfc72750b11eed69c9b132f6d368ca5c8e8206da94e0626e7b62f6
+Description:  The Go programming language is an open source project to make
+ programmers more productive.
+ 
+ Go is expressive, concise, clean, and efficient. Its concurrency
+ mechanisms make it easy to write programs that get the most out of
+ multicore and networked machines, while its novel type system enables
+ flexible and modular program construction. Go compiles quickly to
+ machine code yet has the convenience of garbage collection and the power
+ of run-time reflection. It's a fast, statically typed, compiled language
+ that feels like a dynamically typed, interpreted language.
+ 
+ This package provides an assembler, compiler, linker, and compiled
+ libraries for the Go programming language.
+
+Package: gpsd-clients
+Version: 3.25-r1
+Depends: libc, libusb-1.0-0, libncurses6
+License: BSD-3-Clause
+Section: utils
+URL: https://gpsd.gitlab.io/gpsd/
+CPE-ID: cpe:/a:gpsd_project:gpsd
+Architecture: aarch64_cortex-a72
+Installed-Size: 2252800
+Filename: gpsd-clients_3.25-r1_aarch64_cortex-a72.ipk
+Size: 1050932
+SHA256sum: ba78370338815242d826657194514d4f6ad5704fd4bcd609de484ad1652148e6
+Description:  gpsd is a userland daemon acting as a translator between GPS and AIS receivers
+ and their clients. gpsd listens on port 2947 for clients requesting
+ position/time/velocity information.  The receivers are expected to generate
+ position information in a well-known format -- as NMEA-0183 sentences, SiRF
+ binary, Rockwell binary, Garmin binary format, or other vendor binary
+ protocols.  gpsd takes this information from the GPS and translates it into
+ something uniform and easier to understand for clients.
+ This package contains auxiliary tools and example clients for monitoring and
+ testing the GPS daemon.
+
+Package: gpsd
+Version: 3.25-r1
+Depends: libc, libusb-1.0-0
+License: BSD-3-Clause
+Section: utils
+URL: https://gpsd.gitlab.io/gpsd/
+CPE-ID: cpe:/a:gpsd_project:gpsd
+Architecture: aarch64_cortex-a72
+Installed-Size: 604160
+Filename: gpsd_3.25-r1_aarch64_cortex-a72.ipk
+Size: 292521
+SHA256sum: 49b9a67ca1710e9ed87e456dbb9fd72d8eb41d2621fa649f8edd6a52ba60505d
+Description:  gpsd is a userland daemon acting as a translator between GPS and AIS receivers
+ and their clients. gpsd listens on port 2947 for clients requesting
+ position/time/velocity information.  The receivers are expected to generate
+ position information in a well-known format -- as NMEA-0183 sentences, SiRF
+ binary, Rockwell binary, Garmin binary format, or other vendor binary
+ protocols.  gpsd takes this information from the GPS and translates it into
+ something uniform and easier to understand for clients.
+ This package contains the GPS daemon.
+
+Package: libavahi-client
+Version: 0.8-r8
+Depends: libc, avahi-dbus-daemon
+License: LGPL-2.1-or-later
+Section: libs
+URL: http://www.avahi.org/
+CPE-ID: cpe:/a:avahi:avahi
+Architecture: aarch64_cortex-a72
+Installed-Size: 71680
+Filename: libavahi-client_0.8-r8_aarch64_cortex-a72.ipk
+Size: 20095
+SHA256sum: 4bfbf840b6fd118e56430e45eb51a5fa740498a9f252f4cb8018e72497f75f8a
+Description:  Avahi is an mDNS/DNS-SD (aka RendezVous/Bonjour/ZeroConf)
+ implementation (library). It facilitates
+ service discovery on a local network -- this means that
+ you can plug your laptop or computer into a network and
+ instantly be able to view other people who you can chat with,
+ find printers to print to or find files being shared.
+ This kind of technology is already found in MacOS X
+ (branded 'Rendezvous', 'Bonjour' and sometimes 'ZeroConf')
+ and is very convenient.
+ .
+ This packages adds the libavahi-client library.
+ It also automatically adds the required
+ libavahi-dbus-support and the avahi-dbus-daemon packages.
+ For more information please see the avahi documentation.
+
+Package: libavahi-dbus-support
+Version: 0.8-r8
+Depends: libc, dbus
+Provides: libavahi
+License: LGPL-2.1-or-later
+Section: libs
+URL: http://www.avahi.org/
+CPE-ID: cpe:/a:avahi:avahi
+Architecture: aarch64_cortex-a72
+Installed-Size: 276480
+Filename: libavahi-dbus-support_0.8-r8_aarch64_cortex-a72.ipk
+Size: 82154
+SHA256sum: 580b83ee90c639f486bf1f6c9fd92dba2f30b6970c4b73a90f7162fc8f51dd23
+Description:  Avahi is an mDNS/DNS-SD (aka RendezVous/Bonjour/ZeroConf)
+ implementation (library). It facilitates
+ service discovery on a local network -- this means that
+ you can plug your laptop or computer into a network and
+ instantly be able to view other people who you can chat with,
+ find printers to print to or find files being shared.
+ This kind of technology is already found in MacOS X
+ (branded 'Rendezvous', 'Bonjour' and sometimes 'ZeroConf')
+ and is very convenient.
+ .
+ The libavahi package contains the mDNS/DNS-SD shared libraries,
+ used by other programs. Specifically, it provides
+ libavahi-core and libavahi-common libraries.
+ .
+ The libavahi-dbus-support package enables
+ D-Bus support in avahi, needed to support
+ the libavahi-client library and avahi-utils.
+ .
+ Selecting this package modifies the build configuration
+ so that avahi packages are built with support for D-BUS enabled;
+ it does not generate a separate binary of its own.
+ It also automatically adds the D-Bus package to the build.
+ libavahi-dbus-support is selected automatically if you select
+ libavahi-client or avahi-utils.
+
+Package: libgps30
+Version: 3.25-r1
+Depends: libc, libusb-1.0-0
+Provides: libgps
+License: BSD-3-Clause
+Section: libs
+URL: https://gpsd.gitlab.io/gpsd/
+ABIVersion: 30
+CPE-ID: cpe:/a:gpsd_project:gpsd
+Architecture: aarch64_cortex-a72
+Installed-Size: 143360
+Filename: libgps30_3.25-r1_aarch64_cortex-a72.ipk
+Size: 65868
+SHA256sum: dc6760157aa290c49a7f7c16ba6e96c4f1a91d80b07ef732fef6bf31c22f320d
+Description:  gpsd is a userland daemon acting as a translator between GPS and AIS receivers
+ and their clients. gpsd listens on port 2947 for clients requesting
+ position/time/velocity information.  The receivers are expected to generate
+ position information in a well-known format -- as NMEA-0183 sentences, SiRF
+ binary, Rockwell binary, Garmin binary format, or other vendor binary
+ protocols.  gpsd takes this information from the GPS and translates it into
+ something uniform and easier to understand for clients.
+ This package contains the libgps library.
+
+Package: luci-app-ekhwizards
+Version: git-25.365.59845-151d1b3
+Depends: libc, luci-base, luci-app-morseconfig
+License: Apache-2.0
+Section: luci
+URL: https://github.com/openwrt/luci
+Architecture: all
+Installed-Size: 153600
+Filename: luci-app-ekhwizards_git-25.365.59845-151d1b3_all.ipk
+Size: 22355
+SHA256sum: 5fe7ffe16404d002565176cf54f4f8ddc8af24548afc61848d9d0b10c09ca19c
+Description:  LuCI Wizards for HaLow evaluation kits
+
+Package: luci-app-morseconfig
+Version: git-25.365.59845-151d1b3
+Depends: libc, luci-base, libiwinfo20250326, libiwinfo-lua, luci-lib-morseui, netifd-morse, morse-regdb, qrencode
+License: Apache-2.0
+Section: luci
+URL: https://github.com/openwrt/luci
+Architecture: all
+Installed-Size: 512000
+Filename: luci-app-morseconfig_git-25.365.59845-151d1b3_all.ipk
+Size: 117612
+SHA256sum: b823b2f4d088af1682d51c34e88b67588ed7dba7210f721e48ca7aa863e63023
+Description:  LuCI Morse Configuration
+
+Package: luci-i18n-morseconfig-ja
+Version: git-25.365.59845-151d1b3
+Depends: libc, luci-app-morseconfig
+License: Apache-2.0
+Section: luci
+Architecture: all
+Installed-Size: 40960
+Filename: luci-i18n-morseconfig-ja_git-25.365.59845-151d1b3_all.ipk
+Size: 9445
+SHA256sum: 689a76b33f3da4a03fba993ec830566b5f8dc9bb00806e1d0a3f329c4ba5061e
+Description:  Translation for luci-app-morseconfig - 日本語 (Japanese)
+
+Package: luci-i18n-morseui-ja
+Version: git-25.365.59845-151d1b3
+Depends: libc, luci-lib-morseui
+License: Apache-2.0
+Section: luci
+Architecture: all
+Installed-Size: 10240
+Filename: luci-i18n-morseui-ja_git-25.365.59845-151d1b3_all.ipk
+Size: 1715
+SHA256sum: 1f87ccc9412db2d90b1d6b891bf29a58dd0e35519b342c1beb03bb9787d8c847
+Description:  Translation for luci-lib-morseui - 日本語 (Japanese)
+
+Package: luci-lib-morseui
+Version: git-25.365.59845-151d1b3
+Depends: libc, luci-base
+License: Apache-2.0
+Section: luci
+URL: https://github.com/openwrt/luci
+Architecture: all
+Installed-Size: 30720
+Filename: luci-lib-morseui_git-25.365.59845-151d1b3_all.ipk
+Size: 6835
+SHA256sum: 0eeaec6f6c31d9ac2f8f3e4af23e9610f40d573ff9fb507fa1b4f32a37d00d39
+Description:  LuCI Morse UI Library
+
+Package: luci-lib-vivagraphjs
+Version: git-25.365.59845-151d1b3
+Depends: libc
+Section: luci
+URL: https://github.com/anvaka/VivaGraphJS/
+Architecture: all
+Installed-Size: 71680
+Filename: luci-lib-vivagraphjs_git-25.365.59845-151d1b3_all.ipk
+Size: 22409
+SHA256sum: 85f5e7f0be6797f7518f9838986e75fe8d2f66f66e047559196b05e241ade3fc
+Description:  minified VivaGraphJS javascript library
+
+Package: luci-mod-home
+Version: git-25.365.59845-151d1b3
+Depends: libc, luci-base, libiwinfo20250326, luci-app-morseconfig, luci-lib-vivagraphjs, morse-mode
+License: Apache-2.0
+Section: luci
+URL: https://github.com/openwrt/luci
+Architecture: all
+Installed-Size: 71680
+Filename: luci-mod-home_git-25.365.59845-151d1b3_all.ipk
+Size: 17008
+SHA256sum: eb92546ed04b1320896afdb3e4535dab1a1372fa7da76e8bfc5e3d85084d918b
+Description:  LuCI Home
+
+Package: luci-theme-morseargon
+Version: git-25.365.59845-151d1b3
+Depends: libc, morse-mode, luci-lua-runtime
+License: Apache-2.0
+Section: luci
+URL: https://github.com/openwrt/luci
+Architecture: all
+Installed-Size: 1935360
+Filename: luci-theme-morseargon_git-25.365.59845-151d1b3_all.ipk
+Size: 1779475
+SHA256sum: cb03549ec067702388209e16e7bd00680a0b7040547ab02826814c241082d2f7
+Description:  LuCI Morse Micro Argon Theme
+
+Package: luci-theme-openmanetargon
+Version: 2.4.3
+Depends: libc, curl, jsonfilter, morse-mode, luci-lua-runtime
+Section: luci
+URL: https://github.com/openwrt/luci
+Architecture: all
+Installed-Size: 2252800
+Filename: luci-theme-openmanetargon_2.4.3_all.ipk
+Size: 1997484
+SHA256sum: e7750a9eef06e12442fc7f1277ffc0da06fee4bd9055df8e17b608592c8c75f0
+Description:  LuCI OpenMANET Argon Theme
+
+Package: openmanet-bsp-common
+Version: 2
+Depends: libc
+License: GPLv2
+Section: util
+Architecture: aarch64_cortex-a72
+Installed-Size: 10240
+Filename: openmanet-bsp-common_2_aarch64_cortex-a72.ipk
+Size: 1637
+SHA256sum: 4a7b8b83157cb832895cc810a5e4e6a5b2a7121289135e033cff05073ff025f1
+Description:  OpenMANET common board support package
+
+Package: openmanetd
+Version: 0.0.47-r1
+Depends: libc, kmod-batman-adv, alfred, libnl-tiny1, librt, portaudio, libopus, libevdev, alsa-lib, kmod-usb-core, kmod-usb-audio, kmod-sound-core, libopusfile
+License: MIT
+Section: utils
+Architecture: aarch64_cortex-a72
+Installed-Size: 8007680
+Filename: openmanetd_0.0.47-r1_aarch64_cortex-a72.ipk
+Size: 3229131
+SHA256sum: 98216de9a54c2d6c8499f3de87b4465b94eeb757508b0a24307dd7f321df0cc9
+Description:  A management application for openmanetd written in Go.
+ Includes:
+ - pttgo: A multicast push-to-talk voice application written in Go using PortAudio, Opus, and evdev.
+

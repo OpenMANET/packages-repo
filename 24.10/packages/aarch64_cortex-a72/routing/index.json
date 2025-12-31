@@ -1,0 +1,7 @@
+{
+  "version": 2,
+  "architecture": "aarch64_cortex-a72",
+  "packages": {
+    "batctl-full": "2024.3-r1"
+  }
+}
