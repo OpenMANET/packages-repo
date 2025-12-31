@@ -86,6 +86,27 @@ Size: 25281
 SHA256sum: b42abae9d7a7b7863450162d4ea2d5bbdf0997f5cb001b258345a02e94c85fff
 Description:  ARP scanner
 
+Package: bridge
+Version: 1.7.1-r1
+Depends: libc
+Alternatives: 300:/usr/sbin/brctl:/usr/libexec/brctl-bridge-utils
+Source: feeds/packages/net/bridge-utils
+SourceName: bridge-utils
+License: GPL-2.0-or-later
+LicenseFiles: COPYING
+Section: net
+SourceDateEpoch: 1756500878
+URL: http://www.linuxfromscratch.org/blfs/view/svn/basicnet/bridge-utils.html
+CPE-ID: cpe:/a:kernel:bridge-utils
+Maintainer: Nikolay Martynov <mar.kolya@gmail.com>
+Architecture: aarch64_cortex-a72
+Installed-Size: 71680
+Filename: bridge_1.7.1-r1_aarch64_cortex-a72.ipk
+Size: 11354
+SHA256sum: 073a37034fc9c7d17377eaf48b7cf94c540213ced0951e844351a3ff89c26b37
+Description:  Manage ethernet bridging: a way to connect networks together to
+ form a larger network.
+
 Package: cgi-io
 Version: 2022.08.10~901b0f04-r21
 Depends: libc, libubox20240329, libubus20250102
@@ -367,6 +388,24 @@ Size: 2501965
 SHA256sum: 13e4bdad43d60bc7ba56b0460f6c773e1358d84dcf52658450bf9af99cc5bc3e
 Description:  Dump1090 is a Mode S decoder specifically designed for RTLSDR devices.
 
+Package: evtest
+Version: 1.35-r1
+Depends: libc
+Source: feeds/packages/utils/evtest
+SourceName: evtest
+License: GPL-2.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1756500878
+URL: https://gitlab.freedesktop.org/libevdev/evtest
+Maintainer: Pushpal Sidhu <psidhu.devel@gmail.com>
+Architecture: aarch64_cortex-a72
+Installed-Size: 71680
+Filename: evtest_1.35-r1_aarch64_cortex-a72.ipk
+Size: 11285
+SHA256sum: f2160046cae69cd2c549a74d2d5d134f89c7b98e5b2c947514499e1aba03d2f8
+Description:  Utility to test event driven devices such as keyboards and mice
+
 Package: ffmpeg
 Version: 6.1.2-r1
 Depends: libc, libpthread, libffmpeg-full
@@ -392,6 +431,25 @@ Description:  FFmpeg is a a software package that can record, convert and stream
  https://ffmpeg.org/legal.html for further information.
  .
  This package contains the FFmpeg command line tool.
+
+Package: file
+Version: 5.45-r1
+Depends: libc, libmagic
+Source: feeds/packages/libs/file
+SourceName: file
+License: BSD-2-Clause
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1756500878
+URL: https://darwinsys.com/file/
+CPE-ID: cpe:/a:file_project:file
+Maintainer: Marko Ratkaj <markoratkaj@gmail.com>
+Architecture: aarch64_cortex-a72
+Installed-Size: 71680
+Filename: file_5.45-r1_aarch64_cortex-a72.ipk
+Size: 8709
+SHA256sum: 8424d97bd49c4ae65fcd32a26ea9778d532795b63f21d966eca5dc2fec7d9ade
+Description:  File type determination utility
 
 Package: fping
 Version: 5.3-r1
@@ -678,6 +736,104 @@ SHA256sum: 1ab255dfe289fb8af7bc821263f2e76f0cc8c3e8f781205b72e95a6c7f5d0c3b
 Description:  GStreamer open source multimedia framework
  .
  This package contains the GStreamer utilities.
+
+Package: hidapi
+Version: 0.14.0-r1
+Depends: libc, libusb-1.0-0, libudev
+Source: feeds/packages/libs/hidapi
+SourceName: hidapi
+License: BSD-3-Clause
+LicenseFiles: LICENSE-bsd.txt
+Section: libs
+SourceDateEpoch: 1756500878
+URL: https://github.com/libusb/hidapi
+Maintainer: Paul Fertser <fercerpav@gmail.com>
+Architecture: aarch64_cortex-a72
+Installed-Size: 143360
+Filename: hidapi_0.14.0-r1_aarch64_cortex-a72.ipk
+Size: 20059
+SHA256sum: 3f1bd5ed85bbc537a9281b93b5554887e094658fec7a44c8cfafa9ddc8085e95
+Description:  HIDAPI is a multi-platform library which allows an application to interface
+ with USB and Bluetooth HID-Class devices on Windows, Linux, FreeBSD, and Mac
+ OS X.  HIDAPI can be either built as a shared library (.so or .dll) or
+ can be embedded directly into a target application by adding a single source
+ file (per platform) and a single header.
+
+Package: i2c-tools
+Version: 4.3-r3
+Depends: libc, libi2c
+Source: feeds/packages/utils/i2c-tools
+SourceName: i2c-tools
+License: GPL-2.0-or-later LGPL-2.1-or-later
+LicenseFiles: COPYING COPYING.LGPL
+Section: utils
+SourceDateEpoch: 1756500878
+URL: https://i2c.wiki.kernel.org/index.php/I2C_Tools
+CPE-ID: cpe:/a:i2c-tools_project:i2c-tools
+Maintainer: Daniel Golle <daniel@makrotopia.org>
+Architecture: aarch64_cortex-a72
+Installed-Size: 337920
+Filename: i2c-tools_4.3-r3_aarch64_cortex-a72.ipk
+Size: 34101
+SHA256sum: a7a9507f8ffdb1161859cf656e4090a66b362a5822ac653ddc87912dc51671e3
+Description:  This package contains an heterogeneous set of I2C tools for Linux. These tools
+ were originally part of the lm-sensors package.
+
+Package: iftop
+Version: 2018.10.03~77901c8c-r2
+Depends: libc, libpcap1, libncurses6, libpthread
+Source: feeds/packages/net/iftop
+SourceName: iftop
+License: GPL-2.0
+Section: net
+SourceDateEpoch: 1756500878
+URL: http://www.ex-parrot.com/~pdw/iftop/
+Maintainer: Paul Spooren <mail@aparcar.org>
+Architecture: aarch64_cortex-a72
+Installed-Size: 71680
+Filename: iftop_2018.10.03~77901c8c-r2_aarch64_cortex-a72.ipk
+Size: 25653
+SHA256sum: 77df8288206ada7841dda56a8426616bf388dcf093d799af5eded58e73eff316
+Description:  iftop does for network usage what top(1) does for CPU usage. It
+ listens to network traffic on a named interface and displays a
+ table of current bandwidth usage by pairs of hosts. Handy for
+ answering the question 'why is our ADSL link so slow?'.
+
+Package: iio-utils
+Version: 0.25-r1
+Depends: libc, libiio
+Source: feeds/packages/libs/libiio
+SourceName: libiio
+License: LGPL-2.1
+LicenseFiles: COPYING.txt
+Section: utils
+SourceDateEpoch: 1756500878
+URL: https://github.com/analogdevicesinc/libiio
+Maintainer: Michael Heimpold <mhei@heimpold.de>
+Architecture: aarch64_cortex-a72
+Installed-Size: 471040
+Filename: iio-utils_0.25-r1_aarch64_cortex-a72.ipk
+Size: 61662
+SHA256sum: e7a05ef0dc550dfeb03c5cc0fc5f176631228ca0cbdf0f20a3692acbc0b949c6
+Description:  Command line tools for IIO devices.
+
+Package: iiod
+Version: 0.25-r1
+Depends: libc, libiio
+Source: feeds/packages/libs/libiio
+SourceName: libiio
+License: LGPL-2.1
+LicenseFiles: COPYING.txt
+Section: net
+SourceDateEpoch: 1756500878
+URL: https://github.com/analogdevicesinc/libiio
+Maintainer: Michael Heimpold <mhei@heimpold.de>
+Architecture: aarch64_cortex-a72
+Installed-Size: 71680
+Filename: iiod_0.25-r1_aarch64_cortex-a72.ipk
+Size: 26281
+SHA256sum: 0e136ee49e306b072c2b8b88eeeb98ace620ea53fa4a709a51d575c206f4fea2
+Description:  Daemon to access IIO devices via network.
 
 Package: iperf
 Version: 2.1.9-r1
@@ -1354,6 +1510,52 @@ Description:  GStreamer open source multimedia framework
  .
  This package contains the GStreamer core library.
 
+Package: libi2c
+Version: 4.3-r3
+Depends: libc
+Source: feeds/packages/utils/i2c-tools
+SourceName: i2c-tools
+License: GPL-2.0-or-later LGPL-2.1-or-later
+LicenseFiles: COPYING COPYING.LGPL
+Section: libs
+SourceDateEpoch: 1756500878
+URL: https://i2c.wiki.kernel.org/index.php/I2C_Tools
+CPE-ID: cpe:/a:i2c-tools_project:i2c-tools
+Maintainer: Daniel Golle <daniel@makrotopia.org>
+Architecture: aarch64_cortex-a72
+Installed-Size: 71680
+Filename: libi2c_4.3-r3_aarch64_cortex-a72.ipk
+Size: 3018
+SHA256sum: 523869efc7861d02484fca22b63222c0f1e1fbeeaf72ea1f70759b6e72f5164b
+Description:  This package contains i2c functionality needed by i2c-tools.
+
+Package: libiio
+Version: 0.25-r1
+Depends: libc, zlib, libavahi-client, libxml2
+Source: feeds/packages/libs/libiio
+SourceName: libiio
+License: LGPL-2.1
+LicenseFiles: COPYING.txt
+Section: libs
+SourceDateEpoch: 1756500878
+URL: https://github.com/analogdevicesinc/libiio
+Maintainer: Michael Heimpold <mhei@heimpold.de>
+Architecture: aarch64_cortex-a72
+Installed-Size: 143360
+Filename: libiio_0.25-r1_aarch64_cortex-a72.ipk
+Size: 45546
+SHA256sum: 27f3b2214636d17f69c02e57a23192071d4ee8d2700faddb736a048c8421c097
+Description:  libiio is used to interface to the Linux Industrial Input/Output (IIO) Subsystem.
+ The Linux IIO subsystem is intended to provide support for devices that in some
+ sense are analog to digital or digital to analog converters (ADCs, DACs). This
+ includes, but is not limited to ADCs, Accelerometers, Gyros, IMUs, Capacitance
+ to Digital Converters (CDCs), Pressure Sensors, Color, Light and Proximity Sensors,
+ Temperature Sensors, Magnetometers, DACs, DDS (Direct Digital Synthesis),
+ PLLs (Phase Locked Loops), Variable/Programmable Gain Amplifiers (VGA, PGA),
+ and RF transceivers. You can use libiio natively on an embedded Linux
+ target (local mode), or use libiio to communicate remotely to that same target
+ from a host Linux, Windows or MAC over USB or Ethernet or Serial.
+
 Package: libjpeg-turbo
 Version: 3.0.3-r1
 Depends: libc
@@ -1410,6 +1612,25 @@ Filename: liblzma_5.6.2-r2_aarch64_cortex-a72.ipk
 Size: 65721
 SHA256sum: 5a13c82a936164d5b9b0009e87f940912d654b26642c51aa526da558ca9eac84
 Description:  liblzma library from XZ Utils
+
+Package: libmagic
+Version: 5.45-r1
+Depends: libc, zlib, liblzma, libbz2-1.0
+Source: feeds/packages/libs/file
+SourceName: file
+License: BSD-2-Clause
+LicenseFiles: COPYING
+Section: libs
+SourceDateEpoch: 1756500878
+URL: https://darwinsys.com/file/
+CPE-ID: cpe:/a:file_project:file
+Maintainer: Marko Ratkaj <markoratkaj@gmail.com>
+Architecture: aarch64_cortex-a72
+Installed-Size: 1075200
+Filename: libmagic_5.45-r1_aarch64_cortex-a72.ipk
+Size: 290733
+SHA256sum: d70dbc8158c9584f2f8b763a3cc4bfeb4a846f0abeaca1ba84b75f041d70eb5d
+Description:  File type determination library
 
 Package: libnghttp2-14
 Version: 1.63.0-r1
@@ -1949,6 +2170,28 @@ Description:  PortAudio is a free, cross-platform, open-source, audio I/O librar
  platforms including Windows, Macintosh OS X, and Unix (OSS/ALSA). It is
  intended to promote the exchange of audio software between developers on
  different platforms. Many applications use PortAudio for Audio I/O.
+
+Package: pv
+Version: 1.6.6-r1
+Depends: libc
+Source: feeds/packages/utils/pv
+SourceName: pv
+License: Artistic-2.0
+LicenseFiles: doc/COPYING
+Section: utils
+SourceDateEpoch: 1756500878
+URL: https://www.ivarch.com/programs/pv.shtml
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: aarch64_cortex-a72
+Installed-Size: 71680
+Filename: pv_1.6.6-r1_aarch64_cortex-a72.ipk
+Size: 24181
+SHA256sum: d2db7cf53076d88b342a42c813fb3aa0ca85216f3f1b59740dee6c2224934f00
+Description:  Pipe Viewer is a terminal-based tool for monitoring the progress of data
+ through a pipeline. It can be inserted into any normal pipeline between
+ two processes to give a visual indication of how quickly data is passing
+ through, how long it has taken, how near to completion it is, and an
+ estimate of how long it will be until completion.
 
 Package: python3-asyncio
 Version: 3.11.10-r1

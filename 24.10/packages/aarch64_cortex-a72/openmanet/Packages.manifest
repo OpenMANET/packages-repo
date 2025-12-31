@@ -5,13 +5,13 @@ Source: feeds/openmanet/utils/adsbtocot
 SourceName: adsbtocot
 License: MIT
 Section: utils
-SourceDateEpoch: 1767199045
+SourceDateEpoch: 1767207016
 Maintainer: info@openmanet.net
 Architecture: aarch64_cortex-a72
 Installed-Size: 2856960
 Filename: adsbtocot_1-r2_aarch64_cortex-a72.ipk
-Size: 613051
-SHA256sum: 653a780fc6f8a4d917ccdbb95b0336001b2d1e5047a96e194ed5999f55435715
+Size: 613162
+SHA256sum: ff3cde25c50ab8b90f098bb2db3d739c693a4ba1fef6d5fec8d1beef25f464a5
 Description:  Installs ADSBCOT from PyPI and provides a procd service to forward ADS-B tracks
  from dump1090 to CoT/TAK (multicast or unicast).
 
@@ -23,14 +23,14 @@ SourceName: alfred
 License: GPL-2.0-only MIT
 LicenseFiles: LICENSES/preferred/GPL-2.0 LICENSES/preferred/MIT
 Section: net
-SourceDateEpoch: 1767199045
+SourceDateEpoch: 1767207016
 URL: https://www.open-mesh.org/
 Maintainer: Simon Wunderlich <sw@simonwunderlich.de>
 Architecture: aarch64_cortex-a72
 Installed-Size: 215040
 Filename: alfred_2024.3-r1_aarch64_cortex-a72.ipk
-Size: 34403
-SHA256sum: e0d223a53665dab0b04c1253930ebb3a3d9724886686f1f49a379e3ed8911b10
+Size: 34418
+SHA256sum: bdb204b5590731764445f0e67a9688ba85029b001df6123b792935f75fffaf23
 Description:  alfred is a user space daemon for distributing arbitrary local information
  over the mesh/network in a decentralized fashion. This data can be anything
  which appears to be useful - originally designed to replace the batman-adv
@@ -53,15 +53,15 @@ SourceName: avahi
 License: LGPL-2.1-or-later
 LicenseFiles: LICENSE
 Section: net
-SourceDateEpoch: 1767199045
+SourceDateEpoch: 1767207016
 URL: http://www.avahi.org/
 CPE-ID: cpe:/a:avahi:avahi
 Maintainer: Ted Hess <thess@kitschensync.net>
 Architecture: aarch64_cortex-a72
 Installed-Size: 10240
 Filename: avahi-daemon-service-http_0.8-r8_aarch64_cortex-a72.ipk
-Size: 1550
-SHA256sum: 26d77956dd7309d6999e8404e448a6c5cc34e7645f24ae1adb1b518c96b0098f
+Size: 1546
+SHA256sum: 5c27acfba547afa071c8f6444ffacdf0b7531ebc7dbf57b83ffa4234074c0b17
 Description:  Avahi is an mDNS/DNS-SD (aka RendezVous/Bonjour/ZeroConf)
  implementation (library). It facilitates
  service discovery on a local network -- this means that
@@ -82,15 +82,15 @@ SourceName: avahi
 License: LGPL-2.1-or-later
 LicenseFiles: LICENSE
 Section: net
-SourceDateEpoch: 1767199045
+SourceDateEpoch: 1767207016
 URL: http://www.avahi.org/
 CPE-ID: cpe:/a:avahi:avahi
 Maintainer: Ted Hess <thess@kitschensync.net>
 Architecture: aarch64_cortex-a72
 Installed-Size: 10240
 Filename: avahi-daemon-service-ssh_0.8-r8_aarch64_cortex-a72.ipk
-Size: 1526
-SHA256sum: aa57c377ebe5bb15bf4c281ef940218faeb4afdaba721a93542f76237cc82b14
+Size: 1518
+SHA256sum: 0694cd9cf42f0af8c2751849b6c3a1f4984a2d7dbec27fb83ea310acefe9064b
 Description:  Avahi is an mDNS/DNS-SD (aka RendezVous/Bonjour/ZeroConf)
  implementation (library). It facilitates
  service discovery on a local network -- this means that
@@ -112,15 +112,15 @@ SourceName: avahi
 License: LGPL-2.1-or-later
 LicenseFiles: LICENSE
 Section: net
-SourceDateEpoch: 1767199045
+SourceDateEpoch: 1767207016
 URL: http://www.avahi.org/
 CPE-ID: cpe:/a:avahi:avahi
 Maintainer: Ted Hess <thess@kitschensync.net>
 Architecture: aarch64_cortex-a72
 Installed-Size: 143360
 Filename: avahi-dbus-daemon_0.8-r8_aarch64_cortex-a72.ipk
-Size: 41676
-SHA256sum: e06ca2f90ec6c6e6fd4af32e1930bf43925ce5065e373c010251c45f4e653204
+Size: 41688
+SHA256sum: 554d0b0672d333b50d87f6874ecefa7d337c3eb0cd23f635244c6e79f357186e
 Description:  Avahi is an mDNS/DNS-SD (aka RendezVous/Bonjour/ZeroConf)
  implementation (library). It facilitates
  service discovery on a local network -- this means that
@@ -141,15 +141,15 @@ SourceName: avahi
 License: LGPL-2.1-or-later
 LicenseFiles: LICENSE
 Section: net
-SourceDateEpoch: 1767199045
+SourceDateEpoch: 1767207016
 URL: http://www.avahi.org/
 CPE-ID: cpe:/a:avahi:avahi
 Maintainer: Ted Hess <thess@kitschensync.net>
 Architecture: aarch64_cortex-a72
 Installed-Size: 604160
 Filename: avahi-utils_0.8-r8_aarch64_cortex-a72.ipk
-Size: 47676
-SHA256sum: d817fa6c77f06a5d4a0a2b57082ddb2ad5161d75ebf383c4ea110f7e48336d45
+Size: 48526
+SHA256sum: 90faf2821a9ef595d0235c729ecad1af6929b96fdc17ba105c75803cefbbc1c8
 Description:  Avahi is an mDNS/DNS-SD (aka RendezVous/Bonjour/ZeroConf)
  implementation (library). It facilitates
  service discovery on a local network -- this means that
@@ -165,22 +165,6 @@ Description:  Avahi is an mDNS/DNS-SD (aka RendezVous/Bonjour/ZeroConf)
  It also automatically adds the required libavahi-client package.
  For more information please see the avahi documentation.
 
-Package: bsp-bcm2711
-Version: 1.0-r2
-Depends: libc, bsp-common
-Source: feeds/openmanet/boards/bsp-bcm2711
-SourceName: bsp-bcm2711
-License: GPLv2
-Section: utils
-SourceDateEpoch: 1767138544
-Maintainer: OpenMANET
-Architecture: aarch64_cortex-a72
-Installed-Size: 10240
-Filename: bsp-bcm2711_1.0-r2_aarch64_cortex-a72.ipk
-Size: 1789
-SHA256sum: 6bf160918d469fa3dffffe08f89036d2c20a39d8ad2a772c35c696fd84b3cd2d
-Description:  This package provides board support for the OpenMANET BCM2711 board.
-
 Package: bsp-bcm271x
 Version: 1.0-r2
 Depends: libc, bsp-common
@@ -188,13 +172,13 @@ Source: feeds/openmanet/boards/bsp-bcm271x
 SourceName: bsp-bcm271x
 License: GPLv2
 Section: utils
-SourceDateEpoch: 1767199045
+SourceDateEpoch: 1767207016
 Maintainer: OpenMANET
 Architecture: aarch64_cortex-a72
 Installed-Size: 10240
 Filename: bsp-bcm271x_1.0-r2_aarch64_cortex-a72.ipk
-Size: 1788
-SHA256sum: 271bfa74125d28c9ad595768ce03ef237963b357d66a14a736540426a9973a1c
+Size: 1784
+SHA256sum: 8bca9dcfdaf45f020eac95664043c411e0f19e2dfb4c7f747402a74733b83e0d
 Description:  This package provides board support for the OpenMANET BCM271x board.
 
 Package: bsp-common
@@ -204,13 +188,13 @@ Source: feeds/openmanet/boards/bsp-common
 SourceName: bsp-common
 License: GPLv2
 Section: utils
-SourceDateEpoch: 1767199045
+SourceDateEpoch: 1767207016
 Maintainer: OpenMANET
 Architecture: aarch64_cortex-a72
 Installed-Size: 10240
 Filename: bsp-common_1.0-r2_aarch64_cortex-a72.ipk
-Size: 1735
-SHA256sum: d8d6ab4e21d69aa2101a74888dc0087c41bbcb4240bd755c25fc9d0a492ee009
+Size: 2322
+SHA256sum: d2ee55bf766b1092efaa99bcceb461936bf4e3419ae219535988c2ebbb710d66
 Description:  This package provides common board support files for OpenMANET boards.
 
 Package: golang-src
@@ -221,15 +205,15 @@ SourceName: golang
 License: BSD-3-Clause
 LicenseFiles: LICENSE
 Section: lang
-SourceDateEpoch: 1767199045
+SourceDateEpoch: 1767207016
 URL: https://go.dev/
 CPE-ID: cpe:/a:golang:go
 Maintainer: Jeffery To <jeffery.to@gmail.com>
 Architecture: aarch64_cortex-a72
 Installed-Size: 137768960
 Filename: golang-src_1.25.4-r2_aarch64_cortex-a72.ipk
-Size: 30754102
-SHA256sum: f339f195b5099198ca5682270a44d844d6ab399f5bb1749ce1a37d0c6678b4c4
+Size: 30775980
+SHA256sum: 46db8175ac0879d64533a31be716ebe52fdf0e24beb842097846154fe921a29f
 Description:  The Go programming language is an open source project to make
  programmers more productive.
  
@@ -252,15 +236,15 @@ SourceName: golang
 License: BSD-3-Clause
 LicenseFiles: LICENSE
 Section: lang
-SourceDateEpoch: 1767199045
+SourceDateEpoch: 1767207016
 URL: https://go.dev/
 CPE-ID: cpe:/a:golang:go
 Maintainer: Jeffery To <jeffery.to@gmail.com>
 Architecture: aarch64_cortex-a72
 Installed-Size: 125388800
 Filename: golang_1.25.4-r2_aarch64_cortex-a72.ipk
-Size: 45734432
-SHA256sum: 95b257e376dfc72750b11eed69c9b132f6d368ca5c8e8206da94e0626e7b62f6
+Size: 45735515
+SHA256sum: 762c9a6814ab719a53bb5d81c8f216af82b470f9544ba5e831d1bef897ff0201
 Description:  The Go programming language is an open source project to make
  programmers more productive.
  
@@ -283,15 +267,15 @@ SourceName: gpsd
 License: BSD-3-Clause
 LicenseFiles: COPYING
 Section: utils
-SourceDateEpoch: 1767199045
+SourceDateEpoch: 1767207016
 URL: https://gpsd.gitlab.io/gpsd/
 CPE-ID: cpe:/a:gpsd_project:gpsd
 Maintainer: Pushpal Sidhu <psidhu.devel@gmail.com>
 Architecture: aarch64_cortex-a72
 Installed-Size: 2252800
 Filename: gpsd-clients_3.25-r1_aarch64_cortex-a72.ipk
-Size: 1050932
-SHA256sum: ba78370338815242d826657194514d4f6ad5704fd4bcd609de484ad1652148e6
+Size: 1050958
+SHA256sum: 72d379dc5cd1473359c95a50e8959e34ac9b554ec2d2af4437d8ff2789f82667
 Description:  gpsd is a userland daemon acting as a translator between GPS and AIS receivers
  and their clients. gpsd listens on port 2947 for clients requesting
  position/time/velocity information.  The receivers are expected to generate
@@ -310,15 +294,15 @@ SourceName: gpsd
 License: BSD-3-Clause
 LicenseFiles: COPYING
 Section: utils
-SourceDateEpoch: 1767199045
+SourceDateEpoch: 1767207016
 URL: https://gpsd.gitlab.io/gpsd/
 CPE-ID: cpe:/a:gpsd_project:gpsd
 Maintainer: Pushpal Sidhu <psidhu.devel@gmail.com>
 Architecture: aarch64_cortex-a72
 Installed-Size: 604160
 Filename: gpsd_3.25-r1_aarch64_cortex-a72.ipk
-Size: 292521
-SHA256sum: 49b9a67ca1710e9ed87e456dbb9fd72d8eb41d2621fa649f8edd6a52ba60505d
+Size: 292457
+SHA256sum: b117505d123687e8ecc4d29399114487b6a51c9fe46058fa2eea68ba281eab0c
 Description:  gpsd is a userland daemon acting as a translator between GPS and AIS receivers
  and their clients. gpsd listens on port 2947 for clients requesting
  position/time/velocity information.  The receivers are expected to generate
@@ -336,15 +320,15 @@ SourceName: avahi
 License: LGPL-2.1-or-later
 LicenseFiles: LICENSE
 Section: libs
-SourceDateEpoch: 1767199045
+SourceDateEpoch: 1767207016
 URL: http://www.avahi.org/
 CPE-ID: cpe:/a:avahi:avahi
 Maintainer: Ted Hess <thess@kitschensync.net>
 Architecture: aarch64_cortex-a72
 Installed-Size: 71680
 Filename: libavahi-client_0.8-r8_aarch64_cortex-a72.ipk
-Size: 20095
-SHA256sum: 4bfbf840b6fd118e56430e45eb51a5fa740498a9f252f4cb8018e72497f75f8a
+Size: 20094
+SHA256sum: adaac658e61d11367432b7cc39975c31e13219ef6915445b010074e99f2beb3c
 Description:  Avahi is an mDNS/DNS-SD (aka RendezVous/Bonjour/ZeroConf)
  implementation (library). It facilitates
  service discovery on a local network -- this means that
@@ -369,15 +353,15 @@ SourceName: avahi
 License: LGPL-2.1-or-later
 LicenseFiles: LICENSE
 Section: libs
-SourceDateEpoch: 1767199045
+SourceDateEpoch: 1767207016
 URL: http://www.avahi.org/
 CPE-ID: cpe:/a:avahi:avahi
 Maintainer: Ted Hess <thess@kitschensync.net>
 Architecture: aarch64_cortex-a72
 Installed-Size: 276480
 Filename: libavahi-dbus-support_0.8-r8_aarch64_cortex-a72.ipk
-Size: 82154
-SHA256sum: 580b83ee90c639f486bf1f6c9fd92dba2f30b6970c4b73a90f7162fc8f51dd23
+Size: 82148
+SHA256sum: be140b0eb9bce9295edb623672e5555d2b587b565a1940850de268d6d92ae960
 Description:  Avahi is an mDNS/DNS-SD (aka RendezVous/Bonjour/ZeroConf)
  implementation (library). It facilitates
  service discovery on a local network -- this means that
@@ -412,7 +396,7 @@ SourceName: gpsd
 License: BSD-3-Clause
 LicenseFiles: COPYING
 Section: libs
-SourceDateEpoch: 1767199045
+SourceDateEpoch: 1767207016
 URL: https://gpsd.gitlab.io/gpsd/
 ABIVersion: 30
 CPE-ID: cpe:/a:gpsd_project:gpsd
@@ -420,8 +404,8 @@ Maintainer: Pushpal Sidhu <psidhu.devel@gmail.com>
 Architecture: aarch64_cortex-a72
 Installed-Size: 143360
 Filename: libgps30_3.25-r1_aarch64_cortex-a72.ipk
-Size: 65868
-SHA256sum: dc6760157aa290c49a7f7c16ba6e96c4f1a91d80b07ef732fef6bf31c22f320d
+Size: 65870
+SHA256sum: 2100a8afeee4999b55cd040c6eeaf589bd04361b66721da3d16a3e6a7df1a4eb
 Description:  gpsd is a userland daemon acting as a translator between GPS and AIS receivers
  and their clients. gpsd listens on port 2947 for clients requesting
  position/time/velocity information.  The receivers are expected to generate
@@ -432,134 +416,134 @@ Description:  gpsd is a userland daemon acting as a translator between GPS and A
  This package contains the libgps library.
 
 Package: luci-app-ekhwizards
-Version: git-25.365.59845-151d1b3
+Version: git-25.365.67816-f0b1b14
 Depends: libc, luci-base, luci-app-morseconfig
 Source: feeds/openmanet/luci/luci-app-ekhwizards
 SourceName: luci-app-ekhwizards
 License: Apache-2.0
 Section: luci
-SourceDateEpoch: 1767199045
+SourceDateEpoch: 1767207016
 URL: https://github.com/openwrt/luci
 Maintainer: OpenWrt LuCI community
 Architecture: all
 Installed-Size: 153600
-Filename: luci-app-ekhwizards_git-25.365.59845-151d1b3_all.ipk
-Size: 22355
-SHA256sum: 5fe7ffe16404d002565176cf54f4f8ddc8af24548afc61848d9d0b10c09ca19c
+Filename: luci-app-ekhwizards_git-25.365.67816-f0b1b14_all.ipk
+Size: 22343
+SHA256sum: d0faa4b97141c7dfc86746e447d8492b6973ae92f025ab5a126c22c72dd8de7c
 Description:  LuCI Wizards for HaLow evaluation kits
 
 Package: luci-app-morseconfig
-Version: git-25.365.59845-151d1b3
+Version: git-25.365.67816-f0b1b14
 Depends: libc, luci-base, libiwinfo20250326, libiwinfo-lua, luci-lib-morseui, netifd-morse, morse-regdb, qrencode
 Source: feeds/openmanet/luci/luci-app-morseconfig
 SourceName: luci-app-morseconfig
 License: Apache-2.0
 Section: luci
-SourceDateEpoch: 1767199045
+SourceDateEpoch: 1767207016
 URL: https://github.com/openwrt/luci
 Maintainer: OpenWrt LuCI community
 Architecture: all
 Installed-Size: 512000
-Filename: luci-app-morseconfig_git-25.365.59845-151d1b3_all.ipk
-Size: 117612
-SHA256sum: b823b2f4d088af1682d51c34e88b67588ed7dba7210f721e48ca7aa863e63023
+Filename: luci-app-morseconfig_git-25.365.67816-f0b1b14_all.ipk
+Size: 117619
+SHA256sum: c3fa02f0f402a3584d9e274bda6a92133eabe4352a04292c2f4742300df71f18
 Description:  LuCI Morse Configuration
 
 Package: luci-i18n-morseconfig-ja
-Version: git-25.365.59845-151d1b3
+Version: git-25.365.67816-f0b1b14
 Depends: libc, luci-app-morseconfig
 Source: feeds/openmanet/luci/luci-app-morseconfig
 SourceName: luci-app-morseconfig
 License: Apache-2.0
 Section: luci
-SourceDateEpoch: 1767199045
+SourceDateEpoch: 1767207016
 Architecture: all
 Installed-Size: 40960
-Filename: luci-i18n-morseconfig-ja_git-25.365.59845-151d1b3_all.ipk
-Size: 9445
-SHA256sum: 689a76b33f3da4a03fba993ec830566b5f8dc9bb00806e1d0a3f329c4ba5061e
+Filename: luci-i18n-morseconfig-ja_git-25.365.67816-f0b1b14_all.ipk
+Size: 9447
+SHA256sum: fbedd1d963fa230ea9f1fc23389bac52b48c8e771ab668388f1f0cecb482a67b
 Description:  Translation for luci-app-morseconfig - 日本語 (Japanese)
 
 Package: luci-i18n-morseui-ja
-Version: git-25.365.59845-151d1b3
+Version: git-25.365.67816-f0b1b14
 Depends: libc, luci-lib-morseui
 Source: feeds/openmanet/luci/luci-lib-morseui
 SourceName: luci-lib-morseui
 License: Apache-2.0
 Section: luci
-SourceDateEpoch: 1767199045
+SourceDateEpoch: 1767207016
 Architecture: all
 Installed-Size: 10240
-Filename: luci-i18n-morseui-ja_git-25.365.59845-151d1b3_all.ipk
-Size: 1715
-SHA256sum: 1f87ccc9412db2d90b1d6b891bf29a58dd0e35519b342c1beb03bb9787d8c847
+Filename: luci-i18n-morseui-ja_git-25.365.67816-f0b1b14_all.ipk
+Size: 1709
+SHA256sum: 9c2055114c50f5ee58fb26009bb6a1bc8573ef9867742e1be4d563ff4d771e85
 Description:  Translation for luci-lib-morseui - 日本語 (Japanese)
 
 Package: luci-lib-morseui
-Version: git-25.365.59845-151d1b3
+Version: git-25.365.67816-f0b1b14
 Depends: libc, luci-base
 Source: feeds/openmanet/luci/luci-lib-morseui
 SourceName: luci-lib-morseui
 License: Apache-2.0
 Section: luci
-SourceDateEpoch: 1767199045
+SourceDateEpoch: 1767207016
 URL: https://github.com/openwrt/luci
 Maintainer: OpenWrt LuCI community
 Architecture: all
 Installed-Size: 30720
-Filename: luci-lib-morseui_git-25.365.59845-151d1b3_all.ipk
-Size: 6835
-SHA256sum: 0eeaec6f6c31d9ac2f8f3e4af23e9610f40d573ff9fb507fa1b4f32a37d00d39
+Filename: luci-lib-morseui_git-25.365.67816-f0b1b14_all.ipk
+Size: 6837
+SHA256sum: 9c6bbb7b69aeb02379a05145eb6351618780796bae95d1da224a59da1ff5f55f
 Description:  LuCI Morse UI Library
 
 Package: luci-lib-vivagraphjs
-Version: git-25.365.59845-151d1b3
+Version: git-25.365.67816-f0b1b14
 Depends: libc
 Source: feeds/openmanet/luci/luci-lib-vivagraphjs
 SourceName: luci-lib-vivagraphjs
 Section: luci
-SourceDateEpoch: 1767199045
+SourceDateEpoch: 1767207016
 URL: https://github.com/anvaka/VivaGraphJS/
 Maintainer: Morse Micro
 Architecture: all
 Installed-Size: 71680
-Filename: luci-lib-vivagraphjs_git-25.365.59845-151d1b3_all.ipk
+Filename: luci-lib-vivagraphjs_git-25.365.67816-f0b1b14_all.ipk
 Size: 22409
-SHA256sum: 85f5e7f0be6797f7518f9838986e75fe8d2f66f66e047559196b05e241ade3fc
+SHA256sum: bddeab7205d67fdb3b43650efa1808cd4e91c5253dddcf3c3e1b9267f349201f
 Description:  minified VivaGraphJS javascript library
 
 Package: luci-mod-home
-Version: git-25.365.59845-151d1b3
+Version: git-25.365.67816-f0b1b14
 Depends: libc, luci-base, libiwinfo20250326, luci-app-morseconfig, luci-lib-vivagraphjs, morse-mode
 Source: feeds/openmanet/luci/luci-mod-home
 SourceName: luci-mod-home
 License: Apache-2.0
 Section: luci
-SourceDateEpoch: 1767199045
+SourceDateEpoch: 1767207016
 URL: https://github.com/openwrt/luci
 Maintainer: OpenWrt LuCI community
 Architecture: all
 Installed-Size: 71680
-Filename: luci-mod-home_git-25.365.59845-151d1b3_all.ipk
-Size: 17008
-SHA256sum: eb92546ed04b1320896afdb3e4535dab1a1372fa7da76e8bfc5e3d85084d918b
+Filename: luci-mod-home_git-25.365.67816-f0b1b14_all.ipk
+Size: 17004
+SHA256sum: ccf94ff9da33152b07535c25d2ad2081b7995388cbf7d70b06236e4fd0dd6dc3
 Description:  LuCI Home
 
 Package: luci-theme-morseargon
-Version: git-25.365.59845-151d1b3
+Version: git-25.365.67816-f0b1b14
 Depends: libc, morse-mode, luci-lua-runtime
 Source: feeds/openmanet/luci/luci-theme-morseargon
 SourceName: luci-theme-morseargon
 License: Apache-2.0
 Section: luci
-SourceDateEpoch: 1767199045
+SourceDateEpoch: 1767207016
 URL: https://github.com/openwrt/luci
 Maintainer: OpenWrt LuCI community
 Architecture: all
 Installed-Size: 1935360
-Filename: luci-theme-morseargon_git-25.365.59845-151d1b3_all.ipk
-Size: 1779475
-SHA256sum: cb03549ec067702388209e16e7bd00680a0b7040547ab02826814c241082d2f7
+Filename: luci-theme-morseargon_git-25.365.67816-f0b1b14_all.ipk
+Size: 1779479
+SHA256sum: 53f1758037957ac8b177375e5ee630a37bab123484d31cb5040440d335ac577e
 Description:  LuCI Morse Micro Argon Theme
 
 Package: luci-theme-openmanetargon
@@ -568,31 +552,15 @@ Depends: libc, curl, jsonfilter, morse-mode, luci-lua-runtime
 Source: feeds/openmanet/luci/luci-theme-openmanetargon
 SourceName: luci-theme-openmanetargon
 Section: luci
-SourceDateEpoch: 1767199045
+SourceDateEpoch: 1767207016
 URL: https://github.com/openwrt/luci
 Maintainer: OpenWrt LuCI community
 Architecture: all
 Installed-Size: 2252800
 Filename: luci-theme-openmanetargon_2.4.3_all.ipk
-Size: 1997484
-SHA256sum: e7750a9eef06e12442fc7f1277ffc0da06fee4bd9055df8e17b608592c8c75f0
+Size: 1997496
+SHA256sum: a451e56b21b785d052f6b2dab9869fd2e2b620007e7319ae36e58798d9f18c72
 Description:  LuCI OpenMANET Argon Theme
-
-Package: openmanet-bsp-common
-Version: 2
-Depends: libc
-Source: feeds/openmanet/boards/common
-SourceName: openmanet-bsp-common
-License: GPLv2
-Section: util
-SourceDateEpoch: 1767128047
-Maintainer: OpenMANET
-Architecture: aarch64_cortex-a72
-Installed-Size: 10240
-Filename: openmanet-bsp-common_2_aarch64_cortex-a72.ipk
-Size: 1637
-SHA256sum: 4a7b8b83157cb832895cc810a5e4e6a5b2a7121289135e033cff05073ff025f1
-Description:  OpenMANET common board support package
 
 Package: openmanetd
 Version: 0.0.47-r1
@@ -601,13 +569,13 @@ Source: feeds/openmanet/openmanetd
 SourceName: openmanetd
 License: MIT
 Section: utils
-SourceDateEpoch: 1767199045
+SourceDateEpoch: 1767207016
 Maintainer: Corey Wagehoft
 Architecture: aarch64_cortex-a72
 Installed-Size: 8007680
 Filename: openmanetd_0.0.47-r1_aarch64_cortex-a72.ipk
-Size: 3229131
-SHA256sum: 98216de9a54c2d6c8499f3de87b4465b94eeb757508b0a24307dd7f321df0cc9
+Size: 3229171
+SHA256sum: bd75428af4cfb14db86790c88b4d751aa85f4cbb302f83d8c84b46f08b6fcf71
 Description:  A management application for openmanetd written in Go.
  Includes:
  - pttgo: A multicast push-to-talk voice application written in Go using PortAudio, Opus, and evdev.

@@ -1,1 +1,38 @@
+Package: button-hotplug-gw
+Version: 1
+Depends: libc
+Section: utils
+URL: http://trac.gateworks.com/wiki/
+Architecture: aarch64_cortex-a72
+Installed-Size: 10240
+Filename: button-hotplug-gw_1_aarch64_cortex-a72.ipk
+Size: 2060
+SHA256sum: 80ff8174207126a7ec114b010907c5170837a66aa036b1a0a27a26909cb6fe41
+Description:  OpenWrt button events are dispatched through the hotplug system to
+ the button subsystem. This script and default config adds a handler
+ script that can track button-presses and execute handlers configured
+ via uci.
+
+Package: gsc-update
+Version: 1.6-r2
+Depends: libc
+Section: base
+Architecture: aarch64_cortex-a72
+Installed-Size: 81920
+Filename: gsc-update_1.6-r2_aarch64_cortex-a72.ipk
+Size: 6577
+SHA256sum: 50badc3352c3195530b6bcf3619c2325f1e03a293768419f754b512f3e68da67
+Description:  Gateworks System Controller Firmware Update Application
+
+Package: gwsoc
+Version: 1.0-r1
+Depends: libc, hidapi, libusb-1.0-0, librt
+Section: utils
+Architecture: aarch64_cortex-a72
+Installed-Size: 71680
+Filename: gwsoc_1.0-r1_aarch64_cortex-a72.ipk
+Size: 8356
+SHA256sum: c386af611d9268abfa4f73f9a464b0b5b665c28373574c61514554c78c23717c
+Description:  Utility for communicating with Gateworks GWSoC family of products
+ such as the GW16113.
 
