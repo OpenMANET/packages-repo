@@ -138,6 +138,7 @@
     "rtl-sdr": "2.0.1-r1",
     "ttyd": "1.7.3-r1",
     "usbids": "0.387-r1",
+    "usbutils": "017-r1",
     "v4l-utils": "1.28.0-r1",
     "zoneinfo-core": "2025b-r1"
   }

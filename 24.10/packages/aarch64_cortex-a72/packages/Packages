@@ -2389,6 +2389,19 @@ Size: 255793
 SHA256sum: bf62696923e0b78bb9c5d1de86643adb09c060e2e9aee98367d0fa0ccb02cf72
 Description:  USB ID list
 
+Package: usbutils
+Version: 017-r1
+Depends: libc, libusb-1.0-0, libudev, librt, libpthread, usbids
+License: GPL-2.0-only
+Section: utils
+URL: http://www.linux-usb.org/
+Architecture: aarch64_cortex-a72
+Installed-Size: 245760
+Filename: usbutils_017-r1_aarch64_cortex-a72.ipk
+Size: 56695
+SHA256sum: 9abf20973b507cfab24c4952a9bd63fc60a421c78e9661e1124c73352476d6d1
+Description:  USB devices listing utilities
+
 Package: v4l-utils
 Version: 1.28.0-r1
 Depends: libc, libudev, libv4l, libstdcpp6

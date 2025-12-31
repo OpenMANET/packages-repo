@@ -3977,13 +3977,13 @@ SourceName: morse_driver
 License: GPLv2
 LicenseFiles: LICENSE
 Section: kernel
-SourceDateEpoch: 1767207016
+SourceDateEpoch: 1767217599
 Maintainer: Morse Micro
 Architecture: aarch64_cortex-a72
 Installed-Size: 737280
 Filename: kmod-morse_6.6.102.1.16.4-r4_aarch64_cortex-a72.ipk
-Size: 236231
-SHA256sum: 641ba91a906ba458df622a3914b004fe05b060bc95eacf1d88de26b1c9cfef99
+Size: 236265
+SHA256sum: 424a156a30d822ac4538f8a820d75ba2714af73e8dc2bf60809c9f8ee9f3d3f8
 Description:  Morse Micro WIFI HaLow driver
 
 Package: kmod-mt76-connac
@@ -10727,6 +10727,23 @@ Size: 11256
 SHA256sum: bdf1d41efb8e2466ae05dea09a73b88882d27e964917feee8b18e4828ee0ec4a
 Description:  This package contains an utility useful to upgrade from other firmware or 
  older OpenWrt releases.
+
+Package: uqmi
+Version: 2024.08.25~28b48a10-r2
+Depends: libc, libubox20240329, libblobmsg-json20240329, kmod-usb-net, kmod-usb-net-qmi-wwan, wwan
+Source: feeds/base/network/utils/uqmi
+SourceName: uqmi
+License: GPL-2.0
+Section: net
+SourceDateEpoch: 1765658144
+Maintainer: Matti Laakso <malaakso@elisanet.fi>
+Architecture: aarch64_cortex-a72
+Installed-Size: 153600
+Filename: uqmi_2024.08.25~28b48a10-r2_aarch64_cortex-a72.ipk
+Size: 51964
+SHA256sum: 14211cd3343d0f27e3fb1b71d004d73c267d638681d442bf1db06dff0fca7492
+Description:  uqmi is a command line tool for controlling mobile broadband modems using
+ the QMI-protocol.
 
 Package: xtables-nft
 Version: 1.8.10-r1
