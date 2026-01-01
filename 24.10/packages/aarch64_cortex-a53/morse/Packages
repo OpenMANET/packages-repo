@@ -1,0 +1,304 @@
+Package: dpp-handler
+Version: 1
+Depends: libc, wpa_supplicant_s1g, libwpa_client_s1g
+Section: net
+Architecture: aarch64_cortex-a53
+Installed-Size: 81920
+Filename: dpp-handler_1_aarch64_cortex-a53.ipk
+Size: 8865
+SHA256sum: 19c78ee4b34c542ce0b374fff5365b95f9de2869609e7cc54268e7abcecb4243
+Description:  This package adds a ubus (rpcd ucode) handler for DPP related
+ actions (push button to initiate, and set UCI config if successful).
+ Currently, success is detected by a wpa_event_listener.
+
+Package: hostapd_s1g
+Version: 1.16.4-r2
+Depends: libc, kmod-morse, libnl200, libopenssl3, libubus20250102
+License: BSD-3-Clause
+Section: net
+Architecture: aarch64_cortex-a53
+Installed-Size: 1976320
+Filename: hostapd_s1g_1.16.4-r2_aarch64_cortex-a53.ipk
+Size: 856950
+SHA256sum: 39a23430c4164950911645eef562a1198e166e80de1063b6f9974291b604f225
+Description:  This package contains a full featured Morse Micro patched
+ Authenticator.
+
+Package: libwpa_client_s1g
+Version: 1.16.4-r2
+Depends: libc, wpa_supplicant_s1g
+License: BSD-3-Clause
+Section: net
+Architecture: aarch64_cortex-a53
+Installed-Size: 71680
+Filename: libwpa_client_s1g_1.16.4-r2_aarch64_cortex-a53.ipk
+Size: 17844
+SHA256sum: b20da4be0549a4efd206b4f7a9c59f475a14f7546d52d52a210f7e4a5bfed12c
+Description:  wpa_supplicant_s1g client library
+
+Package: morse-bcf-info
+Version: 1.0-r1
+Depends: libc, libelf1
+Section: utils
+Architecture: aarch64_cortex-a53
+Installed-Size: 71680
+Filename: morse-bcf-info_1.0-r1_aarch64_cortex-a53.ipk
+Size: 4656
+SHA256sum: 0f45981a96208088d2ed1fb93f1477d5afe0dbb52f756e2d958fbd54c7e5e320
+Description:  Parse Morse wifi chip BCF files and emit JSON metadata
+
+Package: morse-board-config-hotplug-model
+Version: 1.16.4-r6
+Depends: libc, morse-board-config
+Section: firmware
+Architecture: aarch64_cortex-a53
+Installed-Size: 10240
+Filename: morse-board-config-hotplug-model_1.16.4-r6_aarch64_cortex-a53.ipk
+Size: 1353
+SHA256sum: 8d485daa8663d85a3707448953f665238f31117fbd4849bb17d5ea07486ddc2a
+Description:  When enabled, a hotplug script will be installed to
+ append a relevant module type suffix based on the value
+ programmed into the Morse chips OTP bits.
+
+Package: morse-board-config
+Version: 1.16.4-r6
+Depends: libc
+Section: firmware
+URL: https://github.com/MorseMicro/morse-firmware.git
+Architecture: aarch64_cortex-a53
+Installed-Size: 61440
+Filename: morse-board-config_1.16.4-r6_aarch64_cortex-a53.ipk
+Size: 5635
+SHA256sum: a65155203a44b5c55e58fa74c324777c0886a75fdd26fb5ae3800476376212d1
+Description:  Morse Micro WIFI HaLow Board Config File
+
+Package: morse-boot-prints
+Version: 2
+Depends: libc, morse-mode
+Section: utils
+Architecture: aarch64_cortex-a53
+Installed-Size: 30720
+Filename: morse-boot-prints_2_aarch64_cortex-a53.ipk
+Size: 3053
+SHA256sum: b3c9b9a4180426e487f8f57cb1e33f0e412ced5e00cd09f3f5d580e6418295b3
+Description:  Morse Boot Info Prints
+
+Package: morse-bundle
+Version: 2
+Depends: libc, morse-boot-prints, gpiod-tools, ucode
+Section: net
+Architecture: aarch64_cortex-a53
+Installed-Size: 40960
+Filename: morse-bundle_2_aarch64_cortex-a53.ipk
+Size: 8352
+SHA256sum: ea05cca1925622780641ee716c10216cbf899c7fba904ec740828a3213db061a
+Description:  This package contains minor config/scripts adaptations for
+ morse releases.
+
+Package: morse-button
+Version: 1
+Depends: libc, netifd-morse
+Section: utils
+Architecture: aarch64_cortex-a53
+Installed-Size: 10240
+Filename: morse-button_1_aarch64_cortex-a53.ipk
+Size: 1190
+SHA256sum: d6f55bd6416787d0683e6cffd0017f63ef07c09557384783966fc542cc91f793
+Description:  Add a button handler script for morse devices.
+
+Package: morse-copy-coredump
+Version: 1
+Depends: libc, kmod-morse
+Section: net
+Architecture: aarch64_cortex-a53
+Installed-Size: 10240
+Filename: morse-copy-coredump_1_aarch64_cortex-a53.ipk
+Size: 1524
+SHA256sum: 7fc6a3dea2a99d8aaea9148a01194ecde7379008c227a77f15a41aacc0119340
+Description:  Copy morse driver coredumps from sysfs to /var/log
+ when they appear (detected via hotplug).
+
+Package: morse-fw-6108-tlm
+Version: 1.16.4-r2
+Depends: libc
+Provides: morse-fw
+Section: opt
+URL: https://github.com/MorseMicro/morse-firmware.git
+Architecture: aarch64_cortex-a53
+Installed-Size: 460800
+Filename: morse-fw-6108-tlm_1.16.4-r2_aarch64_cortex-a53.ipk
+Size: 246365
+SHA256sum: 08ff3e3858e45d6a18f2eb4566b39578a4487a5db87ccceb60b93e6d675f59b3
+Description:  This firmware reduces the per-station table size in the chip to
+ allow a large number of associations in AP mode.
+
+Package: morse-fw-6108
+Version: 1.16.4-r2
+Depends: libc
+Provides: morse-fw
+Section: opt
+URL: https://github.com/MorseMicro/morse-firmware.git
+Architecture: aarch64_cortex-a53
+Installed-Size: 471040
+Filename: morse-fw-6108_1.16.4-r2_aarch64_cortex-a53.ipk
+Size: 251691
+SHA256sum: a806f4fa23f9810cad10807cc4fda36287357c3177f97feb70e8f704340e3e06
+Description:  Morse Micro WIFI HaLow standard firmware for 6108
+
+Package: morse-fw-8108-flm
+Version: 1.16.4-r2
+Depends: libc
+Provides: morse-fw
+Section: firmware
+URL: https://github.com/MorseMicro/morse-firmware.git
+Architecture: aarch64_cortex-a53
+Installed-Size: 624640
+Filename: morse-fw-8108-flm_1.16.4-r2_aarch64_cortex-a53.ipk
+Size: 339015
+SHA256sum: 11f01f19ba11f4273a0479875a510ee3e50509ae74d2446acda460e370d65fb3
+Description:  This firmware implements the functionality of the mac80211
+ module (and some wpa_supplicant functionality) on the 8108.
+ This will allow you to reduce host processor CPU usage
+ and maintain association if the host processor is turned off.
+ However, it currently only supports station/client mode
+ (i.e. not AP/mesh/adhoc).
+
+Package: morse-fw-8108-tlm
+Version: 1.16.4-r2
+Depends: libc
+Provides: morse-fw
+Section: firmware
+URL: https://github.com/MorseMicro/morse-firmware.git
+Architecture: aarch64_cortex-a53
+Installed-Size: 460800
+Filename: morse-fw-8108-tlm_1.16.4-r2_aarch64_cortex-a53.ipk
+Size: 226410
+SHA256sum: df476766e99db248fafbf63321bc1b7aa8bc54a0e17c9e6f404c30fac7e702e4
+Description:  This firmware reduces the per-station table size in the chip to
+ allow a large number of associations in AP mode.
+
+Package: morse-fw-8108
+Version: 1.16.4-r2
+Depends: libc
+Provides: morse-fw
+Section: opt
+URL: https://github.com/MorseMicro/morse-firmware.git
+Architecture: aarch64_cortex-a53
+Installed-Size: 460800
+Filename: morse-fw-8108_1.16.4-r2_aarch64_cortex-a53.ipk
+Size: 230157
+SHA256sum: 3658782e6ab75ea5c8f50a1c4a842f6c39067c1ed6ff46846459cc84d26ba9d9
+Description:  Morse Micro WIFI HaLow standard firmware for 8108
+
+Package: morse-leds
+Version: 1
+Depends: libc
+Section: utils
+Architecture: aarch64_cortex-a53
+Installed-Size: 10240
+Filename: morse-leds_1_aarch64_cortex-a53.ipk
+Size: 3214
+SHA256sum: 219c7dffaecda4ae2cb61421af94f2be3d9face740aa60b2de0c8a5b479137a5
+Description:  Override default LED status handler to handle new
+ states and more complex LEDs (e.g. PWM)
+ (both for the status, and to set
+ the colour of the other LEDs since the OpenWrt LED
+ configurator doesn't know how to set the colour on
+ PWM LEDs).
+
+Package: morse-mode
+Version: 1
+Depends: libc, netifd-morse, morse-regdb
+Section: utils
+Architecture: aarch64_cortex-a53
+Installed-Size: 10240
+Filename: morse-mode_1_aarch64_cortex-a53.ipk
+Size: 2823
+SHA256sum: 19522952bea77b1e8c1350e2bc4f454f88cc6768b216b3ec222c783e9835b410
+Description:  Access morse mode info via ubus
+
+Package: morse-regdb
+Version: v2.4.1-r1
+Depends: libc
+Section: net
+URL: https://bitbucket.org/morsemicro/morse_regdb/src/master/
+Architecture: all
+Installed-Size: 51200
+Filename: morse-regdb_v2.4.1-r1_all.ipk
+Size: 6150
+SHA256sum: 7892ad020663b368bef96f03a9470a50b7ca6efab9ea5a3a25eb1bf0a6c4e819
+Description:  Regulatory data for 802.11ah in a csv.
+
+Package: morse_mesh11sd
+Version: 1.2.0-r1
+Depends: libc
+Provides: mesh11sd
+License: GPL-2.0-or-later
+Section: net
+URL: https://github.com/opennds/mesh11sd
+Architecture: all
+Installed-Size: 30720
+Filename: morse_mesh11sd_1.2.0-r1_all.ipk
+Size: 6794
+SHA256sum: 78d515eae26ab32337ca42019a9b0f4dbbc2b1cc2efbc4a9e5339c390bfb8c73
+Description:  Mesh11sd is a dynamic parameter configuration daemon for 802.11s mesh networks.
+ It was originally designed to leverage 802.11s mesh networking at Captive Portal venues.
+ This is the open source version and it enables easy and automated mesh network operation with multiple mesh nodes.
+ It allows all mesh parameters supported by the wireless driver to be set in the uci config file.
+ Settings take effect immediately without having to restart the wireless network.
+ Default settings give rapid and reliable layer 2 mesh convergence.
+ Without mesh11sd, many mesh parameters cannot be set in the uci wireless config file as the mesh interface must be up before the parameters can be set.
+ Some of those that are supported, would fail to be implemented when the network is (re)started resulting in errors or dropped nodes.
+ The mesh11sd daemon dynamically checks configured parameters and sets them as required.
+ This version does not require a Captive Portal to be running.
+ The modified morse_mesh11sd would allow reconfiguring the wpa supplicant everytime there is 11sMesh config modification.
+
+Package: morsecli
+Version: 1.16.4-r5
+Depends: libc, kmod-morse, libnl200, libusb-1.0-0
+Provides: morsectrl
+License: GPLv2
+Section: net
+Architecture: aarch64_cortex-a53
+Installed-Size: 215040
+Filename: morsecli_1.16.4-r5_aarch64_cortex-a53.ipk
+Size: 72796
+SHA256sum: bcc8d5e5823eca9f040667b8af17c4dc7a22a49211207bb4a09aabb84c56c8ac
+Description:  Morse Micro WIFI HaLow driver command line tool
+
+Package: netifd-morse
+Version: 1
+Depends: libc, netifd, kmod-morse, kmod-cfg80211, morse-regdb, wpa_supplicant_s1g, hostapd_s1g, morsecli
+License: GPLv2
+Section: net
+Architecture: aarch64_cortex-a53
+Installed-Size: 112640
+Filename: netifd-morse_1_aarch64_cortex-a53.ipk
+Size: 27074
+SHA256sum: 91fc62328409fd42bee1cd73d906f29611ca9f0eb9b3edeaf31c3f93d6e50d3d
+Description:  Morse Micro HaLow support for netifd
+
+Package: smart_manager
+Version: 1.16.4-r1
+Depends: libc, kmod-morse, libnl200, libpthread, libconfig11, hostapd_s1g
+License: BSD-3-Clause
+Section: net
+Architecture: aarch64_cortex-a53
+Installed-Size: 215040
+Filename: smart_manager_1.16.4-r1_aarch64_cortex-a53.ipk
+Size: 63232
+SHA256sum: 14ad3578e906f8bf299ea09832566088cb387eddbe8f96eefb593c5adf3da239
+Description:  Morse Micro HaLow DCS Smart Manager
+
+Package: wpa_supplicant_s1g
+Version: 1.16.4-r2
+Depends: libc, kmod-morse, libnl200, libopenssl3, libubus20250102
+License: BSD-3-Clause
+Section: net
+Architecture: aarch64_cortex-a53
+Installed-Size: 2764800
+Filename: wpa_supplicant_s1g_1.16.4-r2_aarch64_cortex-a53.ipk
+Size: 1239509
+SHA256sum: a64368bb76ad7e8a078a2762a0064267c45fb014fb4fa3ba02e4c6cc23b4ae8c
+Description:  Morse Micro HaLow wpa_supplicant
+

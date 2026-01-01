@@ -1,0 +1,29 @@
+{
+  "version": 2,
+  "architecture": "aarch64_cortex-a53",
+  "packages": {
+    "dpp-handler": "1",
+    "hostapd_s1g": "1.16.4-r2",
+    "libwpa_client_s1g": "1.16.4-r2",
+    "morse-bcf-info": "1.0-r1",
+    "morse-board-config-hotplug-model": "1.16.4-r6",
+    "morse-board-config": "1.16.4-r6",
+    "morse-boot-prints": "2",
+    "morse-bundle": "2",
+    "morse-button": "1",
+    "morse-copy-coredump": "1",
+    "morse-fw-6108-tlm": "1.16.4-r2",
+    "morse-fw-6108": "1.16.4-r2",
+    "morse-fw-8108-flm": "1.16.4-r2",
+    "morse-fw-8108-tlm": "1.16.4-r2",
+    "morse-fw-8108": "1.16.4-r2",
+    "morse-leds": "1",
+    "morse-mode": "1",
+    "morse-regdb": "v2.4.1-r1",
+    "morse_mesh11sd": "1.2.0-r1",
+    "morsecli": "1.16.4-r5",
+    "netifd-morse": "1",
+    "smart_manager": "1.16.4-r1",
+    "wpa_supplicant_s1g": "1.16.4-r2"
+  }
+}

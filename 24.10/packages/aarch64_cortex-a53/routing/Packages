@@ -1,0 +1,19 @@
+Package: batctl-full
+Version: 2024.3-r1
+Depends: libc, libnl-tiny1, librt
+Provides: batctl
+Alternatives: 300:/usr/sbin/batctl:/usr/libexec/batctl-full
+License: GPL-2.0-only ISC MIT
+Section: net
+URL: https://www.open-mesh.org/
+Architecture: aarch64_cortex-a53
+Installed-Size: 143360
+Filename: batctl-full_2024.3-r1_aarch64_cortex-a53.ipk
+Size: 54019
+SHA256sum: 69a3fc3619d0de9f808ee843b47d6b1817754d7a603ca077207fa32ffe46b550
+Description:  batctl is a more intuitive managment utility for B.A.T.M.A.N.-Advanced.
+ It is an easier method for configuring batman-adv and provides some
+ additional tools for debugging as well. This package builds
+ version 2024.3 of the user space utility.
+ Subcommands for configuration, online and offline debugging are enabled.
+

@@ -1,0 +1,2408 @@
+Package: alsa-lib
+Version: 1.2.11-r1
+Depends: libc, kmod-sound-core, libpthread, librt
+Source: feeds/packages/libs/alsa-lib
+SourceName: alsa-lib
+License: LGPL-2.1-or-later
+LicenseFiles: COPYING
+Section: libs
+SourceDateEpoch: 1756500878
+URL: https://www.alsa-project.org/
+Maintainer: Ted Hess <thess@kitschensync.net>, Peter Wagner <tripolar@gmx.at>
+Architecture: aarch64_cortex-a53
+Installed-Size: 1341440
+Filename: alsa-lib_1.2.11-r1_aarch64_cortex-a53.ipk
+Size: 427695
+SHA256sum: f0b00be6d73d2801566a88eeb053d7a0fd42a4c55d7e8d92844d91493391b8a5
+Description:  This is the library package for alsa, needed by some userspace programs.
+ You must have enabled the ALSA support in the kernel.
+
+Package: alsa-ucm-conf
+Version: 1.2.11-r1
+Depends: libc
+Source: feeds/packages/libs/alsa-ucm-conf
+SourceName: alsa-ucm-conf
+License: BSD-3-Clause
+LicenseFiles: LICENSE
+Section: libs
+SourceDateEpoch: 1756500878
+URL: https://www.alsa-project.org/
+Architecture: all
+Installed-Size: 870400
+Filename: alsa-ucm-conf_1.2.11-r1_all.ipk
+Size: 70785
+SHA256sum: 7fb649628d5043f8de35e2964de6184edc4a7218eb1588d29349f70584c96126
+Description:  This is a set of configuration files needed for some ALS utilities like alsactl.
+
+Package: alsa-utils
+Version: 1.2.11-r1
+Depends: libc, alsa-lib, alsa-ucm-conf, libncursesw6, libpthread
+Source: feeds/packages/sound/alsa-utils
+SourceName: alsa-utils
+License: GPL-2.0-or-later
+LicenseFiles: COPYING
+Section: sound
+SourceDateEpoch: 1756500878
+URL: https://www.alsa-project.org/
+Maintainer: Ted Hess <thess@kitschensync.net>
+Architecture: aarch64_cortex-a53
+Installed-Size: 440320
+Filename: alsa-utils_1.2.11-r1_aarch64_cortex-a53.ipk
+Size: 144786
+SHA256sum: f3a20b6d6b17c4257b068a47c7dafa976af0c18008da66a2373866a6781c17af
+Description:  ALSA (Advanced Linux Sound Architecture) utilities
+
+Package: arp-scan-database
+Version: 1.10.0-r2
+Depends: libc
+Source: feeds/packages/net/arp-scan
+SourceName: arp-scan
+License: GPL-3.0-or-later
+Section: net
+SourceDateEpoch: 1756500878
+URL: https://github.com/royhills/arp-scan
+Maintainer: Sergey Urushkin <urusha.v1.0@gmail.com>
+Architecture: aarch64_cortex-a53
+Installed-Size: 1464320
+Filename: arp-scan-database_1.10.0-r2_aarch64_cortex-a53.ipk
+Size: 533489
+SHA256sum: 3fdfefd899d2b4ee7e70b12a6513df4e694ea4289a901a92178971a989d77ed2
+Description:  MAC database for ARP scanner
+
+Package: arp-scan
+Version: 1.10.0-r2
+Depends: libc, libpcap1
+Source: feeds/packages/net/arp-scan
+SourceName: arp-scan
+License: GPL-3.0-or-later
+Section: net
+SourceDateEpoch: 1756500878
+URL: https://github.com/royhills/arp-scan
+Maintainer: Sergey Urushkin <urusha.v1.0@gmail.com>
+Architecture: aarch64_cortex-a53
+Installed-Size: 71680
+Filename: arp-scan_1.10.0-r2_aarch64_cortex-a53.ipk
+Size: 25205
+SHA256sum: 17e17a9d2a2727c85613bd930fc77bc9b3d4836b1d47cef6e3107a75de19d47d
+Description:  ARP scanner
+
+Package: bridge
+Version: 1.7.1-r1
+Depends: libc
+Alternatives: 300:/usr/sbin/brctl:/usr/libexec/brctl-bridge-utils
+Source: feeds/packages/net/bridge-utils
+SourceName: bridge-utils
+License: GPL-2.0-or-later
+LicenseFiles: COPYING
+Section: net
+SourceDateEpoch: 1756500878
+URL: http://www.linuxfromscratch.org/blfs/view/svn/basicnet/bridge-utils.html
+CPE-ID: cpe:/a:kernel:bridge-utils
+Maintainer: Nikolay Martynov <mar.kolya@gmail.com>
+Architecture: aarch64_cortex-a53
+Installed-Size: 71680
+Filename: bridge_1.7.1-r1_aarch64_cortex-a53.ipk
+Size: 11333
+SHA256sum: c49d15cd678f50e6ea18e4dbc9cd5aeb3f1ce27193c9412b0af271a46d16d60a
+Description:  Manage ethernet bridging: a way to connect networks together to
+ form a larger network.
+
+Package: cgi-io
+Version: 2022.08.10~901b0f04-r21
+Depends: libc, libubox20240329, libubus20250102
+Source: feeds/packages/net/cgi-io
+SourceName: cgi-io
+License: GPL-2.0-or-later
+Section: net
+SourceDateEpoch: 1756500878
+Maintainer: John Crispin <blogic@openwrt.org>
+Architecture: aarch64_cortex-a53
+Installed-Size: 81920
+Filename: cgi-io_2022.08.10~901b0f04-r21_aarch64_cortex-a53.ipk
+Size: 10261
+SHA256sum: 6a988ca3302c479fe6388c1dfd766bb820486dba0f4138e818fc5021683f6262
+Description:  This package contains an cgi utility that is useful for up/downloading files
+
+Package: collectd-mod-conntrack
+Version: 5.12.0-r54
+Depends: libc, collectd
+Source: feeds/packages/utils/collectd
+SourceName: collectd
+License: MIT GPL-2.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1756500878
+URL: https://collectd.org/
+CPE-ID: cpe:/a:collectd:collectd
+Maintainer: Jo-Philipp Wich <jo@mein.io>, Hannu Nyman <hannu.nyman@iki.fi>
+Architecture: aarch64_cortex-a53
+Installed-Size: 81920
+Filename: collectd-mod-conntrack_5.12.0-r54_aarch64_cortex-a53.ipk
+Size: 2861
+SHA256sum: 3dd76d57093d7e1b1a10f993131e5d36d3fdefcc86feb080110cd97323cd6cc6
+Description:  connection tracking table size input plugin
+
+Package: collectd-mod-cpu
+Version: 5.12.0-r54
+Depends: libc, collectd
+Source: feeds/packages/utils/collectd
+SourceName: collectd
+License: MIT GPL-2.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1756500878
+URL: https://collectd.org/
+CPE-ID: cpe:/a:collectd:collectd
+Maintainer: Jo-Philipp Wich <jo@mein.io>, Hannu Nyman <hannu.nyman@iki.fi>
+Architecture: aarch64_cortex-a53
+Installed-Size: 81920
+Filename: collectd-mod-cpu_5.12.0-r54_aarch64_cortex-a53.ipk
+Size: 5077
+SHA256sum: dd4b5c9df40308e83be336e4a1ac54c90eadf29b86f9254e7aad4942b6919d81
+Description:  CPU input plugin
+
+Package: collectd-mod-interface
+Version: 5.12.0-r54
+Depends: libc, collectd
+Source: feeds/packages/utils/collectd
+SourceName: collectd
+License: MIT GPL-2.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1756500878
+URL: https://collectd.org/
+CPE-ID: cpe:/a:collectd:collectd
+Maintainer: Jo-Philipp Wich <jo@mein.io>, Hannu Nyman <hannu.nyman@iki.fi>
+Architecture: aarch64_cortex-a53
+Installed-Size: 81920
+Filename: collectd-mod-interface_5.12.0-r54_aarch64_cortex-a53.ipk
+Size: 4840
+SHA256sum: 237d1ba11608d9b932f9f8ae0a4005dad6c85a9479a860a8b580713511119943
+Description:  network interfaces input plugin
+
+Package: collectd-mod-ipstatistics
+Version: 5.12.0-r54
+Depends: libc, collectd
+Source: feeds/packages/utils/collectd
+SourceName: collectd
+License: MIT GPL-2.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1756500878
+URL: https://collectd.org/
+CPE-ID: cpe:/a:collectd:collectd
+Maintainer: Jo-Philipp Wich <jo@mein.io>, Hannu Nyman <hannu.nyman@iki.fi>
+Architecture: aarch64_cortex-a53
+Installed-Size: 71680
+Filename: collectd-mod-ipstatistics_5.12.0-r54_aarch64_cortex-a53.ipk
+Size: 2852
+SHA256sum: 421d6cc5eafb08d35674e3a3b84221d7d70bbf202f83a8b62d1c72ffc3bb9400
+Description:  ipstatistics input plugin
+
+Package: collectd-mod-iwinfo
+Version: 5.12.0-r54
+Depends: libc, collectd, libiwinfo20250326
+Source: feeds/packages/utils/collectd
+SourceName: collectd
+License: MIT GPL-2.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1756500878
+URL: https://collectd.org/
+CPE-ID: cpe:/a:collectd:collectd
+Maintainer: Jo-Philipp Wich <jo@mein.io>, Hannu Nyman <hannu.nyman@iki.fi>
+Architecture: aarch64_cortex-a53
+Installed-Size: 81920
+Filename: collectd-mod-iwinfo_5.12.0-r54_aarch64_cortex-a53.ipk
+Size: 4986
+SHA256sum: 090460710e1f4de21ad5e87740fd51caa5ba00048327850e59f15b0e47c509c3
+Description:  libiwinfo wireless statistics plugin
+
+Package: collectd-mod-load
+Version: 5.12.0-r54
+Depends: libc, collectd
+Source: feeds/packages/utils/collectd
+SourceName: collectd
+License: MIT GPL-2.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1756500878
+URL: https://collectd.org/
+CPE-ID: cpe:/a:collectd:collectd
+Maintainer: Jo-Philipp Wich <jo@mein.io>, Hannu Nyman <hannu.nyman@iki.fi>
+Architecture: aarch64_cortex-a53
+Installed-Size: 81920
+Filename: collectd-mod-load_5.12.0-r54_aarch64_cortex-a53.ipk
+Size: 3036
+SHA256sum: e26d8f202dc24984cbdc8989e93dbd64766deeca6d673271f2e3eeb9060e8291
+Description:  system load input plugin
+
+Package: collectd-mod-memory
+Version: 5.12.0-r54
+Depends: libc, collectd
+Source: feeds/packages/utils/collectd
+SourceName: collectd
+License: MIT GPL-2.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1756500878
+URL: https://collectd.org/
+CPE-ID: cpe:/a:collectd:collectd
+Maintainer: Jo-Philipp Wich <jo@mein.io>, Hannu Nyman <hannu.nyman@iki.fi>
+Architecture: aarch64_cortex-a53
+Installed-Size: 81920
+Filename: collectd-mod-memory_5.12.0-r54_aarch64_cortex-a53.ipk
+Size: 3680
+SHA256sum: ee1a0af1ac3669b9d0f414eefd267410105d8f5ef7d811d25441839564744102
+Description:  physical memory usage input plugin
+
+Package: collectd-mod-network
+Version: 5.12.0-r54
+Depends: libc, collectd
+Source: feeds/packages/utils/collectd
+SourceName: collectd
+License: MIT GPL-2.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1756500878
+URL: https://collectd.org/
+CPE-ID: cpe:/a:collectd:collectd
+Maintainer: Jo-Philipp Wich <jo@mein.io>, Hannu Nyman <hannu.nyman@iki.fi>
+Architecture: aarch64_cortex-a53
+Installed-Size: 81920
+Filename: collectd-mod-network_5.12.0-r54_aarch64_cortex-a53.ipk
+Size: 16217
+SHA256sum: ed0228ced946a1fe57a6ad8345669b755019b9f699cbeb11982ddc0587b98e4c
+Description:  network input/output plugin
+
+Package: collectd-mod-ping
+Version: 5.12.0-r54
+Depends: libc, collectd, liboping
+Source: feeds/packages/utils/collectd
+SourceName: collectd
+License: MIT GPL-2.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1756500878
+URL: https://collectd.org/
+CPE-ID: cpe:/a:collectd:collectd
+Maintainer: Jo-Philipp Wich <jo@mein.io>, Hannu Nyman <hannu.nyman@iki.fi>
+Architecture: aarch64_cortex-a53
+Installed-Size: 81920
+Filename: collectd-mod-ping_5.12.0-r54_aarch64_cortex-a53.ipk
+Size: 6521
+SHA256sum: 2820470fbe675b95f1cd00cdec956af5f137d3479d86661c0c85af9577a75989
+Description:  ping status input plugin
+
+Package: collectd-mod-rrdtool
+Version: 5.12.0-r54
+Depends: libc, collectd, librrd1
+Source: feeds/packages/utils/collectd
+SourceName: collectd
+License: MIT GPL-2.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1756500878
+URL: https://collectd.org/
+CPE-ID: cpe:/a:collectd:collectd
+Maintainer: Jo-Philipp Wich <jo@mein.io>, Hannu Nyman <hannu.nyman@iki.fi>
+Architecture: aarch64_cortex-a53
+Installed-Size: 81920
+Filename: collectd-mod-rrdtool_5.12.0-r54_aarch64_cortex-a53.ipk
+Size: 12363
+SHA256sum: 5f3b3292914954b2db3c93180b8362b9168aa1f76399880fc175f8e3aecb973a
+Description:  RRDtool output plugin
+
+Package: collectd
+Version: 5.12.0-r54
+Depends: libc, libpthread, zlib, libltdl7, jshn
+Source: feeds/packages/utils/collectd
+SourceName: collectd
+License: MIT GPL-2.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1756500878
+URL: https://collectd.org/
+CPE-ID: cpe:/a:collectd:collectd
+Maintainer: Jo-Philipp Wich <jo@mein.io>, Hannu Nyman <hannu.nyman@iki.fi>
+Architecture: aarch64_cortex-a53
+Installed-Size: 317440
+Filename: collectd_5.12.0-r54_aarch64_cortex-a53.ipk
+Size: 95779
+SHA256sum: 73e94713a793ae9471c772c54fddd6561828fbd8e8e90e8d6afc5ebf33df88af
+Description:  collectd is a small daemon which collects system information periodically
+ and provides mechanismns to store the values in a variety of ways.
+
+Package: curl
+Version: 8.12.1-r1
+Depends: libc, libcurl4
+Source: feeds/packages/net/curl
+SourceName: curl
+License: MIT
+LicenseFiles: COPYING
+Section: net
+SourceDateEpoch: 1756500878
+URL: https://curl.se/
+CPE-ID: cpe:/a:haxx:libcurl
+Maintainer: Aleksey Vasilenko <aleksey.vasilenko@gmail.com>
+Architecture: aarch64_cortex-a53
+Installed-Size: 204800
+Filename: curl_8.12.1-r1_aarch64_cortex-a53.ipk
+Size: 70269
+SHA256sum: d9dc74de2cedb7055b5c2f1de0dc7d5d3dc17ce65e4a9d9efccca4e3efd81b30
+Description:  A client-side URL transfer utility
+
+Package: dbus
+Version: 1.14.10-r1
+Depends: libc, libexpat, libdbus
+Source: feeds/packages/utils/dbus
+SourceName: dbus
+License: AFL-2.1
+Section: utils
+SourceDateEpoch: 1756500878
+URL: https://dbus.freedesktop.org/
+CPE-ID: cpe:/a:freedesktop:dbus
+Maintainer: Robert Marko <robimarko@gmail.com>
+Architecture: aarch64_cortex-a53
+Installed-Size: 552960
+Filename: dbus_1.14.10-r1_aarch64_cortex-a53.ipk
+Size: 121357
+SHA256sum: 4917170feb0ee91bc7f1e707a08666eaa1156b23221ee9f350036a7f06f530a9
+Description:  Simple interprocess messaging system (daemon)
+
+Package: dump1090
+Version: 9.0-r3
+Depends: libc, librtlsdr, uhttpd, libncurses6
+Source: feeds/packages/utils/dump1090
+SourceName: dump1090
+License: GPL-2.0-or-later
+LicenseFiles: COPYING LICENSE
+Section: utils
+SourceDateEpoch: 1756500878
+URL: https://github.com/flightaware/dump1090
+Maintainer: Álvaro Fernández Rojas <noltari@gmail.com>
+Architecture: aarch64_cortex-a53
+Installed-Size: 10711040
+Filename: dump1090_9.0-r3_aarch64_cortex-a53.ipk
+Size: 2500571
+SHA256sum: 4bd43915670af75be6688b72a7f1681269f45a3aaddd105056b2200d7c778cbd
+Description:  Dump1090 is a Mode S decoder specifically designed for RTLSDR devices.
+
+Package: evtest
+Version: 1.35-r1
+Depends: libc
+Source: feeds/packages/utils/evtest
+SourceName: evtest
+License: GPL-2.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1756500878
+URL: https://gitlab.freedesktop.org/libevdev/evtest
+Maintainer: Pushpal Sidhu <psidhu.devel@gmail.com>
+Architecture: aarch64_cortex-a53
+Installed-Size: 71680
+Filename: evtest_1.35-r1_aarch64_cortex-a53.ipk
+Size: 11271
+SHA256sum: 7b0a2f289f2381895ff444051c1095be76962be4aa08fdbc0bd063393ca562c2
+Description:  Utility to test event driven devices such as keyboards and mice
+
+Package: file
+Version: 5.45-r1
+Depends: libc, libmagic
+Source: feeds/packages/libs/file
+SourceName: file
+License: BSD-2-Clause
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1756500878
+URL: https://darwinsys.com/file/
+CPE-ID: cpe:/a:file_project:file
+Maintainer: Marko Ratkaj <markoratkaj@gmail.com>
+Architecture: aarch64_cortex-a53
+Installed-Size: 71680
+Filename: file_5.45-r1_aarch64_cortex-a53.ipk
+Size: 8690
+SHA256sum: 52a7b3d56ed9978bf3845324a2a601ce01f6ed58dff2b51743dbe56836b4c22e
+Description:  File type determination utility
+
+Package: fping
+Version: 5.3-r1
+Depends: libc
+Source: feeds/packages/net/fping
+SourceName: fping
+License: BSD-4-Clause
+LicenseFiles: COPYING
+Section: net
+SourceDateEpoch: 1756500878
+URL: https://fping.org/
+Maintainer: Nikil Mehta <nikil.mehta@gmail.com>
+Architecture: aarch64_cortex-a53
+Installed-Size: 71680
+Filename: fping_5.3-r1_aarch64_cortex-a53.ipk
+Size: 19842
+SHA256sum: bab5cc2d8a65431a1007308e8287250db70164ea7a7276aebf764019f29be2cb
+Description:  fping is a ping like program which uses the Internet Control Message Protocol
+ (ICMP) echo request to determine if a target host is responding.  fping
+ differs from ping in that you can specify any number of targets on the command
+ line, or specify a file containing the lists of targets to ping.  Instead of
+ sending to one target until it times out or replies, fping will send out a
+ ping packet and move on to the next target in a round-robin fashion.
+
+Package: glib2
+Version: 2.82.0-r1
+Depends: libc, zlib, libpthread, libffi, libattr, libpcre2
+Source: feeds/packages/libs/glib2
+SourceName: glib2
+License: LGPL-2.1-or-later
+LicenseFiles: COPYING
+Section: libs
+SourceDateEpoch: 1756500878
+URL: http://www.gtk.org/
+CPE-ID: cpe:/a:gnome:glib
+Maintainer: Peter Wagner <tripolar@gmx.at>
+Architecture: aarch64_cortex-a53
+Installed-Size: 3952640
+Filename: glib2_2.82.0-r1_aarch64_cortex-a53.ipk
+Size: 1286892
+SHA256sum: e828d807c57ea62e1fb9a30e49a883d805d19b2bc0d55ff04b411bad505e322f
+Description:  The GLib library of C routines
+
+Package: gpioctl-sysfs
+Version: 0.0.7-r1
+Depends: libc, libugpio
+Source: feeds/packages/libs/libugpio
+SourceName: libugpio
+License: LGPL-2.1-or-later
+LicenseFiles: COPYING.LESSER
+Section: utils
+SourceDateEpoch: 1756500878
+Maintainer: Michael Heimpold <mhei@heimpold.de>
+Architecture: aarch64_cortex-a53
+Installed-Size: 71680
+Filename: gpioctl-sysfs_0.0.7-r1_aarch64_cortex-a53.ipk
+Size: 2727
+SHA256sum: 31adedb2cf086ecd258401d48c95e8a0af7af141336c3f3c689554b715e24fc1
+Description:  Tool for controlling gpio pins using the sysfs api provided by the kernel.
+
+Package: gpiod-tools
+Version: 2.1.3-r1
+Depends: libc, libgpiod
+Source: feeds/packages/libs/libgpiod
+SourceName: libgpiod
+License: LGPL-2.1-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1756500878
+Maintainer: Michael Heimpold <mhei@heimpold.de>
+Architecture: aarch64_cortex-a53
+Installed-Size: 399360
+Filename: gpiod-tools_2.1.3-r1_aarch64_cortex-a53.ipk
+Size: 57115
+SHA256sum: bfb9ea7ab32217f9fd206fcae1006ce5bda22ec5eb63b5b97c4ccdf82ac3282d
+Description:  Tools for interacting with the linux GPIO character device
+ (gpiod stands for GPIO device).
+
+Package: hidapi
+Version: 0.14.0-r1
+Depends: libc, libusb-1.0-0, libudev
+Source: feeds/packages/libs/hidapi
+SourceName: hidapi
+License: BSD-3-Clause
+LicenseFiles: LICENSE-bsd.txt
+Section: libs
+SourceDateEpoch: 1756500878
+URL: https://github.com/libusb/hidapi
+Maintainer: Paul Fertser <fercerpav@gmail.com>
+Architecture: aarch64_cortex-a53
+Installed-Size: 143360
+Filename: hidapi_0.14.0-r1_aarch64_cortex-a53.ipk
+Size: 20024
+SHA256sum: 5919b00877238434a9ba96a69af484df8cb5b90fe4c698b3c4d24ab1da154fd9
+Description:  HIDAPI is a multi-platform library which allows an application to interface
+ with USB and Bluetooth HID-Class devices on Windows, Linux, FreeBSD, and Mac
+ OS X.  HIDAPI can be either built as a shared library (.so or .dll) or
+ can be embedded directly into a target application by adding a single source
+ file (per platform) and a single header.
+
+Package: i2c-tools
+Version: 4.3-r3
+Depends: libc, libi2c
+Source: feeds/packages/utils/i2c-tools
+SourceName: i2c-tools
+License: GPL-2.0-or-later LGPL-2.1-or-later
+LicenseFiles: COPYING COPYING.LGPL
+Section: utils
+SourceDateEpoch: 1756500878
+URL: https://i2c.wiki.kernel.org/index.php/I2C_Tools
+CPE-ID: cpe:/a:i2c-tools_project:i2c-tools
+Maintainer: Daniel Golle <daniel@makrotopia.org>
+Architecture: aarch64_cortex-a53
+Installed-Size: 337920
+Filename: i2c-tools_4.3-r3_aarch64_cortex-a53.ipk
+Size: 34022
+SHA256sum: 39dd7025b702767c160a5f04e07ed587318108d6055e7c18bcf2fe6b69b676ee
+Description:  This package contains an heterogeneous set of I2C tools for Linux. These tools
+ were originally part of the lm-sensors package.
+
+Package: iftop
+Version: 2018.10.03~77901c8c-r2
+Depends: libc, libpcap1, libncurses6, libpthread
+Source: feeds/packages/net/iftop
+SourceName: iftop
+License: GPL-2.0
+Section: net
+SourceDateEpoch: 1756500878
+URL: http://www.ex-parrot.com/~pdw/iftop/
+Maintainer: Paul Spooren <mail@aparcar.org>
+Architecture: aarch64_cortex-a53
+Installed-Size: 71680
+Filename: iftop_2018.10.03~77901c8c-r2_aarch64_cortex-a53.ipk
+Size: 25635
+SHA256sum: 560100d4af86c05027ce68f8a258cd2b5673c0039ace77d5efef7284a95efb2a
+Description:  iftop does for network usage what top(1) does for CPU usage. It
+ listens to network traffic on a named interface and displays a
+ table of current bandwidth usage by pairs of hosts. Handy for
+ answering the question 'why is our ADSL link so slow?'.
+
+Package: iio-utils
+Version: 0.25-r1
+Depends: libc, libiio
+Source: feeds/packages/libs/libiio
+SourceName: libiio
+License: LGPL-2.1
+LicenseFiles: COPYING.txt
+Section: utils
+SourceDateEpoch: 1756500878
+URL: https://github.com/analogdevicesinc/libiio
+Maintainer: Michael Heimpold <mhei@heimpold.de>
+Architecture: aarch64_cortex-a53
+Installed-Size: 471040
+Filename: iio-utils_0.25-r1_aarch64_cortex-a53.ipk
+Size: 61585
+SHA256sum: 5ad1c08bfbc7fe271eff9bd1b6ef0e887aef5c31b4f02d3ecce4a564f4b60d07
+Description:  Command line tools for IIO devices.
+
+Package: iiod
+Version: 0.25-r1
+Depends: libc, libiio
+Source: feeds/packages/libs/libiio
+SourceName: libiio
+License: LGPL-2.1
+LicenseFiles: COPYING.txt
+Section: net
+SourceDateEpoch: 1756500878
+URL: https://github.com/analogdevicesinc/libiio
+Maintainer: Michael Heimpold <mhei@heimpold.de>
+Architecture: aarch64_cortex-a53
+Installed-Size: 71680
+Filename: iiod_0.25-r1_aarch64_cortex-a53.ipk
+Size: 26250
+SHA256sum: 469d1c5b8eb9c5574967e25c5149854c33fe99e9c6eb746141ed71fb9e330dd5
+Description:  Daemon to access IIO devices via network.
+
+Package: iperf
+Version: 2.1.9-r1
+Depends: libc, libstdcpp6, libpthread
+Source: feeds/packages/net/iperf
+SourceName: iperf
+License: BSD-3-Clause
+Section: net
+SourceDateEpoch: 1756500878
+URL: http://sourceforge.net/projects/iperf2/
+CPE-ID: cpe:/a:iperf_project:iperf
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: aarch64_cortex-a53
+Installed-Size: 337920
+Filename: iperf_2.1.9-r1_aarch64_cortex-a53.ipk
+Size: 117439
+SHA256sum: 0ef9cb9d40de7f2e47f9dc90f51b9fb5e320f41f84282c4947bff2dce06642e7
+Description:  Iperf is a modern alternative for measuring TCP and UDP bandwidth
+ performance, allowing the tuning of various parameters and
+ characteristics.
+
+Package: iptraf-ng
+Version: 1.2.1-r1
+Depends: libc, libncurses6
+Source: feeds/packages/net/iptraf-ng
+SourceName: iptraf-ng
+License: GPL-2.0
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1756500878
+URL: https://github.com/iptraf-ng/iptraf-ng
+Architecture: aarch64_cortex-a53
+Installed-Size: 204800
+Filename: iptraf-ng_1.2.1-r1_aarch64_cortex-a53.ipk
+Size: 73845
+SHA256sum: d79bef63adef3ab5c3b5d119344b31e815e85c3f082bf4901152804943572204
+Description:  iptraf-ng is a console-based network statistics utility for Linux. It gathers a
+ variety of figures such as TCP connection packet and byte counts, interface
+ statistics and activity indicators, TCP/UDP traffic breakdowns, and LAN
+ station packet and byte counts.
+
+Package: libacl
+Version: 2.3.2-r2
+Depends: libc, libattr
+Source: feeds/packages/utils/acl
+SourceName: acl
+License: LGPL-2.1 GPL-2.0
+LicenseFiles: doc/COPYING doc/COPYING.LGPL
+Section: libs
+SourceDateEpoch: 1756500878
+URL: https://savannah.nongnu.org/projects/acl
+CPE-ID: cpe:/a:acl_project:acl
+Maintainer: Maxim Storchak <m.storchak@gmail.com>
+Architecture: aarch64_cortex-a53
+Installed-Size: 71680
+Filename: libacl_2.3.2-r2_aarch64_cortex-a53.ipk
+Size: 13529
+SHA256sum: 2f35adeda073ef73dfd07c9fd8180fab5adbc887b1674bfbb3cfb2db8ad06f33
+Description:  Access control list support
+ This package provides libacl
+
+Package: libattr
+Version: 2.5.2-r3
+Depends: libc
+Source: feeds/packages/utils/attr
+SourceName: attr
+License: LGPL-2.1-or-later
+LicenseFiles: doc/COPYING.LGPL
+Section: libs
+SourceDateEpoch: 1756500878
+URL: http://savannah.nongnu.org/projects/attr
+CPE-ID: cpe:/a:attr_project:attr
+Maintainer: Maxim Storchak <m.storchak@gmail.com>
+Architecture: aarch64_cortex-a53
+Installed-Size: 81920
+Filename: libattr_2.5.2-r3_aarch64_cortex-a53.ipk
+Size: 7658
+SHA256sum: 113a6e0aea3a2efd7c2db12a58c988f48cc039408d0ba7dfb950956e5bdc3e2e
+Description:  Extended attributes support
+ This package provides libattr
+
+Package: libconfig11
+Version: 1.7.3-r1
+Depends: libc
+Provides: libconfig
+Source: feeds/packages/libs/libconfig
+SourceName: libconfig
+License: LGPL-2.1-or-later
+LicenseFiles: COPYING.LIB
+Section: libs
+SourceDateEpoch: 1756500878
+URL: https://hyperrealm.github.io/libconfig/
+ABIVersion: 11
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: aarch64_cortex-a53
+Installed-Size: 71680
+Filename: libconfig11_1.7.3-r1_aarch64_cortex-a53.ipk
+Size: 19726
+SHA256sum: 6e7f98bf2659841c500ecb6af9097973c64d1f586796907f6f353373e53ab19f
+Description:  Libconfig is a simple library for manipulating structured configuration
+ files. This file format is more compact and more readable than XML. And
+ unlike XML, it is type-aware, so it is not necessary to do string
+ parsing in application code.
+ 
+ Libconfig is very compact -- just 38K for the stripped C shared
+ library (less than one-fourth the size of the expat XML parser library)
+ and 66K for the stripped C++ shared library. This makes it well-suited
+ for memory-constrained systems like handheld devices.
+
+Package: libcurl4
+Version: 8.12.1-r1
+Depends: libc, libopenssl3, libnghttp2-14, ca-bundle
+Provides: libcurl
+Source: feeds/packages/net/curl
+SourceName: curl
+License: MIT
+LicenseFiles: COPYING
+Section: libs
+SourceDateEpoch: 1756500878
+URL: https://curl.se/
+ABIVersion: 4
+CPE-ID: cpe:/a:haxx:libcurl
+Maintainer: Aleksey Vasilenko <aleksey.vasilenko@gmail.com>
+Architecture: aarch64_cortex-a53
+Installed-Size: 604160
+Filename: libcurl4_8.12.1-r1_aarch64_cortex-a53.ipk
+Size: 254492
+SHA256sum: ab64f39df3a3267ca296e3870d6bbcb90b86a4d96c767c31df091bc1f6a78735
+Description:  A client-side URL transfer library
+
+Package: libdaemon
+Version: 0.14-r5
+Depends: libc
+Source: feeds/packages/libs/libdaemon
+SourceName: libdaemon
+Section: libs
+SourceDateEpoch: 1756500878
+URL: http://0pointer.de/lennart/projects/libdaemon/
+CPE-ID: cpe:/a:libdaemon_project:libdaemon
+Maintainer: Ted Hess <thess@kitschensync.net>
+Architecture: aarch64_cortex-a53
+Installed-Size: 71680
+Filename: libdaemon_0.14-r5_aarch64_cortex-a53.ipk
+Size: 10594
+SHA256sum: 4163b2b324713a479bfac8c46a105e3adf54231eb26a94397fde324bbc75c1dd
+Description:  libdaemon is a lightweight C library that eases the writing of UNIX daemons.
+ It consists of the following parts:
+ - A wrapper around fork() which does the correct daemonization procedure of a process
+ - A wrapper around syslog() for simpler and compatible log output to Syslog or STDERR
+ - An API for writing PID files
+ - An API for serializing UNIX signals into a pipe for usage with select() or poll()
+ - An API for running subprocesses with STDOUT and STDERR redirected to syslog
+ 
+ APIs like these are used in most daemon software available. It is not that
+ simple to get it done right and code duplication is not a goal.
+
+Package: libdbus
+Version: 1.14.10-r1
+Depends: libc, libpthread
+Source: feeds/packages/utils/dbus
+SourceName: dbus
+License: AFL-2.1
+Section: utils
+SourceDateEpoch: 1756500878
+URL: https://dbus.freedesktop.org/
+CPE-ID: cpe:/a:freedesktop:dbus
+Maintainer: Robert Marko <robimarko@gmail.com>
+Architecture: aarch64_cortex-a53
+Installed-Size: 399360
+Filename: libdbus_1.14.10-r1_aarch64_cortex-a53.ipk
+Size: 132823
+SHA256sum: 07ebad5492ed68d1886a3f425e472ad29867c5b9ed8b7192726f8ac8d5c77651
+Description:  Simple interprocess messaging system (library)
+
+Package: libevdev
+Version: 1.13.1-r1
+Depends: libc
+Source: feeds/packages/libs/libevdev
+SourceName: libevdev
+License: MIT
+LicenseFiles: COPYING
+Section: libs
+SourceDateEpoch: 1756500878
+URL: https://www.freedesktop.org/wiki/Software/libevdev/
+Maintainer: Daniel Golle <daniel@makrotopia.org>
+Architecture: aarch64_cortex-a53
+Installed-Size: 143360
+Filename: libevdev_1.13.1-r1_aarch64_cortex-a53.ipk
+Size: 32889
+SHA256sum: 6351a630942469f80d6e1e5b6dcf94e5236c8a39cf9e6865c98c1970aa2fa377
+Description:  libevdev is a wrapper library for evdev devices. it moves the common
+ tasks when dealing with evdev devices into a library and provides a
+ library interface to the callers, thus avoiding erroneous ioctls, etc.
+ 
+ The eventual goal is that libevdev wraps all ioctls available to
+ evdev devices, thus making direct access unnecessary.
+
+Package: libexpat
+Version: 2.7.1-r1
+Depends: libc
+Source: feeds/packages/libs/expat
+SourceName: expat
+License: MIT
+LicenseFiles: COPYING
+Section: libs
+SourceDateEpoch: 1756500878
+URL: https://libexpat.github.io/
+CPE-ID: cpe:/a:libexpat_project:libexpat
+Maintainer: Ted Hess <thess@kitschensync.net>
+Architecture: aarch64_cortex-a53
+Installed-Size: 143360
+Filename: libexpat_2.7.1-r1_aarch64_cortex-a53.ipk
+Size: 51298
+SHA256sum: 77b8be87e4014b7bdba5dc4deb5207de837b4efedafdc9e5e298902adbe4f50c
+Description:  A fast, non-validating, stream-oriented XML parsing library.
+
+Package: libffi
+Version: 3.4.7-r1
+Depends: libc
+Source: feeds/packages/libs/libffi
+SourceName: libffi
+License: MIT
+LicenseFiles: LICENSE
+Section: libs
+SourceDateEpoch: 1756500878
+URL: https://sourceware.org/libffi/
+CPE-ID: cpe:/a:libffi_project:libffi
+Maintainer: Peter Wagner <tripolar@gmx.at>
+Architecture: aarch64_cortex-a53
+Installed-Size: 143360
+Filename: libffi_3.4.7-r1_aarch64_cortex-a53.ipk
+Size: 17636
+SHA256sum: 86ad4c07990841ede47a040a88534f01dc666245e5a828580a4ca8ef610b53d2
+Description:  The libffi library provides a portable, high level programming interface to
+ various calling conventions. This allows a programmer to call any function
+ specified by a call interface description at run-time.
+ 
+ FFI stands for Foreign Function Interface. A foreign function interface is the
+ popular name for the interface that allows code written in one language to call
+ code written in another language. The libffi library really only provides the
+ lowest, machine dependent layer of a fully featured foreign function interface.
+ A layer must exist above libffi that handles type conversions for values passed
+ between the two languages.
+
+Package: libgdbm
+Version: 1.23-r1
+Depends: libc
+Source: feeds/packages/libs/gdbm
+SourceName: gdbm
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: libs
+SourceDateEpoch: 1756500878
+URL: https://www.gnu.org/software/gdbm/
+Maintainer: Marcel Denia <naoir@gmx.net>
+Architecture: aarch64_cortex-a53
+Installed-Size: 143360
+Filename: libgdbm_1.23-r1_aarch64_cortex-a53.ipk
+Size: 30326
+SHA256sum: 7935e73073ae43432345b2972cd8601c61cc7e9e1e8fcd61745cffe9bbfb9d91
+Description:  GNU database manager library
+ GNU dbm is a set of database routines that use extendible hashing and
+ works similar to the standard UNIX dbm routines.
+
+Package: libgpiod
+Version: 2.1.3-r1
+Depends: libc
+Source: feeds/packages/libs/libgpiod
+SourceName: libgpiod
+License: LGPL-2.1-or-later
+LicenseFiles: COPYING
+Section: libs
+SourceDateEpoch: 1756500878
+URL: https://git.kernel.org/pub/scm/libs/libgpiod/libgpiod.git
+Maintainer: Michael Heimpold <mhei@heimpold.de>
+Architecture: aarch64_cortex-a53
+Installed-Size: 71680
+Filename: libgpiod_2.1.3-r1_aarch64_cortex-a53.ipk
+Size: 12759
+SHA256sum: 6c25e91bc5f1679de4f1ab694dd3fac4d1fb338faf860dfb9b4edec1b427364a
+Description:  C library for interacting with the linux GPIO character device
+ (gpiod stands for GPIO device).
+
+Package: libi2c
+Version: 4.3-r3
+Depends: libc
+Source: feeds/packages/utils/i2c-tools
+SourceName: i2c-tools
+License: GPL-2.0-or-later LGPL-2.1-or-later
+LicenseFiles: COPYING COPYING.LGPL
+Section: libs
+SourceDateEpoch: 1756500878
+URL: https://i2c.wiki.kernel.org/index.php/I2C_Tools
+CPE-ID: cpe:/a:i2c-tools_project:i2c-tools
+Maintainer: Daniel Golle <daniel@makrotopia.org>
+Architecture: aarch64_cortex-a53
+Installed-Size: 71680
+Filename: libi2c_4.3-r3_aarch64_cortex-a53.ipk
+Size: 3013
+SHA256sum: 4c9f5419066c52a380761329b2b37d5e338d997c7cddb58740ba3c7adbdc4d20
+Description:  This package contains i2c functionality needed by i2c-tools.
+
+Package: libiio
+Version: 0.25-r1
+Depends: libc, zlib, libavahi-client, libxml2
+Source: feeds/packages/libs/libiio
+SourceName: libiio
+License: LGPL-2.1
+LicenseFiles: COPYING.txt
+Section: libs
+SourceDateEpoch: 1756500878
+URL: https://github.com/analogdevicesinc/libiio
+Maintainer: Michael Heimpold <mhei@heimpold.de>
+Architecture: aarch64_cortex-a53
+Installed-Size: 143360
+Filename: libiio_0.25-r1_aarch64_cortex-a53.ipk
+Size: 45384
+SHA256sum: 1d672aa1db4f6b6405c77d62de8e622f8c9f280cb94f2ea719ff87f5f0275467
+Description:  libiio is used to interface to the Linux Industrial Input/Output (IIO) Subsystem.
+ The Linux IIO subsystem is intended to provide support for devices that in some
+ sense are analog to digital or digital to analog converters (ADCs, DACs). This
+ includes, but is not limited to ADCs, Accelerometers, Gyros, IMUs, Capacitance
+ to Digital Converters (CDCs), Pressure Sensors, Color, Light and Proximity Sensors,
+ Temperature Sensors, Magnetometers, DACs, DDS (Direct Digital Synthesis),
+ PLLs (Phase Locked Loops), Variable/Programmable Gain Amplifiers (VGA, PGA),
+ and RF transceivers. You can use libiio natively on an embedded Linux
+ target (local mode), or use libiio to communicate remotely to that same target
+ from a host Linux, Windows or MAC over USB or Ethernet or Serial.
+
+Package: libjpeg-turbo
+Version: 3.0.3-r1
+Depends: libc
+Provides: libjpeg
+Source: feeds/packages/libs/libjpeg-turbo
+SourceName: libjpeg-turbo
+License: BSD-3-Clause IJG zlib
+LicenseFiles: LICENSE.md
+Section: libs
+SourceDateEpoch: 1756500878
+URL: https://www.libjpeg-turbo.org/
+CPE-ID: cpe:/a:libjpeg-turbo:libjpeg-turbo
+Maintainer: Rosen Penev <rosenp@gmail.com>
+Architecture: aarch64_cortex-a53
+Installed-Size: 471040
+Filename: libjpeg-turbo_3.0.3-r1_aarch64_cortex-a53.ipk
+Size: 178872
+SHA256sum: 3c9d9072e0ed37bcad79e853b5f67efcce8f5b2b803e57e7e463bb394e1dc119
+Description:  libjpeg-turbo is a speed focused fork of libjpeg.
+
+Package: libkmod
+Version: 32-r1
+Depends: libc, zlib
+Source: feeds/packages/utils/kmod
+SourceName: kmod
+License: LGPL-2.1-or-later
+LicenseFiles: COPYING
+Section: libs
+SourceDateEpoch: 1756500878
+URL: https://www.kernel.org/pub/linux/utils/kernel/kmod/
+CPE-ID: cpe:/a:kernel:kmod
+Maintainer: Jeff Waugh <jdub@bethesignal.org>
+Architecture: aarch64_cortex-a53
+Installed-Size: 143360
+Filename: libkmod_32-r1_aarch64_cortex-a53.ipk
+Size: 38243
+SHA256sum: bd7bd7b9e71de258de205e382da9c9695e2c5cc78c3402a616710b57419d5376
+Description:  Linux kernel module handling (library)
+
+Package: liblzma
+Version: 5.6.2-r2
+Depends: libc, libpthread
+Source: feeds/packages/utils/xz
+SourceName: xz
+License: Public-Domain LGPL-2.1-or-later 0BSD
+LicenseFiles: COPYING
+Section: libs
+SourceDateEpoch: 1756500878
+URL: https://tukaani.org/xz
+CPE-ID: cpe:/a:tukaani:xz
+Architecture: aarch64_cortex-a53
+Installed-Size: 143360
+Filename: liblzma_5.6.2-r2_aarch64_cortex-a53.ipk
+Size: 65740
+SHA256sum: 49c4cfe5aafdbfb2ddff3c0b146b03fce62426a1e8aaf336f77f261b5dc922f9
+Description:  liblzma library from XZ Utils
+
+Package: libmagic
+Version: 5.45-r1
+Depends: libc, zlib, liblzma, libbz2-1.0
+Source: feeds/packages/libs/file
+SourceName: file
+License: BSD-2-Clause
+LicenseFiles: COPYING
+Section: libs
+SourceDateEpoch: 1756500878
+URL: https://darwinsys.com/file/
+CPE-ID: cpe:/a:file_project:file
+Maintainer: Marko Ratkaj <markoratkaj@gmail.com>
+Architecture: aarch64_cortex-a53
+Installed-Size: 1075200
+Filename: libmagic_5.45-r1_aarch64_cortex-a53.ipk
+Size: 290510
+SHA256sum: 5a891f1e1f7c1a07f0b58bd0fdd7f268bf56bc545ae714f8ecad108c52138f9c
+Description:  File type determination library
+
+Package: libnghttp2-14
+Version: 1.63.0-r1
+Depends: libc
+Provides: libnghttp2
+Source: feeds/packages/libs/nghttp2
+SourceName: nghttp2
+License: MIT
+LicenseFiles: COPYING
+Section: libs
+SourceDateEpoch: 1756500878
+ABIVersion: -14
+CPE-ID: cpe:/a:nghttp2:nghttp2
+Maintainer: Hans Dedecker <dedeckeh@gmail.com>
+Architecture: aarch64_cortex-a53
+Installed-Size: 204800
+Filename: libnghttp2-14_1.63.0-r1_aarch64_cortex-a53.ipk
+Size: 73597
+SHA256sum: 8774cabf273ab82152427f0c888c964de3ef60065379b447754f9ff107f33f8a
+Description:  C library implementing the framing layer of the HTTP/2 protocol. It can be used to build a HTTP/2-capable HTTP client or server
+
+Package: libogg0
+Version: 1.3.5-r1
+Depends: libc
+Provides: libogg
+Source: feeds/packages/libs/libogg
+SourceName: libogg
+License: BSD-3-Clause
+LicenseFiles: COPYING
+Section: libs
+SourceDateEpoch: 1756500878
+URL: https://xiph.org/ogg/
+ABIVersion: 0
+Maintainer: Ted Hess <thess@kitschensync.net>
+Architecture: aarch64_cortex-a53
+Installed-Size: 71680
+Filename: libogg0_1.3.5-r1_aarch64_cortex-a53.ipk
+Size: 18678
+SHA256sum: eced3adc13d716fa99e8fdd50dd2e2c5db2f1fc4708fc8fe1a27d85940f86bb0
+Description:  Ogg project codecs use the Ogg bitstream format to arrange the raw,
+ compressed bitstream into a more robust, useful form.  For example,
+ the Ogg bitstream makes seeking, time stamping and error recovery
+ possible, as well as mixing several sepearate, concurrent media
+ streams into a single physical bitstream.
+
+Package: liboping
+Version: 1.10.0-r3
+Depends: libc
+Source: feeds/packages/libs/liboping
+SourceName: liboping
+License: LGPL-2.1-or-later
+Section: libs
+SourceDateEpoch: 1756500878
+URL: https://noping.cc
+CPE-ID: cpe:/a:noping:liboping
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: aarch64_cortex-a53
+Installed-Size: 71680
+Filename: liboping_1.10.0-r3_aarch64_cortex-a53.ipk
+Size: 8534
+SHA256sum: 13ee2e65bd41ef87464c9214e003be4c1ab682499669b8b1f9c316c6157ffaed
+Description:  C library to generate ICMP echo requests.
+
+Package: libopus
+Version: 1.5.2-r1
+Depends: libc
+Source: feeds/packages/libs/opus
+SourceName: opus
+License: BSD-3-Clause
+LicenseFiles: COPYING
+Section: libs
+SourceDateEpoch: 1756500878
+URL: https://opus-codec.org
+CPE-ID: cpe:/a:opus-codec:opus
+Maintainer: Ted Hess <thess@kitchensync.net>, Ian Leonard <antonlacon@gmail.com>
+Architecture: aarch64_cortex-a53
+Installed-Size: 337920
+Filename: libopus_1.5.2-r1_aarch64_cortex-a53.ipk
+Size: 194996
+SHA256sum: a136bbe085d305b01bdd86534db30e389205ae5ce380a9cf93fbaf9085b2ef28
+Description:  Opus is a totally open, royalty-free, highly versatile audio codec. Opus is
+ unmatched for interactive speech and music transmission over the Internet, but
+ is also intended for storage and streaming applications.
+
+Package: libopusfile
+Version: 0.12-r2
+Depends: libc, libogg0, libopus, libopenssl3
+Source: feeds/packages/libs/opusfile
+SourceName: opusfile
+License: BSD-2-Clause
+LicenseFiles: COPYING
+Section: libs
+SourceDateEpoch: 1756500878
+URL: http://opus-codec.org/
+CPE-ID: cpe:/a:xiph:opusfile
+Maintainer: Eduardo Abinader <eduardoabinader@gmail.com>
+Architecture: aarch64_cortex-a53
+Installed-Size: 143360
+Filename: libopusfile_0.12-r2_aarch64_cortex-a53.ipk
+Size: 36676
+SHA256sum: 8bcb4d5731430d2871961c2abd1468c13d790de070f5e9be4df44fc6129466f3
+Description:  The opusfile library provides seeking, decode, and playback of Opus streams in the Ogg container (.opus files)
+
+Package: libpci
+Version: 3.14.0-r1
+Depends: libc
+Source: feeds/packages/utils/pciutils
+SourceName: pciutils
+License: GPL-2.0
+LicenseFiles: COPYING
+Section: libs
+SourceDateEpoch: 1756500878
+URL: http://mj.ucw.cz/pciutils.shtml
+Maintainer: Lucian Cristian <lucian.cristian@gmail.com>
+Architecture: aarch64_cortex-a53
+Installed-Size: 71680
+Filename: libpci_3.14.0-r1_aarch64_cortex-a53.ipk
+Size: 30104
+SHA256sum: 7e2c51967067c60a119590e4f6b6016019a748a87422d6ce13d175e338e1718a
+Description:  Linux PCI Libraries
+
+Package: libpython3-3.11
+Version: 3.11.10-r1
+Depends: libc, libpthread
+Provides: libpython3
+Source: feeds/packages/lang/python/python3
+SourceName: python3
+License: Python-2.0.1 0BSD
+LicenseFiles: LICENSE Doc/copyright.rst Doc/license.rst Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi_osx/LICENSE Modules/expat/COPYING
+Section: lang
+SourceDateEpoch: 1756500878
+URL: https://www.python.org/
+ABIVersion: -3.11
+CPE-ID: cpe:/a:python:python
+Maintainer: Jeffery To <jeffery.to@gmail.com>
+Architecture: aarch64_cortex-a53
+Installed-Size: 4669440
+Filename: libpython3-3.11_3.11.10-r1_aarch64_cortex-a53.ipk
+Size: 1360431
+SHA256sum: c1926841dc726684df1af3edb81d23262cebb464e086a2f75735778bcfed1ba2
+Description:  Python is an interpreted, interactive, object-oriented programming
+ language. It incorporates modules, exceptions, dynamic typing, very high
+ level dynamic data types, and classes. It supports multiple programming
+ paradigms beyond object-oriented programming, such as procedural and
+ functional programming. Python combines remarkable power with very clear
+ syntax. It has interfaces to many system calls and libraries, as well as
+ to various window systems, and is extensible in C or C++. It is also
+ usable as an extension language for applications that need a
+ programmable interface. Finally, Python is portable: it runs on many
+ Unix variants including Linux and macOS, and on Windows.
+ 
+ This package contains only core Python library.
+
+Package: libqrencode
+Version: 4.1.1-r1
+Depends: libc
+Source: feeds/packages/libs/qrencode
+SourceName: qrencode
+License: LGPL-2.1-or-later
+LicenseFiles: COPYING
+Section: libs
+SourceDateEpoch: 1756500878
+URL: https://fukuchi.org/works/qrencode/
+Maintainer: Jonathan Bennett <JBennett@incomsystems.biz>
+Architecture: aarch64_cortex-a53
+Installed-Size: 71680
+Filename: libqrencode_4.1.1-r1_aarch64_cortex-a53.ipk
+Size: 19614
+SHA256sum: 208fec044df24fae5bb4eb75c62736746ca9c529d1862af3b8b4a30c7eec32c0
+Description:  Libqrencode is a C library for encoding data in a QR Code symbol,
+ a kind of 2D symbology that can be scanned by handy terminals such
+ as a mobile phone with CCD. The capacity of QR Code is up to 7000
+ digits or 4000 characters, and is highly robust.
+
+Package: librrd1
+Version: 1.0.50-r6
+Depends: libc, zlib
+Source: feeds/packages/utils/rrdtool1
+SourceName: rrdtool1
+License: GPL-2.0-or-later
+LicenseFiles: COPYING COPYRIGHT
+Section: libs
+SourceDateEpoch: 1756500878
+URL: http://oss.oetiker.ch/rrdtool/
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: aarch64_cortex-a53
+Installed-Size: 604160
+Filename: librrd1_1.0.50-r6_aarch64_cortex-a53.ipk
+Size: 141968
+SHA256sum: 413beb427bd78ece7cbf350e02abc063570f59ba76af275da121ba7a1296d9ae
+Description:  RRD is the Acronym for Round Robin Database. RRD is a system to store and
+ display time-series data (i.e. network bandwidth, machine-room temperature,
+ server load average). It stores the data in a very compact way that will
+ not expand over time, and it presents useful graphs by processing the data
+ to enforce a certain data density. It can be used either via simple wrapper
+ scripts (from shell or Perl) or via frontends that poll network devices and
+ put friendly user interface on it.
+ 
+ This is version 1.0.x with cgilib-0.4, gd1.3 and libpng-1.0.9 linked into
+ librrd.so. The library is much smaller compared to the 1.2.x version with
+ separate dynamic linked libraries.
+ This package contains a shared library, used by other programs.
+
+Package: librtlsdr
+Version: 2.0.1-r1
+Depends: libc, libusb-1.0-0
+Source: feeds/packages/utils/rtl-sdr
+SourceName: rtl-sdr
+License: GPL-2.0-or-later
+LicenseFiles: COPYING
+Section: libs
+SourceDateEpoch: 1756500878
+URL: http://sdr.osmocom.org/trac/wiki/rtl-sdr
+Maintainer: Vasilis Tsiligiannis <b_tsiligiannis@silverton.gr>
+Architecture: aarch64_cortex-a53
+Installed-Size: 71680
+Filename: librtlsdr_2.0.1-r1_aarch64_cortex-a53.ipk
+Size: 24491
+SHA256sum: 6ebcbab3ea843bdcec9038fae492d09b4be7ecd2d72a78a3b9b6f3e8f7b9e9c3
+Description:  rtl-sdr allows DVB-T dongles based on the Realtek RTL2832U to be used as
+ an inexpensive SDR.
+ 
+ This package contains the librtlsdr shared library.
+
+Package: libsqlite3-0
+Version: 3500400-r1
+Depends: libc, libpthread, zlib
+Provides: libsqlite3
+Source: feeds/packages/libs/sqlite3
+SourceName: sqlite
+License: PUBLICDOMAIN
+Section: libs
+SourceDateEpoch: 1756500878
+URL: https://www.sqlite.org/
+ABIVersion: -0
+CPE-ID: cpe:/a:sqlite:sqlite
+Architecture: aarch64_cortex-a53
+Installed-Size: 1136640
+Filename: libsqlite3-0_3500400-r1_aarch64_cortex-a53.ipk
+Size: 577365
+SHA256sum: 9a2e4dc5b7753135bf0bda24b2a499f68ce0be1dfb02f9e5a8e6848dd60c787c
+Description:  SQLite is a small C library that implements a self-contained, embeddable,
+ zero-configuration SQL database engine.
+ This package contains the SQLite (v3.x) shared library, used by other
+ programs.
+
+Package: libtiff6
+Version: 4.7.0-r1
+Depends: libc, zlib, libjpeg
+Provides: libtiff
+Source: feeds/packages/libs/tiff
+SourceName: tiff
+License: libtiff
+LicenseFiles: COPYRIGHT
+Section: libs
+SourceDateEpoch: 1756500878
+URL: http://simplesystems.org/libtiff/
+ABIVersion: 6
+CPE-ID: cpe:/a:libtiff:libtiff
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: aarch64_cortex-a53
+Installed-Size: 471040
+Filename: libtiff6_4.7.0-r1_aarch64_cortex-a53.ipk
+Size: 152086
+SHA256sum: 4800bf44db01b706b72c3608b0a30c1384b0776461e7910187c45db0dcf15693
+Description:  TIFF library
+
+Package: libudev-zero
+Version: 1.0.3-r1
+Depends: libc, libevdev
+Conflicts: libudev, eudev, udev
+Provides: libudev
+Source: feeds/packages/libs/libudev-zero
+SourceName: libudev-zero
+License: MIT
+LicenseFiles: COPYING
+Section: libs
+SourceDateEpoch: 1756500878
+URL: https://github.com/illiliti/libudev-zero
+Maintainer: Daniel Golle <daniel@makrotopia.org>
+Architecture: aarch64_cortex-a53
+Installed-Size: 71680
+Filename: libudev-zero_1.0.3-r1_aarch64_cortex-a53.ipk
+Size: 11098
+SHA256sum: 9a40d055f4c434e08894c54de0523430e97c31f42d31fb8e19d47e540c8f728e
+Description:  Drop-in replacement for libudev
+
+Package: libugpio
+Version: 0.0.7-r1
+Depends: libc
+Source: feeds/packages/libs/libugpio
+SourceName: libugpio
+License: LGPL-2.1-or-later
+LicenseFiles: COPYING.LESSER
+Section: libs
+SourceDateEpoch: 1756500878
+URL: https://github.com/mhei/libugpio
+Maintainer: Michael Heimpold <mhei@heimpold.de>
+Architecture: aarch64_cortex-a53
+Installed-Size: 71680
+Filename: libugpio_0.0.7-r1_aarch64_cortex-a53.ipk
+Size: 6133
+SHA256sum: 4ab37a97544388a39c4afaf1d8161899b2b75449b2a3b1ef11bc3abb2da446f1
+Description:  libugpio is a library to ease the use of linux kernel's sysfs
+ gpio interface from C programs and/or other libraries.
+
+Package: libuv1
+Version: 1.48.0-r1
+Depends: libc, libpthread, librt
+Provides: libuv
+Source: feeds/packages/libs/libuv
+SourceName: libuv
+License: MIT
+LicenseFiles: LICENSE
+Section: libs
+SourceDateEpoch: 1756500878
+URL: https://libuv.org/
+ABIVersion: 1
+CPE-ID: cpe:/a:libuv:libuv
+Maintainer: Marko Ratkaj <markoratkaj@gmail.com>
+Architecture: aarch64_cortex-a53
+Installed-Size: 204800
+Filename: libuv1_1.48.0-r1_aarch64_cortex-a53.ipk
+Size: 76006
+SHA256sum: abe02cc82ed3d313594a6de7ece26e228fb9f28d744ce699304f38e2082d3731
+Description:  libuv is a multi-platform support library with a focus on asynchronous I/O. It
+ was primarily developed for use by Node.js, but it's also used by Luvit, Julia,
+ pyuv, and others.
+
+Package: libwebsockets-full
+Version: 4.3.3-r1
+Depends: libc, zlib, libcap, libubox20240329, libopenssl3, libuv1
+Provides: libwebsockets, libwebsockets-openssl
+Source: feeds/packages/libs/libwebsockets
+SourceName: libwebsockets
+License: MIT
+LicenseFiles: LICENSE
+Section: libs
+SourceDateEpoch: 1756500878
+URL: https://libwebsockets.org
+Maintainer: Karl Palsson <karlp@etactica.com>
+Architecture: aarch64_cortex-a53
+Installed-Size: 604160
+Filename: libwebsockets-full_4.3.3-r1_aarch64_cortex-a53.ipk
+Size: 202062
+SHA256sum: b620bcf96a6604f55b166293f78eceea8f1415321b20b0f5615684ac46c93bdf
+Description:  libwebsockets (Full - OpenSSL, libuv, plugins, CGI)
+
+Package: nano-full
+Version: 8.6-r1
+Depends: libc, libncurses6
+Source: feeds/packages/utils/nano
+SourceName: nano
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1756500878
+URL: https://www.nano-editor.org/
+CPE-ID: cpe:/a:gnu:nano
+Maintainer: Hannu Nyman <hannu.nyman@iki.fi>
+Architecture: aarch64_cortex-a53
+Installed-Size: 430080
+Filename: nano-full_8.6-r1_aarch64_cortex-a53.ipk
+Size: 182351
+SHA256sum: 9d35e6bfb2cb36be9caa28a01b2968a067d1524457584c8a147704d7c3957cbf
+Description:  nano-full - all features, including syntax highlighting (also uci),
+ multibuffer, Unicode/UTF-8, nanorc, some key bindings.
+ (libmagic-based file type detection is disabled)
+ 
+ Example /etc/nanorc is included. nanorc documentation at
+ https://www.nano-editor.org/dist/latest/nanorc.5.html
+ 
+ Nano is a small and simple text editor for use on the terminal.
+ 
+ Nano started as an enhanced clone of the Pico text editor.
+ Nowadays Nano wants to be a generally useful editor with sensible
+ defaults (linewise scrolling, no automatic line breaking).
+ 
+ Nano is an official GNU package.
+
+Package: netcat
+Version: 0.7.1-r2
+Depends: libc
+Source: feeds/packages/net/netcat
+SourceName: netcat
+License: GPL-2.0
+Section: net
+SourceDateEpoch: 1756500878
+URL: http://netcat.sourceforge.net/
+CPE-ID: cpe:/a:netcat:netcat
+Maintainer: Adam Gensler <openwrt@a.gnslr.us>
+Architecture: aarch64_cortex-a53
+Installed-Size: 71680
+Filename: netcat_0.7.1-r2_aarch64_cortex-a53.ipk
+Size: 17013
+SHA256sum: f5a4123cd422a2bed93e5b80168aa65641f8c0f96f4d3d295642ec8103265a8c
+Description:  Netcat is a featured networking utility which reads and writes data across network connections, using the TCP/IP protocol.
+ It is designed to be a reliable "back-end" tool that can be used directly or easily driven by other programs and scripts. At the same time, it is a feature-rich network debugging and exploration tool, since it can create almost any kind of connection you would need and has several interesting built-in capabilities.
+
+Package: openssh-sftp-server
+Version: 9.9_p2-r1
+Depends: libc
+Source: feeds/packages/net/openssh
+SourceName: openssh
+License: BSD ISC
+LicenseFiles: LICENCE
+Section: net
+SourceDateEpoch: 1756500878
+URL: https://www.openssh.com/
+CPE-ID: cpe:/a:openbsd:openssh
+Maintainer: Peter Wagner <tripolar@gmx.at>
+Architecture: aarch64_cortex-a53
+Installed-Size: 204800
+Filename: openssh-sftp-server_9.9_p2-r1_aarch64_cortex-a53.ipk
+Size: 62118
+SHA256sum: 2e48c8bcd35175f979fc2c6c3e6b2671869436d40ecd7ffd6bb6e5221045ecac
+Description:  OpenSSH SFTP server.
+
+Package: pciids
+Version: 0.387-r1
+Depends: libc
+Source: feeds/packages/utils/hwdata
+SourceName: hwdata
+License: GPL-2.0-or-later  XFree86-1.0
+LicenseFiles: LICENSE
+Section: utils
+SourceDateEpoch: 1756500878
+URL: https://github.com/vcrhonek/hwdata
+Architecture: aarch64_cortex-a53
+Installed-Size: 1464320
+Filename: pciids_0.387-r1_aarch64_cortex-a53.ipk
+Size: 338471
+SHA256sum: 1f0dcca35045ebd9ca32438b3d28dd5e43ec9b26ccda7caea721284e08e99e11
+Description:  PCI ID list
+
+Package: pciutils
+Version: 3.14.0-r1
+Depends: libc, libkmod, libpci, pciids
+Source: feeds/packages/utils/pciutils
+SourceName: pciutils
+License: GPL-2.0
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1756500878
+URL: http://mj.ucw.cz/pciutils.shtml
+Maintainer: Lucian Cristian <lucian.cristian@gmail.com>
+Architecture: aarch64_cortex-a53
+Installed-Size: 204800
+Filename: pciutils_3.14.0-r1_aarch64_cortex-a53.ipk
+Size: 52297
+SHA256sum: 5a842d3a09fd90cdf10f509579deec50db9f7d86518eab34e9b63d205662d3cf
+Description:  contains collection of programs for inspecting and manipulating configuration
+ of PCI devices
+
+Package: picocom
+Version: 3.1-r5
+Depends: libc
+Source: feeds/packages/utils/picocom
+SourceName: picocom
+License: LICENSE.txt
+Section: utils
+SourceDateEpoch: 1756500878
+URL: https://github.com/npat-efault/picocom
+CPE-ID: cpe:/a:picocom_project:picocom
+Architecture: aarch64_cortex-a53
+Installed-Size: 71680
+Filename: picocom_3.1-r5_aarch64_cortex-a53.ipk
+Size: 23339
+SHA256sum: 37a06eb43103637da30a9f078e73f96a077c0008713907549322873f5bcff6dc
+Description:  minimal dumb-terminal emulation program
+
+Package: portaudio
+Version: 190600_20161030-r2
+Depends: libc, alsa-lib, libpthread, librt
+Source: feeds/packages/sound/portaudio
+SourceName: portaudio
+License: MIT
+LicenseFiles: LICENSE.txt
+Section: sound
+SourceDateEpoch: 1756500878
+URL: http://www.portaudio.com/
+Architecture: aarch64_cortex-a53
+Installed-Size: 143360
+Filename: portaudio_190600_20161030-r2_aarch64_cortex-a53.ipk
+Size: 44112
+SHA256sum: ba8baeab8b14454d1fda08aeadb36ec212c63e449ea9f48dd475196c57660555
+Description:  PortAudio is a free, cross-platform, open-source, audio I/O library.  It lets
+ you write simple audio programs in 'C' or C++ that will compile and run on many
+ platforms including Windows, Macintosh OS X, and Unix (OSS/ALSA). It is
+ intended to promote the exchange of audio software between developers on
+ different platforms. Many applications use PortAudio for Audio I/O.
+
+Package: pv
+Version: 1.6.6-r1
+Depends: libc
+Source: feeds/packages/utils/pv
+SourceName: pv
+License: Artistic-2.0
+LicenseFiles: doc/COPYING
+Section: utils
+SourceDateEpoch: 1756500878
+URL: https://www.ivarch.com/programs/pv.shtml
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: aarch64_cortex-a53
+Installed-Size: 71680
+Filename: pv_1.6.6-r1_aarch64_cortex-a53.ipk
+Size: 24074
+SHA256sum: 9fcc41973192f4cba06a9785d1649e7f9b0bd1e5fa4be77e9c20aae685d1592a
+Description:  Pipe Viewer is a terminal-based tool for monitoring the progress of data
+ through a pipeline. It can be inserted into any normal pipeline between
+ two processes to give a visual indication of how quickly data is passing
+ through, how long it has taken, how near to completion it is, and an
+ estimate of how long it will be until completion.
+
+Package: python3-asyncio
+Version: 3.11.10-r1
+Depends: libc, python3-light
+Source: feeds/packages/lang/python/python3
+SourceName: python3
+License: Python-2.0.1 0BSD
+LicenseFiles: LICENSE Doc/copyright.rst Doc/license.rst Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi_osx/LICENSE Modules/expat/COPYING
+Section: lang
+SourceDateEpoch: 1756500878
+URL: https://www.python.org/
+CPE-ID: cpe:/a:python:python
+Maintainer: Jeffery To <jeffery.to@gmail.com>
+Architecture: aarch64_cortex-a53
+Installed-Size: 706560
+Filename: python3-asyncio_3.11.10-r1_aarch64_cortex-a53.ipk
+Size: 248868
+SHA256sum: 7dcb04597a00d24500e368e1f80a407b23a4d48d0d0f049cb4618f606b381a18
+Description:  Python is an interpreted, interactive, object-oriented programming
+ language. It incorporates modules, exceptions, dynamic typing, very high
+ level dynamic data types, and classes. It supports multiple programming
+ paradigms beyond object-oriented programming, such as procedural and
+ functional programming. Python combines remarkable power with very clear
+ syntax. It has interfaces to many system calls and libraries, as well as
+ to various window systems, and is extensible in C or C++. It is also
+ usable as an extension language for applications that need a
+ programmable interface. Finally, Python is portable: it runs on many
+ Unix variants including Linux and macOS, and on Windows.
+ 
+ This package contains the asyncio module.
+
+Package: python3-base
+Version: 3.11.10-r1
+Depends: libc, libpython3-3.11
+Source: feeds/packages/lang/python/python3
+SourceName: python3
+License: Python-2.0.1 0BSD
+LicenseFiles: LICENSE Doc/copyright.rst Doc/license.rst Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi_osx/LICENSE Modules/expat/COPYING
+Section: lang
+SourceDateEpoch: 1756500878
+URL: https://www.python.org/
+CPE-ID: cpe:/a:python:python
+Maintainer: Jeffery To <jeffery.to@gmail.com>
+Architecture: aarch64_cortex-a53
+Installed-Size: 1126400
+Filename: python3-base_3.11.10-r1_aarch64_cortex-a53.ipk
+Size: 222424
+SHA256sum: c4dbc6d9e1aa2dfff4efc5d2f74ebf5cec5dc778b4c66664aab06920612547b2
+Description:  Python is an interpreted, interactive, object-oriented programming
+ language. It incorporates modules, exceptions, dynamic typing, very high
+ level dynamic data types, and classes. It supports multiple programming
+ paradigms beyond object-oriented programming, such as procedural and
+ functional programming. Python combines remarkable power with very clear
+ syntax. It has interfaces to many system calls and libraries, as well as
+ to various window systems, and is extensible in C or C++. It is also
+ usable as an extension language for applications that need a
+ programmable interface. Finally, Python is portable: it runs on many
+ Unix variants including Linux and macOS, and on Windows.
+ 
+ This package contains only the interpreter and the bare minimum for the
+ interpreter to start.
+
+Package: python3-cgi
+Version: 3.11.10-r1
+Depends: libc, python3-light, python3-email
+Source: feeds/packages/lang/python/python3
+SourceName: python3
+License: Python-2.0.1 0BSD
+LicenseFiles: LICENSE Doc/copyright.rst Doc/license.rst Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi_osx/LICENSE Modules/expat/COPYING
+Section: lang
+SourceDateEpoch: 1756500878
+URL: https://www.python.org/
+CPE-ID: cpe:/a:python:python
+Maintainer: Jeffery To <jeffery.to@gmail.com>
+Architecture: aarch64_cortex-a53
+Installed-Size: 51200
+Filename: python3-cgi_3.11.10-r1_aarch64_cortex-a53.ipk
+Size: 20168
+SHA256sum: 6b7d6b4dff188fe6512be0ab84d8f2db274b0514af2c1335a9eb402b9a1f5150
+Description:  Python is an interpreted, interactive, object-oriented programming
+ language. It incorporates modules, exceptions, dynamic typing, very high
+ level dynamic data types, and classes. It supports multiple programming
+ paradigms beyond object-oriented programming, such as procedural and
+ functional programming. Python combines remarkable power with very clear
+ syntax. It has interfaces to many system calls and libraries, as well as
+ to various window systems, and is extensible in C or C++. It is also
+ usable as an extension language for applications that need a
+ programmable interface. Finally, Python is portable: it runs on many
+ Unix variants including Linux and macOS, and on Windows.
+ 
+ This package contains the cgi module.
+
+Package: python3-cgitb
+Version: 3.11.10-r1
+Depends: libc, python3-light, python3-cgi, python3-pydoc
+Source: feeds/packages/lang/python/python3
+SourceName: python3
+License: Python-2.0.1 0BSD
+LicenseFiles: LICENSE Doc/copyright.rst Doc/license.rst Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi_osx/LICENSE Modules/expat/COPYING
+Section: lang
+SourceDateEpoch: 1756500878
+URL: https://www.python.org/
+CPE-ID: cpe:/a:python:python
+Maintainer: Jeffery To <jeffery.to@gmail.com>
+Architecture: aarch64_cortex-a53
+Installed-Size: 30720
+Filename: python3-cgitb_3.11.10-r1_aarch64_cortex-a53.ipk
+Size: 10254
+SHA256sum: 05774c1dce76eeb65eccfbc278ba97f2afa3ea4a67f9bc0cd086b5c7109e5a07
+Description:  Python is an interpreted, interactive, object-oriented programming
+ language. It incorporates modules, exceptions, dynamic typing, very high
+ level dynamic data types, and classes. It supports multiple programming
+ paradigms beyond object-oriented programming, such as procedural and
+ functional programming. Python combines remarkable power with very clear
+ syntax. It has interfaces to many system calls and libraries, as well as
+ to various window systems, and is extensible in C or C++. It is also
+ usable as an extension language for applications that need a
+ programmable interface. Finally, Python is portable: it runs on many
+ Unix variants including Linux and macOS, and on Windows.
+ 
+ This package contains the cgitb module.
+
+Package: python3-codecs
+Version: 3.11.10-r1
+Depends: libc, python3-light
+Source: feeds/packages/lang/python/python3
+SourceName: python3
+License: Python-2.0.1 0BSD
+LicenseFiles: LICENSE Doc/copyright.rst Doc/license.rst Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi_osx/LICENSE Modules/expat/COPYING
+Section: lang
+SourceDateEpoch: 1756500878
+URL: https://www.python.org/
+CPE-ID: cpe:/a:python:python
+Maintainer: Jeffery To <jeffery.to@gmail.com>
+Architecture: aarch64_cortex-a53
+Installed-Size: 2181120
+Filename: python3-codecs_3.11.10-r1_aarch64_cortex-a53.ipk
+Size: 753086
+SHA256sum: 745569e481da5f6cec1a6c6282e96ab3f365d75987bef7dfa37839cd40967340
+Description:  Python is an interpreted, interactive, object-oriented programming
+ language. It incorporates modules, exceptions, dynamic typing, very high
+ level dynamic data types, and classes. It supports multiple programming
+ paradigms beyond object-oriented programming, such as procedural and
+ functional programming. Python combines remarkable power with very clear
+ syntax. It has interfaces to many system calls and libraries, as well as
+ to various window systems, and is extensible in C or C++. It is also
+ usable as an extension language for applications that need a
+ programmable interface. Finally, Python is portable: it runs on many
+ Unix variants including Linux and macOS, and on Windows.
+ 
+ This package contains codecs and Unicode support.
+
+Package: python3-ctypes
+Version: 3.11.10-r1
+Depends: libc, python3-light, libffi
+Source: feeds/packages/lang/python/python3
+SourceName: python3
+License: Python-2.0.1 0BSD
+LicenseFiles: LICENSE Doc/copyright.rst Doc/license.rst Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi_osx/LICENSE Modules/expat/COPYING
+Section: lang
+SourceDateEpoch: 1756500878
+URL: https://www.python.org/
+CPE-ID: cpe:/a:python:python
+Maintainer: Jeffery To <jeffery.to@gmail.com>
+Architecture: aarch64_cortex-a53
+Installed-Size: 245760
+Filename: python3-ctypes_3.11.10-r1_aarch64_cortex-a53.ipk
+Size: 78746
+SHA256sum: 878f4c0fe0025ac0b47d0a277e12b6ded6bb2aac5dd1394bbb9e646a38baba22
+Description:  Python is an interpreted, interactive, object-oriented programming
+ language. It incorporates modules, exceptions, dynamic typing, very high
+ level dynamic data types, and classes. It supports multiple programming
+ paradigms beyond object-oriented programming, such as procedural and
+ functional programming. Python combines remarkable power with very clear
+ syntax. It has interfaces to many system calls and libraries, as well as
+ to various window systems, and is extensible in C or C++. It is also
+ usable as an extension language for applications that need a
+ programmable interface. Finally, Python is portable: it runs on many
+ Unix variants including Linux and macOS, and on Windows.
+ 
+ This package contains the ctypes module.
+
+Package: python3-dbm
+Version: 3.11.10-r1
+Depends: libc, python3-light, libgdbm
+Source: feeds/packages/lang/python/python3
+SourceName: python3
+License: Python-2.0.1 0BSD
+LicenseFiles: LICENSE Doc/copyright.rst Doc/license.rst Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi_osx/LICENSE Modules/expat/COPYING
+Section: lang
+SourceDateEpoch: 1756500878
+URL: https://www.python.org/
+CPE-ID: cpe:/a:python:python
+Maintainer: Jeffery To <jeffery.to@gmail.com>
+Architecture: aarch64_cortex-a53
+Installed-Size: 163840
+Filename: python3-dbm_3.11.10-r1_aarch64_cortex-a53.ipk
+Size: 23070
+SHA256sum: 5144ae033dea1490585017592421692a1552d65fda4b3c38923a02c066dfb9d9
+Description:  Python is an interpreted, interactive, object-oriented programming
+ language. It incorporates modules, exceptions, dynamic typing, very high
+ level dynamic data types, and classes. It supports multiple programming
+ paradigms beyond object-oriented programming, such as procedural and
+ functional programming. Python combines remarkable power with very clear
+ syntax. It has interfaces to many system calls and libraries, as well as
+ to various window systems, and is extensible in C or C++. It is also
+ usable as an extension language for applications that need a
+ programmable interface. Finally, Python is portable: it runs on many
+ Unix variants including Linux and macOS, and on Windows.
+ 
+ This package contains the dbm module.
+
+Package: python3-decimal
+Version: 3.11.10-r1
+Depends: libc, python3-light
+Source: feeds/packages/lang/python/python3
+SourceName: python3
+License: Python-2.0.1 0BSD
+LicenseFiles: LICENSE Doc/copyright.rst Doc/license.rst Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi_osx/LICENSE Modules/expat/COPYING
+Section: lang
+SourceDateEpoch: 1756500878
+URL: https://www.python.org/
+CPE-ID: cpe:/a:python:python
+Maintainer: Jeffery To <jeffery.to@gmail.com>
+Architecture: aarch64_cortex-a53
+Installed-Size: 215040
+Filename: python3-decimal_3.11.10-r1_aarch64_cortex-a53.ipk
+Size: 83121
+SHA256sum: dc59b82191b02cb489f37164cd7c1000952a0a1755be5963af89ee99f087b8e4
+Description:  Python is an interpreted, interactive, object-oriented programming
+ language. It incorporates modules, exceptions, dynamic typing, very high
+ level dynamic data types, and classes. It supports multiple programming
+ paradigms beyond object-oriented programming, such as procedural and
+ functional programming. Python combines remarkable power with very clear
+ syntax. It has interfaces to many system calls and libraries, as well as
+ to various window systems, and is extensible in C or C++. It is also
+ usable as an extension language for applications that need a
+ programmable interface. Finally, Python is portable: it runs on many
+ Unix variants including Linux and macOS, and on Windows.
+ 
+ This package contains the decimal module.
+
+Package: python3-distutils
+Version: 3.11.10-r1
+Depends: libc, python3-light, python3-email
+Source: feeds/packages/lang/python/python3
+SourceName: python3
+License: Python-2.0.1 0BSD
+LicenseFiles: LICENSE Doc/copyright.rst Doc/license.rst Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi_osx/LICENSE Modules/expat/COPYING
+Section: lang
+SourceDateEpoch: 1756500878
+URL: https://www.python.org/
+CPE-ID: cpe:/a:python:python
+Maintainer: Jeffery To <jeffery.to@gmail.com>
+Architecture: aarch64_cortex-a53
+Installed-Size: 696320
+Filename: python3-distutils_3.11.10-r1_aarch64_cortex-a53.ipk
+Size: 262544
+SHA256sum: 4113e6cfe716df2e53444a15f3489e328e1bf5cd92ec3ab602739c635af12604
+Description:  Python is an interpreted, interactive, object-oriented programming
+ language. It incorporates modules, exceptions, dynamic typing, very high
+ level dynamic data types, and classes. It supports multiple programming
+ paradigms beyond object-oriented programming, such as procedural and
+ functional programming. Python combines remarkable power with very clear
+ syntax. It has interfaces to many system calls and libraries, as well as
+ to various window systems, and is extensible in C or C++. It is also
+ usable as an extension language for applications that need a
+ programmable interface. Finally, Python is portable: it runs on many
+ Unix variants including Linux and macOS, and on Windows.
+ 
+ This package contains the distutils module.
+
+Package: python3-email
+Version: 3.11.10-r1
+Depends: libc, python3-light
+Source: feeds/packages/lang/python/python3
+SourceName: python3
+License: Python-2.0.1 0BSD
+LicenseFiles: LICENSE Doc/copyright.rst Doc/license.rst Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi_osx/LICENSE Modules/expat/COPYING
+Section: lang
+SourceDateEpoch: 1756500878
+URL: https://www.python.org/
+CPE-ID: cpe:/a:python:python
+Maintainer: Jeffery To <jeffery.to@gmail.com>
+Architecture: aarch64_cortex-a53
+Installed-Size: 532480
+Filename: python3-email_3.11.10-r1_aarch64_cortex-a53.ipk
+Size: 187260
+SHA256sum: 7fd1d45abe937138e7a007af89597aa5f5f09a4964bf75c4436d918f071be79f
+Description:  Python is an interpreted, interactive, object-oriented programming
+ language. It incorporates modules, exceptions, dynamic typing, very high
+ level dynamic data types, and classes. It supports multiple programming
+ paradigms beyond object-oriented programming, such as procedural and
+ functional programming. Python combines remarkable power with very clear
+ syntax. It has interfaces to many system calls and libraries, as well as
+ to various window systems, and is extensible in C or C++. It is also
+ usable as an extension language for applications that need a
+ programmable interface. Finally, Python is portable: it runs on many
+ Unix variants including Linux and macOS, and on Windows.
+ 
+ This package contains the email module.
+
+Package: python3-light
+Version: 3.11.10-r1
+Depends: libc, python3-base, libbz2-1.0, zlib
+Source: feeds/packages/lang/python/python3
+SourceName: python3
+License: Python-2.0.1 0BSD
+LicenseFiles: LICENSE Doc/copyright.rst Doc/license.rst Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi_osx/LICENSE Modules/expat/COPYING
+Section: lang
+SourceDateEpoch: 1756500878
+URL: https://www.python.org/
+CPE-ID: cpe:/a:python:python
+Maintainer: Jeffery To <jeffery.to@gmail.com>
+Architecture: aarch64_cortex-a53
+Installed-Size: 9748480
+Filename: python3-light_3.11.10-r1_aarch64_cortex-a53.ipk
+Size: 2881629
+SHA256sum: 207718a86e7d4ead4df23eb5469257a0b6909242a9ea2dd82047b1bf5b60908b
+Description:  Python is an interpreted, interactive, object-oriented programming
+ language. It incorporates modules, exceptions, dynamic typing, very high
+ level dynamic data types, and classes. It supports multiple programming
+ paradigms beyond object-oriented programming, such as procedural and
+ functional programming. Python combines remarkable power with very clear
+ syntax. It has interfaces to many system calls and libraries, as well as
+ to various window systems, and is extensible in C or C++. It is also
+ usable as an extension language for applications that need a
+ programmable interface. Finally, Python is portable: it runs on many
+ Unix variants including Linux and macOS, and on Windows.
+ 
+ This package installs the base interpreter package and contains the most
+ commonly used parts of the standard library.
+
+Package: python3-logging
+Version: 3.11.10-r1
+Depends: libc, python3-light
+Source: feeds/packages/lang/python/python3
+SourceName: python3
+License: Python-2.0.1 0BSD
+LicenseFiles: LICENSE Doc/copyright.rst Doc/license.rst Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi_osx/LICENSE Modules/expat/COPYING
+Section: lang
+SourceDateEpoch: 1756500878
+URL: https://www.python.org/
+CPE-ID: cpe:/a:python:python
+Maintainer: Jeffery To <jeffery.to@gmail.com>
+Architecture: aarch64_cortex-a53
+Installed-Size: 225280
+Filename: python3-logging_3.11.10-r1_aarch64_cortex-a53.ipk
+Size: 85159
+SHA256sum: 034452f7ab70fc4a7825bec537acfd02bc6be8bc17f255a6a16a9b18218b9a38
+Description:  Python is an interpreted, interactive, object-oriented programming
+ language. It incorporates modules, exceptions, dynamic typing, very high
+ level dynamic data types, and classes. It supports multiple programming
+ paradigms beyond object-oriented programming, such as procedural and
+ functional programming. Python combines remarkable power with very clear
+ syntax. It has interfaces to many system calls and libraries, as well as
+ to various window systems, and is extensible in C or C++. It is also
+ usable as an extension language for applications that need a
+ programmable interface. Finally, Python is portable: it runs on many
+ Unix variants including Linux and macOS, and on Windows.
+ 
+ This package contains the logging module.
+
+Package: python3-lzma
+Version: 3.11.10-r1
+Depends: libc, python3-light, liblzma
+Source: feeds/packages/lang/python/python3
+SourceName: python3
+License: Python-2.0.1 0BSD
+LicenseFiles: LICENSE Doc/copyright.rst Doc/license.rst Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi_osx/LICENSE Modules/expat/COPYING
+Section: lang
+SourceDateEpoch: 1756500878
+URL: https://www.python.org/
+CPE-ID: cpe:/a:python:python
+Maintainer: Jeffery To <jeffery.to@gmail.com>
+Architecture: aarch64_cortex-a53
+Installed-Size: 92160
+Filename: python3-lzma_3.11.10-r1_aarch64_cortex-a53.ipk
+Size: 20396
+SHA256sum: 2c9c0f3c204510ba5ecb64af4ce24488676c688dea576ef66a7e2491bf9eea21
+Description:  Python is an interpreted, interactive, object-oriented programming
+ language. It incorporates modules, exceptions, dynamic typing, very high
+ level dynamic data types, and classes. It supports multiple programming
+ paradigms beyond object-oriented programming, such as procedural and
+ functional programming. Python combines remarkable power with very clear
+ syntax. It has interfaces to many system calls and libraries, as well as
+ to various window systems, and is extensible in C or C++. It is also
+ usable as an extension language for applications that need a
+ programmable interface. Finally, Python is portable: it runs on many
+ Unix variants including Linux and macOS, and on Windows.
+ 
+ This package contains the lzma module.
+
+Package: python3-multiprocessing
+Version: 3.11.10-r1
+Depends: libc, python3-light
+Source: feeds/packages/lang/python/python3
+SourceName: python3
+License: Python-2.0.1 0BSD
+LicenseFiles: LICENSE Doc/copyright.rst Doc/license.rst Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi_osx/LICENSE Modules/expat/COPYING
+Section: lang
+SourceDateEpoch: 1756500878
+URL: https://www.python.org/
+CPE-ID: cpe:/a:python:python
+Maintainer: Jeffery To <jeffery.to@gmail.com>
+Architecture: aarch64_cortex-a53
+Installed-Size: 512000
+Filename: python3-multiprocessing_3.11.10-r1_aarch64_cortex-a53.ipk
+Size: 175459
+SHA256sum: 465749b0649ef3890903f0570db8ff105325ba954a84372f368ff25141c45fb1
+Description:  Python is an interpreted, interactive, object-oriented programming
+ language. It incorporates modules, exceptions, dynamic typing, very high
+ level dynamic data types, and classes. It supports multiple programming
+ paradigms beyond object-oriented programming, such as procedural and
+ functional programming. Python combines remarkable power with very clear
+ syntax. It has interfaces to many system calls and libraries, as well as
+ to various window systems, and is extensible in C or C++. It is also
+ usable as an extension language for applications that need a
+ programmable interface. Finally, Python is portable: it runs on many
+ Unix variants including Linux and macOS, and on Windows.
+ 
+ This package contains the multiprocessing module.
+
+Package: python3-ncurses
+Version: 3.11.10-r1
+Depends: libc, python3-light, libncursesw6
+Source: feeds/packages/lang/python/python3
+SourceName: python3
+License: Python-2.0.1 0BSD
+LicenseFiles: LICENSE Doc/copyright.rst Doc/license.rst Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi_osx/LICENSE Modules/expat/COPYING
+Section: lang
+SourceDateEpoch: 1756500878
+URL: https://www.python.org/
+CPE-ID: cpe:/a:python:python
+Maintainer: Jeffery To <jeffery.to@gmail.com>
+Architecture: aarch64_cortex-a53
+Installed-Size: 245760
+Filename: python3-ncurses_3.11.10-r1_aarch64_cortex-a53.ipk
+Size: 53495
+SHA256sum: 1841a269302d1636b19eb45428223819680915d94d08c82a84945d68a51e93e4
+Description:  Python is an interpreted, interactive, object-oriented programming
+ language. It incorporates modules, exceptions, dynamic typing, very high
+ level dynamic data types, and classes. It supports multiple programming
+ paradigms beyond object-oriented programming, such as procedural and
+ functional programming. Python combines remarkable power with very clear
+ syntax. It has interfaces to many system calls and libraries, as well as
+ to various window systems, and is extensible in C or C++. It is also
+ usable as an extension language for applications that need a
+ programmable interface. Finally, Python is portable: it runs on many
+ Unix variants including Linux and macOS, and on Windows.
+ 
+ This package contains the ncurses module.
+
+Package: python3-openssl
+Version: 3.11.10-r1
+Depends: libc, python3-light, libopenssl3, ca-certs
+Source: feeds/packages/lang/python/python3
+SourceName: python3
+License: Python-2.0.1 0BSD
+LicenseFiles: LICENSE Doc/copyright.rst Doc/license.rst Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi_osx/LICENSE Modules/expat/COPYING
+Section: lang
+SourceDateEpoch: 1756500878
+URL: https://www.python.org/
+CPE-ID: cpe:/a:python:python
+Maintainer: Jeffery To <jeffery.to@gmail.com>
+Architecture: aarch64_cortex-a53
+Installed-Size: 307200
+Filename: python3-openssl_3.11.10-r1_aarch64_cortex-a53.ipk
+Size: 81251
+SHA256sum: 03c829f4d3ee565f36fc0dc2c0e09f6f7f4a69dd286c06e0765286d382022a0d
+Description:  Python is an interpreted, interactive, object-oriented programming
+ language. It incorporates modules, exceptions, dynamic typing, very high
+ level dynamic data types, and classes. It supports multiple programming
+ paradigms beyond object-oriented programming, such as procedural and
+ functional programming. Python combines remarkable power with very clear
+ syntax. It has interfaces to many system calls and libraries, as well as
+ to various window systems, and is extensible in C or C++. It is also
+ usable as an extension language for applications that need a
+ programmable interface. Finally, Python is portable: it runs on many
+ Unix variants including Linux and macOS, and on Windows.
+ 
+ This package contains the ssl module.
+
+Package: python3-pydoc
+Version: 3.11.10-r1
+Depends: libc, python3-light
+Source: feeds/packages/lang/python/python3
+SourceName: python3
+License: Python-2.0.1 0BSD
+LicenseFiles: LICENSE Doc/copyright.rst Doc/license.rst Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi_osx/LICENSE Modules/expat/COPYING
+Section: lang
+SourceDateEpoch: 1756500878
+URL: https://www.python.org/
+CPE-ID: cpe:/a:python:python
+Maintainer: Jeffery To <jeffery.to@gmail.com>
+Architecture: aarch64_cortex-a53
+Installed-Size: 768000
+Filename: python3-pydoc_3.11.10-r1_aarch64_cortex-a53.ipk
+Size: 252587
+SHA256sum: 8341721ec11f1b0ac3c07f220d96162cb2136756b6a3d4ba64f6d73141cf08c0
+Description:  Python is an interpreted, interactive, object-oriented programming
+ language. It incorporates modules, exceptions, dynamic typing, very high
+ level dynamic data types, and classes. It supports multiple programming
+ paradigms beyond object-oriented programming, such as procedural and
+ functional programming. Python combines remarkable power with very clear
+ syntax. It has interfaces to many system calls and libraries, as well as
+ to various window systems, and is extensible in C or C++. It is also
+ usable as an extension language for applications that need a
+ programmable interface. Finally, Python is portable: it runs on many
+ Unix variants including Linux and macOS, and on Windows.
+ 
+ This package contains the pydoc module.
+
+Package: python3-readline
+Version: 3.11.10-r1
+Depends: libc, python3-light, libreadline8
+Source: feeds/packages/lang/python/python3
+SourceName: python3
+License: Python-2.0.1 0BSD
+LicenseFiles: LICENSE Doc/copyright.rst Doc/license.rst Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi_osx/LICENSE Modules/expat/COPYING
+Section: lang
+SourceDateEpoch: 1756500878
+URL: https://www.python.org/
+CPE-ID: cpe:/a:python:python
+Maintainer: Jeffery To <jeffery.to@gmail.com>
+Architecture: aarch64_cortex-a53
+Installed-Size: 71680
+Filename: python3-readline_3.11.10-r1_aarch64_cortex-a53.ipk
+Size: 11462
+SHA256sum: 7d550a5c9ad215a79d5089e074b8aa4d49c4a7496b33c9eefa8def9f028cda8d
+Description:  Python is an interpreted, interactive, object-oriented programming
+ language. It incorporates modules, exceptions, dynamic typing, very high
+ level dynamic data types, and classes. It supports multiple programming
+ paradigms beyond object-oriented programming, such as procedural and
+ functional programming. Python combines remarkable power with very clear
+ syntax. It has interfaces to many system calls and libraries, as well as
+ to various window systems, and is extensible in C or C++. It is also
+ usable as an extension language for applications that need a
+ programmable interface. Finally, Python is portable: it runs on many
+ Unix variants including Linux and macOS, and on Windows.
+ 
+ This package contains the readline module.
+
+Package: python3-sqlite3
+Version: 3.11.10-r1
+Depends: libc, python3-light, libsqlite3-0
+Source: feeds/packages/lang/python/python3
+SourceName: python3
+License: Python-2.0.1 0BSD
+LicenseFiles: LICENSE Doc/copyright.rst Doc/license.rst Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi_osx/LICENSE Modules/expat/COPYING
+Section: lang
+SourceDateEpoch: 1756500878
+URL: https://www.python.org/
+CPE-ID: cpe:/a:python:python
+Maintainer: Jeffery To <jeffery.to@gmail.com>
+Architecture: aarch64_cortex-a53
+Installed-Size: 163840
+Filename: python3-sqlite3_3.11.10-r1_aarch64_cortex-a53.ipk
+Size: 42310
+SHA256sum: 38409cb3ec96b37dba9d7c16d17cd841e8ed5e5c0ce678c079f1e1da15169066
+Description:  Python is an interpreted, interactive, object-oriented programming
+ language. It incorporates modules, exceptions, dynamic typing, very high
+ level dynamic data types, and classes. It supports multiple programming
+ paradigms beyond object-oriented programming, such as procedural and
+ functional programming. Python combines remarkable power with very clear
+ syntax. It has interfaces to many system calls and libraries, as well as
+ to various window systems, and is extensible in C or C++. It is also
+ usable as an extension language for applications that need a
+ programmable interface. Finally, Python is portable: it runs on many
+ Unix variants including Linux and macOS, and on Windows.
+ 
+ This package contains the sqlite3 module.
+
+Package: python3-unittest
+Version: 3.11.10-r1
+Depends: libc, python3-light
+Source: feeds/packages/lang/python/python3
+SourceName: python3
+License: Python-2.0.1 0BSD
+LicenseFiles: LICENSE Doc/copyright.rst Doc/license.rst Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi_osx/LICENSE Modules/expat/COPYING
+Section: lang
+SourceDateEpoch: 1756500878
+URL: https://www.python.org/
+CPE-ID: cpe:/a:python:python
+Maintainer: Jeffery To <jeffery.to@gmail.com>
+Architecture: aarch64_cortex-a53
+Installed-Size: 348160
+Filename: python3-unittest_3.11.10-r1_aarch64_cortex-a53.ipk
+Size: 131784
+SHA256sum: a41153e4b43daf71ad5d4645fd3e9b81db2cbd4aff1ed4d35c4a6393088ff20e
+Description:  Python is an interpreted, interactive, object-oriented programming
+ language. It incorporates modules, exceptions, dynamic typing, very high
+ level dynamic data types, and classes. It supports multiple programming
+ paradigms beyond object-oriented programming, such as procedural and
+ functional programming. Python combines remarkable power with very clear
+ syntax. It has interfaces to many system calls and libraries, as well as
+ to various window systems, and is extensible in C or C++. It is also
+ usable as an extension language for applications that need a
+ programmable interface. Finally, Python is portable: it runs on many
+ Unix variants including Linux and macOS, and on Windows.
+ 
+ This package contains the unittest module.
+
+Package: python3-urllib
+Version: 3.11.10-r1
+Depends: libc, python3-light, python3-email
+Source: feeds/packages/lang/python/python3
+SourceName: python3
+License: Python-2.0.1 0BSD
+LicenseFiles: LICENSE Doc/copyright.rst Doc/license.rst Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi_osx/LICENSE Modules/expat/COPYING
+Section: lang
+SourceDateEpoch: 1756500878
+URL: https://www.python.org/
+CPE-ID: cpe:/a:python:python
+Maintainer: Jeffery To <jeffery.to@gmail.com>
+Architecture: aarch64_cortex-a53
+Installed-Size: 215040
+Filename: python3-urllib_3.11.10-r1_aarch64_cortex-a53.ipk
+Size: 85649
+SHA256sum: db90ec8660ec2fa83d18c3942de1684f504537e3af21903b8d99d759d0bf9037
+Description:  Python is an interpreted, interactive, object-oriented programming
+ language. It incorporates modules, exceptions, dynamic typing, very high
+ level dynamic data types, and classes. It supports multiple programming
+ paradigms beyond object-oriented programming, such as procedural and
+ functional programming. Python combines remarkable power with very clear
+ syntax. It has interfaces to many system calls and libraries, as well as
+ to various window systems, and is extensible in C or C++. It is also
+ usable as an extension language for applications that need a
+ programmable interface. Finally, Python is portable: it runs on many
+ Unix variants including Linux and macOS, and on Windows.
+ 
+ This package contains the URL handling modules.
+
+Package: python3-uuid
+Version: 3.11.10-r1
+Depends: libc, python3-light, libuuid1
+Source: feeds/packages/lang/python/python3
+SourceName: python3
+License: Python-2.0.1 0BSD
+LicenseFiles: LICENSE Doc/copyright.rst Doc/license.rst Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi_osx/LICENSE Modules/expat/COPYING
+Section: lang
+SourceDateEpoch: 1756500878
+URL: https://www.python.org/
+CPE-ID: cpe:/a:python:python
+Maintainer: Jeffery To <jeffery.to@gmail.com>
+Architecture: aarch64_cortex-a53
+Installed-Size: 112640
+Filename: python3-uuid_3.11.10-r1_aarch64_cortex-a53.ipk
+Size: 16768
+SHA256sum: 9a97dc7458e1557e46134626f3e1d5b0a8ca4be9a8ca15ad7f5f428322a38364
+Description:  Python is an interpreted, interactive, object-oriented programming
+ language. It incorporates modules, exceptions, dynamic typing, very high
+ level dynamic data types, and classes. It supports multiple programming
+ paradigms beyond object-oriented programming, such as procedural and
+ functional programming. Python combines remarkable power with very clear
+ syntax. It has interfaces to many system calls and libraries, as well as
+ to various window systems, and is extensible in C or C++. It is also
+ usable as an extension language for applications that need a
+ programmable interface. Finally, Python is portable: it runs on many
+ Unix variants including Linux and macOS, and on Windows.
+ 
+ This package contains the uuid module.
+
+Package: python3-xml
+Version: 3.11.10-r1
+Depends: libc, python3-light, python3-urllib
+Source: feeds/packages/lang/python/python3
+SourceName: python3
+License: Python-2.0.1 0BSD
+LicenseFiles: LICENSE Doc/copyright.rst Doc/license.rst Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi_osx/LICENSE Modules/expat/COPYING
+Section: lang
+SourceDateEpoch: 1756500878
+URL: https://www.python.org/
+CPE-ID: cpe:/a:python:python
+Maintainer: Jeffery To <jeffery.to@gmail.com>
+Architecture: aarch64_cortex-a53
+Installed-Size: 808960
+Filename: python3-xml_3.11.10-r1_aarch64_cortex-a53.ipk
+Size: 280062
+SHA256sum: 5a55700012a8ebe3cf022dc699c71d8b25fef4663ac100dabc54e271c819601f
+Description:  Python is an interpreted, interactive, object-oriented programming
+ language. It incorporates modules, exceptions, dynamic typing, very high
+ level dynamic data types, and classes. It supports multiple programming
+ paradigms beyond object-oriented programming, such as procedural and
+ functional programming. Python combines remarkable power with very clear
+ syntax. It has interfaces to many system calls and libraries, as well as
+ to various window systems, and is extensible in C or C++. It is also
+ usable as an extension language for applications that need a
+ programmable interface. Finally, Python is portable: it runs on many
+ Unix variants including Linux and macOS, and on Windows.
+ 
+ This package contains the XML modules.
+
+Package: python3
+Version: 3.11.10-r1
+Depends: libc, python3-light, python3-asyncio, python3-cgi, python3-cgitb, python3-codecs, python3-ctypes, python3-dbm, python3-decimal, python3-distutils, python3-email, python3-logging, python3-lzma, python3-multiprocessing, python3-ncurses, python3-openssl, python3-pydoc, python3-readline, python3-sqlite3, python3-unittest, python3-urllib, python3-uuid, python3-xml
+Source: feeds/packages/lang/python/python3
+SourceName: python3
+License: Python-2.0.1 0BSD
+LicenseFiles: LICENSE Doc/copyright.rst Doc/license.rst Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi_osx/LICENSE Modules/expat/COPYING
+Section: lang
+SourceDateEpoch: 1756500878
+URL: https://www.python.org/
+CPE-ID: cpe:/a:python:python
+Maintainer: Jeffery To <jeffery.to@gmail.com>
+Architecture: aarch64_cortex-a53
+Installed-Size: 10240
+Filename: python3_3.11.10-r1_aarch64_cortex-a53.ipk
+Size: 1470
+SHA256sum: d02c9d3dda2eddc04fad878a7ea687d07206b517a98168594e051d5d0d29abde
+Description:  Python is an interpreted, interactive, object-oriented programming
+ language. It incorporates modules, exceptions, dynamic typing, very high
+ level dynamic data types, and classes. It supports multiple programming
+ paradigms beyond object-oriented programming, such as procedural and
+ functional programming. Python combines remarkable power with very clear
+ syntax. It has interfaces to many system calls and libraries, as well as
+ to various window systems, and is extensible in C or C++. It is also
+ usable as an extension language for applications that need a
+ programmable interface. Finally, Python is portable: it runs on many
+ Unix variants including Linux and macOS, and on Windows.
+ 
+ This package installs almost all parts of the standard Python
+ installation.
+
+Package: qrencode
+Version: 4.1.1-r1
+Depends: libc, libqrencode
+Source: feeds/packages/libs/qrencode
+SourceName: qrencode
+License: LGPL-2.1-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1756500878
+URL: http://fukuchi.org/works/qrencode/
+Maintainer: Jonathan Bennett <JBennett@incomsystems.biz>
+Architecture: aarch64_cortex-a53
+Installed-Size: 71680
+Filename: qrencode_4.1.1-r1_aarch64_cortex-a53.ipk
+Size: 11207
+SHA256sum: a070bb4503d178dea83539740151c137200d7d3a491c031c9eb2294ebb08beb6
+Description:  Qrencode is a C program for encoding data in a QR Code symbol,
+ a kind of 2D symbology that can be scanned by handy terminals such
+ as a mobile phone with CCD. The capacity of QR Code is up to 7000
+ digits or 4000 characters, and is highly robust.
+
+Package: rrdtool1
+Version: 1.0.50-r6
+Depends: libc, librrd1
+Source: feeds/packages/utils/rrdtool1
+SourceName: rrdtool1
+License: GPL-2.0-or-later
+LicenseFiles: COPYING COPYRIGHT
+Section: utils
+SourceDateEpoch: 1756500878
+URL: http://oss.oetiker.ch/rrdtool/
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: aarch64_cortex-a53
+Installed-Size: 143360
+Filename: rrdtool1_1.0.50-r6_aarch64_cortex-a53.ipk
+Size: 12415
+SHA256sum: adf0214cb3aead61ea722659ca1eb2788288a08a1e123cb09acf733a75b4e9e7
+Description:  RRD is the Acronym for Round Robin Database. RRD is a system to store and
+ display time-series data (i.e. network bandwidth, machine-room temperature,
+ server load average). It stores the data in a very compact way that will
+ not expand over time, and it presents useful graphs by processing the data
+ to enforce a certain data density. It can be used either via simple wrapper
+ scripts (from shell or Perl) or via frontends that poll network devices and
+ put friendly user interface on it.
+ 
+ This is version 1.0.x with cgilib-0.4, gd1.3 and libpng-1.0.9 linked into
+ librrd.so. The library is much smaller compared to the 1.2.x version with
+ separate dynamic linked libraries.
+ This package contains command line tools used to manage RRDs.
+
+Package: rsync
+Version: 3.4.1-r1
+Depends: libc, libpopt0, zlib, libattr, libacl
+Source: feeds/packages/net/rsync
+SourceName: rsync
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: net
+SourceDateEpoch: 1756500878
+URL: https://rsync.samba.org/
+CPE-ID: cpe:/a:rsync:rsync
+Maintainer: Maxim Storchak <m.storchak@gmail.com>
+Architecture: aarch64_cortex-a53
+Installed-Size: 419840
+Filename: rsync_3.4.1-r1_aarch64_cortex-a53.ipk
+Size: 199483
+SHA256sum: 1a81cd76e8974381a05259fc576b85481f51f3bd971954e6dc03cf79cb0745bc
+Description:  rsync is a program that allows files to be copied to and from remote machines
+ in much the same way as rcp. It has many more options than rcp, and uses the
+ rsync remote-update protocol to greatly speed up file transfers when the
+ destination file already exists.
+ 
+ The rsync remote-update protocol allows rsync to transfer just the differences
+ between two sets of files across the network link.
+
+Package: rtl-sdr
+Version: 2.0.1-r1
+Depends: libc, librt, libpthread, librtlsdr
+Source: feeds/packages/utils/rtl-sdr
+SourceName: rtl-sdr
+License: GPL-2.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1756500878
+URL: http://sdr.osmocom.org/trac/wiki/rtl-sdr
+Maintainer: Vasilis Tsiligiannis <b_tsiligiannis@silverton.gr>
+Architecture: aarch64_cortex-a53
+Installed-Size: 542720
+Filename: rtl-sdr_2.0.1-r1_aarch64_cortex-a53.ipk
+Size: 59018
+SHA256sum: 1ac0f57f682f70bba5714aedebc190229c1efc9893ad83ae87d714fece8d03f3
+Description:  rtl-sdr allows DVB-T dongles based on the Realtek RTL2832U to be used as
+ an inexpensive SDR.
+ 
+ This package contains the utilities and daemons.
+
+Package: ttyd
+Version: 1.7.3-r1
+Depends: libc, libcap, libopenssl3, libjson-c5, libuv1, zlib, libwebsockets-full
+Source: feeds/packages/utils/ttyd
+SourceName: ttyd
+License: MIT
+LicenseFiles: LICENSE
+Section: utils
+SourceDateEpoch: 1756500878
+URL: https://github.com/tsl0922/ttyd
+CPE-ID: cpe:/a:ttyd_project:ttyd
+Maintainer: Shuanglei Tao <tsl0922@gmail.com>
+Architecture: aarch64_cortex-a53
+Installed-Size: 512000
+Filename: ttyd_1.7.3-r1_aarch64_cortex-a53.ipk
+Size: 335590
+SHA256sum: 711285f9c3578ebb0b15d7e55278393acae1e60a56abfc42df0a4f03405dd9d8
+Description:  ttyd is a command-line tool for sharing terminal over the web.
+
+Package: usbids
+Version: 0.387-r1
+Depends: libc
+Source: feeds/packages/utils/hwdata
+SourceName: hwdata
+License: GPL-2.0-or-later  XFree86-1.0
+LicenseFiles: LICENSE
+Section: utils
+SourceDateEpoch: 1756500878
+URL: https://github.com/vcrhonek/hwdata
+Architecture: aarch64_cortex-a53
+Installed-Size: 737280
+Filename: usbids_0.387-r1_aarch64_cortex-a53.ipk
+Size: 255793
+SHA256sum: 9bb250d4c54f190db95dd63c2985c9495e20799f5e5c6da1924a60dbd574044c
+Description:  USB ID list
+
+Package: usbutils
+Version: 017-r1
+Depends: libc, libusb-1.0-0, libudev, librt, libpthread, usbids
+Source: feeds/packages/utils/usbutils
+SourceName: usbutils
+License: GPL-2.0-only
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1756500878
+URL: http://www.linux-usb.org/
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: aarch64_cortex-a53
+Installed-Size: 245760
+Filename: usbutils_017-r1_aarch64_cortex-a53.ipk
+Size: 56547
+SHA256sum: 14bd9e0b1d62134a3dc29d3a492c2d307fd05ea7bcb3264e4cdc57febc0fe456
+Description:  USB devices listing utilities
+
+Package: zoneinfo-core
+Version: 2025b-r1
+Depends: libc
+Source: feeds/packages/utils/zoneinfo
+SourceName: zoneinfo
+License: Public-Domain
+Section: utils
+SourceDateEpoch: 1756500878
+Maintainer: Vladimir Ulrich <admin@evl.su>
+Architecture: aarch64_cortex-a53
+Installed-Size: 112640
+Filename: zoneinfo-core_2025b-r1_aarch64_cortex-a53.ipk
+Size: 24584
+SHA256sum: eb52572466e9f05081829e5ad4ac71df2f60765194aa5f63847f1f4f6319889e
+Description:  Zone Information (core)
+

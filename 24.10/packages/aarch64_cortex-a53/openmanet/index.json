@@ -1,0 +1,29 @@
+{
+  "version": 2,
+  "architecture": "aarch64_cortex-a53",
+  "packages": {
+    "adsbtocot": "1-r2",
+    "alfred": "2024.3-r1",
+    "avahi-daemon-service-http": "0.8-r8",
+    "avahi-daemon-service-ssh": "0.8-r8",
+    "avahi-dbus-daemon": "0.8-r8",
+    "avahi-utils": "0.8-r8",
+    "bsp-common": "1.0-r2",
+    "bsp-venice": "1.0-r2",
+    "golang-src": "1.25.4-r2",
+    "golang": "1.25.4-r2",
+    "gpsd-clients": "3.25-r1",
+    "gpsd": "3.25-r1",
+    "libavahi-client": "0.8-r8",
+    "libavahi-dbus-support": "0.8-r8",
+    "libgps": "3.25-r1",
+    "luci-app-ekhwizards": "git-25.365.78399-ebe1065",
+    "luci-app-morseconfig": "git-25.365.78399-ebe1065",
+    "luci-lib-morseui": "git-25.365.78399-ebe1065",
+    "luci-lib-vivagraphjs": "git-25.365.78399-ebe1065",
+    "luci-mod-home": "git-25.365.78399-ebe1065",
+    "luci-theme-morseargon": "git-25.365.78399-ebe1065",
+    "luci-theme-openmanetargon": "2.4.3",
+    "openmanetd": "0.0.47-r1"
+  }
+}

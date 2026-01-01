@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "architecture": "aarch64_cortex-a53",
+  "packages": {
+    "button-hotplug-gw": "1",
+    "gsc-update": "1.6-r2",
+    "gwsoc": "1.0-r1",
+    "luci-app-gateworks": "1.0-r1"
+  }
+}

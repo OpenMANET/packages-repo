@@ -1,0 +1,363 @@
+Package: liblucihttp-lua
+Version: 2023.03.15~9b5b683f-r1
+Depends: libc, liblucihttp0, liblua5.1.5
+License: ISC
+Section: libs
+Architecture: aarch64_cortex-a53
+Installed-Size: 71680
+Filename: liblucihttp-lua_2023.03.15~9b5b683f-r1_aarch64_cortex-a53.ipk
+Size: 4248
+SHA256sum: 5a164e108c3c8dada5f05c4189c5ff720fb0d1a83d43be6c07de24625310c187
+Description:  Lua binding for the LuCI HTTP utility library
+
+Package: liblucihttp-ucode
+Version: 2023.03.15~9b5b683f-r1
+Depends: libc, liblucihttp0, libucode20230711
+License: ISC
+Section: libs
+Architecture: aarch64_cortex-a53
+Installed-Size: 71680
+Filename: liblucihttp-ucode_2023.03.15~9b5b683f-r1_aarch64_cortex-a53.ipk
+Size: 4832
+SHA256sum: b06486fd81d091834cf75198c19dcfaa047009a0ae1318fed259d70f979ec709
+Description:  ucode binding for the LuCI HTTP utility library
+
+Package: liblucihttp0
+Version: 2023.03.15~9b5b683f-r1
+Depends: libc
+Provides: liblucihttp
+License: ISC
+Section: libs
+ABIVersion: 0
+Architecture: aarch64_cortex-a53
+Installed-Size: 71680
+Filename: liblucihttp0_2023.03.15~9b5b683f-r1_aarch64_cortex-a53.ipk
+Size: 8827
+SHA256sum: e3cafaf3bceb0cddc2445e31d059bc379613d3ed757150a5fb994678501350e5
+Description:  LuCI HTTP utility library
+
+Package: luci-app-firewall
+Version: git-25.233.06936-53e6515
+Depends: libc, uci-firewall
+License: Apache-2.0
+Section: luci
+URL: https://github.com/openwrt/luci
+Architecture: all
+Installed-Size: 92160
+Filename: luci-app-firewall_git-25.233.06936-53e6515_all.ipk
+Size: 18115
+SHA256sum: 02cbb0cb3d400a691b672a9110a8896f77b5a63b3abe89f382abebd69f1af811
+Description:  Firewall and Portforwarding application
+
+Package: luci-app-opkg
+Version: git-25.233.06936-53e6515
+Depends: libc, opkg
+Section: luci
+URL: https://github.com/openwrt/luci
+Architecture: all
+Installed-Size: 40960
+Filename: luci-app-opkg_git-25.233.06936-53e6515_all.ipk
+Size: 10062
+SHA256sum: 5e862c79121dbfa86e2deededcd3a18050e8d28b6fa22764fb51a4e9bcf1cd03
+Description:  OPKG package management application
+
+Package: luci-app-statistics
+Version: git-25.233.06936-53e6515
+Depends: libc, luci-base, collectd, rrdtool1, collectd-mod-rrdtool, collectd-mod-iwinfo, collectd-mod-cpu, collectd-mod-memory, collectd-mod-interface, collectd-mod-load, collectd-mod-network
+Section: luci
+URL: https://github.com/openwrt/luci
+Architecture: all
+Installed-Size: 245760
+Filename: luci-app-statistics_git-25.233.06936-53e6515_all.ipk
+Size: 34878
+SHA256sum: 74ed900563d98d4e11a8914b79ad685b924f2f6d039d620047a8cf1854a10f74
+Description:  LuCI Statistics Application
+
+Package: luci-app-ttyd
+Version: git-25.233.06936-53e6515
+Depends: libc, ttyd
+Section: luci
+URL: https://github.com/openwrt/luci
+Architecture: all
+Installed-Size: 20480
+Filename: luci-app-ttyd_git-25.233.06936-53e6515_all.ipk
+Size: 3118
+SHA256sum: 1502d65140253a052f4bbb2952d028ec1448e82ec8f80880a850c5f31bacc935
+Description:  ttyd - Command-line tool for sharing terminal over the web
+
+Package: luci-base
+Version: git-25.233.06936-53e6515
+Depends: libc, rpcd, rpcd-mod-file, rpcd-mod-luci, rpcd-mod-ucode, cgi-io, ucode, ucode-mod-fs, ucode-mod-uci, ucode-mod-ubus, ucode-mod-math, ucode-mod-html, liblucihttp-ucode, morse-regdb
+License: MIT
+Section: luci
+URL: https://github.com/openwrt/luci
+Architecture: aarch64_cortex-a53
+Installed-Size: 573440
+Filename: luci-base_git-25.233.06936-53e6515_aarch64_cortex-a53.ipk
+Size: 132049
+SHA256sum: e945e50cb94b78e3a2257dbe622f8f2bde1909fb80a4583146f7374cf2a359b6
+Description:  LuCI core runtime
+
+Package: luci-lib-base
+Version: git-25.233.06936-53e6515
+Depends: libc, lua, luci-lib-nixio, luci-lib-ip, luci-lib-jsonc, liblucihttp-lua
+Section: luci
+URL: https://github.com/openwrt/luci
+Architecture: all
+Installed-Size: 40960
+Filename: luci-lib-base_git-25.233.06936-53e6515_all.ipk
+Size: 10531
+SHA256sum: a511b13d0c18907aff81bf22f644a6733398f03eab8229453e2e7be01977b821
+Description:  basic libraries for luci
+
+Package: luci-lib-chartjs-4
+Version: git-25.233.06936-53e6515
+Depends: libc
+Section: luci
+URL: https://www.chartjs.org/
+Architecture: all
+Installed-Size: 204800
+Filename: luci-lib-chartjs-4_git-25.233.06936-53e6515_all.ipk
+Size: 69989
+SHA256sum: fe060aece7919fa0d8c82d52b8d812e9087ed4cd9f8ce03b770cc4fc11df62a6
+Description:  minified ChartJS 4 javascript library
+
+Package: luci-lib-ip
+Version: git-25.233.06936-53e6515
+Depends: libc, liblua5.1.5, libnl-tiny1
+License: Apache-2.0
+Section: luci
+URL: https://github.com/openwrt/luci
+Architecture: aarch64_cortex-a53
+Installed-Size: 71680
+Filename: luci-lib-ip_git-25.233.06936-53e6515_aarch64_cortex-a53.ipk
+Size: 13247
+SHA256sum: cca11eb7e2f751290ae4468da3e7be47a779f70184086f9d0e7a251d72775d63
+Description:  Lua library for IP calculation and routing information
+
+Package: luci-lib-jsonc
+Version: git-25.233.06936-53e6515
+Depends: libc, liblua5.1.5, libjson-c5
+Section: luci
+URL: https://github.com/openwrt/luci
+Architecture: aarch64_cortex-a53
+Installed-Size: 71680
+Filename: luci-lib-jsonc_git-25.233.06936-53e6515_aarch64_cortex-a53.ipk
+Size: 5350
+SHA256sum: 54bc8552fe6b5e13cf13de0c70459e27c7ad366af44f3783e6c31a02bedb748f
+Description:  Lua binding for JSON-C
+
+Package: luci-lib-nixio
+Version: git-25.233.06936-53e6515
+Depends: libc, liblua5.1.5
+License: Apache-2.0
+Section: luci
+URL: https://github.com/openwrt/luci
+Architecture: aarch64_cortex-a53
+Installed-Size: 153600
+Filename: luci-lib-nixio_git-25.233.06936-53e6515_aarch64_cortex-a53.ipk
+Size: 34801
+SHA256sum: 4a129853f24adec64795304b31e4c1d46eeca0640b02d1ecff8e122a2ba09374
+Description:  NIXIO POSIX library
+
+Package: luci-light
+Version: git-25.233.06936-53e6515
+Depends: libc, luci-proto-ipv6, luci-app-firewall, luci-mod-admin-full, luci-proto-ppp, luci-theme-bootstrap, rpcd-mod-rrdns, uhttpd, uhttpd-mod-ubus
+License: Apache-2.0
+Section: luci
+URL: https://github.com/openwrt/luci
+Architecture: all
+Installed-Size: 10240
+Filename: luci-light_git-25.233.06936-53e6515_all.ipk
+Size: 1051
+SHA256sum: dc44c1a69e227c9c8a952eb9eda9328a922ad79bcdfc49f52d6a2a32254d194c
+Description:  Light OpenWrt set including admin support and the default Bootstrap theme
+
+Package: luci-lua-runtime
+Version: git-25.233.06936-53e6515
+Depends: libc, luci-base, lua, luci-lib-base, luci-lib-nixio, luci-lib-ip, luci-lib-jsonc, libubus-lua, liblucihttp-lua, ucode-mod-lua
+Section: luci
+URL: https://github.com/openwrt/luci
+Architecture: aarch64_cortex-a53
+Installed-Size: 153600
+Filename: luci-lua-runtime_git-25.233.06936-53e6515_aarch64_cortex-a53.ipk
+Size: 31352
+SHA256sum: e575053a6180e17cbbcd1d4b8f708b42fb2326b7e769714c453b32c0aa4fc1dc
+Description:  LuCI Lua runtime libraries
+
+Package: luci-mod-admin-full
+Version: git-25.233.06936-53e6515
+Depends: libc, luci-base, luci-mod-status, luci-mod-system, luci-mod-network
+License: Apache-2.0
+Section: luci
+URL: https://github.com/openwrt/luci
+Architecture: all
+Installed-Size: 10240
+Filename: luci-mod-admin-full_git-25.233.06936-53e6515_all.ipk
+Size: 991
+SHA256sum: 13a0825eeae4fc4cb0e82960fa1eaba57123cd22dc926767e2ffeb9e9e359d1b
+Description:  LuCI Administration - full-featured for full control
+
+Package: luci-mod-network
+Version: git-25.233.06936-53e6515
+Depends: libc, luci-base, luci-lib-chartjs-4, libiwinfo-lua, rpcd-mod-iwinfo
+License: Apache-2.0
+Section: luci
+URL: https://github.com/openwrt/luci
+Architecture: all
+Installed-Size: 276480
+Filename: luci-mod-network_git-25.233.06936-53e6515_all.ipk
+Size: 65536
+SHA256sum: ececf985f9cd8df243a253b9a94d19c73859ec30da2341a4c4a80fcfdefb3786
+Description:  LuCI Network Administration
+
+Package: luci-mod-status
+Version: git-25.233.06936-53e6515
+Depends: libc, luci-base, libiwinfo20250326, rpcd-mod-iwinfo
+License: Apache-2.0
+Section: luci
+URL: https://github.com/openwrt/luci
+Architecture: aarch64_cortex-a53
+Installed-Size: 245760
+Filename: luci-mod-status_git-25.233.06936-53e6515_aarch64_cortex-a53.ipk
+Size: 41064
+SHA256sum: 13c279b42f92e1703245cdc961f2e29dfb59038271eaccbd787d487493055d42
+Description:  LuCI Status Pages
+
+Package: luci-mod-system
+Version: git-25.233.06936-53e6515
+Depends: libc, luci-base
+License: Apache-2.0
+Section: luci
+URL: https://github.com/openwrt/luci
+Architecture: all
+Installed-Size: 92160
+Filename: luci-mod-system_git-25.233.06936-53e6515_all.ipk
+Size: 18605
+SHA256sum: a826282849772b223b2611b1eb53bd2bd8c50b088476dedd495b9cf05eaeec0e
+Description:  LuCI Administration - Global System Settings
+
+Package: luci-proto-batman-adv
+Version: git-25.233.06936-53e6515
+Depends: libc, kmod-batman-adv
+Section: luci
+URL: https://github.com/openwrt/luci
+Architecture: all
+Installed-Size: 20480
+Filename: luci-proto-batman-adv_git-25.233.06936-53e6515_all.ipk
+Size: 3363
+SHA256sum: cd05c52f181e67668c08262eebd1ddb03eb7b7d9e7e5eacd68a082ee5fc9e480
+Description:  Support for the batman-adv protocol
+
+Package: luci-proto-ipv6
+Version: git-25.233.06936-53e6515
+Depends: libc
+License: Apache-2.0
+Section: luci
+URL: https://github.com/openwrt/luci
+Architecture: all
+Installed-Size: 30720
+Filename: luci-proto-ipv6_git-25.233.06936-53e6515_all.ipk
+Size: 3727
+SHA256sum: 1da8874640d9c2f49926fe4834240981399a618266d3108c03a13393f94fcb13
+Description:  Support for DHCPv6/6in4/6to4/6rd/DS-Lite/IPIP6
+
+Package: luci-proto-ppp
+Version: git-25.233.06936-53e6515
+Depends: libc
+License: Apache-2.0
+Section: luci
+URL: https://github.com/openwrt/luci
+Architecture: all
+Installed-Size: 30720
+Filename: luci-proto-ppp_git-25.233.06936-53e6515_all.ipk
+Size: 3052
+SHA256sum: 90f2f403623f44ef78ae05336e0ef17f935bd1a56ab066ce0f3396bcc4a8142a
+Description:  Support for PPP/PPPoE/PPPoA/PPtP
+
+Package: luci-proto-relay
+Version: git-25.233.06936-53e6515
+Depends: libc, relayd
+Section: luci
+URL: https://github.com/openwrt/luci
+Architecture: all
+Installed-Size: 10240
+Filename: luci-proto-relay_git-25.233.06936-53e6515_all.ipk
+Size: 2489
+SHA256sum: 29279cc13717554f1c744d6a4e9c9684d93c3dc1bd04ae80d9f1ba46d3baefd7
+Description:  Support for relayd pseudo bridges
+
+Package: luci-theme-bootstrap
+Version: git-25.233.06936-53e6515
+Depends: libc, luci-base
+License: Apache-2.0
+Section: luci
+URL: https://github.com/openwrt/luci
+Architecture: all
+Installed-Size: 81920
+Filename: luci-theme-bootstrap_git-25.233.06936-53e6515_all.ipk
+Size: 16966
+SHA256sum: 2672638696bad3801a557a4fe4f1813319f76ce37fb6a3f6bd4a84f93fe412a3
+Description:  Bootstrap Theme (default)
+
+Package: luci
+Version: git-25.233.06936-53e6515
+Depends: libc, luci-light, luci-app-opkg
+License: Apache-2.0
+Section: luci
+URL: https://github.com/openwrt/luci
+Architecture: all
+Installed-Size: 10240
+Filename: luci_git-25.233.06936-53e6515_all.ipk
+Size: 991
+SHA256sum: cd77a1a8afe93b108e3a6c0ba2a0e8b0dfa0b9dc7df378112ba320589d7f6b33
+Description:  Standard OpenWrt set including package management and attended sysupgrades support
+
+Package: rpcd-mod-luci
+Version: 20240305-r1
+Depends: libc, rpcd, libubox20240329, libubus20250102, libnl-tiny1
+License: Apache-2.0
+Section: libs
+Architecture: aarch64_cortex-a53
+Installed-Size: 71680
+Filename: rpcd-mod-luci_20240305-r1_aarch64_cortex-a53.ipk
+Size: 15658
+SHA256sum: acec9afe5c1bba67d12c3a62a34cc618f8ce83e2d1ea309a8a07906dba7f5264
+Description:  Provides LuCI backend ubus RPC operations.
+
+Package: rpcd-mod-rrdns
+Version: 20170710
+Depends: libc, rpcd, libubox20240329, libubus20250102
+License: Apache-2.0
+Section: libs
+Architecture: aarch64_cortex-a53
+Installed-Size: 71680
+Filename: rpcd-mod-rrdns_20170710_aarch64_cortex-a53.ipk
+Size: 4885
+SHA256sum: 582eea853ec0cba977fa8a9e7dd23030331843af15455052c0332125f6288841
+Description:  Provides rapid mass reverse DNS lookup functionality.
+
+Package: ucode-mod-html
+Version: 1
+Depends: libc, libucode20230711
+License: ISC
+Section: utils
+Architecture: aarch64_cortex-a53
+Installed-Size: 143360
+Filename: ucode-mod-html_1_aarch64_cortex-a53.ipk
+Size: 31026
+SHA256sum: 4d173b666613f231bccb5f4c13108a40eb8196e0087a86f2a4eef1327fdbde37
+Description:  ucode HTML utility library
+
+Package: ucode-mod-lua
+Version: 1
+Depends: libc, libucode20230711, liblua5.1.5
+License: ISC
+Section: utils
+Architecture: aarch64_cortex-a53
+Installed-Size: 71680
+Filename: ucode-mod-lua_1_aarch64_cortex-a53.ipk
+Size: 10060
+SHA256sum: df3a9d47a75892c497f330f2329155460c0695fed9a688783a3ac80f19f4ad3c
+Description:  ucode to Lua bridge library
+
