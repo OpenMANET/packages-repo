@@ -94,8 +94,8 @@ URL: https://github.com/openwrt/luci
 Architecture: aarch64_cortex-a72
 Installed-Size: 573440
 Filename: luci-base_git-25.233.06936-53e6515_aarch64_cortex-a72.ipk
-Size: 132050
-SHA256sum: 9533c8fb9965ea0bd10068ba6e81351e6d573ac677fe5d89127e1acd491b648f
+Size: 132042
+SHA256sum: 3831b652a3bb3f174fbdcf560e303b7b227f4f499fc04ac5c5ea8833e3c96f19
 Description:  LuCI core runtime
 
 Package: luci-i18n-base-ja
@@ -178,6 +178,19 @@ Filename: luci-lib-chartjs-4_git-25.233.06936-53e6515_all.ipk
 Size: 69989
 SHA256sum: fe060aece7919fa0d8c82d52b8d812e9087ed4cd9f8ce03b770cc4fc11df62a6
 Description:  minified ChartJS 4 javascript library
+
+Package: luci-lib-docker
+Version: git-25.233.06936-53e6515
+Depends: libc, luci-lib-jsonc, luci-lua-runtime
+License: AGPL-3.0
+Section: luci
+URL: https://github.com/openwrt/luci
+Architecture: all
+Installed-Size: 20480
+Filename: luci-lib-docker_git-25.233.06936-53e6515_all.ipk
+Size: 4707
+SHA256sum: aa89efc3e674fce9903842684a1c399a942974eef2322c48d6f9b05b125acb54
+Description:  Docker Engine API for LuCI
 
 Package: luci-lib-httpclient
 Version: git-25.233.06936-53e6515

@@ -107,6 +107,27 @@ SHA256sum: 073a37034fc9c7d17377eaf48b7cf94c540213ced0951e844351a3ff89c26b37
 Description:  Manage ethernet bridging: a way to connect networks together to
  form a larger network.
 
+Package: btrfs-progs
+Version: 6.11-r1
+Depends: libc, libattr, libuuid1, libmount1, zlib, libblkid1, liblzo2, libpthread, kmod-fs-btrfs
+Source: feeds/packages/utils/btrfs-progs
+SourceName: btrfs-progs
+License: GPL-2.0-only
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1756500878
+URL: https://btrfs.readthedocs.io
+Maintainer: Karel Kočí <karel.koci@nic.cz>
+Architecture: aarch64_cortex-a72
+Installed-Size: 2529280
+Filename: btrfs-progs_6.11-r1_aarch64_cortex-a72.ipk
+Size: 1141612
+SHA256sum: 3d379801e350d965a4af8849b7bc6e1e49bda84be251ae53008cb2199a54aed0
+Description:  Btrfs is a new copy on write filesystem for Linux aimed at implementing
+ advanced features while focusing on fault tolerance, repair and easy
+ administration. Initially developed by Oracle, Btrfs is licensed under the
+ GPL and open for contribution from anyone.
+
 Package: cgi-io
 Version: 2022.08.10~901b0f04-r21
 Depends: libc, libubox20240329, libubus20250102
@@ -214,8 +235,8 @@ Maintainer: Jo-Philipp Wich <jo@mein.io>, Hannu Nyman <hannu.nyman@iki.fi>
 Architecture: aarch64_cortex-a72
 Installed-Size: 81920
 Filename: collectd-mod-iwinfo_5.12.0-r54_aarch64_cortex-a72.ipk
-Size: 4963
-SHA256sum: 0b17320dc6191a8b436801b66ffc3cf69f61434ed12cd9d2db0302affedb0366
+Size: 4971
+SHA256sum: 1f49774c1fe8259a9d0df6ad54bcc009e7b3c61f97260a5effe6009419856a01
 Description:  libiwinfo wireless statistics plugin
 
 Package: collectd-mod-load
@@ -333,24 +354,24 @@ SHA256sum: 6dd1267a217387c85673e5fb0a9d9c54943d5d8444d2d766fbdd5986e684db15
 Description:  collectd is a small daemon which collects system information periodically
  and provides mechanismns to store the values in a variety of ways.
 
-Package: curl
-Version: 8.12.1-r1
-Depends: libc, libcurl4
-Source: feeds/packages/net/curl
-SourceName: curl
-License: MIT
-LicenseFiles: COPYING
-Section: net
+Package: containerd
+Version: 1.7.22-r1
+Depends: libc, btrfs-progs, runc
+Source: feeds/packages/utils/containerd
+SourceName: containerd
+License: Apache-2.0
+LicenseFiles: LICENSE
+Section: utils
 SourceDateEpoch: 1756500878
-URL: https://curl.se/
-CPE-ID: cpe:/a:haxx:libcurl
-Maintainer: Aleksey Vasilenko <aleksey.vasilenko@gmail.com>
+URL: https://containerd.io/
+CPE-ID: cpe:/a:linuxfoundation:containerd
+Maintainer: Gerard Ryan <G.M0N3Y.2503@gmail.com>
 Architecture: aarch64_cortex-a72
-Installed-Size: 204800
-Filename: curl_8.12.1-r1_aarch64_cortex-a72.ipk
-Size: 70366
-SHA256sum: 287cf27943dadc5ab604eaf06bd4e9b820190306083a0a0489cefc7af220c91b
-Description:  A client-side URL transfer utility
+Installed-Size: 112015360
+Filename: containerd_1.7.22-r1_aarch64_cortex-a72.ipk
+Size: 36850458
+SHA256sum: 441f11fe45b41df0b62e3d500e0879b922d1634444e0b0a2d28abb2261e45a32
+Description:  An industry-standard container runtime with an emphasis on simplicity, robustness and portability
 
 Package: dbus
 Version: 1.14.10-r1
@@ -369,6 +390,61 @@ Filename: dbus_1.14.10-r1_aarch64_cortex-a72.ipk
 Size: 121636
 SHA256sum: 55d8b93f35b874ac0c6512b607eb1736112035f3b72e8c1696d187539fa34f72
 Description:  Simple interprocess messaging system (daemon)
+
+Package: docker-compose
+Version: 2.39.1-r1
+Depends: libc, docker
+Source: feeds/packages/utils/docker-compose
+SourceName: compose
+License: Apache-2.0
+LicenseFiles: LICENSE
+Section: utils
+SourceDateEpoch: 1756500878
+URL: https://github.com/docker/compose
+Maintainer: Javier Marcet <javier@marcet.info>
+Architecture: aarch64_cortex-a72
+Installed-Size: 62392320
+Filename: docker-compose_2.39.1-r1_aarch64_cortex-a72.ipk
+Size: 17806064
+SHA256sum: 675512d9f3c69353f07a0aa971c10f7654f34a1928c6960ef1663f92ce36d471
+Description:  Multi-container orchestration for Docker
+
+Package: docker
+Version: 27.3.1-r1
+Depends: libc
+Source: feeds/packages/utils/docker
+SourceName: docker
+License: Apache-2.0
+LicenseFiles: LICENSE
+Section: utils
+SourceDateEpoch: 1756500878
+URL: https://www.docker.com/
+Maintainer: Gerard Ryan <G.M0N3Y.2503@gmail.com>
+Architecture: aarch64_cortex-a72
+Installed-Size: 26378240
+Filename: docker_27.3.1-r1_aarch64_cortex-a72.ipk
+Size: 8616509
+SHA256sum: 57277934914706c2f9892f96fe51f732f1592fc6e9273fd471987f8a5bd93a77
+Description:  The CLI used in the Docker CE and Docker EE products.
+
+Package: dockerd
+Version: 27.3.1-r3
+Depends: libc, ca-certificates, containerd, iptables, iptables-mod-extra, ip6tables, kmod-ipt-nat6, libseccomp, kmod-ipt-nat, kmod-ipt-physdev, kmod-nf-ipvs, kmod-veth, tini, uci-firewall
+Source: feeds/packages/utils/dockerd
+SourceName: dockerd
+License: Apache-2.0
+LicenseFiles: LICENSE
+Section: utils
+Require-User: docker:docker
+SourceDateEpoch: 1756500878
+URL: https://www.docker.com/
+Maintainer: Gerard Ryan <G.M0N3Y.2503@gmail.com>
+Architecture: aarch64_cortex-a72
+Installed-Size: 62238720
+Filename: dockerd_27.3.1-r3_aarch64_cortex-a72.ipk
+Size: 20520555
+SHA256sum: cdaf982c2933ece8cee0a2da9bf482791e5657a98909a62722cf402ebb8da286
+Description:  The Docker CE Engine.
 
 Package: dump1090
 Version: 9.0-r3
@@ -985,27 +1061,6 @@ Description:  Libconfig is a simple library for manipulating structured configur
  and 66K for the stripped C++ shared library. This makes it well-suited
  for memory-constrained systems like handheld devices.
 
-Package: libcurl4
-Version: 8.12.1-r1
-Depends: libc, libopenssl3, libnghttp2-14, ca-bundle
-Provides: libcurl
-Source: feeds/packages/net/curl
-SourceName: curl
-License: MIT
-LicenseFiles: COPYING
-Section: libs
-SourceDateEpoch: 1756500878
-URL: https://curl.se/
-ABIVersion: 4
-CPE-ID: cpe:/a:haxx:libcurl
-Maintainer: Aleksey Vasilenko <aleksey.vasilenko@gmail.com>
-Architecture: aarch64_cortex-a72
-Installed-Size: 604160
-Filename: libcurl4_8.12.1-r1_aarch64_cortex-a72.ipk
-Size: 255020
-SHA256sum: 12128d7f35440c5d620e6502856902c72efba2c6f552cd6712478e07499a6b15
-Description:  A client-side URL transfer library
-
 Package: libdaemon
 Version: 0.14-r5
 Depends: libc
@@ -1613,6 +1668,27 @@ Size: 65721
 SHA256sum: 5a13c82a936164d5b9b0009e87f940912d654b26642c51aa526da558ca9eac84
 Description:  liblzma library from XZ Utils
 
+Package: liblzo2
+Version: 2.10-r4
+Depends: libc
+Provides: liblzo
+Source: feeds/packages/libs/lzo
+SourceName: lzo
+License: GPL-2.0-or-later
+LicenseFiles: COPYING
+Section: libs
+SourceDateEpoch: 1756500878
+URL: http://www.oberhumer.com/opensource/lzo/
+ABIVersion: 2
+CPE-ID: cpe:/a:oberhumer:lzo
+Architecture: aarch64_cortex-a72
+Installed-Size: 143360
+Filename: liblzo2_2.10-r4_aarch64_cortex-a72.ipk
+Size: 39068
+SHA256sum: c5b8eed76495d4bad86a4fca11e2793bdc493359c838eb7ff1c8108ba0384d54
+Description:  LZO is a data compression library which is suitable for data de-/compression
+ in real-time. This means it favours speed over compression ratio.
+
 Package: libmagic
 Version: 5.45-r1
 Depends: libc, zlib, liblzma, libbz2-1.0
@@ -1631,26 +1707,6 @@ Filename: libmagic_5.45-r1_aarch64_cortex-a72.ipk
 Size: 290733
 SHA256sum: d70dbc8158c9584f2f8b763a3cc4bfeb4a846f0abeaca1ba84b75f041d70eb5d
 Description:  File type determination library
-
-Package: libnghttp2-14
-Version: 1.63.0-r1
-Depends: libc
-Provides: libnghttp2
-Source: feeds/packages/libs/nghttp2
-SourceName: nghttp2
-License: MIT
-LicenseFiles: COPYING
-Section: libs
-SourceDateEpoch: 1756500878
-ABIVersion: -14
-CPE-ID: cpe:/a:nghttp2:nghttp2
-Maintainer: Hans Dedecker <dedeckeh@gmail.com>
-Architecture: aarch64_cortex-a72
-Installed-Size: 204800
-Filename: libnghttp2-14_1.63.0-r1_aarch64_cortex-a72.ipk
-Size: 73625
-SHA256sum: 184f8c6a486fa6fcf49c42cd374007c62f1f5595e2ef9314b87234cf3f5e2d22
-Description:  C library implementing the framing layer of the HTTP/2 protocol. It can be used to build a HTTP/2-capable HTTP client or server
 
 Package: libogg0
 Version: 1.3.5-r1
@@ -1854,6 +1910,25 @@ Description:  rtl-sdr allows DVB-T dongles based on the Realtek RTL2832U to be u
  an inexpensive SDR.
  
  This package contains the librtlsdr shared library.
+
+Package: libseccomp
+Version: 2.5.5-r1
+Depends: libc
+Source: feeds/packages/libs/libseccomp
+SourceName: libseccomp
+License: LGPL-2.1-or-later
+LicenseFiles: LICENSE
+Section: libs
+SourceDateEpoch: 1756500878
+URL: https://github.com/seccomp/libseccomp/wiki
+CPE-ID: cpe:/a:libseccomp_project:libseccomp
+Maintainer: Nikos Mavrogiannopoulos <nmav@gnutls.org>
+Architecture: aarch64_cortex-a72
+Installed-Size: 143360
+Filename: libseccomp_2.5.5-r1_aarch64_cortex-a72.ipk
+Size: 43872
+SHA256sum: 5e6299cb3552754acb264957f6c88d1d391dfbc2e5b1b83077a2aaf035b1517f
+Description:  This package contains the seccomp library.
 
 Package: libsqlite3-0
 Version: 3500400-r1
@@ -3011,6 +3086,44 @@ Description:  rtl-sdr allows DVB-T dongles based on the Realtek RTL2832U to be u
  an inexpensive SDR.
  
  This package contains the utilities and daemons.
+
+Package: runc
+Version: 1.1.14-r1
+Depends: libc, libseccomp
+Source: feeds/packages/utils/runc
+SourceName: runc
+License: Apache-2.0
+LicenseFiles: LICENSE
+Section: utils
+SourceDateEpoch: 1756500878
+URL: https://www.opencontainers.org/
+CPE-ID: cpe:/a:linuxfoundation:runc
+Maintainer: Gerard Ryan <G.M0N3Y.2503@gmail.com>
+Architecture: aarch64_cortex-a72
+Installed-Size: 10874880
+Filename: runc_1.1.14-r1_aarch64_cortex-a72.ipk
+Size: 3832501
+SHA256sum: e3692e694b2c598fc796bf5053c70b03988649b55d669fd1e4c7110f6847952f
+Description:  runc is a CLI tool for spawning and running containers according to the OCI specification.
+
+Package: tini
+Version: 0.19.0-r2
+Depends: libc
+Source: feeds/packages/utils/tini
+SourceName: tini
+License: MIT
+LicenseFiles: LICENSE
+Section: utils
+SourceDateEpoch: 1756500878
+URL: https://github.com/krallin/tini
+CPE-ID: cpe:/a:tini_project:tini
+Maintainer: Gerard Ryan <G.M0N3Y.2503@gmail.com>
+Architecture: aarch64_cortex-a72
+Installed-Size: 143360
+Filename: tini_0.19.0-r2_aarch64_cortex-a72.ipk
+Size: 41518
+SHA256sum: 33dfd9ea57d19890a77ab1deda8cfceaa54ab8eeace47c46a01b0e36584e0ab0
+Description:  A tiny but valid init process for containers.
 
 Package: ttyd
 Version: 1.7.3-r1

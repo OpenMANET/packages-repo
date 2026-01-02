@@ -17,6 +17,7 @@
     "luci-i18n-ttyd-ja": "git-25.233.06936-53e6515",
     "luci-lib-base": "git-25.233.06936-53e6515",
     "luci-lib-chartjs-4": "git-25.233.06936-53e6515",
+    "luci-lib-docker": "git-25.233.06936-53e6515",
     "luci-lib-httpclient": "git-25.233.06936-53e6515",
     "luci-lib-httpprotoutils": "git-25.233.06936-53e6515",
     "luci-lib-ip": "git-25.233.06936-53e6515",

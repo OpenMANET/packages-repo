@@ -17,15 +17,14 @@
     "libavahi-client": "0.8-r8",
     "libavahi-dbus-support": "0.8-r8",
     "libgps": "3.25-r1",
-    "luci-app-ekhwizards": "git-25.365.78399-ebe1065",
-    "luci-app-morseconfig": "git-25.365.78399-ebe1065",
-    "luci-i18n-morseconfig-ja": "git-25.365.78399-ebe1065",
-    "luci-i18n-morseui-ja": "git-25.365.78399-ebe1065",
-    "luci-lib-morseui": "git-25.365.78399-ebe1065",
-    "luci-lib-vivagraphjs": "git-25.365.78399-ebe1065",
-    "luci-mod-home": "git-25.365.78399-ebe1065",
-    "luci-theme-morseargon": "git-25.365.78399-ebe1065",
-    "luci-theme-openmanetargon": "2.4.3",
+    "luci-app-ekhwizards": "git-26.002.65027-4a54369",
+    "luci-app-morseconfig": "git-26.002.65027-4a54369",
+    "luci-i18n-morseconfig-ja": "git-26.002.65027-4a54369",
+    "luci-i18n-morseui-ja": "git-26.002.65027-4a54369",
+    "luci-lib-morseui": "git-26.002.65027-4a54369",
+    "luci-lib-vivagraphjs": "git-26.002.65027-4a54369",
+    "luci-mod-home": "git-26.002.65027-4a54369",
+    "luci-theme-openmanetargon": "git-26.002.65027-4a54369",
     "openmanetd": "0.0.47-r1"
   }
 }
