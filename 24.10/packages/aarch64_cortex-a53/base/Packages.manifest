@@ -536,6 +536,23 @@ Size: 131148
 SHA256sum: 463e342b52e010976402f5d384a0d736ae96abd3205ccc9fe3f59fd3c69435a5
 Description:  System CA certificates as a bundle
 
+Package: ca-certificates
+Version: 20250419-r1
+Depends: libc
+Provides: ca-certs
+Source: feeds/base/system/ca-certificates
+SourceName: ca-certificates
+License: GPL-2.0-or-later MPL-2.0
+LicenseFiles: debian/copyright
+Section: base
+SourceDateEpoch: 1765672530
+Architecture: all
+Installed-Size: 419840
+Filename: ca-certificates_20250419-r1_all.ipk
+Size: 142362
+SHA256sum: 9a4c894e325dc1d3b7b4803bfb38926b3fc59b4d9cc8801ffa4202923bdd772d
+Description:  System CA certificates
+
 Package: chat
 Version: 2.5.1-r1
 Depends: libc
@@ -1722,6 +1739,27 @@ Description:  libmnl is a minimalistic user-space library oriented to Netlink de
  * Decoupling: the interdependency of the main bricks that compose the library
  is reduced, i.e. the library provides many helpers, but the programmer is not
  forced to use them.
+
+Package: libmount1
+Version: 2.40.2-r1
+Depends: libc, libblkid1
+Provides: libmount
+Source: feeds/base/utils/util-linux
+SourceName: util-linux
+License: GPL-2.0-only
+LicenseFiles: COPYING libblkid/COPYING libmount/COPYING Documentation/licenses/COPYING.GPLv2 Documentation/licenses/COPYING.LGPLv2.1 libuuid/COPYING Documentation/licenses/COPYING.BSD-3
+Section: libs
+SourceDateEpoch: 1765570807
+URL: http://www.kernel.org/pub/linux/utils/util-linux/
+ABIVersion: 1
+CPE-ID: cpe:/a:kernel:util-linux
+Architecture: aarch64_cortex-a53
+Installed-Size: 399360
+Filename: libmount1_2.40.2-r1_aarch64_cortex-a53.ipk
+Size: 146520
+SHA256sum: 45510ea2d01432cfdb0de53c54f2844feb56ffdd54c68605fa29e8df0a8c9980
+Description:  The libmount library is used to parse /etc/fstab, /etc/mtab and
+ /proc/self/mountinfo files, manage the mtab file, evaluate mount options...
 
 Package: libncurses6
 Version: 6.4-r2

@@ -80,6 +80,22 @@ SHA256sum: c49d15cd678f50e6ea18e4dbc9cd5aeb3f1ce27193c9412b0af271a46d16d60a
 Description:  Manage ethernet bridging: a way to connect networks together to
  form a larger network.
 
+Package: btrfs-progs
+Version: 6.11-r1
+Depends: libc, libattr, libuuid1, libmount1, zlib, libblkid1, liblzo2, libpthread, kmod-fs-btrfs
+License: GPL-2.0-only
+Section: utils
+URL: https://btrfs.readthedocs.io
+Architecture: aarch64_cortex-a53
+Installed-Size: 2529280
+Filename: btrfs-progs_6.11-r1_aarch64_cortex-a53.ipk
+Size: 1139427
+SHA256sum: a36fcc1e8edc4066cbe5ec48cc46d86967fe69538cb9d43eb3a14b510588babc
+Description:  Btrfs is a new copy on write filesystem for Linux aimed at implementing
+ advanced features while focusing on fault tolerance, repair and easy
+ administration. Initially developed by Oracle, Btrfs is licensed under the
+ GPL and open for contribution from anyone.
+
 Package: cgi-io
 Version: 2022.08.10~901b0f04-r21
 Depends: libc, libubox20240329, libubus20250102
@@ -247,6 +263,20 @@ SHA256sum: 73e94713a793ae9471c772c54fddd6561828fbd8e8e90e8d6afc5ebf33df88af
 Description:  collectd is a small daemon which collects system information periodically
  and provides mechanismns to store the values in a variety of ways.
 
+Package: containerd
+Version: 1.7.22-r1
+Depends: libc, btrfs-progs, runc
+License: Apache-2.0
+Section: utils
+URL: https://containerd.io/
+CPE-ID: cpe:/a:linuxfoundation:containerd
+Architecture: aarch64_cortex-a53
+Installed-Size: 112015360
+Filename: containerd_1.7.22-r1_aarch64_cortex-a53.ipk
+Size: 36849245
+SHA256sum: 50cd2c334df6bd8dbcb594ba3cf1dfb0b36f00f48d6f8b68b716067b77d215b4
+Description:  An industry-standard container runtime with an emphasis on simplicity, robustness and portability
+
 Package: curl
 Version: 8.12.1-r1
 Depends: libc, libcurl4
@@ -274,6 +304,45 @@ Filename: dbus_1.14.10-r1_aarch64_cortex-a53.ipk
 Size: 121357
 SHA256sum: 4917170feb0ee91bc7f1e707a08666eaa1156b23221ee9f350036a7f06f530a9
 Description:  Simple interprocess messaging system (daemon)
+
+Package: docker-compose
+Version: 2.39.1-r1
+Depends: libc, docker
+License: Apache-2.0
+Section: utils
+URL: https://github.com/docker/compose
+Architecture: aarch64_cortex-a53
+Installed-Size: 62392320
+Filename: docker-compose_2.39.1-r1_aarch64_cortex-a53.ipk
+Size: 17805905
+SHA256sum: f0e28ef60a7f5efe42bceeac6efcab4a02b2d883704eeb74e87afbf79acc5140
+Description:  Multi-container orchestration for Docker
+
+Package: docker
+Version: 27.3.1-r1
+Depends: libc
+License: Apache-2.0
+Section: utils
+URL: https://www.docker.com/
+Architecture: aarch64_cortex-a53
+Installed-Size: 26378240
+Filename: docker_27.3.1-r1_aarch64_cortex-a53.ipk
+Size: 8616822
+SHA256sum: 9ae05145d7b29378ab08b9bdc614704953f4f56faffc36a26471e7667d4157fc
+Description:  The CLI used in the Docker CE and Docker EE products.
+
+Package: dockerd
+Version: 27.3.1-r3
+Depends: libc, ca-certificates, containerd, iptables, iptables-mod-extra, ip6tables, kmod-ipt-nat6, libseccomp, kmod-ipt-nat, kmod-ipt-physdev, kmod-nf-ipvs, kmod-veth, tini, uci-firewall
+License: Apache-2.0
+Section: utils
+URL: https://www.docker.com/
+Architecture: aarch64_cortex-a53
+Installed-Size: 62238720
+Filename: dockerd_27.3.1-r3_aarch64_cortex-a53.ipk
+Size: 20520573
+SHA256sum: 94a4734e41b2b96042b5d1516804b51cdd9d0a78a7fa28f33f6cd035ec1cedd7
+Description:  The Docker CE Engine.
 
 Package: dump1090
 Version: 9.0-r3
@@ -746,6 +815,23 @@ Size: 65740
 SHA256sum: 49c4cfe5aafdbfb2ddff3c0b146b03fce62426a1e8aaf336f77f261b5dc922f9
 Description:  liblzma library from XZ Utils
 
+Package: liblzo2
+Version: 2.10-r4
+Depends: libc
+Provides: liblzo
+License: GPL-2.0-or-later
+Section: libs
+URL: http://www.oberhumer.com/opensource/lzo/
+ABIVersion: 2
+CPE-ID: cpe:/a:oberhumer:lzo
+Architecture: aarch64_cortex-a53
+Installed-Size: 143360
+Filename: liblzo2_2.10-r4_aarch64_cortex-a53.ipk
+Size: 39149
+SHA256sum: b257c88ff130555604e0a0019304653869da01547f75c661465934eed9a6834c
+Description:  LZO is a data compression library which is suitable for data de-/compression
+ in real-time. This means it favours speed over compression ratio.
+
 Package: libmagic
 Version: 5.45-r1
 Depends: libc, zlib, liblzma, libbz2-1.0
@@ -933,6 +1019,20 @@ Description:  rtl-sdr allows DVB-T dongles based on the Realtek RTL2832U to be u
  an inexpensive SDR.
  
  This package contains the librtlsdr shared library.
+
+Package: libseccomp
+Version: 2.5.5-r1
+Depends: libc
+License: LGPL-2.1-or-later
+Section: libs
+URL: https://github.com/seccomp/libseccomp/wiki
+CPE-ID: cpe:/a:libseccomp_project:libseccomp
+Architecture: aarch64_cortex-a53
+Installed-Size: 143360
+Filename: libseccomp_2.5.5-r1_aarch64_cortex-a53.ipk
+Size: 43922
+SHA256sum: 04bc9a340a654b22431e44c50dc2f46c2d125cc43266036008f6dd135b7e8956
+Description:  This package contains the seccomp library.
 
 Package: libsqlite3-0
 Version: 3500400-r1
@@ -1839,6 +1939,34 @@ Description:  rtl-sdr allows DVB-T dongles based on the Realtek RTL2832U to be u
  an inexpensive SDR.
  
  This package contains the utilities and daemons.
+
+Package: runc
+Version: 1.1.14-r1
+Depends: libc, libseccomp
+License: Apache-2.0
+Section: utils
+URL: https://www.opencontainers.org/
+CPE-ID: cpe:/a:linuxfoundation:runc
+Architecture: aarch64_cortex-a53
+Installed-Size: 10874880
+Filename: runc_1.1.14-r1_aarch64_cortex-a53.ipk
+Size: 3832041
+SHA256sum: a2325386223b24bd7240daf5bf8340f6991d8330a9670c814faf0b3c9800be03
+Description:  runc is a CLI tool for spawning and running containers according to the OCI specification.
+
+Package: tini
+Version: 0.19.0-r2
+Depends: libc
+License: MIT
+Section: utils
+URL: https://github.com/krallin/tini
+CPE-ID: cpe:/a:tini_project:tini
+Architecture: aarch64_cortex-a53
+Installed-Size: 143360
+Filename: tini_0.19.0-r2_aarch64_cortex-a53.ipk
+Size: 41590
+SHA256sum: a41a74a9136c20d495cc772923493db71f196172349bf19cbb9c25ee77076340
+Description:  A tiny but valid init process for containers.
 
 Package: ttyd
 Version: 1.7.3-r1
