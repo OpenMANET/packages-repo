@@ -585,7 +585,6 @@
     "kmod-usb-serial-ark3116": "6.6.102-r1",
     "kmod-usb-serial-belkin": "6.6.102-r1",
     "kmod-usb-serial-ch341": "6.6.102-r1",
-    "kmod-usb-serial-ch348": "6.6.102-r1",
     "kmod-usb-serial-cp210x": "6.6.102-r1",
     "kmod-usb-serial-cypress-m8": "6.6.102-r1",
     "kmod-usb-serial-dmx_usb_module": "6.6.102.19.12.1-r2",

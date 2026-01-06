@@ -273,8 +273,8 @@ CPE-ID: cpe:/a:linuxfoundation:containerd
 Architecture: aarch64_cortex-a72
 Installed-Size: 112015360
 Filename: containerd_1.7.22-r1_aarch64_cortex-a72.ipk
-Size: 36850458
-SHA256sum: 441f11fe45b41df0b62e3d500e0879b922d1634444e0b0a2d28abb2261e45a32
+Size: 36850527
+SHA256sum: 431721da2c92515e4c140ca89fb1d7c4d986e34ec23327ede37b1a72e038b4ca
 Description:  An industry-standard container runtime with an emphasis on simplicity, robustness and portability
 
 Package: dbus
@@ -326,8 +326,8 @@ URL: https://www.docker.com/
 Architecture: aarch64_cortex-a72
 Installed-Size: 62238720
 Filename: dockerd_27.3.1-r3_aarch64_cortex-a72.ipk
-Size: 20520555
-SHA256sum: cdaf982c2933ece8cee0a2da9bf482791e5657a98909a62722cf402ebb8da286
+Size: 20520942
+SHA256sum: debbe2e59c7e14189700455bde8a439a1825f7acb80e6df3ac87f1432964fa5f
 Description:  The Docker CE Engine.
 
 Package: dump1090
@@ -2427,8 +2427,8 @@ CPE-ID: cpe:/a:linuxfoundation:runc
 Architecture: aarch64_cortex-a72
 Installed-Size: 10874880
 Filename: runc_1.1.14-r1_aarch64_cortex-a72.ipk
-Size: 3832501
-SHA256sum: e3692e694b2c598fc796bf5053c70b03988649b55d669fd1e4c7110f6847952f
+Size: 3832486
+SHA256sum: 18b5615934ff966f15b98840ddfdee2322624a95b9e9eebbc65124ccee86fdca
 Description:  runc is a CLI tool for spawning and running containers according to the OCI specification.
 
 Package: tini
