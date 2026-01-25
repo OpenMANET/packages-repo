@@ -5,6 +5,7 @@
     "dpp-handler": "1",
     "hostapd_s1g": "1.16.4-r2",
     "libwpa_client_s1g": "1.16.4-r2",
+    "mediamtx": "1.4.0-r1",
     "morse-bcf-info": "1.0-r1",
     "morse-board-config-hotplug-model": "1.16.4-r6",
     "morse-board-config": "1.16.4-r6",

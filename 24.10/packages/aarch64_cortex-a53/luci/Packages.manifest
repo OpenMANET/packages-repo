@@ -51,6 +51,23 @@ Size: 8827
 SHA256sum: e3cafaf3bceb0cddc2445e31d059bc379613d3ed757150a5fb994678501350e5
 Description:  LuCI HTTP utility library
 
+Package: luci-app-dockerman
+Version: v0.5.13-20240317
+Depends: libc, luci-compat, luci-lib-docker, docker, ttyd, luci-lua-runtime
+Source: feeds/luci/applications/luci-app-dockerman
+SourceName: luci-app-dockerman
+License: AGPL-3.0
+Section: luci
+SourceDateEpoch: 1755741336
+URL: https://github.com/openwrt/luci
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 184320
+Filename: luci-app-dockerman_v0.5.13-20240317_all.ipk
+Size: 36778
+SHA256sum: fb74b2a632408fdcfb07ff2f6667c658aa9284f1c6b5bc61362c1f7e1725b798
+Description:  LuCI Support for docker
+
 Package: luci-app-firewall
 Version: git-25.233.06936-53e6515
 Depends: libc, uci-firewall
@@ -130,8 +147,24 @@ Architecture: aarch64_cortex-a53
 Installed-Size: 573440
 Filename: luci-base_git-25.233.06936-53e6515_aarch64_cortex-a53.ipk
 Size: 132049
-SHA256sum: a84940b0b5462bc5308884b58746c8b6e3a2aea5a50a30c1e037c2d5bb75804d
+SHA256sum: 097a45e2b266880012f61729edbe080eb1d9a9296e0e5ab95c5a85bec05ca288
 Description:  LuCI core runtime
+
+Package: luci-compat
+Version: git-25.233.06936-53e6515
+Depends: libc, luci-lua-runtime, luci-lua-runtime
+Source: feeds/luci/modules/luci-compat
+SourceName: luci-compat
+Section: luci
+SourceDateEpoch: 1755741336
+URL: https://github.com/openwrt/luci
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 245760
+Filename: luci-compat_git-25.233.06936-53e6515_all.ipk
+Size: 46320
+SHA256sum: 95d8501fdfda62fd77a4056abcf125fe68c101581ceb13e864d8bcd47126da77
+Description:  LuCI compatibility libraries
 
 Package: luci-lib-base
 Version: git-25.233.06936-53e6515
@@ -412,8 +445,8 @@ Maintainer: OpenWrt LuCI community
 Architecture: all
 Installed-Size: 81920
 Filename: luci-theme-bootstrap_git-25.233.06936-53e6515_all.ipk
-Size: 16966
-SHA256sum: 2672638696bad3801a557a4fe4f1813319f76ce37fb6a3f6bd4a84f93fe412a3
+Size: 16964
+SHA256sum: 699411e6a62a678a3bf724a87203a0e64943e4604fc7a1af6228e8880db2120c
 Description:  Bootstrap Theme (default)
 
 Package: luci

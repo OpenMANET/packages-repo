@@ -273,23 +273,9 @@ CPE-ID: cpe:/a:linuxfoundation:containerd
 Architecture: aarch64_cortex-a53
 Installed-Size: 112015360
 Filename: containerd_1.7.22-r1_aarch64_cortex-a53.ipk
-Size: 36849245
-SHA256sum: 50cd2c334df6bd8dbcb594ba3cf1dfb0b36f00f48d6f8b68b716067b77d215b4
+Size: 36849746
+SHA256sum: 162deafa3b6a52eaf569bd5a049d81f4973487a48e22754a497081302a3f7857
 Description:  An industry-standard container runtime with an emphasis on simplicity, robustness and portability
-
-Package: curl
-Version: 8.12.1-r1
-Depends: libc, libcurl4
-License: MIT
-Section: net
-URL: https://curl.se/
-CPE-ID: cpe:/a:haxx:libcurl
-Architecture: aarch64_cortex-a53
-Installed-Size: 204800
-Filename: curl_8.12.1-r1_aarch64_cortex-a53.ipk
-Size: 70269
-SHA256sum: d9dc74de2cedb7055b5c2f1de0dc7d5d3dc17ce65e4a9d9efccca4e3efd81b30
-Description:  A client-side URL transfer utility
 
 Package: dbus
 Version: 1.14.10-r1
@@ -304,19 +290,6 @@ Filename: dbus_1.14.10-r1_aarch64_cortex-a53.ipk
 Size: 121357
 SHA256sum: 4917170feb0ee91bc7f1e707a08666eaa1156b23221ee9f350036a7f06f530a9
 Description:  Simple interprocess messaging system (daemon)
-
-Package: docker-compose
-Version: 2.39.1-r1
-Depends: libc, docker
-License: Apache-2.0
-Section: utils
-URL: https://github.com/docker/compose
-Architecture: aarch64_cortex-a53
-Installed-Size: 62392320
-Filename: docker-compose_2.39.1-r1_aarch64_cortex-a53.ipk
-Size: 17805905
-SHA256sum: f0e28ef60a7f5efe42bceeac6efcab4a02b2d883704eeb74e87afbf79acc5140
-Description:  Multi-container orchestration for Docker
 
 Package: docker
 Version: 27.3.1-r1
@@ -340,8 +313,8 @@ URL: https://www.docker.com/
 Architecture: aarch64_cortex-a53
 Installed-Size: 62238720
 Filename: dockerd_27.3.1-r3_aarch64_cortex-a53.ipk
-Size: 20520573
-SHA256sum: 94a4734e41b2b96042b5d1516804b51cdd9d0a78a7fa28f33f6cd035ec1cedd7
+Size: 20520714
+SHA256sum: 3fcb6ef47731852e8deb1cb581339ffdd53f3213780c064ae83ae3912817b359
 Description:  The Docker CE Engine.
 
 Package: dump1090
@@ -600,22 +573,6 @@ Description:  Libconfig is a simple library for manipulating structured configur
  and 66K for the stripped C++ shared library. This makes it well-suited
  for memory-constrained systems like handheld devices.
 
-Package: libcurl4
-Version: 8.12.1-r1
-Depends: libc, libopenssl3, libnghttp2-14, ca-bundle
-Provides: libcurl
-License: MIT
-Section: libs
-URL: https://curl.se/
-ABIVersion: 4
-CPE-ID: cpe:/a:haxx:libcurl
-Architecture: aarch64_cortex-a53
-Installed-Size: 604160
-Filename: libcurl4_8.12.1-r1_aarch64_cortex-a53.ipk
-Size: 254492
-SHA256sum: ab64f39df3a3267ca296e3870d6bbcb90b86a4d96c767c31df091bc1f6a78735
-Description:  A client-side URL transfer library
-
 Package: libdaemon
 Version: 0.14-r5
 Depends: libc
@@ -845,21 +802,6 @@ Filename: libmagic_5.45-r1_aarch64_cortex-a53.ipk
 Size: 290510
 SHA256sum: 5a891f1e1f7c1a07f0b58bd0fdd7f268bf56bc545ae714f8ecad108c52138f9c
 Description:  File type determination library
-
-Package: libnghttp2-14
-Version: 1.63.0-r1
-Depends: libc
-Provides: libnghttp2
-License: MIT
-Section: libs
-ABIVersion: -14
-CPE-ID: cpe:/a:nghttp2:nghttp2
-Architecture: aarch64_cortex-a53
-Installed-Size: 204800
-Filename: libnghttp2-14_1.63.0-r1_aarch64_cortex-a53.ipk
-Size: 73597
-SHA256sum: 8774cabf273ab82152427f0c888c964de3ef60065379b447754f9ff107f33f8a
-Description:  C library implementing the framing layer of the HTTP/2 protocol. It can be used to build a HTTP/2-capable HTTP client or server
 
 Package: libogg0
 Version: 1.3.5-r1
@@ -1156,21 +1098,6 @@ Description:  nano-full - all features, including syntax highlighting (also uci)
  defaults (linewise scrolling, no automatic line breaking).
  
  Nano is an official GNU package.
-
-Package: netcat
-Version: 0.7.1-r2
-Depends: libc
-License: GPL-2.0
-Section: net
-URL: http://netcat.sourceforge.net/
-CPE-ID: cpe:/a:netcat:netcat
-Architecture: aarch64_cortex-a53
-Installed-Size: 71680
-Filename: netcat_0.7.1-r2_aarch64_cortex-a53.ipk
-Size: 17013
-SHA256sum: f5a4123cd422a2bed93e5b80168aa65641f8c0f96f4d3d295642ec8103265a8c
-Description:  Netcat is a featured networking utility which reads and writes data across network connections, using the TCP/IP protocol.
- It is designed to be a reliable "back-end" tool that can be used directly or easily driven by other programs and scripts. At the same time, it is a feature-rich network debugging and exploration tool, since it can create almost any kind of connection you would need and has several interesting built-in capabilities.
 
 Package: openssh-sftp-server
 Version: 9.9_p2-r1
@@ -1950,8 +1877,8 @@ CPE-ID: cpe:/a:linuxfoundation:runc
 Architecture: aarch64_cortex-a53
 Installed-Size: 10874880
 Filename: runc_1.1.14-r1_aarch64_cortex-a53.ipk
-Size: 3832041
-SHA256sum: a2325386223b24bd7240daf5bf8340f6991d8330a9670c814faf0b3c9800be03
+Size: 3831967
+SHA256sum: ca603ae5042a2570cb133e494a4fa2ed7f772cc131c8cecddd23e578d8574348
 Description:  runc is a CLI tool for spawning and running containers according to the OCI specification.
 
 Package: tini

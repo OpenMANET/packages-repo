@@ -350,10 +350,10 @@ URL: http://busybox.net/
 CPE-ID: cpe:/a:busybox:busybox
 Essential: yes
 Architecture: aarch64_cortex-a53
-Installed-Size: 624640
+Installed-Size: 552960
 Filename: busybox_1.36.1-r2_aarch64_cortex-a53.ipk
-Size: 265694
-SHA256sum: a8f755c586da68a31798773bf3eb7682b22972c17919c43e406f7e85e36fee8a
+Size: 255702
+SHA256sum: 31929aae531cc098268f9a9486423c07140a49b3ccfe05de4932aa11ee098a14
 Description:  The Swiss Army Knife of embedded Linux.
  It slices, it dices, it makes Julian Fries.
 
@@ -675,8 +675,8 @@ Section: utils
 Architecture: aarch64_cortex-a53
 Installed-Size: 71680
 Filename: iwinfo_2025.06.10~6161ce59-r1_aarch64_cortex-a53.ipk
-Size: 8281
-SHA256sum: 2335e695395ec30abb5298d20b9f1ac4e48185ff5364be9532fab4906874c4d6
+Size: 8284
+SHA256sum: eec8a1d03f097cee4369eabd4bffa7700f51f5f87ad80765cfdcfa545b4b5533
 Description:  Command line frontend for the wireless information library.
 
 Package: iwlwifi-firmware-ax200
@@ -1182,8 +1182,8 @@ Section: opt
 Architecture: aarch64_cortex-a53
 Installed-Size: 30720
 Filename: libiwinfo-data_2025.06.10~6161ce59-r1_aarch64_cortex-a53.ipk
-Size: 3993
-SHA256sum: 29294ed93a84dd9f98033a31e34567c9233db1599704913dc1e897ede93d815e
+Size: 3991
+SHA256sum: fbf5457b9d08dca099418a98640234d97fb32403a8358999adc14cf2b0aa26e7
 Description:  libiwinfo Lua binding
 
 Package: libiwinfo-lua
@@ -1194,8 +1194,8 @@ Section: lang
 Architecture: aarch64_cortex-a53
 Installed-Size: 71680
 Filename: libiwinfo-lua_2025.06.10~6161ce59-r1_aarch64_cortex-a53.ipk
-Size: 7424
-SHA256sum: c9dc9677d6c78bdcf03d4b67b7c72cab03671d87f97b7a23b86f8999fe3c7ce0
+Size: 7431
+SHA256sum: 92672fb10a3312d10826ace5ad5ba7c6bfdb35c2789e347cdd1fe1fb83bdb1b1
 Description:  This is the Lua binding for the iwinfo library. It provides access to all enabled
  backends.
 
@@ -1209,8 +1209,8 @@ ABIVersion: 20250326
 Architecture: aarch64_cortex-a53
 Installed-Size: 143360
 Filename: libiwinfo20250326_2025.06.10~6161ce59-r1_aarch64_cortex-a53.ipk
-Size: 34807
-SHA256sum: 8801a7f76e1c6753ce89843fc6f559d733f89259efd669c93cc686d65694aeee
+Size: 34811
+SHA256sum: d5c8a49bb227fb7c17b1e46933b94015d5aa0b39f3d2fecf4c606f6976fb04b0
 Description:  Wireless information library with simplified API for nl80211
  and wext driver interfaces.
 
@@ -2096,8 +2096,8 @@ Section: utils
 Architecture: aarch64_cortex-a53
 Installed-Size: 71680
 Filename: rpcd-mod-file_2023.07.01~c07ab2f9-r1_aarch64_cortex-a53.ipk
-Size: 8431
-SHA256sum: 1f50e8911eb4b27e45a59feec1dc378d0825a47fc4bb3e1e683fcbbbcbe0378c
+Size: 8426
+SHA256sum: a076da1791472b5f3d5d9a742df59f48b32ebf67d1079fcb69cf0f8d0135e7c8
 Description:  Provides ubus calls for file and directory operations.
 
 Package: rpcd-mod-iwinfo
@@ -2108,8 +2108,8 @@ Section: utils
 Architecture: aarch64_cortex-a53
 Installed-Size: 71680
 Filename: rpcd-mod-iwinfo_2023.07.01~c07ab2f9-r1_aarch64_cortex-a53.ipk
-Size: 8932
-SHA256sum: cfbb91fc87ad509cd0105c6bac50964cb4c2c042f3864499c2c53362d38fad55
+Size: 8934
+SHA256sum: b3712e02187c6dcde4b16a4929de6fd496b1486475992ea3ed1397410f3d1e6d
 Description:  Provides ubus calls for accessing iwinfo data.
 
 Package: rpcd-mod-ucode
@@ -2120,8 +2120,8 @@ Section: utils
 Architecture: aarch64_cortex-a53
 Installed-Size: 71680
 Filename: rpcd-mod-ucode_2023.07.01~c07ab2f9-r1_aarch64_cortex-a53.ipk
-Size: 8919
-SHA256sum: 042b9c9bc14901291b1fa55f384962e5b2be63e3fabe327271f2e9798b4d57f3
+Size: 8912
+SHA256sum: e86a127a3bd7a320be1a183b7f1188ea66d4b2576eb564049425d088b1aec1fd
 Description:  Allows implementing plugins using ucode scripts.
 
 Package: rpcd
@@ -2133,7 +2133,7 @@ Architecture: aarch64_cortex-a53
 Installed-Size: 81920
 Filename: rpcd_2023.07.01~c07ab2f9-r1_aarch64_cortex-a53.ipk
 Size: 27916
-SHA256sum: f8dff3c59768c9b565482987ea1f085b4084018156c122a93791054583272a05
+SHA256sum: f9afe7937c812770de8539ae8488a06916443bc9a55f0a484c27dfd636090b96
 Description:  This package provides the UBUS RPC backend server to expose various
  functionality to frontend programs via JSON-RPC.
 
@@ -2638,8 +2638,8 @@ Section: net
 Architecture: aarch64_cortex-a53
 Installed-Size: 92160
 Filename: uhttpd_2025.07.06~7e64e8ba-r4_aarch64_cortex-a53.ipk
-Size: 32222
-SHA256sum: 4064c483af4ac81e046eb50013a49c13e49f292b76ccea2db8bf6db3cf336a89
+Size: 32229
+SHA256sum: 10bb5d01e4ff6a1a2cb89d6c84f28cce89908eb18b1bc7104dc4e63f308ee0a9
 Description:  uHTTPd is a tiny single threaded HTTP server with TLS, CGI and Lua
  support. It is intended as a drop-in replacement for the Busybox
  HTTP daemon.
