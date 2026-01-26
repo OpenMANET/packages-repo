@@ -36,6 +36,19 @@ Size: 8839
 SHA256sum: 9a05e6e9f87ec195f233302429080576b13af192b5b913eaab0c23437a1790c8
 Description:  LuCI HTTP utility library
 
+Package: luci-app-dockerman
+Version: v0.5.13-20240317
+Depends: libc, luci-compat, luci-lib-docker, docker, ttyd, luci-lua-runtime
+License: AGPL-3.0
+Section: luci
+URL: https://github.com/openwrt/luci
+Architecture: all
+Installed-Size: 184320
+Filename: luci-app-dockerman_v0.5.13-20240317_all.ipk
+Size: 36778
+SHA256sum: fb74b2a632408fdcfb07ff2f6667c658aa9284f1c6b5bc61362c1f7e1725b798
+Description:  LuCI Support for docker
+
 Package: luci-app-firewall
 Version: git-25.233.06936-53e6515
 Depends: libc, uci-firewall
@@ -94,9 +107,21 @@ URL: https://github.com/openwrt/luci
 Architecture: aarch64_cortex-a72
 Installed-Size: 573440
 Filename: luci-base_git-25.233.06936-53e6515_aarch64_cortex-a72.ipk
-Size: 132043
-SHA256sum: 4257086aacc62ea59275aad8f157a71d9aaacc13d84cd8e5f83ca92bddeb329e
+Size: 132042
+SHA256sum: 3081d4e362f8d9c4899c64cab15cf4e6527c27a4716e132254ff8e0073ee1e1b
 Description:  LuCI core runtime
+
+Package: luci-compat
+Version: git-25.233.06936-53e6515
+Depends: libc, luci-lua-runtime, luci-lua-runtime
+Section: luci
+URL: https://github.com/openwrt/luci
+Architecture: all
+Installed-Size: 245760
+Filename: luci-compat_git-25.233.06936-53e6515_all.ipk
+Size: 46320
+SHA256sum: 95d8501fdfda62fd77a4056abcf125fe68c101581ceb13e864d8bcd47126da77
+Description:  LuCI compatibility libraries
 
 Package: luci-i18n-base-ja
 Version: git-25.233.06936-53e6515
@@ -109,6 +134,18 @@ Filename: luci-i18n-base-ja_git-25.233.06936-53e6515_all.ipk
 Size: 57382
 SHA256sum: 08dd0c6a72c203f93f79ab3298d5f794e5cdc76699297b838a030829665ef8e1
 Description:  Translation for luci-base - 日本語 (Japanese)
+
+Package: luci-i18n-dockerman-ja
+Version: git-25.233.06936-53e6515
+Depends: libc, luci-app-dockerman
+License: AGPL-3.0
+Section: luci
+Architecture: all
+Installed-Size: 20480
+Filename: luci-i18n-dockerman-ja_git-25.233.06936-53e6515_all.ipk
+Size: 3965
+SHA256sum: 1da34c76362797afc25950dbdfdc3b1e26f76a006d3f668cc799e4a46960eaf0
+Description:  Translation for luci-app-dockerman - 日本語 (Japanese)
 
 Package: luci-i18n-firewall-ja
 Version: git-25.233.06936-53e6515

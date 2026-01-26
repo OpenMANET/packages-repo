@@ -273,8 +273,8 @@ CPE-ID: cpe:/a:linuxfoundation:containerd
 Architecture: aarch64_cortex-a72
 Installed-Size: 112015360
 Filename: containerd_1.7.22-r1_aarch64_cortex-a72.ipk
-Size: 36850527
-SHA256sum: 431721da2c92515e4c140ca89fb1d7c4d986e34ec23327ede37b1a72e038b4ca
+Size: 36849919
+SHA256sum: 5e3f4928e560cd30f0492cbf2f8b6a0f1b7e1c37742a6449f6501ff25ac97ace
 Description:  An industry-standard container runtime with an emphasis on simplicity, robustness and portability
 
 Package: dbus
@@ -290,19 +290,6 @@ Filename: dbus_1.14.10-r1_aarch64_cortex-a72.ipk
 Size: 121636
 SHA256sum: 55d8b93f35b874ac0c6512b607eb1736112035f3b72e8c1696d187539fa34f72
 Description:  Simple interprocess messaging system (daemon)
-
-Package: docker-compose
-Version: 2.39.1-r1
-Depends: libc, docker
-License: Apache-2.0
-Section: utils
-URL: https://github.com/docker/compose
-Architecture: aarch64_cortex-a72
-Installed-Size: 62392320
-Filename: docker-compose_2.39.1-r1_aarch64_cortex-a72.ipk
-Size: 17806064
-SHA256sum: 675512d9f3c69353f07a0aa971c10f7654f34a1928c6960ef1663f92ce36d471
-Description:  Multi-container orchestration for Docker
 
 Package: docker
 Version: 27.3.1-r1
@@ -326,8 +313,8 @@ URL: https://www.docker.com/
 Architecture: aarch64_cortex-a72
 Installed-Size: 62238720
 Filename: dockerd_27.3.1-r3_aarch64_cortex-a72.ipk
-Size: 20520942
-SHA256sum: debbe2e59c7e14189700455bde8a439a1825f7acb80e6df3ac87f1432964fa5f
+Size: 20520811
+SHA256sum: a469936e34e7310dcbf5167b58149904640016bec2f0d037d8384c8f85667464
 Description:  The Docker CE Engine.
 
 Package: dump1090
@@ -1634,21 +1621,6 @@ Description:  nano-full - all features, including syntax highlighting (also uci)
  
  Nano is an official GNU package.
 
-Package: netcat
-Version: 0.7.1-r2
-Depends: libc
-License: GPL-2.0
-Section: net
-URL: http://netcat.sourceforge.net/
-CPE-ID: cpe:/a:netcat:netcat
-Architecture: aarch64_cortex-a72
-Installed-Size: 71680
-Filename: netcat_0.7.1-r2_aarch64_cortex-a72.ipk
-Size: 17043
-SHA256sum: 64db1340464bf8268a3d7289a1acc1d1c96db32cc29e33ad87041bb9488c4e1c
-Description:  Netcat is a featured networking utility which reads and writes data across network connections, using the TCP/IP protocol.
- It is designed to be a reliable "back-end" tool that can be used directly or easily driven by other programs and scripts. At the same time, it is a feature-rich network debugging and exploration tool, since it can create almost any kind of connection you would need and has several interesting built-in capabilities.
-
 Package: openssh-sftp-server
 Version: 9.9_p2-r1
 Depends: libc
@@ -2427,8 +2399,8 @@ CPE-ID: cpe:/a:linuxfoundation:runc
 Architecture: aarch64_cortex-a72
 Installed-Size: 10874880
 Filename: runc_1.1.14-r1_aarch64_cortex-a72.ipk
-Size: 3832486
-SHA256sum: 18b5615934ff966f15b98840ddfdee2322624a95b9e9eebbc65124ccee86fdca
+Size: 3832384
+SHA256sum: 066348fcdc94253c3c7f05ae19872005ac69ba44bb0c2df5c01e7be09cbfc95c
 Description:  runc is a CLI tool for spawning and running containers according to the OCI specification.
 
 Package: tini

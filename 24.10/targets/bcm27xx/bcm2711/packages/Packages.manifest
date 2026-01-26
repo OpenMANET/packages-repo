@@ -10,8 +10,8 @@ URL: http://openwrt.org/
 Architecture: aarch64_cortex-a72
 Installed-Size: 266240
 Filename: base-files_5~d9340319c6_aarch64_cortex-a72.ipk
-Size: 51629
-SHA256sum: bcded6e124cd27e6266b997ad172d0c73e8eabf281700d727e643962ee846eae
+Size: 51627
+SHA256sum: af46b9e4ea0f8a7e0e53dd3c1df0b81ac94d5b714b03cef3644c501dc8632d93
 Description:  This package contains a base filesystem and system scripts for OpenWrt.
 
 Package: bcm27xx-gpu-fw
@@ -734,26 +734,26 @@ SHA256sum: a78f3eb7051b8f1576cd2cc0b68e2bfeda0c51faf7da2f93738648b39982dc7e
 Description:  Kernel modules for ATM support
 
 Package: kmod-batman-adv
-Version: 6.6.102.2024.3-r6
+Version: 6.6.102.2025.4-r2
 Depends: kernel (=6.6.102~d74d4898da93ffdf77cb385d217d45bf-r1), kmod-lib-crc16, kmod-lib-crc32c, kmod-cfg80211, batctl
-Source: feeds/routing/batman-adv
+Source: feeds/openmanet/routing/batman-adv
 SourceName: batman-adv
 License: GPL-2.0-only MIT
 LicenseFiles: LICENSES/preferred/GPL-2.0 LICENSES/preferred/MIT
 Section: kernel
-SourceDateEpoch: 1753201932
+SourceDateEpoch: 1769379832
 URL: https://www.open-mesh.org/
 Maintainer: Simon Wunderlich <sw@simonwunderlich.de>
 Architecture: aarch64_cortex-a72
 Installed-Size: 327680
-Filename: kmod-batman-adv_6.6.102.2024.3-r6_aarch64_cortex-a72.ipk
-Size: 103272
-SHA256sum: f0991b4f83e83afda80ed638451456e93555a8cc4fe4eab7d75cb40a55ec5216
+Filename: kmod-batman-adv_6.6.102.2025.4-r2_aarch64_cortex-a72.ipk
+Size: 102953
+SHA256sum: d8a4c9e506ba8f34d3f9a62c4e35c4911600bd942ad1d69390d32fcffdffaca9
 Description:  B.A.T.M.A.N. (better approach to mobile ad-hoc networking) is
  a routing protocol for multi-hop ad-hoc mesh networks. The
  networks may be wired or wireless. See
  https://www.open-mesh.org/ for more information and user space
- tools. This package builds version 2024.3 of the kernel
+ tools. This package builds version 2025.4 of the kernel
  module.
 
 Package: kmod-bluetooth
@@ -3715,6 +3715,39 @@ Size: 13085
 SHA256sum: 49b89a696498b90f05f88c0b752f9cb4c681a72a5e10e312780a163d535653f3
 Description:  Kernel module for generic IP tunnel support
 
+Package: kmod-iwlwifi
+Version: 6.6.102.6.12.6-r2
+Depends: kernel (=6.6.102~d74d4898da93ffdf77cb385d217d45bf-r1), kmod-mac80211, kmod-ptp
+Source: feeds/base/kernel/mac80211
+SourceName: mac80211
+License: GPL-2.0-only
+LicenseFiles: COPYING
+Section: kernel
+SourceDateEpoch: 1765672530
+URL: https://wireless.wiki.kernel.org/
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: aarch64_cortex-a72
+Installed-Size: 1259520
+Filename: kmod-iwlwifi_6.6.102.6.12.6-r2_aarch64_cortex-a72.ipk
+Size: 422605
+SHA256sum: efc542e45fb5ae5f0b8b2275982ba86b02afb1c7f7712887783c7d8d37372979
+Description:  iwlwifi kernel module for
+ Intel Wireless WiFi Link 6250AGN Adapter
+ Intel 6000 Series Wi-Fi Adapters (6200AGN and 6300AGN)
+ Intel WiFi Link 1000BGN
+ Intel Wireless WiFi 5150AGN
+ Intel Wireless WiFi 5100AGN, 5300AGN, and 5350AGN
+ Intel 6005 Series Wi-Fi Adapters
+ Intel 6030 Series Wi-Fi Adapters
+ Intel Wireless WiFi Link 6150BGN 2 Adapter
+ Intel 100 Series Wi-Fi Adapters (100BGN and 130BGN)
+ Intel 2000 Series Wi-Fi Adapters
+ Intel 7260 Wi-Fi Adapter
+ Intel 3160 Wi-Fi Adapter
+ Intel 7265 Wi-Fi Adapter
+ Intel 8260 Wi-Fi Adapter
+ Intel 3165 Wi-Fi Adapter
+
 Package: kmod-ledtrig-audio
 Version: 6.6.102-r1
 Depends: kernel (=6.6.102~d74d4898da93ffdf77cb385d217d45bf-r1)
@@ -4121,20 +4154,20 @@ SHA256sum: 8ef6f991ac1db691f2efcb2c546e932f71ee311a6cb576baf6a557f6e1a396e3
 Description:  Kernel support for MMC/SD cards
 
 Package: kmod-morse
-Version: 6.6.102.1.16.4-r4
+Version: 6.6.102.1.16.4-gateworks-r1
 Depends: kernel (=6.6.102~d74d4898da93ffdf77cb385d217d45bf-r1), kmod-mmc, kmod-mac80211, kmod-trelay, kmod-lib-crc7, morse-fw, morse-board-config, kmod-usb-core
 Source: feeds/openmanet/drivers/morse_driver
 SourceName: morse_driver
 License: GPLv2
 LicenseFiles: LICENSE
 Section: kernel
-SourceDateEpoch: 1767652245
+SourceDateEpoch: 1769379832
 Maintainer: Morse Micro
 Architecture: aarch64_cortex-a72
 Installed-Size: 737280
-Filename: kmod-morse_6.6.102.1.16.4-r4_aarch64_cortex-a72.ipk
-Size: 236240
-SHA256sum: a7dca5a990f73e0ef96fe9210ea4d41b0c2120a6aa52db2298ed73f34479f772
+Filename: kmod-morse_6.6.102.1.16.4-gateworks-r1_aarch64_cortex-a72.ipk
+Size: 236100
+SHA256sum: fc21bcfa29f72844907f7b74537501b950ab275ca22a209ad607c5c3bc9e769d
 Description:  Morse Micro WIFI HaLow driver
 
 Package: kmod-mt76-connac

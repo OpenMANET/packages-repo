@@ -339,7 +339,7 @@ Description:  Broadcom BCM43455 SDIO NVRAM
 
 Package: busybox
 Version: 1.36.1-r2
-Depends: libc, jsonfilter
+Depends: libc
 Conflicts: busybox-selinux
 License: GPL-2.0
 Section: base
@@ -347,10 +347,10 @@ URL: http://busybox.net/
 CPE-ID: cpe:/a:busybox:busybox
 Essential: yes
 Architecture: aarch64_cortex-a72
-Installed-Size: 614400
+Installed-Size: 542720
 Filename: busybox_1.36.1-r2_aarch64_cortex-a72.ipk
-Size: 264161
-SHA256sum: 87417a1f4d495645776c9f8db028d73cb4ef3078e69595b1d6009231cf1a9e9b
+Size: 238544
+SHA256sum: df34d597d286bf2412c7b623c8647208e383a786fa287a5541de9bcb1a02ebf3
 Description:  The Swiss Army Knife of embedded Linux.
  It slices, it dices, it makes Julian Fries.
 
@@ -686,8 +686,8 @@ Section: utils
 Architecture: aarch64_cortex-a72
 Installed-Size: 71680
 Filename: iwinfo_2025.06.10~6161ce59-r1_aarch64_cortex-a72.ipk
-Size: 8315
-SHA256sum: b0bbea0551315847d6feaefb3d49755f2c5726a3f24ab13d15a712b709f2a37b
+Size: 8308
+SHA256sum: 957b08e5c88509e4beafa58cab05422845ed910301c162606fd63119e007ae02
 Description:  Command line frontend for the wireless information library.
 
 Package: iwlwifi-firmware-ax200
@@ -1224,8 +1224,8 @@ Section: opt
 Architecture: aarch64_cortex-a72
 Installed-Size: 30720
 Filename: libiwinfo-data_2025.06.10~6161ce59-r1_aarch64_cortex-a72.ipk
-Size: 3993
-SHA256sum: 355e17c862cac6c70922225eeb83cfdfc090cc4e18d62808f24e132a9a7f54ae
+Size: 3992
+SHA256sum: 5dc4ff0172a2b49f4ed6dc3a70ef12465797766151660cf5c40e2891c41823a1
 Description:  libiwinfo Lua binding
 
 Package: libiwinfo-lua
@@ -1237,7 +1237,7 @@ Architecture: aarch64_cortex-a72
 Installed-Size: 71680
 Filename: libiwinfo-lua_2025.06.10~6161ce59-r1_aarch64_cortex-a72.ipk
 Size: 7448
-SHA256sum: 6e812666b8a0be8d4fae7f635eb1544cf84b383774179bd8ae3f6340f7eae040
+SHA256sum: a69b93820e2bfedd9839297340cf3d8174f68dcc1db51002b54fff3186c939cf
 Description:  This is the Lua binding for the iwinfo library. It provides access to all enabled
  backends.
 
@@ -1251,8 +1251,8 @@ ABIVersion: 20250326
 Architecture: aarch64_cortex-a72
 Installed-Size: 143360
 Filename: libiwinfo20250326_2025.06.10~6161ce59-r1_aarch64_cortex-a72.ipk
-Size: 34896
-SHA256sum: 7e5095d425ed0245f40dab9f2591f7b4e2f63a3b5c185a51cc06fdbb0e15cc8b
+Size: 34898
+SHA256sum: 54cd68482ec5c2f42c74e2518db26fc5f8070a333621599b6471a3e4d58df88f
 Description:  Wireless information library with simplified API for nl80211
  and wext driver interfaces.
 
@@ -2168,8 +2168,8 @@ Section: utils
 Architecture: aarch64_cortex-a72
 Installed-Size: 71680
 Filename: rpcd-mod-file_2023.07.01~c07ab2f9-r1_aarch64_cortex-a72.ipk
-Size: 8448
-SHA256sum: 3662845178a2401fcf3eb3493e9e2d4a3e4e5fbdf066ee90fd75c3112cf485ee
+Size: 8440
+SHA256sum: 59f8638f8887895a60a97caec0e17820fc103b8133ecae6951ea4f76b768eee1
 Description:  Provides ubus calls for file and directory operations.
 
 Package: rpcd-mod-iwinfo
@@ -2180,8 +2180,8 @@ Section: utils
 Architecture: aarch64_cortex-a72
 Installed-Size: 71680
 Filename: rpcd-mod-iwinfo_2023.07.01~c07ab2f9-r1_aarch64_cortex-a72.ipk
-Size: 8965
-SHA256sum: 46af884d1f1cec2f9984a83dd7529b2c781904c5deec928543cc6a6585b7b651
+Size: 8963
+SHA256sum: 6b63965ca4ee0965e47c0cbbd258154c44603c861efc1f92170ab6f092c3d4e3
 Description:  Provides ubus calls for accessing iwinfo data.
 
 Package: rpcd-mod-ucode
@@ -2192,8 +2192,8 @@ Section: utils
 Architecture: aarch64_cortex-a72
 Installed-Size: 71680
 Filename: rpcd-mod-ucode_2023.07.01~c07ab2f9-r1_aarch64_cortex-a72.ipk
-Size: 8934
-SHA256sum: bb4f03a08aa1e8d38925384f1de8f0b01c9300a7a78c576c27d718f175c0fefc
+Size: 8935
+SHA256sum: 43956a57680acfd759da1bd4fa044c63ef2183d00f3573640873e9613d0420f5
 Description:  Allows implementing plugins using ucode scripts.
 
 Package: rpcd
@@ -2204,8 +2204,8 @@ Section: utils
 Architecture: aarch64_cortex-a72
 Installed-Size: 81920
 Filename: rpcd_2023.07.01~c07ab2f9-r1_aarch64_cortex-a72.ipk
-Size: 27981
-SHA256sum: 0b79b82086f245d99baf6d2296ccc4f21673f188da2d30181d493769d6789ae2
+Size: 27969
+SHA256sum: 2e51066d401db4492b44a44f4a5d17c5a1d8c29fcfe4ef91556c6ba3397b5992
 Description:  This package provides the UBUS RPC backend server to expose various
  functionality to frontend programs via JSON-RPC.
 
