@@ -10,8 +10,8 @@ URL: http://openwrt.org/
 Architecture: aarch64_cortex-a53
 Installed-Size: 276480
 Filename: base-files_5~d9340319c6_aarch64_cortex-a53.ipk
-Size: 53934
-SHA256sum: 8ab19ee2aa1b36ef218392ab9734fb566093cf1c4354ff289ce62568ddaa7127
+Size: 53889
+SHA256sum: 23c7a442d34021bba37b1913efc69bd69e401d02af31ee53bb5962def9ecfae5
 Description:  This package contains a base filesystem and system scripts for OpenWrt.
 
 Package: block-mount
@@ -709,14 +709,14 @@ SourceName: batman-adv
 License: GPL-2.0-only MIT
 LicenseFiles: LICENSES/preferred/GPL-2.0 LICENSES/preferred/MIT
 Section: kernel
-SourceDateEpoch: 1769379832
+SourceDateEpoch: 1772901612
 URL: https://www.open-mesh.org/
 Maintainer: Simon Wunderlich <sw@simonwunderlich.de>
 Architecture: aarch64_cortex-a53
 Installed-Size: 317440
 Filename: kmod-batman-adv_6.6.102.2025.4-r2_aarch64_cortex-a53.ipk
-Size: 101560
-SHA256sum: d9469c7fa88b006a5f346ea9b84828f3f7c321e63c59f0ae615cadffc21dd0a8
+Size: 101530
+SHA256sum: ee8780e058123f5fa70a69ed0ad93ac43687ece00baf09fccbd3889ebd7b6bbc
 Description:  B.A.T.M.A.N. (better approach to mobile ad-hoc networking) is
  a routing protocol for multi-hop ad-hoc mesh networks. The
  networks may be wired or wireless. See
@@ -4242,13 +4242,13 @@ SourceName: morse_driver
 License: GPLv2
 LicenseFiles: LICENSE
 Section: kernel
-SourceDateEpoch: 1769379832
+SourceDateEpoch: 1772901612
 Maintainer: Morse Micro
 Architecture: aarch64_cortex-a53
 Installed-Size: 686080
 Filename: kmod-morse_6.6.102.1.16.4-gateworks-r1_aarch64_cortex-a53.ipk
-Size: 225695
-SHA256sum: 816ea64ccf62a1a746c1476add2d108f859a708596d62aa9746afaa81a5abaa7
+Size: 225667
+SHA256sum: faaa652f0b6eceae855482ef677079bfc5ab5ad3598b5810ba25adcc94fccb62
 Description:  Morse Micro WIFI HaLow driver
 
 Package: kmod-mt76-connac
@@ -9947,8 +9947,8 @@ Maintainer: Martijn Zilverschoon <martijn@friedzombie.com>
 Architecture: aarch64_cortex-a53
 Installed-Size: 30720
 Filename: kmod-usb-serial-dmx_usb_module_6.6.102.19.12.1-r2_aarch64_cortex-a53.ipk
-Size: 6206
-SHA256sum: 2d2d859505d7a1d29e95865ff42677bf25f0653277cc82b7e99af7705388cc40
+Size: 6211
+SHA256sum: a6fc57efc08e07a9c1d238f27b65ea8a8294ae66da4aecb4ae374a8b1d18d911
 Description:  Open DMX USB is an open USB to DMX dongle hardware design developed by Enttec.
  The Open in Open DMX USB refers to the fact that everybody is free to use the
  design and produce its own USB DMX Dongle without paying any licenses.
@@ -10529,8 +10529,8 @@ Maintainer: Michel Promonet <michel.promonet@free.fr>
 Architecture: aarch64_cortex-a53
 Installed-Size: 81920
 Filename: kmod-v4l2loopback_6.6.102.0.13.2-r1_aarch64_cortex-a53.ipk
-Size: 22487
-SHA256sum: 1459056ee43dd6f300b07c61b595eb2161b2c518b3ea63d2647c775244b54be2
+Size: 22484
+SHA256sum: ab07f3f75a239934af7373338bdd10262b96daae7f6c839ea26e7bcf406388a4
 Description:  This module allows you to create "virtual video devices".
  Normal (v4l2) applications will read these devices as if
  they were ordinary video devices, but the video will not be
@@ -10996,8 +10996,8 @@ Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: aarch64_cortex-a53
 Installed-Size: 2109440
 Filename: libstdcpp6_13.3.0-r4_aarch64_cortex-a53.ipk
-Size: 653694
-SHA256sum: 6dfc0d7a76056c9cd4e682b64c3e65288b065151152193b1b733921dedab28fb
+Size: 653769
+SHA256sum: 5f6aee1917d89a29b2cead09c81142c99c1fdc177bb517f0226f5e044f608a87
 Description:  GNU Standard C++ Library v3
 
 Package: libxtables12
@@ -11082,8 +11082,8 @@ Maintainer: Matti Laakso <malaakso@elisanet.fi>
 Architecture: aarch64_cortex-a53
 Installed-Size: 153600
 Filename: uqmi_2024.08.25~28b48a10-r2_aarch64_cortex-a53.ipk
-Size: 51825
-SHA256sum: 376b7bb0a63906ff598674dd89add2e4dbffdbe4b238e187cb16ea7197b0030d
+Size: 51823
+SHA256sum: d4c6e6f50938b6177023189f07c3a8dc8127b8a4492dd21b8705ed80e3b93587
 Description:  uqmi is a command line tool for controlling mobile broadband modems using
  the QMI-protocol.
 

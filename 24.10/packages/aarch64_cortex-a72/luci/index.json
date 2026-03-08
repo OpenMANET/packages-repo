@@ -35,6 +35,7 @@
     "luci-proto-ipv6": "git-25.233.06936-53e6515",
     "luci-proto-ppp": "git-25.233.06936-53e6515",
     "luci-proto-relay": "git-25.233.06936-53e6515",
+    "luci-proto-vxlan": "git-25.233.06936-53e6515",
     "rpcd-mod-luci": "20240305-r1",
     "rpcd-mod-rrdns": "20170710",
     "ucode-mod-html": "1",

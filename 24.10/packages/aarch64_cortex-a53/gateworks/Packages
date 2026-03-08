@@ -43,7 +43,7 @@ Section: base
 Architecture: aarch64_cortex-a53
 Installed-Size: 20480
 Filename: luci-app-gateworks_1.0-r1_aarch64_cortex-a53.ipk
-Size: 2438
-SHA256sum: 6a41b11a932ad4ba2a568d1cf67f4662dc21b21d26473947290955d1c8fd386b
+Size: 2440
+SHA256sum: fcb7e67a62978d8ae71fc6618225089ee3d1c6bc9b6ef7bee29cd6799a1ca604
 Description:  Luci web-admin support for Gateworks Boards
 

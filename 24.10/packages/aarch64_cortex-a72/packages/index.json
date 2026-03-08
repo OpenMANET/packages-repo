@@ -96,7 +96,6 @@
     "librtlsdr": "2.0.1-r1",
     "libseccomp": "2.5.5-r1",
     "libsqlite3": "3500400-r1",
-    "libtiff": "4.7.0-r1",
     "libudev-zero": "1.0.3-r1",
     "libugpio": "0.0.7-r1",
     "libuv": "1.48.0-r1",

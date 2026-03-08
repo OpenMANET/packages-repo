@@ -367,10 +367,10 @@ URL: https://containerd.io/
 CPE-ID: cpe:/a:linuxfoundation:containerd
 Maintainer: Gerard Ryan <G.M0N3Y.2503@gmail.com>
 Architecture: aarch64_cortex-a53
-Installed-Size: 112015360
+Installed-Size: 112148480
 Filename: containerd_1.7.22-r1_aarch64_cortex-a53.ipk
-Size: 36849746
-SHA256sum: 162deafa3b6a52eaf569bd5a049d81f4973487a48e22754a497081302a3f7857
+Size: 36859039
+SHA256sum: 2d96af2748f7cf95591021d7e2c32df179d3c21787c9495b3b70bc7744e41cc0
 Description:  An industry-standard container runtime with an emphasis on simplicity, robustness and portability
 
 Package: dbus
@@ -405,8 +405,8 @@ Maintainer: Gerard Ryan <G.M0N3Y.2503@gmail.com>
 Architecture: aarch64_cortex-a53
 Installed-Size: 26378240
 Filename: docker_27.3.1-r1_aarch64_cortex-a53.ipk
-Size: 8616822
-SHA256sum: 9ae05145d7b29378ab08b9bdc614704953f4f56faffc36a26471e7667d4157fc
+Size: 8618947
+SHA256sum: bb91393690a4b5adfc75bd79cc89356c29cbcb35ed2a340555e69cee7a17ae92
 Description:  The CLI used in the Docker CE and Docker EE products.
 
 Package: dockerd
@@ -422,10 +422,10 @@ SourceDateEpoch: 1756500878
 URL: https://www.docker.com/
 Maintainer: Gerard Ryan <G.M0N3Y.2503@gmail.com>
 Architecture: aarch64_cortex-a53
-Installed-Size: 62238720
+Installed-Size: 62310400
 Filename: dockerd_27.3.1-r3_aarch64_cortex-a53.ipk
-Size: 20520714
-SHA256sum: 3fcb6ef47731852e8deb1cb581339ffdd53f3213780c064ae83ae3912817b359
+Size: 20524454
+SHA256sum: 2b51e7e1829e6195b2727ef8614b3c78c65887244b3e77c382095e95d37f0dce
 Description:  The Docker CE Engine.
 
 Package: dump1090
@@ -521,8 +521,8 @@ Maintainer: Peter Wagner <tripolar@gmx.at>
 Architecture: aarch64_cortex-a53
 Installed-Size: 3952640
 Filename: glib2_2.82.0-r1_aarch64_cortex-a53.ipk
-Size: 1286892
-SHA256sum: e828d807c57ea62e1fb9a30e49a883d805d19b2bc0d55ff04b411bad505e322f
+Size: 1286968
+SHA256sum: ed1ae7b21639786e97b86d038648dc0c5aa9cef561daf968d93c9fc78e3b801a
 Description:  The GLib library of C routines
 
 Package: gpioctl-sysfs
@@ -965,26 +965,6 @@ Description:  libiio is used to interface to the Linux Industrial Input/Output (
  target (local mode), or use libiio to communicate remotely to that same target
  from a host Linux, Windows or MAC over USB or Ethernet or Serial.
 
-Package: libjpeg-turbo
-Version: 3.0.3-r1
-Depends: libc
-Provides: libjpeg
-Source: feeds/packages/libs/libjpeg-turbo
-SourceName: libjpeg-turbo
-License: BSD-3-Clause IJG zlib
-LicenseFiles: LICENSE.md
-Section: libs
-SourceDateEpoch: 1756500878
-URL: https://www.libjpeg-turbo.org/
-CPE-ID: cpe:/a:libjpeg-turbo:libjpeg-turbo
-Maintainer: Rosen Penev <rosenp@gmail.com>
-Architecture: aarch64_cortex-a53
-Installed-Size: 471040
-Filename: libjpeg-turbo_3.0.3-r1_aarch64_cortex-a53.ipk
-Size: 178872
-SHA256sum: 3c9d9072e0ed37bcad79e853b5f67efcce8f5b2b803e57e7e463bb394e1dc119
-Description:  libjpeg-turbo is a speed focused fork of libjpeg.
-
 Package: libkmod
 Version: 32-r1
 Depends: libc, zlib
@@ -1306,27 +1286,6 @@ Description:  SQLite is a small C library that implements a self-contained, embe
  This package contains the SQLite (v3.x) shared library, used by other
  programs.
 
-Package: libtiff6
-Version: 4.7.0-r1
-Depends: libc, zlib, libjpeg
-Provides: libtiff
-Source: feeds/packages/libs/tiff
-SourceName: tiff
-License: libtiff
-LicenseFiles: COPYRIGHT
-Section: libs
-SourceDateEpoch: 1756500878
-URL: http://simplesystems.org/libtiff/
-ABIVersion: 6
-CPE-ID: cpe:/a:libtiff:libtiff
-Maintainer: Jiri Slachta <jiri@slachta.eu>
-Architecture: aarch64_cortex-a53
-Installed-Size: 471040
-Filename: libtiff6_4.7.0-r1_aarch64_cortex-a53.ipk
-Size: 152086
-SHA256sum: 4800bf44db01b706b72c3608b0a30c1384b0776461e7910187c45db0dcf15693
-Description:  TIFF library
-
 Package: libudev-zero
 Version: 1.0.3-r1
 Depends: libc, libevdev
@@ -1439,6 +1398,53 @@ Description:  nano-full - all features, including syntax highlighting (also uci)
  defaults (linewise scrolling, no automatic line breaking).
  
  Nano is an official GNU package.
+
+Package: ntp-utils
+Version: 4.2.8_p17-r3
+Depends: libc, libopenssl3, libpthread, libcap, libevent2-pthreads7
+Source: feeds/packages/net/ntpd
+SourceName: ntp
+License: NTP
+LicenseFiles: COPYRIGHT html/copyright.html
+Section: net
+SourceDateEpoch: 1756500878
+URL: http://www.ntp.org/
+CPE-ID: cpe:/a:ntp:ntp
+Maintainer: Peter Wagner <tripolar@gmx.at>
+Architecture: aarch64_cortex-a53
+Installed-Size: 1095680
+Filename: ntp-utils_4.2.8_p17-r3_aarch64_cortex-a53.ipk
+Size: 394527
+SHA256sum: ea99097aaff371d7c9f4525963117cffd4ad0c9fa2f589873de1c0a440d76746
+Description:  The ISC ntp suite is a collection of tools used to synchronize the
+ system clock with remote NTP time servers and run/monitor local NTP
+ servers.
+ .
+ This package contains ntpdc, ntpq, ntptime and sntp.
+
+Package: ntpd
+Version: 4.2.8_p17-r3
+Depends: libc, libopenssl3, libpthread, libcap, ntp-utils
+Source: feeds/packages/net/ntpd
+SourceName: ntp
+License: NTP
+LicenseFiles: COPYRIGHT html/copyright.html
+Section: net
+Require-User: ntp=123:ntp=123
+SourceDateEpoch: 1756500878
+URL: http://www.ntp.org/
+CPE-ID: cpe:/a:ntp:ntp
+Maintainer: Peter Wagner <tripolar@gmx.at>
+Architecture: aarch64_cortex-a53
+Installed-Size: 675840
+Filename: ntpd_4.2.8_p17-r3_aarch64_cortex-a53.ipk
+Size: 284361
+SHA256sum: 8795ff0407f9b674ba83c2ccdbba7412a74549411cba16c1bc5f62d0581b8000
+Description:  The ISC ntp suite is a collection of tools used to synchronize the
+ system clock with remote NTP time servers and run/monitor local NTP
+ servers.
+ .
+ This package contains the ntpd server.
 
 Package: openssh-sftp-server
 Version: 9.9_p2-r1
@@ -1600,8 +1606,8 @@ Maintainer: Jeffery To <jeffery.to@gmail.com>
 Architecture: aarch64_cortex-a53
 Installed-Size: 1126400
 Filename: python3-base_3.11.10-r1_aarch64_cortex-a53.ipk
-Size: 222424
-SHA256sum: c4dbc6d9e1aa2dfff4efc5d2f74ebf5cec5dc778b4c66664aab06920612547b2
+Size: 222198
+SHA256sum: aac4eef33b24d7f28789942251804c978fab097ebc96106882a5bb65ec043c05
 Description:  Python is an interpreted, interactive, object-oriented programming
  language. It incorporates modules, exceptions, dynamic typing, very high
  level dynamic data types, and classes. It supports multiple programming
@@ -2389,8 +2395,8 @@ Maintainer: Gerard Ryan <G.M0N3Y.2503@gmail.com>
 Architecture: aarch64_cortex-a53
 Installed-Size: 10874880
 Filename: runc_1.1.14-r1_aarch64_cortex-a53.ipk
-Size: 3831967
-SHA256sum: ca603ae5042a2570cb133e494a4fa2ed7f772cc131c8cecddd23e578d8574348
+Size: 3832814
+SHA256sum: 7848c858c2574a9bc65f1d1376712b2120489518a1147d1e5a7e9b48771b377b
 Description:  runc is a CLI tool for spawning and running containers according to the OCI specification.
 
 Package: tini

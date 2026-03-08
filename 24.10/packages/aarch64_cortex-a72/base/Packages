@@ -434,8 +434,8 @@ CPE-ID: cpe:/a:kernel:util-linux
 Architecture: aarch64_cortex-a72
 Installed-Size: 71680
 Filename: dmesg_2.40.2-r1_aarch64_cortex-a72.ipk
-Size: 30923
-SHA256sum: 0154e883a8c9469d76ba6cb498703336f38798150236d692d7c5aac2813f0da4
+Size: 30918
+SHA256sum: c26208d03de595ebe60be477c3a84804255d5cad95915d81e85b8a3b9117ece0
 Description:  dmesg  is used to examine or control the kernel ring buffer
 
 Package: dnsmasq
@@ -547,8 +547,8 @@ CPE-ID: cpe:/a:kernel:util-linux
 Architecture: aarch64_cortex-a72
 Installed-Size: 204800
 Filename: fdisk_2.40.2-r1_aarch64_cortex-a72.ipk
-Size: 59954
-SHA256sum: 4454903ecc7e95d98fb48f2999e14300c1d2fc59e759dac15ac3c236906070b9
+Size: 59912
+SHA256sum: 3af5357223002de1b34edbf1e770f0bb54234306569af52c95837101b168bafe
 Description:  a menu-driven program for creation and manipulation of partition tables
 
 Package: firewall4
@@ -617,6 +617,20 @@ Size: 22332145
 SHA256sum: be7e83bed5de589ab1d7fd68b850b0b2ea702d9d8ba65f13e6342cf8ebf70e6d
 Description:  Intel bluetooth firmware
 
+Package: ip-bridge
+Version: 6.11.0-r1
+Depends: libc, libnl-tiny1
+License: GPL-2.0
+Section: net
+URL: http://www.linuxfoundation.org/collaborate/workgroups/networking/iproute2
+CPE-ID: cpe:/a:iproute2_project:iproute2
+Architecture: aarch64_cortex-a72
+Installed-Size: 143360
+Filename: ip-bridge_6.11.0-r1_aarch64_cortex-a72.ipk
+Size: 42325
+SHA256sum: be07d159677fe129b9ee67f004895366fd19aa0736388b69b2580e31c7e5e05b
+Description:  Bridge configuration utility from iproute2
+
 Package: ip-full
 Version: 6.11.0-r1
 Depends: libc, libnl-tiny1, libbpf1
@@ -632,22 +646,6 @@ Filename: ip-full_6.11.0-r1_aarch64_cortex-a72.ipk
 Size: 238125
 SHA256sum: c05aefede9aafebc9c1b6e932ed29389b86fc0b693275a0f95a3a4ecf84b0c44
 Description:  Routing control utility (full)
-
-Package: ip-tiny
-Version: 6.11.0-r1
-Depends: libc, libnl-tiny1
-Provides: ip
-Alternatives: 200:/sbin/ip:/usr/libexec/ip-tiny
-License: GPL-2.0
-Section: net
-URL: http://www.linuxfoundation.org/collaborate/workgroups/networking/iproute2
-CPE-ID: cpe:/a:iproute2_project:iproute2
-Architecture: aarch64_cortex-a72
-Installed-Size: 419840
-Filename: ip-tiny_6.11.0-r1_aarch64_cortex-a72.ipk
-Size: 159127
-SHA256sum: 4a4e4c40e994352be65ff1ce7b0b696bdc20039b46a144337d532d6506a88db1
-Description:  Routing control utility (minimal)
 
 Package: iw-full
 Version: 6.9-r1
@@ -1133,8 +1131,8 @@ CPE-ID: cpe:/a:elfutils_project:elfutils
 Architecture: aarch64_cortex-a72
 Installed-Size: 143360
 Filename: libelf1_0.192-r1_aarch64_cortex-a72.ipk
-Size: 43399
-SHA256sum: f59cd422bec33b18b31b111632be7b16cd5ceb73718880b2b50ec84575b39cc3
+Size: 43389
+SHA256sum: 147e08e85dbca41516ba5912129e89e94e4e384b3c424c52982705bc61df67fb
 Description:  ELF manipulation libraries (libelf)
 
 Package: libext2fs2
@@ -1949,8 +1947,8 @@ Section: base
 Architecture: aarch64_cortex-a72
 Installed-Size: 327680
 Filename: netifd_2025.05.23~7901e66c-r1_aarch64_cortex-a72.ipk
-Size: 121476
-SHA256sum: de4a53b286543a2075367310b5a678bc66f51f4a5ed09033b70104e2d2546423
+Size: 121432
+SHA256sum: 393cca8d8b6bdda0f0b75ddccfb251ee52be8d32cebbd58972d37e752fda5608
 Description:  OpenWrt Network Interface Configuration Daemon
 
 Package: nftables-json
@@ -2118,8 +2116,8 @@ Section: utils
 Architecture: all
 Installed-Size: 40960
 Filename: qos-scripts_1.3.1-r33_all.ipk
-Size: 7282
-SHA256sum: 002e71430e96050a22199fd949acc24d71066e73ef1f03a2688c7d07ecba3660
+Size: 7285
+SHA256sum: 6ce6d7aac1986f51afbc145b0eb87a00d9aeca9f3f5fe83bb1315295ab3e97ed
 Description:  A set of scripts that abstract QoS configuration into a simple 
  configuration file supporting stanzas that specify any number of QoS 
  entries.
@@ -2575,7 +2573,7 @@ Architecture: aarch64_cortex-a72
 Installed-Size: 81920
 Filename: uci_2025.01.20~16ff0bad-r1_aarch64_cortex-a72.ipk
 Size: 8060
-SHA256sum: a846d8299dd9f97e611024cf35a340e22f9fe8ea2ae89e89f95845ecbb8c4e91
+SHA256sum: c9023fd1b86c31a2495eceb375669a08f99ab19f7a45587da7b6f385111cc349
 Description:  Utility for the Unified Configuration Interface (UCI)
 
 Package: uclient-fetch
@@ -2725,8 +2723,8 @@ URL: https://openwrt.org/
 Architecture: aarch64_cortex-a72
 Installed-Size: 10240
 Filename: urandom-seed_3_aarch64_cortex-a72.ipk
-Size: 1574
-SHA256sum: 398a0515ef79c8db5d97e81d2b5842902e23bd1935a5d0655c74c7351f49c445
+Size: 1572
+SHA256sum: 97f105cb11f4658fa00ee72ef0d158c6e0f54b46eeac674b1f0b7ec4feee3f50
 Description:  /etc/urandom.seed handling for OpenWrt
 
 Package: usb-modeswitch
@@ -2741,6 +2739,18 @@ Size: 14355
 SHA256sum: c08ab62717c062a7a425db9c0840ee8f5f91cba85348d5e7ad9bdc08d99416c5
 Description:  USB mode switching utility
 
+Package: usbgadget
+Version: 1
+Depends: libc, kmod-usb-gadget, kmod-usb-lib-composite
+License: BSD-2-Clause
+Section: utils
+Architecture: aarch64_cortex-a72
+Installed-Size: 10240
+Filename: usbgadget_1_aarch64_cortex-a72.ipk
+Size: 2125
+SHA256sum: d5beeb37b133700c8d1dcc498849b8514edb81484ef40d656066985ad0ccdfc3
+Description:  init script to create USB gadgets
+
 Package: usign
 Version: 2020.05.23~f1f65026-r1
 Depends: libc, libubox20240329
@@ -2753,6 +2763,18 @@ Size: 12485
 SHA256sum: 92863f12c5be266954114ccf2db60a2c0ed8a454b3428ab8be608d11fcfb883f
 Description:  OpenWrt signature verification utility
 
+Package: vxlan
+Version: 7
+Depends: libc, kmod-vxlan
+License: GPL-2.0
+Section: net
+Architecture: all
+Installed-Size: 10240
+Filename: vxlan_7_all.ipk
+Size: 2229
+SHA256sum: b126d829e4fcb0702b5e46469b3a10dbc74e2497bb6c53f74008ce6fbe3288ce
+Description:  Virtual eXtensible LAN config support in /etc/config/network.
+
 Package: wifi-scripts
 Version: 1.0-r1
 Depends: libc, netifd, ucode, ucode-mod-nl80211, ucode-mod-rtnl, ucode-mod-ubus, ucode-mod-uci
@@ -2761,8 +2783,8 @@ Section: utils
 Architecture: all
 Installed-Size: 133120
 Filename: wifi-scripts_1.0-r1_all.ipk
-Size: 30193
-SHA256sum: 9476b235acee4b80af75a1270f733dddfb481138c7487ed45e31fbf9f7357ac5
+Size: 30189
+SHA256sum: b794da3896ae666806997eb46f1d39b7c74b5bc8ecf93bc83f23db3ffdf9f879
 Description:  A set of scripts that handle setup and configuration of Wi-Fi devices.
 
 Package: wil6210-firmware
@@ -2839,8 +2861,8 @@ Section: net
 Architecture: aarch64_cortex-a72
 Installed-Size: 378880
 Filename: wwan_2019.04.29-r6_aarch64_cortex-a72.ipk
-Size: 9889
-SHA256sum: 92aac78ce34eb4dd3f1f18bae426e698de1694e95e60173bb14115add4e6774e
+Size: 9888
+SHA256sum: 8828f2d3d1304cd369431ad998b14eb11d862ac31aa7919267a9ea2278c22114
 Description:  Generic OpenWrt 3G/4G proto handler
 
 Package: zlib

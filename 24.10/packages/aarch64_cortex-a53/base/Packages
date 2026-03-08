@@ -424,7 +424,7 @@ Architecture: aarch64_cortex-a53
 Installed-Size: 71680
 Filename: dmesg_2.40.2-r1_aarch64_cortex-a53.ipk
 Size: 30825
-SHA256sum: 24e64f82fceb42d111ad87b859ffdae9df76045962c41ac4fdc0417d46a91fbc
+SHA256sum: 3ef5e49dbe843cab19361a1ed4efc5cf65cffc94d207407f38838b50a0997029
 Description:  dmesg  is used to examine or control the kernel ring buffer
 
 Package: dnsmasq
@@ -536,8 +536,8 @@ CPE-ID: cpe:/a:kernel:util-linux
 Architecture: aarch64_cortex-a53
 Installed-Size: 204800
 Filename: fdisk_2.40.2-r1_aarch64_cortex-a53.ipk
-Size: 59792
-SHA256sum: 16789516bd855f919259eaae54d922017d3cdd6f7ccc2922e34b2dbaecf0325b
+Size: 59826
+SHA256sum: 4fea7ed007fa6eeef53986103a9b484ef0b3d946fe8bead35d29577ee17c5d27
 Description:  a menu-driven program for creation and manipulation of partition tables
 
 Package: firewall4
@@ -606,6 +606,20 @@ Size: 22332151
 SHA256sum: d68e8fcebf33f5eddb63ebf5df056f1912e8cb63e93a362a39af96884c8dbe8b
 Description:  Intel bluetooth firmware
 
+Package: ip-bridge
+Version: 6.11.0-r1
+Depends: libc, libnl-tiny1
+License: GPL-2.0
+Section: net
+URL: http://www.linuxfoundation.org/collaborate/workgroups/networking/iproute2
+CPE-ID: cpe:/a:iproute2_project:iproute2
+Architecture: aarch64_cortex-a53
+Installed-Size: 143360
+Filename: ip-bridge_6.11.0-r1_aarch64_cortex-a53.ipk
+Size: 42077
+SHA256sum: 2670a9d4983e527f54027f878fe1654c415be1f628e034d55b9543a5fee56868
+Description:  Bridge configuration utility from iproute2
+
 Package: ip-full
 Version: 6.11.0-r1
 Depends: libc, libnl-tiny1, libbpf1
@@ -621,22 +635,6 @@ Filename: ip-full_6.11.0-r1_aarch64_cortex-a53.ipk
 Size: 236840
 SHA256sum: 0aa81e65d3cdeea0725e5b835e4aa6f4ce4dd87abf482c4602ac29441d5cf9ff
 Description:  Routing control utility (full)
-
-Package: ip-tiny
-Version: 6.11.0-r1
-Depends: libc, libnl-tiny1
-Provides: ip
-Alternatives: 200:/sbin/ip:/usr/libexec/ip-tiny
-License: GPL-2.0
-Section: net
-URL: http://www.linuxfoundation.org/collaborate/workgroups/networking/iproute2
-CPE-ID: cpe:/a:iproute2_project:iproute2
-Architecture: aarch64_cortex-a53
-Installed-Size: 419840
-Filename: ip-tiny_6.11.0-r1_aarch64_cortex-a53.ipk
-Size: 158192
-SHA256sum: 9c1e31b0a3963b0e1f334508c9ad4bb30688bd164018062489bac053bb29b117
-Description:  Routing control utility (minimal)
 
 Package: iw-full
 Version: 6.9-r1
@@ -1122,9 +1120,63 @@ CPE-ID: cpe:/a:elfutils_project:elfutils
 Architecture: aarch64_cortex-a53
 Installed-Size: 143360
 Filename: libelf1_0.192-r1_aarch64_cortex-a53.ipk
-Size: 43432
-SHA256sum: e698e7fb41372dec5d7aac0cb8f357cc34e3dc2168e3301a26b1022a8057dc1d
+Size: 43428
+SHA256sum: bbc06a8986b50c2ab390442df4b1be778fff49aa31248d2ba34adacbd903d137
 Description:  ELF manipulation libraries (libelf)
+
+Package: libevent2-core7
+Version: 2.1.12-r2
+Depends: libc
+Provides: libevent2-core
+License: BSD-3-Clause
+Section: libs
+URL: http://libevent.org
+ABIVersion: 7
+CPE-ID: cpe:/a:libevent_project:libevent
+Architecture: aarch64_cortex-a53
+Installed-Size: 204800
+Filename: libevent2-core7_2.1.12-r2_aarch64_cortex-a53.ipk
+Size: 65867
+SHA256sum: 9ab21df16b6110a21469f9ccd85f9e14b341cb882cf554cde9735f7eef9dac36
+Description:  The libevent API provides a mechanism to execute a callback function
+ when a specific event occurs on a file descriptor or after a timeout
+ has been reached. Furthermore, libevent also support callbacks due
+ to signals or regular timeouts.
+ 
+ libevent is meant to replace the event loop found in event driven
+ network servers. An application just needs to call event_dispatch()
+ and then add or remove events dynamically without having to change
+ the event loop.
+ 
+ This package contains the libevent core shared library for the event,
+ buffer & utility functions.
+
+Package: libevent2-pthreads7
+Version: 2.1.12-r2
+Depends: libc, libpthread, libevent2-core7
+Provides: libevent2-pthreads
+License: BSD-3-Clause
+Section: libs
+URL: http://libevent.org
+ABIVersion: 7
+CPE-ID: cpe:/a:libevent_project:libevent
+Architecture: aarch64_cortex-a53
+Installed-Size: 71680
+Filename: libevent2-pthreads7_2.1.12-r2_aarch64_cortex-a53.ipk
+Size: 3163
+SHA256sum: 8773278add583ee9d2090e46cdea0824667854db88d6375be2f9c8f431d0bbde
+Description:  The libevent API provides a mechanism to execute a callback function
+ when a specific event occurs on a file descriptor or after a timeout
+ has been reached. Furthermore, libevent also support callbacks due
+ to signals or regular timeouts.
+ 
+ libevent is meant to replace the event loop found in event driven
+ network servers. An application just needs to call event_dispatch()
+ and then add or remove events dynamically without having to change
+ the event loop.
+ 
+ This package contains the libevent Pthreads shared library for
+ threading & locking.
 
 Package: libext2fs2
 Version: 1.47.0-r2
@@ -1891,8 +1943,8 @@ Section: base
 Architecture: aarch64_cortex-a53
 Installed-Size: 327680
 Filename: netifd_2025.05.23~7901e66c-r1_aarch64_cortex-a53.ipk
-Size: 121008
-SHA256sum: 7fc4096e81456c9de281a58a045387fe1ec4fbf601737959549ecd98abad61fd
+Size: 121020
+SHA256sum: 52454d5e8772e5d70f3cbcf96f1f5695097ac60067a2b5f401c9caa3d635acda
 Description:  OpenWrt Network Interface Configuration Daemon
 
 Package: nftables-json
@@ -2046,8 +2098,8 @@ Section: utils
 Architecture: all
 Installed-Size: 40960
 Filename: qos-scripts_1.3.1-r33_all.ipk
-Size: 7282
-SHA256sum: 002e71430e96050a22199fd949acc24d71066e73ef1f03a2688c7d07ecba3660
+Size: 7285
+SHA256sum: 6ce6d7aac1986f51afbc145b0eb87a00d9aeca9f3f5fe83bb1315295ab3e97ed
 Description:  A set of scripts that abstract QoS configuration into a simple 
  configuration file supporting stanzas that specify any number of QoS 
  entries.
@@ -2502,8 +2554,8 @@ Section: base
 Architecture: aarch64_cortex-a53
 Installed-Size: 81920
 Filename: uci_2025.01.20~16ff0bad-r1_aarch64_cortex-a53.ipk
-Size: 8030
-SHA256sum: 92212d9c22805deec11fd937050edb30e86f6f90fb81fc1aa058e03f1f3c7f97
+Size: 8035
+SHA256sum: a1080c85dfaa61ea83f7c5413e2a0f6bde9f09830d438f98eaad402cd472abf2
 Description:  Utility for the Unified Configuration Interface (UCI)
 
 Package: uclient-fetch
@@ -2653,8 +2705,8 @@ URL: https://openwrt.org/
 Architecture: aarch64_cortex-a53
 Installed-Size: 10240
 Filename: urandom-seed_3_aarch64_cortex-a53.ipk
-Size: 1577
-SHA256sum: 1216555ec948b26eed6f87c7ff27db1bedc7b67749aa7476d44aba1401fa80c1
+Size: 1576
+SHA256sum: 6363c5e73d386c0680b26922de48fba443c555c5c514828f68be66c3e83bd40b
 Description:  /etc/urandom.seed handling for OpenWrt
 
 Package: urngd
@@ -2691,6 +2743,18 @@ Size: 14344
 SHA256sum: e40c3236141540d01c29ea1b83d0c22f2ed1b31755369857818741ec5ce6b37d
 Description:  USB mode switching utility
 
+Package: usbgadget
+Version: 1
+Depends: libc, kmod-usb-gadget, kmod-usb-lib-composite
+License: BSD-2-Clause
+Section: utils
+Architecture: aarch64_cortex-a53
+Installed-Size: 10240
+Filename: usbgadget_1_aarch64_cortex-a53.ipk
+Size: 2125
+SHA256sum: f3fe8961bccc101e446a41f12758628615d3a25a703017f2dda9afbdf3ed0096
+Description:  init script to create USB gadgets
+
 Package: usign
 Version: 2020.05.23~f1f65026-r1
 Depends: libc, libubox20240329
@@ -2703,6 +2767,18 @@ Size: 12483
 SHA256sum: 2eb41faf02276bfb72a0acd652cff09483b26bd4c15c76e5b6bd1c63fcfb2ea1
 Description:  OpenWrt signature verification utility
 
+Package: vxlan
+Version: 7
+Depends: libc, kmod-vxlan
+License: GPL-2.0
+Section: net
+Architecture: all
+Installed-Size: 10240
+Filename: vxlan_7_all.ipk
+Size: 2229
+SHA256sum: b126d829e4fcb0702b5e46469b3a10dbc74e2497bb6c53f74008ce6fbe3288ce
+Description:  Virtual eXtensible LAN config support in /etc/config/network.
+
 Package: wifi-scripts
 Version: 1.0-r1
 Depends: libc, netifd, ucode, ucode-mod-nl80211, ucode-mod-rtnl, ucode-mod-ubus, ucode-mod-uci
@@ -2711,8 +2787,8 @@ Section: utils
 Architecture: all
 Installed-Size: 133120
 Filename: wifi-scripts_1.0-r1_all.ipk
-Size: 30193
-SHA256sum: 9476b235acee4b80af75a1270f733dddfb481138c7487ed45e31fbf9f7357ac5
+Size: 30189
+SHA256sum: b794da3896ae666806997eb46f1d39b7c74b5bc8ecf93bc83f23db3ffdf9f879
 Description:  A set of scripts that handle setup and configuration of Wi-Fi devices.
 
 Package: wil6210-firmware
@@ -2790,7 +2866,7 @@ Architecture: aarch64_cortex-a53
 Installed-Size: 378880
 Filename: wwan_2019.04.29-r6_aarch64_cortex-a53.ipk
 Size: 9889
-SHA256sum: b736cc37e0591d70affc21fe91e4c87791348fccc2d1883a4e4b5eb11894f026
+SHA256sum: b82e0f4e1c86f4f007fdd56779d8089caf2fcd24a2074ef93bff5aaaa655de71
 Description:  Generic OpenWrt 3G/4G proto handler
 
 Package: zlib

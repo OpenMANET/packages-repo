@@ -64,8 +64,8 @@ Maintainer: OpenWrt LuCI community
 Architecture: all
 Installed-Size: 184320
 Filename: luci-app-dockerman_v0.5.13-20240317_all.ipk
-Size: 36778
-SHA256sum: fb74b2a632408fdcfb07ff2f6667c658aa9284f1c6b5bc61362c1f7e1725b798
+Size: 36768
+SHA256sum: ddb9fbe4445133f62b541db836134afd90653108cd4808cb0dd62bcb4071a708
 Description:  LuCI Support for docker
 
 Package: luci-app-firewall
@@ -81,8 +81,8 @@ Maintainer: OpenWrt LuCI community
 Architecture: all
 Installed-Size: 92160
 Filename: luci-app-firewall_git-25.233.06936-53e6515_all.ipk
-Size: 18115
-SHA256sum: 02cbb0cb3d400a691b672a9110a8896f77b5a63b3abe89f382abebd69f1af811
+Size: 18117
+SHA256sum: d5f208bddcf002afeb5079a5ff479f03c39d868b24399623934b3ebe7dc4fcc7
 Description:  Firewall and Portforwarding application
 
 Package: luci-app-opkg
@@ -97,8 +97,8 @@ Maintainer: OpenWrt LuCI community
 Architecture: all
 Installed-Size: 40960
 Filename: luci-app-opkg_git-25.233.06936-53e6515_all.ipk
-Size: 10062
-SHA256sum: 5e862c79121dbfa86e2deededcd3a18050e8d28b6fa22764fb51a4e9bcf1cd03
+Size: 10061
+SHA256sum: ee768a238a1fda67ed065cac7b7be866d2f132fc42566d1872397c1aec0b637e
 Description:  OPKG package management application
 
 Package: luci-app-statistics
@@ -113,8 +113,8 @@ Maintainer: OpenWrt LuCI community
 Architecture: all
 Installed-Size: 245760
 Filename: luci-app-statistics_git-25.233.06936-53e6515_all.ipk
-Size: 34878
-SHA256sum: 74ed900563d98d4e11a8914b79ad685b924f2f6d039d620047a8cf1854a10f74
+Size: 34887
+SHA256sum: 1e231984a3e27ffe9f2e4d6433a992d4454b1179360052636728f6fd95139e06
 Description:  LuCI Statistics Application
 
 Package: luci-app-ttyd
@@ -129,8 +129,8 @@ Maintainer: OpenWrt LuCI community
 Architecture: all
 Installed-Size: 20480
 Filename: luci-app-ttyd_git-25.233.06936-53e6515_all.ipk
-Size: 3118
-SHA256sum: 1502d65140253a052f4bbb2952d028ec1448e82ec8f80880a850c5f31bacc935
+Size: 3109
+SHA256sum: eb38b621a72a6fdd9c4fcf139cc1bcd0960141d0af10c4d455c54e51d94b6083
 Description:  ttyd - Command-line tool for sharing terminal over the web
 
 Package: luci-base
@@ -146,8 +146,8 @@ Maintainer: OpenWrt LuCI community
 Architecture: aarch64_cortex-a53
 Installed-Size: 573440
 Filename: luci-base_git-25.233.06936-53e6515_aarch64_cortex-a53.ipk
-Size: 132049
-SHA256sum: 097a45e2b266880012f61729edbe080eb1d9a9296e0e5ab95c5a85bec05ca288
+Size: 132021
+SHA256sum: 81c627de3b35e5ca39b2334b1a63c1b7c51c6aab0daf7e6d91e0a872cf4d9d3a
 Description:  LuCI core runtime
 
 Package: luci-compat
@@ -162,8 +162,8 @@ Maintainer: OpenWrt LuCI community
 Architecture: all
 Installed-Size: 245760
 Filename: luci-compat_git-25.233.06936-53e6515_all.ipk
-Size: 46320
-SHA256sum: 95d8501fdfda62fd77a4056abcf125fe68c101581ceb13e864d8bcd47126da77
+Size: 46288
+SHA256sum: 002e231a97cb23b8b4aca0b297ea61604539570667273d4eb205f92ea7e6ae88
 Description:  LuCI compatibility libraries
 
 Package: luci-lib-base
@@ -178,8 +178,8 @@ Maintainer: OpenWrt LuCI community
 Architecture: all
 Installed-Size: 40960
 Filename: luci-lib-base_git-25.233.06936-53e6515_all.ipk
-Size: 10531
-SHA256sum: a511b13d0c18907aff81bf22f644a6733398f03eab8229453e2e7be01977b821
+Size: 10528
+SHA256sum: 01416dc7b7cc7fe3f7d7befc6edaaac85d5955e81e196bad37a3c74e1de0ca84
 Description:  basic libraries for luci
 
 Package: luci-lib-chartjs-4
@@ -194,8 +194,8 @@ Maintainer: Morse Micro
 Architecture: all
 Installed-Size: 204800
 Filename: luci-lib-chartjs-4_git-25.233.06936-53e6515_all.ipk
-Size: 69989
-SHA256sum: fe060aece7919fa0d8c82d52b8d812e9087ed4cd9f8ce03b770cc4fc11df62a6
+Size: 69986
+SHA256sum: 306afbac7559c0c07800bff8c73f55078b095b01d5c06e3db63bdedaf57461c3
 Description:  minified ChartJS 4 javascript library
 
 Package: luci-lib-docker
@@ -211,8 +211,8 @@ Maintainer: OpenWrt LuCI community
 Architecture: all
 Installed-Size: 20480
 Filename: luci-lib-docker_git-25.233.06936-53e6515_all.ipk
-Size: 4707
-SHA256sum: aa89efc3e674fce9903842684a1c399a942974eef2322c48d6f9b05b125acb54
+Size: 4712
+SHA256sum: e17fe8e8a429ab00c8581883667c25a2ea31ffb3ada251c6bdf15938138d4ba0
 Description:  Docker Engine API for LuCI
 
 Package: luci-lib-ip
@@ -261,8 +261,8 @@ Maintainer: OpenWrt LuCI community
 Architecture: aarch64_cortex-a53
 Installed-Size: 153600
 Filename: luci-lib-nixio_git-25.233.06936-53e6515_aarch64_cortex-a53.ipk
-Size: 34801
-SHA256sum: 4a129853f24adec64795304b31e4c1d46eeca0640b02d1ecff8e122a2ba09374
+Size: 34773
+SHA256sum: 1cc7e7725999c9feb5ba769321efcd04060147256b35104c5f4f8441bba853f4
 Description:  NIXIO POSIX library
 
 Package: luci-light
@@ -294,8 +294,8 @@ Maintainer: OpenWrt LuCI community
 Architecture: aarch64_cortex-a53
 Installed-Size: 153600
 Filename: luci-lua-runtime_git-25.233.06936-53e6515_aarch64_cortex-a53.ipk
-Size: 31352
-SHA256sum: e575053a6180e17cbbcd1d4b8f708b42fb2326b7e769714c453b32c0aa4fc1dc
+Size: 31338
+SHA256sum: 502d9156fbb47e541ce85aca98477e60b216d5466a1b9ccc55b9dd436e48b1a3
 Description:  LuCI Lua runtime libraries
 
 Package: luci-mod-admin-full
@@ -328,8 +328,8 @@ Maintainer: OpenWrt LuCI community
 Architecture: all
 Installed-Size: 276480
 Filename: luci-mod-network_git-25.233.06936-53e6515_all.ipk
-Size: 65536
-SHA256sum: ececf985f9cd8df243a253b9a94d19c73859ec30da2341a4c4a80fcfdefb3786
+Size: 65519
+SHA256sum: dc739058fca37f0830e631148f88f529823675b75b4b3d6be7619ef1fdb34d7c
 Description:  LuCI Network Administration
 
 Package: luci-mod-status
@@ -345,8 +345,8 @@ Maintainer: OpenWrt LuCI community
 Architecture: aarch64_cortex-a53
 Installed-Size: 245760
 Filename: luci-mod-status_git-25.233.06936-53e6515_aarch64_cortex-a53.ipk
-Size: 41064
-SHA256sum: 13c279b42f92e1703245cdc961f2e29dfb59038271eaccbd787d487493055d42
+Size: 41068
+SHA256sum: aa498980e2b156c548bed5a7a8d3f6ca990fbf24a5b4a5e0399d5bf451560587
 Description:  LuCI Status Pages
 
 Package: luci-mod-system
@@ -362,8 +362,8 @@ Maintainer: OpenWrt LuCI community
 Architecture: all
 Installed-Size: 92160
 Filename: luci-mod-system_git-25.233.06936-53e6515_all.ipk
-Size: 18605
-SHA256sum: a826282849772b223b2611b1eb53bd2bd8c50b088476dedd495b9cf05eaeec0e
+Size: 18595
+SHA256sum: 1b25c7398f64740a14835ca7753cb61ab74d22eed52438df36470d15298f89a6
 Description:  LuCI Administration - Global System Settings
 
 Package: luci-proto-batman-adv
@@ -378,8 +378,8 @@ Maintainer: OpenWrt LuCI community
 Architecture: all
 Installed-Size: 20480
 Filename: luci-proto-batman-adv_git-25.233.06936-53e6515_all.ipk
-Size: 3363
-SHA256sum: cd05c52f181e67668c08262eebd1ddb03eb7b7d9e7e5eacd68a082ee5fc9e480
+Size: 3366
+SHA256sum: d28f8df98c9b50ad2d1cbdcaefba59bd73c991b2bbdfeb22da95c3de7d069dc6
 Description:  Support for the batman-adv protocol
 
 Package: luci-proto-ipv6
@@ -395,8 +395,8 @@ Maintainer: OpenWrt LuCI community
 Architecture: all
 Installed-Size: 30720
 Filename: luci-proto-ipv6_git-25.233.06936-53e6515_all.ipk
-Size: 3727
-SHA256sum: 1da8874640d9c2f49926fe4834240981399a618266d3108c03a13393f94fcb13
+Size: 3729
+SHA256sum: 49afd7fbf9046b4d19e133b15bb2ae4ba448a98a8f90b23a8283fa59d493ccb8
 Description:  Support for DHCPv6/6in4/6to4/6rd/DS-Lite/IPIP6
 
 Package: luci-proto-ppp
@@ -412,8 +412,8 @@ Maintainer: OpenWrt LuCI community
 Architecture: all
 Installed-Size: 30720
 Filename: luci-proto-ppp_git-25.233.06936-53e6515_all.ipk
-Size: 3052
-SHA256sum: 90f2f403623f44ef78ae05336e0ef17f935bd1a56ab066ce0f3396bcc4a8142a
+Size: 3045
+SHA256sum: cf4947731afcc8fa79e18659a7a0552639f943526afa9d8dfb860a3dd00b148f
 Description:  Support for PPP/PPPoE/PPPoA/PPtP
 
 Package: luci-proto-relay
@@ -428,9 +428,25 @@ Maintainer: OpenWrt LuCI community
 Architecture: all
 Installed-Size: 10240
 Filename: luci-proto-relay_git-25.233.06936-53e6515_all.ipk
-Size: 2489
-SHA256sum: 29279cc13717554f1c744d6a4e9c9684d93c3dc1bd04ae80d9f1ba46d3baefd7
+Size: 2482
+SHA256sum: 3d4debdc968084a7af259b709567bb3acb136db6ad41ef235cd57973a3b3f7a1
 Description:  Support for relayd pseudo bridges
+
+Package: luci-proto-vxlan
+Version: git-25.233.06936-53e6515
+Depends: libc, vxlan
+Source: feeds/luci/protocols/luci-proto-vxlan
+SourceName: luci-proto-vxlan
+Section: luci
+SourceDateEpoch: 1755741336
+URL: https://github.com/openwrt/luci
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 10240
+Filename: luci-proto-vxlan_git-25.233.06936-53e6515_all.ipk
+Size: 2002
+SHA256sum: aa7f0998457131f68bfd4d0f426344d5b91c446c132634b78931dc067f6cbde2
+Description:  Support for Virtual eXtensible Local Area Network (VXLAN, RFC7348)
 
 Package: luci-theme-bootstrap
 Version: git-25.233.06936-53e6515
@@ -445,8 +461,8 @@ Maintainer: OpenWrt LuCI community
 Architecture: all
 Installed-Size: 81920
 Filename: luci-theme-bootstrap_git-25.233.06936-53e6515_all.ipk
-Size: 16964
-SHA256sum: 699411e6a62a678a3bf724a87203a0e64943e4604fc7a1af6228e8880db2120c
+Size: 16957
+SHA256sum: 04d2e4e8864274744079c6e8926228d25b29c522fbdf7355d5c559254caed542
 Description:  Bootstrap Theme (default)
 
 Package: luci

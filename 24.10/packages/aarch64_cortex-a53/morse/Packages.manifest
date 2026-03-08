@@ -49,23 +49,6 @@ Size: 17844
 SHA256sum: b20da4be0549a4efd206b4f7a9c59f475a14f7546d52d52a210f7e4a5bfed12c
 Description:  wpa_supplicant_s1g client library
 
-Package: mediamtx
-Version: 1.4.0-r1
-Depends: libc
-Source: feeds/morse/multimedia/mediamtx
-SourceName: mediamtx
-Section: multimedia
-SourceDateEpoch: 1760011748
-URL: https://github.com/bluenviron/mediamtx
-Architecture: aarch64_cortex-a53
-Installed-Size: 19773440
-Filename: mediamtx_1.4.0-r1_aarch64_cortex-a53.ipk
-Size: 7265580
-SHA256sum: 27b5d673adce160bda36eca5ca005d61f866a9ed3a31f06912be32b3a2958db9
-Description:  Ready-to-use server and proxy that allows users to publish, read and proxy live video and audio streams through various protocols.
- 
- If libcamera is enabled, it will try to build its rpicamera support.
-
 Package: morse-bcf-info
 Version: 1.0-r1
 Depends: libc, libelf1
@@ -359,8 +342,8 @@ Maintainer: Morse Micro <info@morsemicro.com>
 Architecture: aarch64_cortex-a53
 Installed-Size: 215040
 Filename: morsecli_1.16.4-r5_aarch64_cortex-a53.ipk
-Size: 72796
-SHA256sum: bcc8d5e5823eca9f040667b8af17c4dc7a22a49211207bb4a09aabb84c56c8ac
+Size: 72733
+SHA256sum: 07e01c77ce7bed32ca53354a3984996bcc29e7176235cdd339750fa10e8bb2e9
 Description:  Morse Micro WIFI HaLow driver command line tool
 
 Package: netifd-morse
@@ -375,8 +358,8 @@ Maintainer: Morse Micro <info@morsemicro.com>
 Architecture: aarch64_cortex-a53
 Installed-Size: 112640
 Filename: netifd-morse_1_aarch64_cortex-a53.ipk
-Size: 27074
-SHA256sum: 91fc62328409fd42bee1cd73d906f29611ca9f0eb9b3edeaf31c3f93d6e50d3d
+Size: 27064
+SHA256sum: 757dac7357a56d28da6212a07d426c9a2c26569cb583bc6970c6373503914be9
 Description:  Morse Micro HaLow support for netifd
 
 Package: smart_manager
@@ -392,8 +375,8 @@ Maintainer: Morse Micro
 Architecture: aarch64_cortex-a53
 Installed-Size: 215040
 Filename: smart_manager_1.16.4-r1_aarch64_cortex-a53.ipk
-Size: 63232
-SHA256sum: 14ad3578e906f8bf299ea09832566088cb387eddbe8f96eefb593c5adf3da239
+Size: 63098
+SHA256sum: 68f90f1f3c33d58809f7aaa14ac0210364d66817b8d225fadda491a86c987e7f
 Description:  Morse Micro HaLow DCS Smart Manager
 
 Package: wpa_supplicant_s1g

@@ -29,8 +29,8 @@ Maintainer: Morse Micro
 Architecture: aarch64_cortex-a72
 Installed-Size: 143360
 Filename: gst1-mod-rtspclientsink_1.20.5-r1_aarch64_cortex-a72.ipk
-Size: 27741
-SHA256sum: 5d8fc53451456f8f63b199fe6844bb094dbf8545be446d0eb903a98933ad3069
+Size: 27750
+SHA256sum: ae2d0747c618a81a94e38901cafe05c196d5325fbb7af403a1a5552277144e6d
 Description:  GStreamer RTSP client sink plugin.
 
 Package: hostapd_s1g
@@ -65,8 +65,8 @@ Maintainer: Morse Micro
 Architecture: aarch64_cortex-a72
 Installed-Size: 337920
 Filename: libgst1rtspserver_1.20.5-r1_aarch64_cortex-a72.ipk
-Size: 105439
-SHA256sum: 89cd9068629ba7b55994cfba7a3d15ef7c66aa413744f9fa111b227e3e781808
+Size: 105470
+SHA256sum: ccebdee2eaacc78775c6bf6a59661553a532db02c15a1e8f4202fe390b80c05c
 Description:  GStreamer RTSP server.
 
 Package: libwpa_client_s1g
@@ -98,8 +98,8 @@ Maintainer: OpenWrt LuCI community
 Architecture: all
 Installed-Size: 163840
 Filename: luci-app-camera_git-25.282.43748-263b4c4_all.ipk
-Size: 78414
-SHA256sum: 3e6f3e80116ab8eccb95096489f879802216a53a76fd722b56cccfc8c0ce5800
+Size: 78397
+SHA256sum: e5690566c42826c29084d3aed223c509d7b445f84378deecab34c70754f92305
 Description:  LuCI Camera Viewer
 
 Package: luci-i18n-camera-ja
@@ -116,23 +116,6 @@ Filename: luci-i18n-camera-ja_git-25.282.43748-263b4c4_all.ipk
 Size: 2687
 SHA256sum: b6de2b18602fd7e158a5e26928b357dbefc532089e6ea9bfa2b884788450bb29
 Description:  Translation for luci-app-camera - 日本語 (Japanese)
-
-Package: mediamtx
-Version: 1.4.0-r1
-Depends: libc
-Source: feeds/morse/multimedia/mediamtx
-SourceName: mediamtx
-Section: multimedia
-SourceDateEpoch: 1760011748
-URL: https://github.com/bluenviron/mediamtx
-Architecture: aarch64_cortex-a72
-Installed-Size: 19773440
-Filename: mediamtx_1.4.0-r1_aarch64_cortex-a72.ipk
-Size: 7266085
-SHA256sum: e5ea30d46f95b2b7a056cb98a751afb76b2c486059312233a0744d5d38fe8af8
-Description:  Ready-to-use server and proxy that allows users to publish, read and proxy live video and audio streams through various protocols.
- 
- If libcamera is enabled, it will try to build its rpicamera support.
 
 Package: morse-bcf-info
 Version: 1.0-r1
@@ -427,8 +410,8 @@ Maintainer: Morse Micro <info@morsemicro.com>
 Architecture: aarch64_cortex-a72
 Installed-Size: 215040
 Filename: morsecli_1.16.4-r5_aarch64_cortex-a72.ipk
-Size: 72926
-SHA256sum: 23bfc86a27cf678ec54d9f0c2c795f09c43f27a1084cf3e0942e8a22fcfa677b
+Size: 72939
+SHA256sum: a7764eda3b2eb733646a573756c7da194e92f2aab089aa82c08a3ddb6936b462
 Description:  Morse Micro WIFI HaLow driver command line tool
 
 Package: netifd-morse
@@ -443,8 +426,8 @@ Maintainer: Morse Micro <info@morsemicro.com>
 Architecture: aarch64_cortex-a72
 Installed-Size: 112640
 Filename: netifd-morse_1_aarch64_cortex-a72.ipk
-Size: 27071
-SHA256sum: caeb7f0beb3da53cf5c0265e7ead2fb7bc9c20b0d4c3de0f08749e42e67f6250
+Size: 27063
+SHA256sum: 10c75a0abb10a67b4b70090284959ea6499f052b7ae455adec0205b8b8fe5a28
 Description:  Morse Micro HaLow support for netifd
 
 Package: persistent-vars-storage-bcm2711
@@ -491,8 +474,8 @@ Maintainer: Morse Micro
 Architecture: aarch64_cortex-a72
 Installed-Size: 215040
 Filename: smart_manager_1.16.4-r1_aarch64_cortex-a72.ipk
-Size: 63230
-SHA256sum: f3ef01e956dba029374728a988fee9d5957c6ed79cd778301f12f2cbbf523b33
+Size: 63096
+SHA256sum: a24da0598d1b0e5b5bf6d350f991d34ca0571bf49fa3ac9ff2a6a7995a5430ac
 Description:  Morse Micro HaLow DCS Smart Manager
 
 Package: wireshark

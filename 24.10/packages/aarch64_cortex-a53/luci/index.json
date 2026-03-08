@@ -28,6 +28,7 @@
     "luci-proto-ipv6": "git-25.233.06936-53e6515",
     "luci-proto-ppp": "git-25.233.06936-53e6515",
     "luci-proto-relay": "git-25.233.06936-53e6515",
+    "luci-proto-vxlan": "git-25.233.06936-53e6515",
     "luci-theme-bootstrap": "git-25.233.06936-53e6515",
     "luci": "git-25.233.06936-53e6515",
     "rpcd-mod-luci": "20240305-r1",
