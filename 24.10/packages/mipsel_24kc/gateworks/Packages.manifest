@@ -1,0 +1,50 @@
+Package: button-hotplug-gw
+Version: 1
+Depends: libc
+Source: feeds/gateworks/gateworks/button-hotplug-gw
+SourceName: button-hotplug-gw
+Section: utils
+SourceDateEpoch: 1757031620
+URL: http://trac.gateworks.com/wiki/
+Maintainer: Gateworks Corporation <support@gateworks.com>
+Architecture: mipsel_24kc
+Installed-Size: 10240
+Filename: button-hotplug-gw_1_mipsel_24kc.ipk
+Size: 2054
+SHA256sum: 10ff5a0b74f2157b4a81d50e1effa106ff92835f85cae254a8ec715d515d720c
+Description:  OpenWrt button events are dispatched through the hotplug system to
+ the button subsystem. This script and default config adds a handler
+ script that can track button-presses and execute handlers configured
+ via uci.
+
+Package: gsc-update
+Version: 1.6-r2
+Depends: libc
+Source: feeds/gateworks/gateworks/gsc-update
+SourceName: gsc-update
+Section: base
+SourceDateEpoch: 1757031620
+Maintainer: Gateworks Corporation <support@gateworks.com>
+Architecture: mipsel_24kc
+Installed-Size: 81920
+Filename: gsc-update_1.6-r2_mipsel_24kc.ipk
+Size: 6063
+SHA256sum: 7aec98c04ef01d61a6610a765bb29f353bf4aff4c513825306be99b8ce4b02c7
+Description:  Gateworks System Controller Firmware Update Application
+
+Package: gwsoc
+Version: 1.0-r1
+Depends: libc, hidapi, libusb-1.0-0, librt
+Source: feeds/gateworks/gateworks/gwsoc
+SourceName: gwsoc
+Section: utils
+SourceDateEpoch: 1757031620
+Maintainer: Gateworks Corporation <support@gateworks.com>
+Architecture: mipsel_24kc
+Installed-Size: 71680
+Filename: gwsoc_1.0-r1_mipsel_24kc.ipk
+Size: 6477
+SHA256sum: a048c3e69e90cb76450a1d0698f87811eb9c5742b4fcc9602b6f22db3afd18a4
+Description:  Utility for communicating with Gateworks GWSoC family of products
+ such as the GW16113.
+

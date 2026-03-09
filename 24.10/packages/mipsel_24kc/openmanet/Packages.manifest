@@ -1,0 +1,541 @@
+Package: adsbtocot
+Version: 1-r2
+Depends: libc, python3, dump1090, rtl-sdr
+Source: feeds/openmanet/utils/adsbtocot
+SourceName: adsbtocot
+License: MIT
+Section: utils
+SourceDateEpoch: 1773003353
+Maintainer: info@openmanet.net
+Architecture: mipsel_24kc
+Installed-Size: 4956160
+Filename: adsbtocot_1-r2_mipsel_24kc.ipk
+Size: 874379
+SHA256sum: d505eba2ca1863817d85375e38381764239c42a5a2c8b18af6a38317676184f9
+Description:  Installs ADSBCOT from PyPI and provides a procd service to forward ADS-B tracks
+ from dump1090 to CoT/TAK (multicast or unicast).
+
+Package: alfred
+Version: 2025.5-r1
+Depends: libc, libnl-tiny1, librt, lua, libgps30
+Source: feeds/openmanet/routing/alfred
+SourceName: alfred
+License: GPL-2.0-only MIT
+LicenseFiles: LICENSES/preferred/GPL-2.0 LICENSES/preferred/MIT
+Section: net
+SourceDateEpoch: 1773003353
+URL: https://www.open-mesh.org/
+Maintainer: Simon Wunderlich <sw@simonwunderlich.de>
+Architecture: mipsel_24kc
+Installed-Size: 215040
+Filename: alfred_2025.5-r1_mipsel_24kc.ipk
+Size: 30130
+SHA256sum: 231ee380c2f1b39eedcaac82397341cf571fa1c1ef220c7c2e6556d381d1219a
+Description:  alfred is a user space daemon for distributing arbitrary local information
+ over the mesh/network in a decentralized fashion. This data can be anything
+ which appears to be useful - originally designed to replace the batman-adv
+ visualization (vis), you may distribute hostnames, phone books, administration
+ information, DNS information, the local weather forecast ...
+ 
+ alfred runs as daemon in the background of the system. A user may insert
+ information by using the alfred binary on the command line, or use special
+ programs to communicate with alfred (done via unix sockets). alfred then takes
+ care of distributing the local information to other alfred servers on other
+ nodes. This is done via IPv6 link-local multicast, and does not require any
+ configuration. A user can request data from alfred, and will receive the
+ information available from all alfred servers in the network.
+
+Package: avahi-daemon-service-http
+Version: 0.8-r8
+Depends: libc, avahi-daemon
+Source: feeds/openmanet/lib/avahi
+SourceName: avahi
+License: LGPL-2.1-or-later
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1773003353
+URL: http://www.avahi.org/
+CPE-ID: cpe:/a:avahi:avahi
+Maintainer: Ted Hess <thess@kitschensync.net>
+Architecture: mipsel_24kc
+Installed-Size: 10240
+Filename: avahi-daemon-service-http_0.8-r8_mipsel_24kc.ipk
+Size: 1541
+SHA256sum: 92d588dcb1d248986b55743fed97d4a10c17966e971e49221af0f1257219f3bb
+Description:  Avahi is an mDNS/DNS-SD (aka RendezVous/Bonjour/ZeroConf)
+ implementation (library). It facilitates
+ service discovery on a local network -- this means that
+ you can plug your laptop or computer into a network and
+ instantly be able to view other people who you can chat with,
+ find printers to print to or find files being shared.
+ This kind of technology is already found in MacOS X
+ (branded 'Rendezvous', 'Bonjour' and sometimes 'ZeroConf')
+ and is very convenient.
+ .
+ This package contains the service definition for announcing HTTP service.
+
+Package: avahi-daemon-service-ssh
+Version: 0.8-r8
+Depends: libc, avahi-daemon
+Source: feeds/openmanet/lib/avahi
+SourceName: avahi
+License: LGPL-2.1-or-later
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1773003353
+URL: http://www.avahi.org/
+CPE-ID: cpe:/a:avahi:avahi
+Maintainer: Ted Hess <thess@kitschensync.net>
+Architecture: mipsel_24kc
+Installed-Size: 10240
+Filename: avahi-daemon-service-ssh_0.8-r8_mipsel_24kc.ipk
+Size: 1519
+SHA256sum: fbe1cae78e154ada152efa78fdaeea7395e822d8c8a3342e198f12b1e5cc4c49
+Description:  Avahi is an mDNS/DNS-SD (aka RendezVous/Bonjour/ZeroConf)
+ implementation (library). It facilitates
+ service discovery on a local network -- this means that
+ you can plug your laptop or computer into a network and
+ instantly be able to view other people who you can chat with,
+ find printers to print to or find files being shared.
+ This kind of technology is already found in MacOS X
+ (branded 'Rendezvous', 'Bonjour' and sometimes 'ZeroConf')
+ and is very convenient.
+ .
+ This package contains the service definition for announcing SSH service.
+
+Package: avahi-dbus-daemon
+Version: 0.8-r8
+Depends: libc, libavahi-dbus-support, libexpat, librt, libdaemon
+Provides: avahi-daemon
+Source: feeds/openmanet/lib/avahi
+SourceName: avahi
+License: LGPL-2.1-or-later
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1773003353
+URL: http://www.avahi.org/
+CPE-ID: cpe:/a:avahi:avahi
+Maintainer: Ted Hess <thess@kitschensync.net>
+Architecture: mipsel_24kc
+Installed-Size: 143360
+Filename: avahi-dbus-daemon_0.8-r8_mipsel_24kc.ipk
+Size: 37601
+SHA256sum: 1b6ea7a0a92b4dd0f51fce46eb4775c78065d5c0b8ad8681618f6a4d262cc6df
+Description:  Avahi is an mDNS/DNS-SD (aka RendezVous/Bonjour/ZeroConf)
+ implementation (library). It facilitates
+ service discovery on a local network -- this means that
+ you can plug your laptop or computer into a network and
+ instantly be able to view other people who you can chat with,
+ find printers to print to or find files being shared.
+ This kind of technology is already found in MacOS X
+ (branded 'Rendezvous', 'Bonjour' and sometimes 'ZeroConf')
+ and is very convenient.
+ .
+ This package contains an mDNS/DNS-SD daemon.
+
+Package: avahi-utils
+Version: 0.8-r8
+Depends: libc, libavahi-client, libgdbm
+Source: feeds/openmanet/lib/avahi
+SourceName: avahi
+License: LGPL-2.1-or-later
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1773003353
+URL: http://www.avahi.org/
+CPE-ID: cpe:/a:avahi:avahi
+Maintainer: Ted Hess <thess@kitschensync.net>
+Architecture: mipsel_24kc
+Installed-Size: 604160
+Filename: avahi-utils_0.8-r8_mipsel_24kc.ipk
+Size: 44773
+SHA256sum: 35ce3be5166a68a4b1b16bc91ae16e40782a1c5585d6837c8b7e261a72885b04
+Description:  Avahi is an mDNS/DNS-SD (aka RendezVous/Bonjour/ZeroConf)
+ implementation (library). It facilitates
+ service discovery on a local network -- this means that
+ you can plug your laptop or computer into a network and
+ instantly be able to view other people who you can chat with,
+ find printers to print to or find files being shared.
+ This kind of technology is already found in MacOS X
+ (branded 'Rendezvous', 'Bonjour' and sometimes 'ZeroConf')
+ and is very convenient.
+ .
+ This packages installs the following avahi utility programs:
+ avahi-browse, avahi-publish, avahi-resolve, avahi-set-host-name.
+ It also automatically adds the required libavahi-client package.
+ For more information please see the avahi documentation.
+
+Package: batctl-full
+Version: 2025.4-r2
+Depends: libc, libnl-tiny1, librt
+Provides: batctl
+Alternatives: 300:/usr/sbin/batctl:/usr/libexec/batctl-full
+Source: feeds/openmanet/routing/batctl
+SourceName: batctl
+License: GPL-2.0-only ISC MIT
+LicenseFiles: LICENSES/preferred/GPL-2.0 LICENSES/preferred/MIT LICENSES/deprecated/ISC
+Section: net
+SourceDateEpoch: 1773003353
+URL: https://www.open-mesh.org/
+Maintainer: Simon Wunderlich <sw@simonwunderlich.de>
+Architecture: mipsel_24kc
+Installed-Size: 143360
+Filename: batctl-full_2025.4-r2_mipsel_24kc.ipk
+Size: 44185
+SHA256sum: 29d01102d365537b93716a51309f389d386bacced917ca50874e909ab75c1d0e
+Description:  batctl is a more intuitive managment utility for B.A.T.M.A.N.-Advanced.
+ It is an easier method for configuring batman-adv and provides some
+ additional tools for debugging as well. This package builds
+ version 2025.4 of the user space utility.
+ Subcommands for configuration, online and offline debugging are enabled.
+
+Package: bsp-common
+Version: 1.0-r2
+Depends: libc
+Source: feeds/openmanet/boards/bsp-common
+SourceName: bsp-common
+License: GPLv2
+Section: utils
+SourceDateEpoch: 1773003353
+Maintainer: OpenMANET
+Architecture: mipsel_24kc
+Installed-Size: 20480
+Filename: bsp-common_1.0-r2_mipsel_24kc.ipk
+Size: 3291
+SHA256sum: cc69c95eb567dff5819eb65325474aac9de0bb7567d92df330d8d1f59e733dea
+Description:  This package provides common board support files for OpenMANET boards.
+
+Package: bsp-halowlink2
+Version: 1.0-r1
+Depends: libc, bsp-common
+Source: feeds/openmanet/boards/bsp-halowlink2
+SourceName: bsp-halowlink2
+License: GPLv2
+Section: utils
+SourceDateEpoch: 1773003353
+Maintainer: OpenMANET
+Architecture: mipsel_24kc
+Installed-Size: 20480
+Filename: bsp-halowlink2_1.0-r1_mipsel_24kc.ipk
+Size: 3409
+SHA256sum: ef479e724e96ae4fa419d23e5fdaa45a98703020ba25d94558afb084142dd471
+Description:  This package provides board support for the MorseMicro HaLow Link 2
+ (morse,artini / MT7621). Includes:
+ - Default channel 28 (916 MHz, 8 MHz BW) and BCF selection
+ - SAE mesh fix: ieee80211w=0 and sae_pwe=0 in morse_overrides.sh
+ - Custom BCF (bcf_mm_hl2_ext.bin)
+ Note: Chip firmware (mm8108b2-rl.bin) is provided by morse-fw-8108 from morse-feed.
+
+Package: gpsd-clients
+Version: 3.25-r1
+Depends: libc, libusb-1.0-0, libncurses6
+Source: feeds/openmanet/utils/gpsd
+SourceName: gpsd
+License: BSD-3-Clause
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1773003353
+URL: https://gpsd.gitlab.io/gpsd/
+CPE-ID: cpe:/a:gpsd_project:gpsd
+Maintainer: Pushpal Sidhu <psidhu.devel@gmail.com>
+Architecture: mipsel_24kc
+Installed-Size: 1986560
+Filename: gpsd-clients_3.25-r1_mipsel_24kc.ipk
+Size: 955048
+SHA256sum: 1178123ff66b189387d46da6e0c663f203b940f2ea4dfe7f9e792e5ba09e3abb
+Description:  gpsd is a userland daemon acting as a translator between GPS and AIS receivers
+ and their clients. gpsd listens on port 2947 for clients requesting
+ position/time/velocity information.  The receivers are expected to generate
+ position information in a well-known format -- as NMEA-0183 sentences, SiRF
+ binary, Rockwell binary, Garmin binary format, or other vendor binary
+ protocols.  gpsd takes this information from the GPS and translates it into
+ something uniform and easier to understand for clients.
+ This package contains auxiliary tools and example clients for monitoring and
+ testing the GPS daemon.
+
+Package: gpsd
+Version: 3.25-r1
+Depends: libc, libusb-1.0-0
+Source: feeds/openmanet/utils/gpsd
+SourceName: gpsd
+License: BSD-3-Clause
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1773003353
+URL: https://gpsd.gitlab.io/gpsd/
+CPE-ID: cpe:/a:gpsd_project:gpsd
+Maintainer: Pushpal Sidhu <psidhu.devel@gmail.com>
+Architecture: mipsel_24kc
+Installed-Size: 542720
+Filename: gpsd_3.25-r1_mipsel_24kc.ipk
+Size: 269363
+SHA256sum: d21467a424998d7e33a48c01c98d70924182d09d1b8c591143b228661e77de5d
+Description:  gpsd is a userland daemon acting as a translator between GPS and AIS receivers
+ and their clients. gpsd listens on port 2947 for clients requesting
+ position/time/velocity information.  The receivers are expected to generate
+ position information in a well-known format -- as NMEA-0183 sentences, SiRF
+ binary, Rockwell binary, Garmin binary format, or other vendor binary
+ protocols.  gpsd takes this information from the GPS and translates it into
+ something uniform and easier to understand for clients.
+ This package contains the GPS daemon.
+
+Package: libavahi-client
+Version: 0.8-r8
+Depends: libc, avahi-dbus-daemon
+Source: feeds/openmanet/lib/avahi
+SourceName: avahi
+License: LGPL-2.1-or-later
+LicenseFiles: LICENSE
+Section: libs
+SourceDateEpoch: 1773003353
+URL: http://www.avahi.org/
+CPE-ID: cpe:/a:avahi:avahi
+Maintainer: Ted Hess <thess@kitschensync.net>
+Architecture: mipsel_24kc
+Installed-Size: 71680
+Filename: libavahi-client_0.8-r8_mipsel_24kc.ipk
+Size: 16798
+SHA256sum: 20e44d66b28b785a37de0d15505c3a700883e6c4fd7020fca29abdbfc1e6d576
+Description:  Avahi is an mDNS/DNS-SD (aka RendezVous/Bonjour/ZeroConf)
+ implementation (library). It facilitates
+ service discovery on a local network -- this means that
+ you can plug your laptop or computer into a network and
+ instantly be able to view other people who you can chat with,
+ find printers to print to or find files being shared.
+ This kind of technology is already found in MacOS X
+ (branded 'Rendezvous', 'Bonjour' and sometimes 'ZeroConf')
+ and is very convenient.
+ .
+ This packages adds the libavahi-client library.
+ It also automatically adds the required
+ libavahi-dbus-support and the avahi-dbus-daemon packages.
+ For more information please see the avahi documentation.
+
+Package: libavahi-dbus-support
+Version: 0.8-r8
+Depends: libc, dbus
+Provides: libavahi
+Source: feeds/openmanet/lib/avahi
+SourceName: avahi
+License: LGPL-2.1-or-later
+LicenseFiles: LICENSE
+Section: libs
+SourceDateEpoch: 1773003353
+URL: http://www.avahi.org/
+CPE-ID: cpe:/a:avahi:avahi
+Maintainer: Ted Hess <thess@kitschensync.net>
+Architecture: mipsel_24kc
+Installed-Size: 215040
+Filename: libavahi-dbus-support_0.8-r8_mipsel_24kc.ipk
+Size: 65042
+SHA256sum: 45a816fe5cac9b22c7ca5c85ad5b0850352603735392a32e4713499122593355
+Description:  Avahi is an mDNS/DNS-SD (aka RendezVous/Bonjour/ZeroConf)
+ implementation (library). It facilitates
+ service discovery on a local network -- this means that
+ you can plug your laptop or computer into a network and
+ instantly be able to view other people who you can chat with,
+ find printers to print to or find files being shared.
+ This kind of technology is already found in MacOS X
+ (branded 'Rendezvous', 'Bonjour' and sometimes 'ZeroConf')
+ and is very convenient.
+ .
+ The libavahi package contains the mDNS/DNS-SD shared libraries,
+ used by other programs. Specifically, it provides
+ libavahi-core and libavahi-common libraries.
+ .
+ The libavahi-dbus-support package enables
+ D-Bus support in avahi, needed to support
+ the libavahi-client library and avahi-utils.
+ .
+ Selecting this package modifies the build configuration
+ so that avahi packages are built with support for D-BUS enabled;
+ it does not generate a separate binary of its own.
+ It also automatically adds the D-Bus package to the build.
+ libavahi-dbus-support is selected automatically if you select
+ libavahi-client or avahi-utils.
+
+Package: libgps30
+Version: 3.25-r1
+Depends: libc, libusb-1.0-0
+Provides: libgps
+Source: feeds/openmanet/utils/gpsd
+SourceName: gpsd
+License: BSD-3-Clause
+LicenseFiles: COPYING
+Section: libs
+SourceDateEpoch: 1773003353
+URL: https://gpsd.gitlab.io/gpsd/
+ABIVersion: 30
+CPE-ID: cpe:/a:gpsd_project:gpsd
+Maintainer: Pushpal Sidhu <psidhu.devel@gmail.com>
+Architecture: mipsel_24kc
+Installed-Size: 143360
+Filename: libgps30_3.25-r1_mipsel_24kc.ipk
+Size: 59858
+SHA256sum: 051e3954c616f4fbf03f3d971c25ddee2dabd6f3c00978cd4304d40dfa34d702
+Description:  gpsd is a userland daemon acting as a translator between GPS and AIS receivers
+ and their clients. gpsd listens on port 2947 for clients requesting
+ position/time/velocity information.  The receivers are expected to generate
+ position information in a well-known format -- as NMEA-0183 sentences, SiRF
+ binary, Rockwell binary, Garmin binary format, or other vendor binary
+ protocols.  gpsd takes this information from the GPS and translates it into
+ something uniform and easier to understand for clients.
+ This package contains the libgps library.
+
+Package: luci-app-ekhwizards
+Version: git-26.067.75353-559afb0
+Depends: libc, luci-base, luci-app-morseconfig
+Source: feeds/openmanet/luci/luci-app-ekhwizards
+SourceName: luci-app-ekhwizards
+License: Apache-2.0
+Section: luci
+SourceDateEpoch: 1773003353
+URL: https://github.com/openwrt/luci
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 153600
+Filename: luci-app-ekhwizards_git-26.067.75353-559afb0_all.ipk
+Size: 22369
+SHA256sum: 0f42399b6cd89dcaa033c98ed1e1bbe6b97d411df40b1fc77f7f56b1221356d8
+Description:  LuCI Wizards for HaLow evaluation kits
+
+Package: luci-app-morseconfig
+Version: git-26.067.75353-559afb0
+Depends: libc, luci-base, libiwinfo20250326, libiwinfo-lua, luci-lib-morseui, netifd-morse, morse-regdb, qrencode
+Source: feeds/openmanet/luci/luci-app-morseconfig
+SourceName: luci-app-morseconfig
+License: Apache-2.0
+Section: luci
+SourceDateEpoch: 1773003353
+URL: https://github.com/openwrt/luci
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 512000
+Filename: luci-app-morseconfig_git-26.067.75353-559afb0_all.ipk
+Size: 117706
+SHA256sum: 61670070900f7641db4eda12195c099dbd2ad8e9cf547fe55faaee4ae348ed63
+Description:  LuCI Morse Configuration
+
+Package: luci-lib-morseui
+Version: git-26.067.75353-559afb0
+Depends: libc, luci-base
+Source: feeds/openmanet/luci/luci-lib-morseui
+SourceName: luci-lib-morseui
+License: Apache-2.0
+Section: luci
+SourceDateEpoch: 1773003353
+URL: https://github.com/openwrt/luci
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 30720
+Filename: luci-lib-morseui_git-26.067.75353-559afb0_all.ipk
+Size: 6828
+SHA256sum: 7a69551f8875335b981a414f7da2dcd9466b88637a361cf6d81230e5f8ed9f8b
+Description:  LuCI Morse UI Library
+
+Package: luci-lib-vivagraphjs
+Version: git-26.067.75353-559afb0
+Depends: libc
+Source: feeds/openmanet/luci/luci-lib-vivagraphjs
+SourceName: luci-lib-vivagraphjs
+Section: luci
+SourceDateEpoch: 1773003353
+URL: https://github.com/anvaka/VivaGraphJS/
+Maintainer: Morse Micro
+Architecture: all
+Installed-Size: 71680
+Filename: luci-lib-vivagraphjs_git-26.067.75353-559afb0_all.ipk
+Size: 22406
+SHA256sum: 53844b2da6bf6339a77d99a5fa0edffe3e6b6c021f416431608eb77829e89ba6
+Description:  minified VivaGraphJS javascript library
+
+Package: luci-mod-home
+Version: git-26.067.75353-559afb0
+Depends: libc, luci-base, libiwinfo20250326, luci-app-morseconfig, luci-lib-vivagraphjs, morse-mode
+Source: feeds/openmanet/luci/luci-mod-home
+SourceName: luci-mod-home
+License: Apache-2.0
+Section: luci
+SourceDateEpoch: 1773003353
+URL: https://github.com/openwrt/luci
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 71680
+Filename: luci-mod-home_git-26.067.75353-559afb0_all.ipk
+Size: 17024
+SHA256sum: 3180175b0c3911b7e1bda15e4c80997309b941dbb5218df7aacc1af06090013c
+Description:  LuCI Home
+
+Package: luci-theme-openmanetargon
+Version: git-26.067.75353-559afb0
+Depends: libc, morse-mode, luci-lua-runtime
+Source: feeds/openmanet/luci/luci-theme-openmanetargon
+SourceName: luci-theme-openmanetargon
+License: Apache-2.0
+Section: luci
+SourceDateEpoch: 1773003353
+URL: https://github.com/openwrt/luci
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 2498560
+Filename: luci-theme-openmanetargon_git-26.067.75353-559afb0_all.ipk
+Size: 2311897
+SHA256sum: e8d3e312a13c5ece735432f5cb74e194e5f6e29af56d9e317caf6ede861d87eb
+Description:  LuCI OpenMANET Argon Theme
+
+Package: mediamtx
+Version: 1.4.0-r2
+Depends: libc
+Source: feeds/openmanet/multimedia/mediamtx
+SourceName: mediamtx
+Section: multimedia
+SourceDateEpoch: 1773003353
+URL: https://github.com/bluenviron/mediamtx
+Architecture: mipsel_24kc
+Installed-Size: 22712320
+Filename: mediamtx_1.4.0-r2_mipsel_24kc.ipk
+Size: 7163109
+SHA256sum: 37c8640607fa1f97976a826bdcadaa768702ab7e181a962bc7df65c5f2a87e38
+Description:  Ready-to-use server and proxy that allows users to publish, read and proxy live video and audio streams through various protocols.
+ 
+ If libcamera is enabled, it will try to build its rpicamera support.
+
+Package: openmanetd
+Version: 1.2.27-r1
+Depends: libc, kmod-batman-adv, alfred, libnl-tiny1, librt, portaudio, libopus, libevdev, alsa-lib, kmod-usb-core, kmod-usb-audio, kmod-sound-core, libopusfile, gpsd
+Source: feeds/openmanet/openmanetd
+SourceName: openmanetd
+License: MIT
+Section: utils
+SourceDateEpoch: 1773003353
+Maintainer: Corey Wagehoft
+Architecture: mipsel_24kc
+Installed-Size: 23408640
+Filename: openmanetd_1.2.27-r1_mipsel_24kc.ipk
+Size: 7513366
+SHA256sum: e3ebc997b42982824c0e3940a8baea1405d39a336d7b1d8885c57d1449afc56e
+Description:  A management application for openmanetd written in Go.
+ Includes:
+ - pttgo: A multicast push-to-talk voice application written in Go using PortAudio, Opus, and evdev.
+
+Package: tailscale
+Version: 1.94.1-r1
+Depends: libc, ca-bundle, kmod-tun
+Provides: tailscaled
+Source: feeds/openmanet/net/tailscale
+SourceName: tailscale
+License: BSD-3-Clause
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1773003353
+URL: https://tailscale.com
+CPE-ID: cpe:/a:tailscale:tailscale
+Maintainer: Zephyr Lykos <self@mochaa.ws>, Sandro Jäckel <sandro.jaeckel@gmail.com>
+Architecture: mipsel_24kc
+Installed-Size: 29480960
+Filename: tailscale_1.94.1-r1_mipsel_24kc.ipk
+Size: 9485923
+SHA256sum: c27f193a75111c91bc23b3802cb288ed3aaed47b5c55187cab251c233ba05c38
+Description:  It creates a secure network between your servers, computers,
+ and cloud instances. Even when separated by firewalls or subnets.
+

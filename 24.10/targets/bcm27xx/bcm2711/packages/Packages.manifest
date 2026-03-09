@@ -10,8 +10,8 @@ URL: http://openwrt.org/
 Architecture: aarch64_cortex-a72
 Installed-Size: 266240
 Filename: base-files_5~d9340319c6_aarch64_cortex-a72.ipk
-Size: 51575
-SHA256sum: fd331fef810732c7ad53e0357d5b3ce977b6aa01eb70278eab4be3a45920b022
+Size: 51586
+SHA256sum: aee98b96ee96bd7056e4ee43ae9e72ba295be80848527c8ff2dd6ee8094c8ed4
 Description:  This package contains a base filesystem and system scripts for OpenWrt.
 
 Package: bcm27xx-gpu-fw
@@ -741,14 +741,14 @@ SourceName: batman-adv
 License: GPL-2.0-only MIT
 LicenseFiles: LICENSES/preferred/GPL-2.0 LICENSES/preferred/MIT
 Section: kernel
-SourceDateEpoch: 1772901612
+SourceDateEpoch: 1773003353
 URL: https://www.open-mesh.org/
 Maintainer: Simon Wunderlich <sw@simonwunderlich.de>
 Architecture: aarch64_cortex-a72
 Installed-Size: 327680
 Filename: kmod-batman-adv_6.6.102.2025.4-r2_aarch64_cortex-a72.ipk
-Size: 103041
-SHA256sum: 44d691a919c557c4b77fdf4e9054c3e5cf43317eefcbdee7140ec7efa4dda6ff
+Size: 103035
+SHA256sum: 39d2bd4e0d5221e284b036ddbe1d5a801ababd3c77c7bc97125421848c8a9213
 Description:  B.A.T.M.A.N. (better approach to mobile ad-hoc networking) is
  a routing protocol for multi-hop ad-hoc mesh networks. The
  networks may be wired or wireless. See
@@ -4161,13 +4161,13 @@ SourceName: morse_driver
 License: GPLv2
 LicenseFiles: LICENSE
 Section: kernel
-SourceDateEpoch: 1772901612
+SourceDateEpoch: 1773003353
 Maintainer: Morse Micro
 Architecture: aarch64_cortex-a72
 Installed-Size: 737280
 Filename: kmod-morse_6.6.102.1.16.4-gateworks-r1_aarch64_cortex-a72.ipk
-Size: 236140
-SHA256sum: b918d01efc1f53f5e58db6f2cf8be22e2b958e95db028406b1249fc0bc0af83c
+Size: 236149
+SHA256sum: 70076ace17e773f3b587b1576ffcc61b68fe1e0eaf60e12af6ef82ab0f26eecf
 Description:  Morse Micro WIFI HaLow driver
 
 Package: kmod-mt76-connac

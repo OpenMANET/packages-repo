@@ -108,7 +108,7 @@ Architecture: aarch64_cortex-a72
 Installed-Size: 573440
 Filename: luci-base_git-25.233.06936-53e6515_aarch64_cortex-a72.ipk
 Size: 132028
-SHA256sum: 5b88b3ba61fe72a0a9108c310b23d12268e8f2d2c1d1b504c6b9ee7433ac56a4
+SHA256sum: 6cbfad2cdaa83b273e569b0eda82653fd5c7ba6a55c2df80df6cb4c1a5eca6ee
 Description:  LuCI core runtime
 
 Package: luci-compat

@@ -1,0 +1,363 @@
+Package: dpp-handler
+Version: 1
+Depends: libc, wpa_supplicant_s1g, libwpa_client_s1g
+Source: feeds/morse/features/dpp-handler
+SourceName: dpp-handler
+Section: net
+SourceDateEpoch: 1760011748
+Maintainer: Morse Micro
+Architecture: mipsel_24kc
+Installed-Size: 81920
+Filename: dpp-handler_1_mipsel_24kc.ipk
+Size: 8183
+SHA256sum: e04214f27009578731c1601680a4a746fe4988e7af3d25afd83225c2cfcb94dc
+Description:  This package adds a ubus (rpcd ucode) handler for DPP related
+ actions (push button to initiate, and set UCI config if successful).
+ Currently, success is detected by a wpa_event_listener.
+
+Package: hostapd_s1g
+Version: 1.16.4-r2
+Depends: libc, kmod-morse, libnl200, libopenssl3, libubus20250102
+Source: feeds/morse/essentials/hostapd_s1g
+SourceName: hostapd_s1g
+License: BSD-3-Clause
+Section: net
+Require-User: network=101:network=101
+SourceDateEpoch: 1760011748
+Maintainer: Morse Micro <info@morsemicro.com>
+Architecture: mipsel_24kc
+Installed-Size: 1372160
+Filename: hostapd_s1g_1.16.4-r2_mipsel_24kc.ipk
+Size: 668569
+SHA256sum: 7a5ab3157ccf9bf954841573097f92cc1eef148c1484255743a2ba6fe2d328de
+Description:  This package contains a full featured Morse Micro patched
+ Authenticator.
+
+Package: libwpa_client_s1g
+Version: 1.16.4-r2
+Depends: libc, wpa_supplicant_s1g
+Source: feeds/morse/essentials/wpa_supplicant_s1g
+SourceName: wpa_supplicant_s1g
+License: BSD-3-Clause
+Section: net
+SourceDateEpoch: 1760011748
+Maintainer: Morse Micro <info@morsemicro.com>
+Architecture: mipsel_24kc
+Installed-Size: 71680
+Filename: libwpa_client_s1g_1.16.4-r2_mipsel_24kc.ipk
+Size: 13395
+SHA256sum: 3dc2ad88ed1fc72a49bba537da2e2229efb4690ab804fb4ba5b5aa0ba3e6c58a
+Description:  wpa_supplicant_s1g client library
+
+Package: morse-bcf-info
+Version: 1.0-r1
+Depends: libc, libelf1
+Source: feeds/morse/features/morse-bcf-info
+SourceName: morse-bcf-info
+Section: utils
+SourceDateEpoch: 1760011748
+Architecture: mipsel_24kc
+Installed-Size: 71680
+Filename: morse-bcf-info_1.0-r1_mipsel_24kc.ipk
+Size: 3843
+SHA256sum: 820c99b1ef860775f860e2732717380c28603eb4b37a86479524897866dd35ef
+Description:  Parse Morse wifi chip BCF files and emit JSON metadata
+
+Package: morse-board-config-hotplug-model
+Version: 1.16.4-r6
+Depends: libc, morse-board-config
+Source: feeds/morse/essentials/mm-board-config
+SourceName: morse-board-config
+Section: firmware
+SourceDateEpoch: 1760011748
+Maintainer: Morse Micro <info@morsemicro.com>
+Architecture: mipsel_24kc
+Installed-Size: 10240
+Filename: morse-board-config-hotplug-model_1.16.4-r6_mipsel_24kc.ipk
+Size: 1349
+SHA256sum: d4b7e842868b19813a88d74b76db5dc4ad58bdda213e93f8c8dc43da6ca2e5fc
+Description:  When enabled, a hotplug script will be installed to
+ append a relevant module type suffix based on the value
+ programmed into the Morse chips OTP bits.
+
+Package: morse-board-config
+Version: 1.16.4-r6
+Depends: libc
+Source: feeds/morse/essentials/mm-board-config
+SourceName: morse-board-config
+Section: firmware
+SourceDateEpoch: 1760011748
+URL: https://github.com/MorseMicro/morse-firmware.git
+Maintainer: Morse Micro <info@morsemicro.com>
+Architecture: mipsel_24kc
+Installed-Size: 61440
+Filename: morse-board-config_1.16.4-r6_mipsel_24kc.ipk
+Size: 5631
+SHA256sum: 0f03ff6ad9e5859cb00fed55cef1c5949cb1ab354f9b061972d9ad2248735e4b
+Description:  Morse Micro WIFI HaLow Board Config File
+
+Package: morse-boot-prints
+Version: 2
+Depends: libc, morse-mode
+Source: feeds/morse/features/morse-boot-prints
+SourceName: morse-boot-prints
+Section: utils
+SourceDateEpoch: 1760011748
+Maintainer: Morse Micro
+Architecture: mipsel_24kc
+Installed-Size: 30720
+Filename: morse-boot-prints_2_mipsel_24kc.ipk
+Size: 3050
+SHA256sum: 896a9eb8a8fd49c78a05eae08ab7bf68714bb2885ad6eb5c6fea0d7371ccb5c8
+Description:  Morse Boot Info Prints
+
+Package: morse-bundle
+Version: 2
+Depends: libc, morse-boot-prints, gpiod-tools, ucode
+Source: feeds/morse/hardware/morse-bundle
+SourceName: morse-bundle
+Section: net
+SourceDateEpoch: 1760011748
+Maintainer: Morse Micro
+Architecture: mipsel_24kc
+Installed-Size: 40960
+Filename: morse-bundle_2_mipsel_24kc.ipk
+Size: 8340
+SHA256sum: d84331c49cf292c87129161380f40344289251f449f179db8360933f215804e6
+Description:  This package contains minor config/scripts adaptations for
+ morse releases.
+
+Package: morse-button
+Version: 1
+Depends: libc, netifd-morse
+Source: feeds/morse/hardware/morse-button
+SourceName: morse-button
+Section: utils
+SourceDateEpoch: 1760011748
+Maintainer: Morse Micro
+Architecture: mipsel_24kc
+Installed-Size: 10240
+Filename: morse-button_1_mipsel_24kc.ipk
+Size: 1182
+SHA256sum: 2979b2c9a32beb16056e88d60d7f338a88c3c6f2531dbad21a1a816c0d63d985
+Description:  Add a button handler script for morse devices.
+
+Package: morse-copy-coredump
+Version: 1
+Depends: libc, kmod-morse
+Source: feeds/morse/features/morse-copy-coredump
+SourceName: morse-copy-coredump
+Section: net
+SourceDateEpoch: 1760011748
+Maintainer: Morse Micro
+Architecture: mipsel_24kc
+Installed-Size: 10240
+Filename: morse-copy-coredump_1_mipsel_24kc.ipk
+Size: 1523
+SHA256sum: b7a5a67de6243d12c7f10c8ba1feb5b82f2b3f74cdd1980c5dfa93cc2b9ad48d
+Description:  Copy morse driver coredumps from sysfs to /var/log
+ when they appear (detected via hotplug).
+
+Package: morse-fw-8108-flm
+Version: 1.16.4-r2
+Depends: libc
+Provides: morse-fw
+Source: feeds/morse/essentials/morse-fw
+SourceName: morse-fw
+Section: firmware
+SourceDateEpoch: 1760011748
+URL: https://github.com/MorseMicro/morse-firmware.git
+Maintainer: Morse Micro <info@morsemicro.com>
+Architecture: mipsel_24kc
+Installed-Size: 624640
+Filename: morse-fw-8108-flm_1.16.4-r2_mipsel_24kc.ipk
+Size: 339007
+SHA256sum: 63909f821bd046424c0f9c8704663937c61824f51942e48b3d952507253a2040
+Description:  This firmware implements the functionality of the mac80211
+ module (and some wpa_supplicant functionality) on the 8108.
+ This will allow you to reduce host processor CPU usage
+ and maintain association if the host processor is turned off.
+ However, it currently only supports station/client mode
+ (i.e. not AP/mesh/adhoc).
+
+Package: morse-fw-8108-tlm
+Version: 1.16.4-r2
+Depends: libc
+Provides: morse-fw
+Source: feeds/morse/essentials/morse-fw
+SourceName: morse-fw
+Section: firmware
+SourceDateEpoch: 1760011748
+URL: https://github.com/MorseMicro/morse-firmware.git
+Maintainer: Morse Micro <info@morsemicro.com>
+Architecture: mipsel_24kc
+Installed-Size: 460800
+Filename: morse-fw-8108-tlm_1.16.4-r2_mipsel_24kc.ipk
+Size: 226407
+SHA256sum: 970bde43491d751079c874f25259a60b030e3e2634f1cb31b296da247e069be8
+Description:  This firmware reduces the per-station table size in the chip to
+ allow a large number of associations in AP mode.
+
+Package: morse-fw-8108
+Version: 1.16.4-r2
+Depends: libc
+Provides: morse-fw
+Source: feeds/morse/essentials/morse-fw
+SourceName: morse-fw
+Section: opt
+SourceDateEpoch: 1760011748
+URL: https://github.com/MorseMicro/morse-firmware.git
+Maintainer: Morse Micro <info@morsemicro.com>
+Architecture: mipsel_24kc
+Installed-Size: 460800
+Filename: morse-fw-8108_1.16.4-r2_mipsel_24kc.ipk
+Size: 230154
+SHA256sum: 0d8bd36e181a4ed7e72d3f24a337141d9c0c7a95934bfa7a4e8eb4ecd1d9fdb3
+Description:  Morse Micro WIFI HaLow standard firmware for 8108
+
+Package: morse-leds
+Version: 1
+Depends: libc
+Source: feeds/morse/hardware/morse-leds
+SourceName: morse-leds
+Section: utils
+SourceDateEpoch: 1760011748
+Maintainer: Morse Micro
+Architecture: mipsel_24kc
+Installed-Size: 10240
+Filename: morse-leds_1_mipsel_24kc.ipk
+Size: 3209
+SHA256sum: 26c9f7f086ff204adb850b524ff0d3df686fd93624638f2a0149a44ab015408b
+Description:  Override default LED status handler to handle new
+ states and more complex LEDs (e.g. PWM)
+ (both for the status, and to set
+ the colour of the other LEDs since the OpenWrt LED
+ configurator doesn't know how to set the colour on
+ PWM LEDs).
+
+Package: morse-mode
+Version: 1
+Depends: libc, netifd-morse, morse-regdb
+Source: feeds/morse/features/morse-mode
+SourceName: morse-mode
+Section: utils
+SourceDateEpoch: 1760011748
+Maintainer: Morse Micro
+Architecture: mipsel_24kc
+Installed-Size: 10240
+Filename: morse-mode_1_mipsel_24kc.ipk
+Size: 2813
+SHA256sum: 300bcd94a212c36166757a8d9b61d945fd8d6c8af7778e879b56c6ed07fa6f93
+Description:  Access morse mode info via ubus
+
+Package: morse-regdb
+Version: v2.4.1-r1
+Depends: libc
+Source: feeds/morse/essentials/morse-regdb
+SourceName: morse-regdb
+Section: net
+SourceDateEpoch: 1760011748
+URL: https://bitbucket.org/morsemicro/morse_regdb/src/master/
+Architecture: all
+Installed-Size: 51200
+Filename: morse-regdb_v2.4.1-r1_all.ipk
+Size: 6150
+SHA256sum: 7892ad020663b368bef96f03a9470a50b7ca6efab9ea5a3a25eb1bf0a6c4e819
+Description:  Regulatory data for 802.11ah in a csv.
+
+Package: morse_mesh11sd
+Version: 1.2.0-r1
+Depends: libc
+Provides: mesh11sd
+Source: feeds/morse/features/morse_mesh11sd
+SourceName: morse_mesh11sd
+License: GPL-2.0-or-later
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1760011748
+URL: https://github.com/opennds/mesh11sd
+Maintainer: Rob White <rob@blue-wave.net>
+Architecture: all
+Installed-Size: 30720
+Filename: morse_mesh11sd_1.2.0-r1_all.ipk
+Size: 6794
+SHA256sum: 78d515eae26ab32337ca42019a9b0f4dbbc2b1cc2efbc4a9e5339c390bfb8c73
+Description:  Mesh11sd is a dynamic parameter configuration daemon for 802.11s mesh networks.
+ It was originally designed to leverage 802.11s mesh networking at Captive Portal venues.
+ This is the open source version and it enables easy and automated mesh network operation with multiple mesh nodes.
+ It allows all mesh parameters supported by the wireless driver to be set in the uci config file.
+ Settings take effect immediately without having to restart the wireless network.
+ Default settings give rapid and reliable layer 2 mesh convergence.
+ Without mesh11sd, many mesh parameters cannot be set in the uci wireless config file as the mesh interface must be up before the parameters can be set.
+ Some of those that are supported, would fail to be implemented when the network is (re)started resulting in errors or dropped nodes.
+ The mesh11sd daemon dynamically checks configured parameters and sets them as required.
+ This version does not require a Captive Portal to be running.
+ The modified morse_mesh11sd would allow reconfiguring the wpa supplicant everytime there is 11sMesh config modification.
+
+Package: morsecli
+Version: 1.16.4-r5
+Depends: libc, kmod-morse, libnl200, libusb-1.0-0
+Provides: morsectrl
+Source: feeds/morse/essentials/morsecli
+SourceName: morsecli
+License: GPLv2
+Section: net
+SourceDateEpoch: 1760011748
+Maintainer: Morse Micro <info@morsemicro.com>
+Architecture: mipsel_24kc
+Installed-Size: 143360
+Filename: morsecli_1.16.4-r5_mipsel_24kc.ipk
+Size: 55873
+SHA256sum: bb281fd767bfeebca9e49f2d2396eb83727acfcfb64a2b3a4abc04a8c669997d
+Description:  Morse Micro WIFI HaLow driver command line tool
+
+Package: netifd-morse
+Version: 1
+Depends: libc, netifd, kmod-morse, kmod-cfg80211, morse-regdb, wpa_supplicant_s1g, hostapd_s1g, morsecli
+Source: feeds/morse/essentials/netifd-morse
+SourceName: netifd-morse
+License: GPLv2
+Section: net
+SourceDateEpoch: 1760011748
+Maintainer: Morse Micro <info@morsemicro.com>
+Architecture: mipsel_24kc
+Installed-Size: 112640
+Filename: netifd-morse_1_mipsel_24kc.ipk
+Size: 27063
+SHA256sum: ee530b3be7fc40da9dd20b586899c8193c93032e0110a8a4dc10d4de573922ba
+Description:  Morse Micro HaLow support for netifd
+
+Package: smart_manager
+Version: 1.16.4-r1
+Depends: libc, kmod-morse, libnl200, libpthread, libconfig11, hostapd_s1g
+Source: feeds/morse/features/smart-manager
+SourceName: smart_manager
+License: BSD-3-Clause
+Section: net
+Require-User: network=101:network=101
+SourceDateEpoch: 1760011748
+Maintainer: Morse Micro
+Architecture: mipsel_24kc
+Installed-Size: 225280
+Filename: smart_manager_1.16.4-r1_mipsel_24kc.ipk
+Size: 53141
+SHA256sum: 923ef547b1ff6f8c7cba8e6ce173f683a7020a8d5e15c7b0bc7f456bd0af4c51
+Description:  Morse Micro HaLow DCS Smart Manager
+
+Package: wpa_supplicant_s1g
+Version: 1.16.4-r2
+Depends: libc, kmod-morse, libnl200, libopenssl3, libubus20250102
+Source: feeds/morse/essentials/wpa_supplicant_s1g
+SourceName: wpa_supplicant_s1g
+License: BSD-3-Clause
+Section: net
+Require-User: network=101:network=101
+SourceDateEpoch: 1760011748
+Maintainer: Morse Micro <info@morsemicro.com>
+Architecture: mipsel_24kc
+Installed-Size: 1925120
+Filename: wpa_supplicant_s1g_1.16.4-r2_mipsel_24kc.ipk
+Size: 967106
+SHA256sum: fb9a81ca30b7c5c56b41f6f588ce328dcfec981f76a6d6533aa36352e139442f
+Description:  Morse Micro HaLow wpa_supplicant
+

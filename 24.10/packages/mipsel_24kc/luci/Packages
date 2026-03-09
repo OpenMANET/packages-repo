@@ -1,0 +1,314 @@
+Package: liblucihttp-lua
+Version: 2023.03.15~9b5b683f-r1
+Depends: libc, liblucihttp0, liblua5.1.5
+License: ISC
+Section: libs
+Architecture: mipsel_24kc
+Installed-Size: 71680
+Filename: liblucihttp-lua_2023.03.15~9b5b683f-r1_mipsel_24kc.ipk
+Size: 4036
+SHA256sum: 1a7d0b899d540fe06f710122a0aaf1f6501681a455494798ed0f8f3ccce76e74
+Description:  Lua binding for the LuCI HTTP utility library
+
+Package: liblucihttp-ucode
+Version: 2023.03.15~9b5b683f-r1
+Depends: libc, liblucihttp0, libucode20230711
+License: ISC
+Section: libs
+Architecture: mipsel_24kc
+Installed-Size: 71680
+Filename: liblucihttp-ucode_2023.03.15~9b5b683f-r1_mipsel_24kc.ipk
+Size: 4212
+SHA256sum: 233c62366d99c9133961ce79e2a143016e8f03090f854cc6febbd067de2bed2a
+Description:  ucode binding for the LuCI HTTP utility library
+
+Package: liblucihttp0
+Version: 2023.03.15~9b5b683f-r1
+Depends: libc
+Provides: liblucihttp
+License: ISC
+Section: libs
+ABIVersion: 0
+Architecture: mipsel_24kc
+Installed-Size: 71680
+Filename: liblucihttp0_2023.03.15~9b5b683f-r1_mipsel_24kc.ipk
+Size: 7425
+SHA256sum: 9f8248693151fa051b56844fb3afec125af5b985e0dadc38eb042dc100be9cea
+Description:  LuCI HTTP utility library
+
+Package: luci-app-firewall
+Version: git-25.233.06936-53e6515
+Depends: libc, uci-firewall
+License: Apache-2.0
+Section: luci
+URL: https://github.com/openwrt/luci
+Architecture: all
+Installed-Size: 92160
+Filename: luci-app-firewall_git-25.233.06936-53e6515_all.ipk
+Size: 18117
+SHA256sum: d5f208bddcf002afeb5079a5ff479f03c39d868b24399623934b3ebe7dc4fcc7
+Description:  Firewall and Portforwarding application
+
+Package: luci-app-opkg
+Version: git-25.233.06936-53e6515
+Depends: libc, opkg
+Section: luci
+URL: https://github.com/openwrt/luci
+Architecture: all
+Installed-Size: 40960
+Filename: luci-app-opkg_git-25.233.06936-53e6515_all.ipk
+Size: 10061
+SHA256sum: ee768a238a1fda67ed065cac7b7be866d2f132fc42566d1872397c1aec0b637e
+Description:  OPKG package management application
+
+Package: luci-base
+Version: git-25.233.06936-53e6515
+Depends: libc, rpcd, rpcd-mod-file, rpcd-mod-luci, rpcd-mod-ucode, cgi-io, ucode, ucode-mod-fs, ucode-mod-uci, ucode-mod-ubus, ucode-mod-math, ucode-mod-html, liblucihttp-ucode, morse-regdb
+License: MIT
+Section: luci
+URL: https://github.com/openwrt/luci
+Architecture: mipsel_24kc
+Installed-Size: 573440
+Filename: luci-base_git-25.233.06936-53e6515_mipsel_24kc.ipk
+Size: 130750
+SHA256sum: d9191c1750b50a13d54ae04e3e1983c400b0ecfaa0b1ecda18bd0138ae9e3fd8
+Description:  LuCI core runtime
+
+Package: luci-lib-base
+Version: git-25.233.06936-53e6515
+Depends: libc, lua, luci-lib-nixio, luci-lib-ip, luci-lib-jsonc, liblucihttp-lua
+Section: luci
+URL: https://github.com/openwrt/luci
+Architecture: all
+Installed-Size: 40960
+Filename: luci-lib-base_git-25.233.06936-53e6515_all.ipk
+Size: 10528
+SHA256sum: 01416dc7b7cc7fe3f7d7befc6edaaac85d5955e81e196bad37a3c74e1de0ca84
+Description:  basic libraries for luci
+
+Package: luci-lib-chartjs-4
+Version: git-25.233.06936-53e6515
+Depends: libc
+Section: luci
+URL: https://www.chartjs.org/
+Architecture: all
+Installed-Size: 204800
+Filename: luci-lib-chartjs-4_git-25.233.06936-53e6515_all.ipk
+Size: 69986
+SHA256sum: 306afbac7559c0c07800bff8c73f55078b095b01d5c06e3db63bdedaf57461c3
+Description:  minified ChartJS 4 javascript library
+
+Package: luci-lib-ip
+Version: git-25.233.06936-53e6515
+Depends: libc, liblua5.1.5, libnl-tiny1
+License: Apache-2.0
+Section: luci
+URL: https://github.com/openwrt/luci
+Architecture: mipsel_24kc
+Installed-Size: 71680
+Filename: luci-lib-ip_git-25.233.06936-53e6515_mipsel_24kc.ipk
+Size: 11190
+SHA256sum: 3edd5f581c366680a6e10d7c9c940e1782404afb67504a658b9d63158761c431
+Description:  Lua library for IP calculation and routing information
+
+Package: luci-lib-jsonc
+Version: git-25.233.06936-53e6515
+Depends: libc, liblua5.1.5, libjson-c5
+Section: luci
+URL: https://github.com/openwrt/luci
+Architecture: mipsel_24kc
+Installed-Size: 71680
+Filename: luci-lib-jsonc_git-25.233.06936-53e6515_mipsel_24kc.ipk
+Size: 5051
+SHA256sum: ad0aeec15d77d6593f4d974c52fd7a44afbd6d5a1ec8ef1205402c6fe4abbd8e
+Description:  Lua binding for JSON-C
+
+Package: luci-lib-nixio
+Version: git-25.233.06936-53e6515
+Depends: libc, liblua5.1.5
+License: Apache-2.0
+Section: luci
+URL: https://github.com/openwrt/luci
+Architecture: mipsel_24kc
+Installed-Size: 92160
+Filename: luci-lib-nixio_git-25.233.06936-53e6515_mipsel_24kc.ipk
+Size: 28435
+SHA256sum: e4bbecb73e4ae4cec48528c7ed8ecafbe8ed11160f2b22976abc158be4b56b5b
+Description:  NIXIO POSIX library
+
+Package: luci-lua-runtime
+Version: git-25.233.06936-53e6515
+Depends: libc, luci-base, lua, luci-lib-base, luci-lib-nixio, luci-lib-ip, luci-lib-jsonc, libubus-lua, liblucihttp-lua, ucode-mod-lua
+Section: luci
+URL: https://github.com/openwrt/luci
+Architecture: mipsel_24kc
+Installed-Size: 153600
+Filename: luci-lua-runtime_git-25.233.06936-53e6515_mipsel_24kc.ipk
+Size: 28783
+SHA256sum: 5b1551db1cdae395d1f62a53f498162ccf7736442f2bcefc6663825d6e935d4d
+Description:  LuCI Lua runtime libraries
+
+Package: luci-mod-admin-full
+Version: git-25.233.06936-53e6515
+Depends: libc, luci-base, luci-mod-status, luci-mod-system, luci-mod-network
+License: Apache-2.0
+Section: luci
+URL: https://github.com/openwrt/luci
+Architecture: all
+Installed-Size: 10240
+Filename: luci-mod-admin-full_git-25.233.06936-53e6515_all.ipk
+Size: 991
+SHA256sum: 13a0825eeae4fc4cb0e82960fa1eaba57123cd22dc926767e2ffeb9e9e359d1b
+Description:  LuCI Administration - full-featured for full control
+
+Package: luci-mod-network
+Version: git-25.233.06936-53e6515
+Depends: libc, luci-base, luci-lib-chartjs-4, libiwinfo-lua, rpcd-mod-iwinfo
+License: Apache-2.0
+Section: luci
+URL: https://github.com/openwrt/luci
+Architecture: all
+Installed-Size: 276480
+Filename: luci-mod-network_git-25.233.06936-53e6515_all.ipk
+Size: 65519
+SHA256sum: dc739058fca37f0830e631148f88f529823675b75b4b3d6be7619ef1fdb34d7c
+Description:  LuCI Network Administration
+
+Package: luci-mod-status
+Version: git-25.233.06936-53e6515
+Depends: libc, luci-base, libiwinfo20250326, rpcd-mod-iwinfo
+License: Apache-2.0
+Section: luci
+URL: https://github.com/openwrt/luci
+Architecture: mipsel_24kc
+Installed-Size: 245760
+Filename: luci-mod-status_git-25.233.06936-53e6515_mipsel_24kc.ipk
+Size: 40805
+SHA256sum: 4ff296196661240a924f1d865d6307422184e4ce5b71f49f3489f48124840063
+Description:  LuCI Status Pages
+
+Package: luci-mod-system
+Version: git-25.233.06936-53e6515
+Depends: libc, luci-base
+License: Apache-2.0
+Section: luci
+URL: https://github.com/openwrt/luci
+Architecture: all
+Installed-Size: 92160
+Filename: luci-mod-system_git-25.233.06936-53e6515_all.ipk
+Size: 18595
+SHA256sum: 1b25c7398f64740a14835ca7753cb61ab74d22eed52438df36470d15298f89a6
+Description:  LuCI Administration - Global System Settings
+
+Package: luci-proto-batman-adv
+Version: git-25.233.06936-53e6515
+Depends: libc, kmod-batman-adv
+Section: luci
+URL: https://github.com/openwrt/luci
+Architecture: all
+Installed-Size: 20480
+Filename: luci-proto-batman-adv_git-25.233.06936-53e6515_all.ipk
+Size: 3366
+SHA256sum: d28f8df98c9b50ad2d1cbdcaefba59bd73c991b2bbdfeb22da95c3de7d069dc6
+Description:  Support for the batman-adv protocol
+
+Package: luci-proto-ipv6
+Version: git-25.233.06936-53e6515
+Depends: libc
+License: Apache-2.0
+Section: luci
+URL: https://github.com/openwrt/luci
+Architecture: all
+Installed-Size: 30720
+Filename: luci-proto-ipv6_git-25.233.06936-53e6515_all.ipk
+Size: 3729
+SHA256sum: 49afd7fbf9046b4d19e133b15bb2ae4ba448a98a8f90b23a8283fa59d493ccb8
+Description:  Support for DHCPv6/6in4/6to4/6rd/DS-Lite/IPIP6
+
+Package: luci-proto-ppp
+Version: git-25.233.06936-53e6515
+Depends: libc
+License: Apache-2.0
+Section: luci
+URL: https://github.com/openwrt/luci
+Architecture: all
+Installed-Size: 30720
+Filename: luci-proto-ppp_git-25.233.06936-53e6515_all.ipk
+Size: 3045
+SHA256sum: cf4947731afcc8fa79e18659a7a0552639f943526afa9d8dfb860a3dd00b148f
+Description:  Support for PPP/PPPoE/PPPoA/PPtP
+
+Package: luci-proto-relay
+Version: git-25.233.06936-53e6515
+Depends: libc, relayd
+Section: luci
+URL: https://github.com/openwrt/luci
+Architecture: all
+Installed-Size: 10240
+Filename: luci-proto-relay_git-25.233.06936-53e6515_all.ipk
+Size: 2482
+SHA256sum: 3d4debdc968084a7af259b709567bb3acb136db6ad41ef235cd57973a3b3f7a1
+Description:  Support for relayd pseudo bridges
+
+Package: luci-proto-vxlan
+Version: git-25.233.06936-53e6515
+Depends: libc, vxlan
+Section: luci
+URL: https://github.com/openwrt/luci
+Architecture: all
+Installed-Size: 10240
+Filename: luci-proto-vxlan_git-25.233.06936-53e6515_all.ipk
+Size: 2002
+SHA256sum: aa7f0998457131f68bfd4d0f426344d5b91c446c132634b78931dc067f6cbde2
+Description:  Support for Virtual eXtensible Local Area Network (VXLAN, RFC7348)
+
+Package: rpcd-mod-luci
+Version: 20240305-r1
+Depends: libc, rpcd, libubox20240329, libubus20250102, libnl-tiny1
+License: Apache-2.0
+Section: libs
+Architecture: mipsel_24kc
+Installed-Size: 71680
+Filename: rpcd-mod-luci_20240305-r1_mipsel_24kc.ipk
+Size: 13537
+SHA256sum: 620d15c387ddcfda9153a54cf8f6a9e40ff64d6870a20aaff730cfb5b2455af9
+Description:  Provides LuCI backend ubus RPC operations.
+
+Package: rpcd-mod-rrdns
+Version: 20170710
+Depends: libc, rpcd, libubox20240329, libubus20250102
+License: Apache-2.0
+Section: libs
+Architecture: mipsel_24kc
+Installed-Size: 71680
+Filename: rpcd-mod-rrdns_20170710_mipsel_24kc.ipk
+Size: 4472
+SHA256sum: 13c157ed2fd98c17748143cd618a01aaaca4d118858886a3bb89517f002a04b4
+Description:  Provides rapid mass reverse DNS lookup functionality.
+
+Package: ucode-mod-html
+Version: 1
+Depends: libc, libucode20230711
+License: ISC
+Section: utils
+Architecture: mipsel_24kc
+Installed-Size: 143360
+Filename: ucode-mod-html_1_mipsel_24kc.ipk
+Size: 23279
+SHA256sum: 7de09fb3bde1852e1ba4d6d2cb1a44d797738ef644c10d119f959bd347ba5bdb
+Description:  ucode HTML utility library
+
+Package: ucode-mod-lua
+Version: 1
+Depends: libc, libucode20230711, liblua5.1.5
+License: ISC
+Section: utils
+Architecture: mipsel_24kc
+Installed-Size: 71680
+Filename: ucode-mod-lua_1_mipsel_24kc.ipk
+Size: 8680
+SHA256sum: 87b484f18e69c948b33ad4353cfbde35eceb41b03fa47bfee32364a736bbbd93
+Description:  ucode to Lua bridge library
+
+
+
