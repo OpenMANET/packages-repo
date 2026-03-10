@@ -97,8 +97,8 @@ Maintainer: OpenWrt LuCI community
 Architecture: mipsel_24kc
 Installed-Size: 573440
 Filename: luci-base_git-25.233.06936-53e6515_mipsel_24kc.ipk
-Size: 130750
-SHA256sum: d9191c1750b50a13d54ae04e3e1983c400b0ecfaa0b1ecda18bd0138ae9e3fd8
+Size: 130751
+SHA256sum: b708d16b70b95c2d2d8991ec3e9b483f2dc22beba15d689d500f76bebba151aa
 Description:  LuCI core runtime
 
 Package: luci-lib-base

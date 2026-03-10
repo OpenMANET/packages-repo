@@ -10,8 +10,8 @@ URL: http://openwrt.org/
 Architecture: mipsel_24kc
 Installed-Size: 337920
 Filename: base-files_5~d9340319c6_mipsel_24kc.ipk
-Size: 66289
-SHA256sum: d3dfa4bbb33d9560554060580094fd7b75327bc7719c5391bb252ef1794e9e33
+Size: 66308
+SHA256sum: 76fc1219fca83d837869e0f5892b59d4c3622474cdba45c912f80e711c0c2b54
 Description:  This package contains a base filesystem and system scripts for OpenWrt.
 
 Package: block-mount

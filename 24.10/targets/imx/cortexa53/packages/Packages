@@ -7,8 +7,8 @@ URL: http://openwrt.org/
 Architecture: aarch64_cortex-a53
 Installed-Size: 276480
 Filename: base-files_5~d9340319c6_aarch64_cortex-a53.ipk
-Size: 53854
-SHA256sum: 073117a65404c7c2e3725ec67659d7c984a418b43450f85aa807aa3abfe08753
+Size: 53890
+SHA256sum: 77c125ecda86d6914986c54544b1ce01cbeae9e289e3d37693abf2a48cdda9a8
 Description:  This package contains a base filesystem and system scripts for OpenWrt.
 
 Package: block-mount

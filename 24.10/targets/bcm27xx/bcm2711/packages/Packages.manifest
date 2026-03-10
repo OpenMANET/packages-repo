@@ -11,7 +11,7 @@ Architecture: aarch64_cortex-a72
 Installed-Size: 266240
 Filename: base-files_5~d9340319c6_aarch64_cortex-a72.ipk
 Size: 51586
-SHA256sum: aee98b96ee96bd7056e4ee43ae9e72ba295be80848527c8ff2dd6ee8094c8ed4
+SHA256sum: 7b8662500294e434e6c9cb19c06715ac70a96ef6baa59d75e315ba1ea34ea817
 Description:  This package contains a base filesystem and system scripts for OpenWrt.
 
 Package: bcm27xx-gpu-fw
