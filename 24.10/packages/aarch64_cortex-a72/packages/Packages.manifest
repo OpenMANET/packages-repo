@@ -369,8 +369,8 @@ Maintainer: Gerard Ryan <G.M0N3Y.2503@gmail.com>
 Architecture: aarch64_cortex-a72
 Installed-Size: 112148480
 Filename: containerd_1.7.22-r1_aarch64_cortex-a72.ipk
-Size: 36860511
-SHA256sum: e1ca36dee07ad154615a5f60aabf35b8f68086b512390ee4576c8aee2d0741f0
+Size: 36860303
+SHA256sum: 53dce7a966d1c39fe3dbe8b01ae3153eb4b5a8c1cd2f719f95f522a5edd45e79
 Description:  An industry-standard container runtime with an emphasis on simplicity, robustness and portability
 
 Package: dbus
@@ -424,8 +424,8 @@ Maintainer: Gerard Ryan <G.M0N3Y.2503@gmail.com>
 Architecture: aarch64_cortex-a72
 Installed-Size: 62310400
 Filename: dockerd_27.3.1-r3_aarch64_cortex-a72.ipk
-Size: 20524419
-SHA256sum: d98821e3463b3b6774cd3ffa88c33855a29bfc9cd5536fa96c92f93a511e3ea3
+Size: 20524685
+SHA256sum: c355ef156060cdd650ad61974f56b465e04c319c7194a06713d3ae82bf6b62df
 Description:  The Docker CE Engine.
 
 Package: dump1090
@@ -3044,8 +3044,8 @@ Maintainer: Gerard Ryan <G.M0N3Y.2503@gmail.com>
 Architecture: aarch64_cortex-a72
 Installed-Size: 10874880
 Filename: runc_1.1.14-r1_aarch64_cortex-a72.ipk
-Size: 3832846
-SHA256sum: 3e1eefb07d5dba79729dbf3a741e1c7b37e21931b5f698c794bcd0203d497d14
+Size: 3832676
+SHA256sum: 8bf02403dfddd75f4e54d11af3b283a5863c6a8aa6e486950d7ebcaef83dfa5b
 Description:  runc is a CLI tool for spawning and running containers according to the OCI specification.
 
 Package: tini

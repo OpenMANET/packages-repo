@@ -7,8 +7,8 @@ URL: http://openwrt.org/
 Architecture: aarch64_cortex-a53
 Installed-Size: 276480
 Filename: base-files_5~d9340319c6_aarch64_cortex-a53.ipk
-Size: 53857
-SHA256sum: a93a98934ccc95fd48e93a498537c1b88f34e0bc7c59a9d159234b3df4b6981e
+Size: 53853
+SHA256sum: 89fa50e0f8a352933d326d8db3fabdb4927bd118e84e7f0b7242030b1bc0c50e
 Description:  This package contains a base filesystem and system scripts for OpenWrt.
 
 Package: block-mount
@@ -557,8 +557,8 @@ URL: https://www.open-mesh.org/
 Architecture: aarch64_cortex-a53
 Installed-Size: 317440
 Filename: kmod-batman-adv_6.6.102.2025.4-r2_aarch64_cortex-a53.ipk
-Size: 101553
-SHA256sum: 5d15d4b11b4dc970fe9adbb32eced0494551b0bc74e1ebea8891b186230169bb
+Size: 101576
+SHA256sum: 9502150af0256c07f9604738143217ed21ecb73ef0c94200adc41ada545b887b
 Description:  B.A.T.M.A.N. (better approach to mobile ad-hoc networking) is
  a routing protocol for multi-hop ad-hoc mesh networks. The
  networks may be wired or wireless. See
@@ -3231,8 +3231,8 @@ Section: kernel
 Architecture: aarch64_cortex-a53
 Installed-Size: 686080
 Filename: kmod-morse_6.6.102.1.16.4-gateworks-r1_aarch64_cortex-a53.ipk
-Size: 225707
-SHA256sum: d9edb9d49bc208aade262c7676008b43a26f842bcadcaefe4d61c57d7b60eaa1
+Size: 225691
+SHA256sum: c3b4f875004d467533b57bfda2760d7f9eb02c8ff22696f74b194ecd982aa858
 Description:  Morse Micro WIFI HaLow driver
 
 Package: kmod-mt76-connac

@@ -10,8 +10,8 @@ URL: http://openwrt.org/
 Architecture: mipsel_24kc
 Installed-Size: 276480
 Filename: base-files_5~d9340319c6_mipsel_24kc.ipk
-Size: 53246
-SHA256sum: 41ab982c2ef2c3e26c2364b71196d74ec768aa9269a02a8ef5fb378cc8b29018
+Size: 53239
+SHA256sum: 2c3c2f50d190398ae0ac4b8cf3ebcefa78b67386c14db9b8b8bc00a4d71c104b
 Description:  This package contains a base filesystem and system scripts for OpenWrt.
 
 Package: block-mount
@@ -546,14 +546,14 @@ SourceName: batman-adv
 License: GPL-2.0-only MIT
 LicenseFiles: LICENSES/preferred/GPL-2.0 LICENSES/preferred/MIT
 Section: kernel
-SourceDateEpoch: 1773003353
+SourceDateEpoch: 1773412763
 URL: https://www.open-mesh.org/
 Maintainer: Simon Wunderlich <sw@simonwunderlich.de>
 Architecture: mipsel_24kc
 Installed-Size: 204800
 Filename: kmod-batman-adv_6.6.102.2025.4-r2_mipsel_24kc.ipk
-Size: 79997
-SHA256sum: c3b07d991dd3fc2b714fa9e81e62eed970cd688b0050b69fead1cc501f3bf501
+Size: 80018
+SHA256sum: 7aefcdac0374b8d6f51866cde8c99b1383c97e1c6e27e966fbd8071f823e7af9
 Description:  B.A.T.M.A.N. (better approach to mobile ad-hoc networking) is
  a routing protocol for multi-hop ad-hoc mesh networks. The
  networks may be wired or wireless. See
@@ -3803,13 +3803,13 @@ SourceName: morse_driver
 License: GPLv2
 LicenseFiles: LICENSE
 Section: kernel
-SourceDateEpoch: 1773003353
+SourceDateEpoch: 1773412763
 Maintainer: Morse Micro
 Architecture: mipsel_24kc
 Installed-Size: 542720
 Filename: kmod-morse_6.6.102.1.16.4-gateworks-r1_mipsel_24kc.ipk
-Size: 230140
-SHA256sum: 6a6efcf389ac27646d80df465028d9fdc3cce8b29f88235d5b47dc5e9c02cc84
+Size: 230249
+SHA256sum: 943b1c3cba90881c5124ff4edf8b51fddd331679c23b5c29619a86739e8634a0
 Description:  Morse Micro WIFI HaLow driver
 
 Package: kmod-mt76-connac

@@ -7,8 +7,8 @@ URL: http://openwrt.org/
 Architecture: mipsel_24kc
 Installed-Size: 337920
 Filename: base-files_5~d9340319c6_mipsel_24kc.ipk
-Size: 66304
-SHA256sum: 1229200441ba2c4d1d0e49919579e14a08f8b2e536181107afb490612d1dc2d2
+Size: 66298
+SHA256sum: 9f30075f99daef40ec976c1195765f67c4a3f587e99b23135f6d1963787de0ac
 Description:  This package contains a base filesystem and system scripts for OpenWrt.
 
 Package: block-mount
@@ -430,8 +430,8 @@ URL: https://www.open-mesh.org/
 Architecture: mipsel_24kc
 Installed-Size: 276480
 Filename: kmod-batman-adv_6.6.102.2025.4-r2_mipsel_24kc.ipk
-Size: 103722
-SHA256sum: dc74912022001991613cdde777ce2b60051731bacefec49e536b6517f5af435b
+Size: 103743
+SHA256sum: 401d2735caa5a384eeb52b8c488c2471bdb551def5ebb9afeccd170d197bb5f1
 Description:  B.A.T.M.A.N. (better approach to mobile ad-hoc networking) is
  a routing protocol for multi-hop ad-hoc mesh networks. The
  networks may be wired or wireless. See
@@ -2919,8 +2919,8 @@ Section: kernel
 Architecture: mipsel_24kc
 Installed-Size: 563200
 Filename: kmod-morse_6.6.102.1.16.4-gateworks-r1_mipsel_24kc.ipk
-Size: 236052
-SHA256sum: 63afacff72e67b675c2cbffd83497bf42167c65392983ffdc073911b9e8aea4a
+Size: 236077
+SHA256sum: 4510169ce02255a54cbb6363e2b93fd133ac5075c07381e7e3f145c22ba789e4
 Description:  Morse Micro WIFI HaLow driver
 
 Package: kmod-mt76-connac

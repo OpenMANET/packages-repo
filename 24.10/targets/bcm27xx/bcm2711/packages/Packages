@@ -7,8 +7,8 @@ URL: http://openwrt.org/
 Architecture: aarch64_cortex-a72
 Installed-Size: 266240
 Filename: base-files_5~d9340319c6_aarch64_cortex-a72.ipk
-Size: 51582
-SHA256sum: c74d6dec67ce3b0b6eb9f8337743b11ec716b5b179755a50bdfb53be11f43e2d
+Size: 51580
+SHA256sum: c894d79d861c891a58295e29e2ce088cbb7c8403b4d8e741f2d756cb270731ec
 Description:  This package contains a base filesystem and system scripts for OpenWrt.
 
 Package: bcm27xx-gpu-fw
@@ -582,8 +582,8 @@ URL: https://www.open-mesh.org/
 Architecture: aarch64_cortex-a72
 Installed-Size: 327680
 Filename: kmod-batman-adv_6.6.102.2025.4-r2_aarch64_cortex-a72.ipk
-Size: 103035
-SHA256sum: 39d2bd4e0d5221e284b036ddbe1d5a801ababd3c77c7bc97125421848c8a9213
+Size: 102952
+SHA256sum: 72afcb68d24e26e8ac2566f829948ee739dda59c1d3b51eb85f27dea9028ad36
 Description:  B.A.T.M.A.N. (better approach to mobile ad-hoc networking) is
  a routing protocol for multi-hop ad-hoc mesh networks. The
  networks may be wired or wireless. See
@@ -3169,8 +3169,8 @@ Section: kernel
 Architecture: aarch64_cortex-a72
 Installed-Size: 737280
 Filename: kmod-morse_6.6.102.1.16.4-gateworks-r1_aarch64_cortex-a72.ipk
-Size: 236149
-SHA256sum: 70076ace17e773f3b587b1576ffcc61b68fe1e0eaf60e12af6ef82ab0f26eecf
+Size: 236161
+SHA256sum: 6957a5257c2d24005b57f327d4e9d7a3fed17ac2045284f4d89b30766ad8c30f
 Description:  Morse Micro WIFI HaLow driver
 
 Package: kmod-mt76-connac

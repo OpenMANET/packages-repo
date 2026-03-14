@@ -6,8 +6,8 @@ Section: utils
 Architecture: mipsel_24kc
 Installed-Size: 4956160
 Filename: adsbtocot_1-r2_mipsel_24kc.ipk
-Size: 874401
-SHA256sum: b2879af2230bb7ccb733cc56ad8f5e169e7edebdc02fa65a3bbfd247526c3d6b
+Size: 874211
+SHA256sum: 18e2640741b43cedf95deec2fb6278cbb873637b541e88564ccb53c461c6603e
 Description:  Installs ADSBCOT from PyPI and provides a procd service to forward ADS-B tracks
  from dump1090 to CoT/TAK (multicast or unicast).
 
@@ -20,8 +20,8 @@ URL: https://www.open-mesh.org/
 Architecture: mipsel_24kc
 Installed-Size: 215040
 Filename: alfred_2025.5-r1_mipsel_24kc.ipk
-Size: 30130
-SHA256sum: 231ee380c2f1b39eedcaac82397341cf571fa1c1ef220c7c2e6556d381d1219a
+Size: 30125
+SHA256sum: cfe72b53cc3674adfcd064a2f862599816290ea452c844175d78c1841a974408
 Description:  alfred is a user space daemon for distributing arbitrary local information
  over the mesh/network in a decentralized fashion. This data can be anything
  which appears to be useful - originally designed to replace the batman-adv
@@ -46,8 +46,8 @@ CPE-ID: cpe:/a:avahi:avahi
 Architecture: mipsel_24kc
 Installed-Size: 10240
 Filename: avahi-daemon-service-http_0.8-r8_mipsel_24kc.ipk
-Size: 1541
-SHA256sum: 92d588dcb1d248986b55743fed97d4a10c17966e971e49221af0f1257219f3bb
+Size: 1543
+SHA256sum: d3ce336fec504f82f4837e74ddae39d78e720f91c2d8b56e53bc1a737329727f
 Description:  Avahi is an mDNS/DNS-SD (aka RendezVous/Bonjour/ZeroConf)
  implementation (library). It facilitates
  service discovery on a local network -- this means that
@@ -70,8 +70,8 @@ CPE-ID: cpe:/a:avahi:avahi
 Architecture: mipsel_24kc
 Installed-Size: 10240
 Filename: avahi-daemon-service-ssh_0.8-r8_mipsel_24kc.ipk
-Size: 1519
-SHA256sum: fbe1cae78e154ada152efa78fdaeea7395e822d8c8a3342e198f12b1e5cc4c49
+Size: 1518
+SHA256sum: 2ed4ff02daceb2f6b14a80bcd856b71efaeb86b8c159e8ca97fdb6afcd344bef
 Description:  Avahi is an mDNS/DNS-SD (aka RendezVous/Bonjour/ZeroConf)
  implementation (library). It facilitates
  service discovery on a local network -- this means that
@@ -95,8 +95,8 @@ CPE-ID: cpe:/a:avahi:avahi
 Architecture: mipsel_24kc
 Installed-Size: 143360
 Filename: avahi-dbus-daemon_0.8-r8_mipsel_24kc.ipk
-Size: 37601
-SHA256sum: 1b6ea7a0a92b4dd0f51fce46eb4775c78065d5c0b8ad8681618f6a4d262cc6df
+Size: 37584
+SHA256sum: 427b5306de162f8fb32fca70a9a9b20c8351122644d59d4dc48678150bf261d4
 Description:  Avahi is an mDNS/DNS-SD (aka RendezVous/Bonjour/ZeroConf)
  implementation (library). It facilitates
  service discovery on a local network -- this means that
@@ -119,8 +119,8 @@ CPE-ID: cpe:/a:avahi:avahi
 Architecture: mipsel_24kc
 Installed-Size: 604160
 Filename: avahi-utils_0.8-r8_mipsel_24kc.ipk
-Size: 44773
-SHA256sum: 35ce3be5166a68a4b1b16bc91ae16e40782a1c5585d6837c8b7e261a72885b04
+Size: 44781
+SHA256sum: 09af60f77d2efe4d482384a6472862f76360091537d76ac2a5ca9f20c592bed4
 Description:  Avahi is an mDNS/DNS-SD (aka RendezVous/Bonjour/ZeroConf)
  implementation (library). It facilitates
  service discovery on a local network -- this means that
@@ -147,8 +147,8 @@ URL: https://www.open-mesh.org/
 Architecture: mipsel_24kc
 Installed-Size: 143360
 Filename: batctl-full_2025.4-r2_mipsel_24kc.ipk
-Size: 44185
-SHA256sum: 29d01102d365537b93716a51309f389d386bacced917ca50874e909ab75c1d0e
+Size: 44197
+SHA256sum: 7790fc4b208a177b91a4a5fe95bf1ff0e4b76968adcaf872e00b0a826c72178e
 Description:  batctl is a more intuitive managment utility for B.A.T.M.A.N.-Advanced.
  It is an easier method for configuring batman-adv and provides some
  additional tools for debugging as well. This package builds
@@ -163,8 +163,8 @@ Section: utils
 Architecture: mipsel_24kc
 Installed-Size: 20480
 Filename: bsp-common_1.0-r2_mipsel_24kc.ipk
-Size: 3291
-SHA256sum: cc69c95eb567dff5819eb65325474aac9de0bb7567d92df330d8d1f59e733dea
+Size: 3303
+SHA256sum: 4599f55b3fba27a2d8f0411c93da7692d4aef2dcbb84c0aee71dff4c95300aa3
 Description:  This package provides common board support files for OpenMANET boards.
 
 Package: bsp-halowlink2
@@ -175,12 +175,11 @@ Section: utils
 Architecture: mipsel_24kc
 Installed-Size: 20480
 Filename: bsp-halowlink2_1.0-r1_mipsel_24kc.ipk
-Size: 3409
-SHA256sum: ef479e724e96ae4fa419d23e5fdaa45a98703020ba25d94558afb084142dd471
+Size: 2887
+SHA256sum: cb61c9dfb3e82aff12c72fd34ffeed1c191f79c873098560bfbc8e23286f916c
 Description:  This package provides board support for the MorseMicro HaLow Link 2
  (morse,artini / MT7621). Includes:
  - Default channel 28 (916 MHz, 8 MHz BW) and BCF selection
- - SAE mesh fix: ieee80211w=0 and sae_pwe=0 in morse_overrides.sh
  - Custom BCF (bcf_mm_hl2_ext.bin)
  Note: Chip firmware (mm8108b2-rl.bin) is provided by morse-fw-8108 from morse-feed.
 
@@ -194,8 +193,8 @@ CPE-ID: cpe:/a:gpsd_project:gpsd
 Architecture: mipsel_24kc
 Installed-Size: 1986560
 Filename: gpsd-clients_3.25-r1_mipsel_24kc.ipk
-Size: 955048
-SHA256sum: 1178123ff66b189387d46da6e0c663f203b940f2ea4dfe7f9e792e5ba09e3abb
+Size: 955126
+SHA256sum: 731eb9bd10a772bff3241731bcf3e7b69bf1d90ca3130d78d77e3b8a1352429f
 Description:  gpsd is a userland daemon acting as a translator between GPS and AIS receivers
  and their clients. gpsd listens on port 2947 for clients requesting
  position/time/velocity information.  The receivers are expected to generate
@@ -216,8 +215,8 @@ CPE-ID: cpe:/a:gpsd_project:gpsd
 Architecture: mipsel_24kc
 Installed-Size: 542720
 Filename: gpsd_3.25-r1_mipsel_24kc.ipk
-Size: 269363
-SHA256sum: d21467a424998d7e33a48c01c98d70924182d09d1b8c591143b228661e77de5d
+Size: 269370
+SHA256sum: d36f80ff3ccc35110aa9580f1974a786c6eb06437bfaf94b4793e0c32488e9c5
 Description:  gpsd is a userland daemon acting as a translator between GPS and AIS receivers
  and their clients. gpsd listens on port 2947 for clients requesting
  position/time/velocity information.  The receivers are expected to generate
@@ -237,8 +236,8 @@ CPE-ID: cpe:/a:avahi:avahi
 Architecture: mipsel_24kc
 Installed-Size: 71680
 Filename: libavahi-client_0.8-r8_mipsel_24kc.ipk
-Size: 16798
-SHA256sum: 20e44d66b28b785a37de0d15505c3a700883e6c4fd7020fca29abdbfc1e6d576
+Size: 16795
+SHA256sum: 6365d5e6c38e9838e67568899e105016fe1dbe40271e20e6e00cfa54fa8a2206
 Description:  Avahi is an mDNS/DNS-SD (aka RendezVous/Bonjour/ZeroConf)
  implementation (library). It facilitates
  service discovery on a local network -- this means that
@@ -265,8 +264,8 @@ CPE-ID: cpe:/a:avahi:avahi
 Architecture: mipsel_24kc
 Installed-Size: 215040
 Filename: libavahi-dbus-support_0.8-r8_mipsel_24kc.ipk
-Size: 65042
-SHA256sum: 45a816fe5cac9b22c7ca5c85ad5b0850352603735392a32e4713499122593355
+Size: 65043
+SHA256sum: f28bf39c85a1f24da2a1ad9e9bff2ed34936143dc491980e0055e9b347b18226
 Description:  Avahi is an mDNS/DNS-SD (aka RendezVous/Bonjour/ZeroConf)
  implementation (library). It facilitates
  service discovery on a local network -- this means that
@@ -304,8 +303,8 @@ CPE-ID: cpe:/a:gpsd_project:gpsd
 Architecture: mipsel_24kc
 Installed-Size: 143360
 Filename: libgps30_3.25-r1_mipsel_24kc.ipk
-Size: 59858
-SHA256sum: 051e3954c616f4fbf03f3d971c25ddee2dabd6f3c00978cd4304d40dfa34d702
+Size: 59866
+SHA256sum: 2af9dc37d1e8f2c0d431efe5194984231b297051699b85f7d49330fa18f11f3e
 Description:  gpsd is a userland daemon acting as a translator between GPS and AIS receivers
  and their clients. gpsd listens on port 2947 for clients requesting
  position/time/velocity information.  The receivers are expected to generate
@@ -316,80 +315,80 @@ Description:  gpsd is a userland daemon acting as a translator between GPS and A
  This package contains the libgps library.
 
 Package: luci-app-ekhwizards
-Version: git-26.067.75353-559afb0
+Version: git-26.072.52763-ba9ccdd
 Depends: libc, luci-base, luci-app-morseconfig
 License: Apache-2.0
 Section: luci
 URL: https://github.com/openwrt/luci
 Architecture: all
 Installed-Size: 153600
-Filename: luci-app-ekhwizards_git-26.067.75353-559afb0_all.ipk
-Size: 22369
-SHA256sum: 0f42399b6cd89dcaa033c98ed1e1bbe6b97d411df40b1fc77f7f56b1221356d8
+Filename: luci-app-ekhwizards_git-26.072.52763-ba9ccdd_all.ipk
+Size: 22383
+SHA256sum: 0a3edfbea997cc637d934985079d9927de703173ddb735fc50975e53152d14d6
 Description:  LuCI Wizards for HaLow evaluation kits
 
 Package: luci-app-morseconfig
-Version: git-26.067.75353-559afb0
+Version: git-26.072.52763-ba9ccdd
 Depends: libc, luci-base, libiwinfo20250326, libiwinfo-lua, luci-lib-morseui, netifd-morse, morse-regdb, qrencode
 License: Apache-2.0
 Section: luci
 URL: https://github.com/openwrt/luci
 Architecture: all
 Installed-Size: 512000
-Filename: luci-app-morseconfig_git-26.067.75353-559afb0_all.ipk
-Size: 117706
-SHA256sum: 61670070900f7641db4eda12195c099dbd2ad8e9cf547fe55faaee4ae348ed63
+Filename: luci-app-morseconfig_git-26.072.52763-ba9ccdd_all.ipk
+Size: 117682
+SHA256sum: 9cbacc74db0ea3421c65a60b8ef253736224c9086d41ed66888a0950b2faf8af
 Description:  LuCI Morse Configuration
 
 Package: luci-lib-morseui
-Version: git-26.067.75353-559afb0
+Version: git-26.072.52763-ba9ccdd
 Depends: libc, luci-base
 License: Apache-2.0
 Section: luci
 URL: https://github.com/openwrt/luci
 Architecture: all
 Installed-Size: 30720
-Filename: luci-lib-morseui_git-26.067.75353-559afb0_all.ipk
-Size: 6828
-SHA256sum: 7a69551f8875335b981a414f7da2dcd9466b88637a361cf6d81230e5f8ed9f8b
+Filename: luci-lib-morseui_git-26.072.52763-ba9ccdd_all.ipk
+Size: 6837
+SHA256sum: 442ba6dedc56a203b0a56955bfd902b7ab22393229c2d4d56f6b8bbb8fd8570e
 Description:  LuCI Morse UI Library
 
 Package: luci-lib-vivagraphjs
-Version: git-26.067.75353-559afb0
+Version: git-26.072.52763-ba9ccdd
 Depends: libc
 Section: luci
 URL: https://github.com/anvaka/VivaGraphJS/
 Architecture: all
 Installed-Size: 71680
-Filename: luci-lib-vivagraphjs_git-26.067.75353-559afb0_all.ipk
-Size: 22406
-SHA256sum: 53844b2da6bf6339a77d99a5fa0edffe3e6b6c021f416431608eb77829e89ba6
+Filename: luci-lib-vivagraphjs_git-26.072.52763-ba9ccdd_all.ipk
+Size: 22407
+SHA256sum: 91bcdd76bd7cf19c6ffecc5f39a3b126637398717e1ccf301f163870445490da
 Description:  minified VivaGraphJS javascript library
 
 Package: luci-mod-home
-Version: git-26.067.75353-559afb0
+Version: git-26.072.52763-ba9ccdd
 Depends: libc, luci-base, libiwinfo20250326, luci-app-morseconfig, luci-lib-vivagraphjs, morse-mode
 License: Apache-2.0
 Section: luci
 URL: https://github.com/openwrt/luci
 Architecture: all
 Installed-Size: 71680
-Filename: luci-mod-home_git-26.067.75353-559afb0_all.ipk
-Size: 17024
-SHA256sum: 3180175b0c3911b7e1bda15e4c80997309b941dbb5218df7aacc1af06090013c
+Filename: luci-mod-home_git-26.072.52763-ba9ccdd_all.ipk
+Size: 17037
+SHA256sum: 72ecabe9dfc19ec2155b8dfc4646748897633a40ae25dc45fa3a05a0eb1c8b20
 Description:  LuCI Home
 
 Package: luci-theme-openmanetargon
-Version: git-26.067.75353-559afb0
+Version: git-26.072.52763-ba9ccdd
 Depends: libc, morse-mode, luci-lua-runtime
 License: Apache-2.0
 Section: luci
 URL: https://github.com/openwrt/luci
 Architecture: all
 Installed-Size: 2498560
-Filename: luci-theme-openmanetargon_git-26.067.75353-559afb0_all.ipk
-Size: 2311895
-SHA256sum: 52d2f5a7e8541f1f40b0ef41636eb56b5cb28f4688f698b203695c7ad6c962da
+Filename: luci-theme-openmanetargon_git-26.072.52763-ba9ccdd_all.ipk
+Size: 2311897
+SHA256sum: fd2854faab907a0b4a5aba5a4a289a942f9d3dbc436e9c5bf105b4715d0da2ad
 Description:  LuCI OpenMANET Argon Theme
 
 Package: mediamtx
@@ -400,8 +399,8 @@ URL: https://github.com/bluenviron/mediamtx
 Architecture: mipsel_24kc
 Installed-Size: 22712320
 Filename: mediamtx_1.4.0-r2_mipsel_24kc.ipk
-Size: 7163109
-SHA256sum: 37c8640607fa1f97976a826bdcadaa768702ab7e181a962bc7df65c5f2a87e38
+Size: 7163016
+SHA256sum: 175ad562722713b64d626a4f1e7e33434d9ffcd8823ac0c1e4ee7a1a8f10d1cb
 Description:  Ready-to-use server and proxy that allows users to publish, read and proxy live video and audio streams through various protocols.
  
  If libcamera is enabled, it will try to build its rpicamera support.
@@ -414,8 +413,8 @@ Section: utils
 Architecture: mipsel_24kc
 Installed-Size: 23408640
 Filename: openmanetd_1.2.27-r1_mipsel_24kc.ipk
-Size: 7513366
-SHA256sum: e3ebc997b42982824c0e3940a8baea1405d39a336d7b1d8885c57d1449afc56e
+Size: 7513111
+SHA256sum: db0bc47c3c05e1bec6e1fb0e7a0a829bba5cf34b5a1c5191f361c54ac80756d0
 Description:  A management application for openmanetd written in Go.
  Includes:
  - pttgo: A multicast push-to-talk voice application written in Go using PortAudio, Opus, and evdev.
@@ -431,8 +430,8 @@ CPE-ID: cpe:/a:tailscale:tailscale
 Architecture: mipsel_24kc
 Installed-Size: 29480960
 Filename: tailscale_1.94.1-r1_mipsel_24kc.ipk
-Size: 9485923
-SHA256sum: c27f193a75111c91bc23b3802cb288ed3aaed47b5c55187cab251c233ba05c38
+Size: 9485907
+SHA256sum: 18c88021ac2f4e5724b2ca4e62fa6b3ce1543cd5aaf095a424cbb05009b60052
 Description:  It creates a secure network between your servers, computers,
  and cloud instances. Even when separated by firewalls or subnets.
 
