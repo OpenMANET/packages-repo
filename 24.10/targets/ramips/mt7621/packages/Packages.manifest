@@ -10,8 +10,8 @@ URL: http://openwrt.org/
 Architecture: mipsel_24kc
 Installed-Size: 337920
 Filename: base-files_5~d9340319c6_mipsel_24kc.ipk
-Size: 66308
-SHA256sum: 76fc1219fca83d837869e0f5892b59d4c3622474cdba45c912f80e711c0c2b54
+Size: 66304
+SHA256sum: 1229200441ba2c4d1d0e49919579e14a08f8b2e536181107afb490612d1dc2d2
 Description:  This package contains a base filesystem and system scripts for OpenWrt.
 
 Package: block-mount
@@ -7342,8 +7342,8 @@ SourceDateEpoch: 1765658144
 Architecture: mipsel_24kc
 Installed-Size: 30720
 Filename: kmod-sdhci-mt7620_6.6.102-r1_mipsel_24kc.ipk
-Size: 10909
-SHA256sum: e8e739a943738c738053f7538cbaef2d6de04dfcc5074e2a2cbc09bb6366508c
+Size: 10949
+SHA256sum: 94b4e2e9ef98bce32808088d29b6ccfd670eca348b80434a9829997e47f74358
 Description:  MT7620 SDCI
 
 Package: kmod-sdhci

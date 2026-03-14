@@ -6,8 +6,8 @@ Section: utils
 Architecture: aarch64_cortex-a72
 Installed-Size: 4956160
 Filename: adsbtocot_1-r2_aarch64_cortex-a72.ipk
-Size: 874405
-SHA256sum: d1376eb0132f10bd7cff6a799b5b04a5223d735a73d801cdf0e7f201e081d618
+Size: 874412
+SHA256sum: ba4c89cfd47164869613a5b8526b9885a34d7f412a02f3fb2187d7a18a8b5071
 Description:  Installs ADSBCOT from PyPI and provides a procd service to forward ADS-B tracks
  from dump1090 to CoT/TAK (multicast or unicast).
 
@@ -407,8 +407,8 @@ URL: https://github.com/openwrt/luci
 Architecture: all
 Installed-Size: 2498560
 Filename: luci-theme-openmanetargon_git-26.067.75353-559afb0_all.ipk
-Size: 2311900
-SHA256sum: 6e75222aab4d61992f1a328df3379ee4ca72ca3a1d0c6b1185b426afc46a05f3
+Size: 2311893
+SHA256sum: e8a1018c72c5c224f1bcc3530b6714decdee3fce300876f1da1e3ce643344e2e
 Description:  LuCI OpenMANET Argon Theme
 
 Package: mediamtx
