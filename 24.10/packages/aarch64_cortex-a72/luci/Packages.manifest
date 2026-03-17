@@ -146,8 +146,8 @@ Maintainer: OpenWrt LuCI community
 Architecture: aarch64_cortex-a72
 Installed-Size: 573440
 Filename: luci-base_git-25.233.06936-53e6515_aarch64_cortex-a72.ipk
-Size: 132025
-SHA256sum: 8cd24a12a38cbd8a57404c3c7c84bff1457e263e2a3cde41e38a6faca7fcc452
+Size: 132027
+SHA256sum: e980793d04dc31fbdb4f97002d6e46b0ac6d9d00fbe3cc9daa6cb94284e34803
 Description:  LuCI core runtime
 
 Package: luci-compat

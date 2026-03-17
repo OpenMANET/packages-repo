@@ -107,8 +107,8 @@ URL: https://github.com/openwrt/luci
 Architecture: aarch64_cortex-a53
 Installed-Size: 573440
 Filename: luci-base_git-25.233.06936-53e6515_aarch64_cortex-a53.ipk
-Size: 132012
-SHA256sum: d6ac459c2234d4f1b139b79cbf1da1756fcffa52693b6414355cd32a7524e01d
+Size: 132019
+SHA256sum: f4e9e3f105325c59967a1aaf389b303abdeb4c4e7cf87132af6c24f9bd2574e6
 Description:  LuCI core runtime
 
 Package: luci-compat
@@ -346,8 +346,8 @@ URL: https://github.com/openwrt/luci
 Architecture: all
 Installed-Size: 81920
 Filename: luci-theme-bootstrap_git-25.233.06936-53e6515_all.ipk
-Size: 16956
-SHA256sum: 2567653ef9204692632ccace562dfc0ebff5a663672aa2bc85d73e994ae28d1b
+Size: 16957
+SHA256sum: 06f8eb5eb66624265da72d6d2ea3c2718bb3d12996899a5247f16c19f40fa284
 Description:  Bootstrap Theme (default)
 
 Package: luci

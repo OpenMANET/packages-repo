@@ -7,8 +7,8 @@ URL: http://openwrt.org/
 Architecture: aarch64_cortex-a53
 Installed-Size: 266240
 Filename: base-files_5~d9340319c6_aarch64_cortex-a53.ipk
-Size: 51582
-SHA256sum: 4e027a6c6932944e1b30e9c22a7f97996d9e7aa170b7837813fee58d8353088b
+Size: 51587
+SHA256sum: 64c300a3a56a1228327d1ccee23ad771d55a50d603b9854b8051897d015d13de
 Description:  This package contains a base filesystem and system scripts for OpenWrt.
 
 Package: bcm27xx-gpu-fw
@@ -582,8 +582,8 @@ URL: https://www.open-mesh.org/
 Architecture: aarch64_cortex-a53
 Installed-Size: 327680
 Filename: kmod-batman-adv_6.6.102.2025.4-r2_aarch64_cortex-a53.ipk
-Size: 102940
-SHA256sum: 40d07c2b011735625d5a9967ebc0d361beaae36ccf5891a311bd2e59060380bf
+Size: 102949
+SHA256sum: a85a94cc4919d04b1d57039c112ce0e1cc5c877e008d0b3736099a54a54b1162
 Description:  B.A.T.M.A.N. (better approach to mobile ad-hoc networking) is
  a routing protocol for multi-hop ad-hoc mesh networks. The
  networks may be wired or wireless. See
@@ -3157,8 +3157,8 @@ Section: kernel
 Architecture: aarch64_cortex-a53
 Installed-Size: 737280
 Filename: kmod-morse_6.6.102.1.16.4-gateworks-r1_aarch64_cortex-a53.ipk
-Size: 236164
-SHA256sum: 9a04fe22e340f3866cca74ae71d224483dd11f897b1b179ceaf143aa77ee5f18
+Size: 236178
+SHA256sum: 9df0e00aff9336dca54e75c5cb6d66a3e5d9100bd1e8a3716d5ae4c8ebbc3d8d
 Description:  Morse Micro WIFI HaLow driver
 
 Package: kmod-mt76-connac
@@ -5900,8 +5900,8 @@ Section: kernel
 Architecture: aarch64_cortex-a53
 Installed-Size: 20480
 Filename: kmod-siit_6.6.102.1.2-r4_aarch64_cortex-a53.ipk
-Size: 5980
-SHA256sum: 2703b592cf1f26444fa49b622985d567789c8771c3bdcf2b125d08777f9a4363
+Size: 5988
+SHA256sum: 921c499ab408dc258ae7925ef9e80886386350478ed9c912512f7352cbdaa1f7
 Description:  Stateless IP ICMP Translation Algorithm
 
 Package: kmod-sis190
@@ -7395,8 +7395,8 @@ URL: http://www.erwinrol.com/open-dmx-usb-linux-driver/
 Architecture: aarch64_cortex-a53
 Installed-Size: 30720
 Filename: kmod-usb-serial-dmx_usb_module_6.6.102.19.12.1-r2_aarch64_cortex-a53.ipk
-Size: 6332
-SHA256sum: 4705da985c2b88f0895c831e2ed4dff8119976dbea94b48736e7932d0c0446cd
+Size: 6328
+SHA256sum: bad4454758607db1608fdb40a9b143186a8c4901571b73d67910fae2ed0b3a4e
 Description:  Open DMX USB is an open USB to DMX dongle hardware design developed by Enttec.
  The Open in Open DMX USB refers to the fact that everybody is free to use the
  design and produce its own USB DMX Dongle without paying any licenses.
@@ -7643,8 +7643,8 @@ URL: https://www.exar.com/content/document.ashx?id=21651
 Architecture: aarch64_cortex-a53
 Installed-Size: 51200
 Filename: kmod-usb-serial-xr_usb_serial_common_6.6.102.2023.03.21~90ad5301-r3_aarch64_cortex-a53.ipk
-Size: 14550
-SHA256sum: fc1367997adc0cc875547f2ea9e7c6f04a66a3f199a3d18dc9dd8991ed91248a
+Size: 14560
+SHA256sum: f9a83b1d94434aaf9032d20f1f9afdbbd19c30d27c79e3d2493a6a8eab4e812f
 Description:  Support for Exar USB to RS-485/RS-422
 
 Package: kmod-usb-serial
@@ -7840,8 +7840,8 @@ CPE-ID: cpe:/o:v4l2loopback_project:v4l2loopback
 Architecture: aarch64_cortex-a53
 Installed-Size: 81920
 Filename: kmod-v4l2loopback_6.6.102.0.13.2-r1_aarch64_cortex-a53.ipk
-Size: 22418
-SHA256sum: fa3387a80eb46f0029e95e319e24cfac5fa9540a29bd58440a1f9701684d61da
+Size: 22417
+SHA256sum: 1f21f89a18192f5ae75f0c42f8c6da0ec17967894e5ed16f68fd8e0af4ed153b
 Description:  This module allows you to create "virtual video devices".
  Normal (v4l2) applications will read these devices as if
  they were ordinary video devices, but the video will not be

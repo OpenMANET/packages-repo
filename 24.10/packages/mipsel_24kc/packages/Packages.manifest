@@ -6,14 +6,14 @@ SourceName: alsa-lib
 License: LGPL-2.1-or-later
 LicenseFiles: COPYING
 Section: libs
-SourceDateEpoch: 1756500878
+SourceDateEpoch: 1773474815
 URL: https://www.alsa-project.org/
 Maintainer: Ted Hess <thess@kitschensync.net>, Peter Wagner <tripolar@gmx.at>
 Architecture: mipsel_24kc
 Installed-Size: 1208320
 Filename: alsa-lib_1.2.11-r1_mipsel_24kc.ipk
-Size: 374808
-SHA256sum: fd1727bba6de161b5ae7dc96986ff3dedee3d7caeb50a4dd9a411010bf9411d3
+Size: 374830
+SHA256sum: 0661d43b9607156fff5fd2842a52d2126028a07a3c6ce6c189ad4593ee8a3e62
 Description:  This is the library package for alsa, needed by some userspace programs.
  You must have enabled the ALSA support in the kernel.
 
@@ -26,15 +26,15 @@ SourceName: bridge-utils
 License: GPL-2.0-or-later
 LicenseFiles: COPYING
 Section: net
-SourceDateEpoch: 1756500878
+SourceDateEpoch: 1773474815
 URL: http://www.linuxfromscratch.org/blfs/view/svn/basicnet/bridge-utils.html
 CPE-ID: cpe:/a:kernel:bridge-utils
 Maintainer: Nikolay Martynov <mar.kolya@gmail.com>
 Architecture: mipsel_24kc
 Installed-Size: 71680
 Filename: bridge_1.7.1-r1_mipsel_24kc.ipk
-Size: 8929
-SHA256sum: 797c67b10b520709a16b214829225c7e58afec45f07b28df0df99e41b79c70f4
+Size: 8928
+SHA256sum: 1fe06eb977893fe822c902bf8fa04418b71557834f5d3e082e54e2cf23c4e4c2
 Description:  Manage ethernet bridging: a way to connect networks together to
  form a larger network.
 
@@ -45,13 +45,13 @@ Source: feeds/packages/net/cgi-io
 SourceName: cgi-io
 License: GPL-2.0-or-later
 Section: net
-SourceDateEpoch: 1756500878
+SourceDateEpoch: 1773474815
 Maintainer: John Crispin <blogic@openwrt.org>
 Architecture: mipsel_24kc
 Installed-Size: 81920
 Filename: cgi-io_2022.08.10~901b0f04-r21_mipsel_24kc.ipk
-Size: 8263
-SHA256sum: d03c2de87bb73f7a019fcca97264fe09326f175b536cc6ab23e69e678818bcd9
+Size: 8274
+SHA256sum: dbd96386f29abe5bb2bddcd6f9e2a956a3b171cc29b4228523130e47592d1283
 Description:  This package contains an cgi utility that is useful for up/downloading files
 
 Package: collectd-mod-cpu
@@ -62,15 +62,15 @@ SourceName: collectd
 License: MIT GPL-2.0-or-later
 LicenseFiles: COPYING
 Section: utils
-SourceDateEpoch: 1756500878
+SourceDateEpoch: 1773474815
 URL: https://collectd.org/
 CPE-ID: cpe:/a:collectd:collectd
 Maintainer: Jo-Philipp Wich <jo@mein.io>, Hannu Nyman <hannu.nyman@iki.fi>
 Architecture: mipsel_24kc
 Installed-Size: 81920
 Filename: collectd-mod-cpu_5.12.0-r54_mipsel_24kc.ipk
-Size: 5446
-SHA256sum: 110b515a7a19239827f97ff342d2c817dde5b58850610823754188f5954c55b8
+Size: 5462
+SHA256sum: 1d6180a79e977fa3429a95d7bdea14366bbc7c56c5a7562a152a8cad8eb5da1d
 Description:  CPU input plugin
 
 Package: collectd-mod-interface
@@ -81,15 +81,15 @@ SourceName: collectd
 License: MIT GPL-2.0-or-later
 LicenseFiles: COPYING
 Section: utils
-SourceDateEpoch: 1756500878
+SourceDateEpoch: 1773474815
 URL: https://collectd.org/
 CPE-ID: cpe:/a:collectd:collectd
 Maintainer: Jo-Philipp Wich <jo@mein.io>, Hannu Nyman <hannu.nyman@iki.fi>
 Architecture: mipsel_24kc
 Installed-Size: 81920
 Filename: collectd-mod-interface_5.12.0-r54_mipsel_24kc.ipk
-Size: 4506
-SHA256sum: 28e68087b79041d6bb9f37a5e1fc1eefedf6676a2f2cda5ecb991d9d03bd7f20
+Size: 4498
+SHA256sum: 14e683fe1aca62d5ec8182b49f2f02fd78b92a9bf9fa52c5b0320677f42e07b4
 Description:  network interfaces input plugin
 
 Package: collectd-mod-iwinfo
@@ -100,15 +100,15 @@ SourceName: collectd
 License: MIT GPL-2.0-or-later
 LicenseFiles: COPYING
 Section: utils
-SourceDateEpoch: 1756500878
+SourceDateEpoch: 1773474815
 URL: https://collectd.org/
 CPE-ID: cpe:/a:collectd:collectd
 Maintainer: Jo-Philipp Wich <jo@mein.io>, Hannu Nyman <hannu.nyman@iki.fi>
 Architecture: mipsel_24kc
 Installed-Size: 81920
 Filename: collectd-mod-iwinfo_5.12.0-r54_mipsel_24kc.ipk
-Size: 4629
-SHA256sum: 847555f64c46d9b75f86db98f7d7f958bb5d1facfc1bc9b79778529095765b90
+Size: 4635
+SHA256sum: b9efd6615687e3fbc42e77f920da195d6cd0173bc1394cfb5ac589d2c89e18c2
 Description:  libiwinfo wireless statistics plugin
 
 Package: collectd-mod-load
@@ -119,15 +119,15 @@ SourceName: collectd
 License: MIT GPL-2.0-or-later
 LicenseFiles: COPYING
 Section: utils
-SourceDateEpoch: 1756500878
+SourceDateEpoch: 1773474815
 URL: https://collectd.org/
 CPE-ID: cpe:/a:collectd:collectd
 Maintainer: Jo-Philipp Wich <jo@mein.io>, Hannu Nyman <hannu.nyman@iki.fi>
 Architecture: mipsel_24kc
 Installed-Size: 81920
 Filename: collectd-mod-load_5.12.0-r54_mipsel_24kc.ipk
-Size: 2997
-SHA256sum: ae1631de56bda25adfb304a9eaf275e30e3e583bc2d5aa8165b42ea47baf764a
+Size: 2990
+SHA256sum: ae2edcb48c25e643c8d8dd79997f81e6a1d7f13febe80ebf5c890a6e70c556c2
 Description:  system load input plugin
 
 Package: collectd-mod-memory
@@ -138,15 +138,15 @@ SourceName: collectd
 License: MIT GPL-2.0-or-later
 LicenseFiles: COPYING
 Section: utils
-SourceDateEpoch: 1756500878
+SourceDateEpoch: 1773474815
 URL: https://collectd.org/
 CPE-ID: cpe:/a:collectd:collectd
 Maintainer: Jo-Philipp Wich <jo@mein.io>, Hannu Nyman <hannu.nyman@iki.fi>
 Architecture: mipsel_24kc
 Installed-Size: 81920
 Filename: collectd-mod-memory_5.12.0-r54_mipsel_24kc.ipk
-Size: 3652
-SHA256sum: fde96cf3b2822f5509bd5346f173a1c658f4a8ebb59cf3fe4b397a5eac413ad9
+Size: 3666
+SHA256sum: a3671c7308ff4dc5ef0a630160b8de60b24cac084e9f479e805e51a9073b7978
 Description:  physical memory usage input plugin
 
 Package: collectd-mod-network
@@ -157,15 +157,15 @@ SourceName: collectd
 License: MIT GPL-2.0-or-later
 LicenseFiles: COPYING
 Section: utils
-SourceDateEpoch: 1756500878
+SourceDateEpoch: 1773474815
 URL: https://collectd.org/
 CPE-ID: cpe:/a:collectd:collectd
 Maintainer: Jo-Philipp Wich <jo@mein.io>, Hannu Nyman <hannu.nyman@iki.fi>
 Architecture: mipsel_24kc
 Installed-Size: 81920
 Filename: collectd-mod-network_5.12.0-r54_mipsel_24kc.ipk
-Size: 16482
-SHA256sum: e3e7f8dd157ff107a4a6b2cd88897da5479eef13e4a5818d843a333d1f86fab7
+Size: 16494
+SHA256sum: e8b61be6daffef6179457e08f5ccaf9d92cf20951a23963ebf969fcaf940f94a
 Description:  network input/output plugin
 
 Package: collectd-mod-rrdtool
@@ -176,15 +176,15 @@ SourceName: collectd
 License: MIT GPL-2.0-or-later
 LicenseFiles: COPYING
 Section: utils
-SourceDateEpoch: 1756500878
+SourceDateEpoch: 1773474815
 URL: https://collectd.org/
 CPE-ID: cpe:/a:collectd:collectd
 Maintainer: Jo-Philipp Wich <jo@mein.io>, Hannu Nyman <hannu.nyman@iki.fi>
 Architecture: mipsel_24kc
 Installed-Size: 81920
 Filename: collectd-mod-rrdtool_5.12.0-r54_mipsel_24kc.ipk
-Size: 13036
-SHA256sum: cd115b135cea67124f129369c8e04b5fcc0c9b1364ea6b1c2232579e53dea692
+Size: 13053
+SHA256sum: ddd38c79adc24812ec3c98836b0336f6c3a75ad20f163396bc01c7584f164f70
 Description:  RRDtool output plugin
 
 Package: collectd
@@ -195,15 +195,15 @@ SourceName: collectd
 License: MIT GPL-2.0-or-later
 LicenseFiles: COPYING
 Section: utils
-SourceDateEpoch: 1756500878
+SourceDateEpoch: 1773474815
 URL: https://collectd.org/
 CPE-ID: cpe:/a:collectd:collectd
 Maintainer: Jo-Philipp Wich <jo@mein.io>, Hannu Nyman <hannu.nyman@iki.fi>
 Architecture: mipsel_24kc
 Installed-Size: 317440
 Filename: collectd_5.12.0-r54_mipsel_24kc.ipk
-Size: 93247
-SHA256sum: eb8be99d8d2ab6fd7616275f77875ab0ef7b03a9b8856983c69a68d58cc9456a
+Size: 93251
+SHA256sum: 224ff22911f0fb12e9d77d9c7bdcef68e2032f66c39f72d0a174d2ccdf49e822
 Description:  collectd is a small daemon which collects system information periodically
  and provides mechanismns to store the values in a variety of ways.
 
@@ -214,15 +214,15 @@ Source: feeds/packages/utils/dbus
 SourceName: dbus
 License: AFL-2.1
 Section: utils
-SourceDateEpoch: 1756500878
+SourceDateEpoch: 1773474815
 URL: https://dbus.freedesktop.org/
 CPE-ID: cpe:/a:freedesktop:dbus
 Maintainer: Robert Marko <robimarko@gmail.com>
 Architecture: mipsel_24kc
 Installed-Size: 491520
 Filename: dbus_1.14.10-r1_mipsel_24kc.ipk
-Size: 105075
-SHA256sum: 904a55f2d8507cf1cfd76a944149485ffff742a613715cfaa78399a2c80c475a
+Size: 105146
+SHA256sum: 0e5c0ccf3056eede19fdde40dd739fcc69573591d5062ba60bc440a19d0bba14
 Description:  Simple interprocess messaging system (daemon)
 
 Package: docker
@@ -233,14 +233,14 @@ SourceName: docker
 License: Apache-2.0
 LicenseFiles: LICENSE
 Section: utils
-SourceDateEpoch: 1756500878
+SourceDateEpoch: 1773474815
 URL: https://www.docker.com/
 Maintainer: Gerard Ryan <G.M0N3Y.2503@gmail.com>
 Architecture: mipsel_24kc
 Installed-Size: 30341120
 Filename: docker_27.3.1-r1_mipsel_24kc.ipk
-Size: 8391464
-SHA256sum: 51f7795513eba258a61f23315d49c708d10ec2df4400772a7db950f12cf28eab
+Size: 8391460
+SHA256sum: 0a4c9481fbbea9f3161f8ccf6afe13e1ea6aac9f04ec9ebf54172535b16746e2
 Description:  The CLI used in the Docker CE and Docker EE products.
 
 Package: dump1090
@@ -251,14 +251,14 @@ SourceName: dump1090
 License: GPL-2.0-or-later
 LicenseFiles: COPYING LICENSE
 Section: utils
-SourceDateEpoch: 1756500878
+SourceDateEpoch: 1773474815
 URL: https://github.com/flightaware/dump1090
 Maintainer: Álvaro Fernández Rojas <noltari@gmail.com>
 Architecture: mipsel_24kc
 Installed-Size: 10639360
 Filename: dump1090_9.0-r3_mipsel_24kc.ipk
-Size: 2494157
-SHA256sum: f3789d6cba9ac1d351e52197de38b3b69e48d2c4953059fb7934b20b0e7275fa
+Size: 2494028
+SHA256sum: 762c16bd7c999a9d3348383e7b0586cf001a628d8588ca0bf2d730c52438d0b8
 Description:  Dump1090 is a Mode S decoder specifically designed for RTLSDR devices.
 
 Package: evtest
@@ -269,14 +269,14 @@ SourceName: evtest
 License: GPL-2.0-or-later
 LicenseFiles: COPYING
 Section: utils
-SourceDateEpoch: 1756500878
+SourceDateEpoch: 1773474815
 URL: https://gitlab.freedesktop.org/libevdev/evtest
 Maintainer: Pushpal Sidhu <psidhu.devel@gmail.com>
 Architecture: mipsel_24kc
 Installed-Size: 71680
 Filename: evtest_1.35-r1_mipsel_24kc.ipk
-Size: 10439
-SHA256sum: da01b3aa14a0b5d37c4f5675b438f1b9ac9c5ec798e38319895150d8b844b92c
+Size: 10403
+SHA256sum: 901cb73eae8b66ec8c537813ff0fdda801ce6bcb4c70ee58f6a8e70c951fa9ed
 Description:  Utility to test event driven devices such as keyboards and mice
 
 Package: file
@@ -287,15 +287,15 @@ SourceName: file
 License: BSD-2-Clause
 LicenseFiles: COPYING
 Section: utils
-SourceDateEpoch: 1756500878
+SourceDateEpoch: 1773474815
 URL: https://darwinsys.com/file/
 CPE-ID: cpe:/a:file_project:file
 Maintainer: Marko Ratkaj <markoratkaj@gmail.com>
 Architecture: mipsel_24kc
 Installed-Size: 71680
 Filename: file_5.45-r1_mipsel_24kc.ipk
-Size: 7672
-SHA256sum: b80efdd267dd2561b24626af0774abce290f0709680c2ac513cdcd5edf81c2ea
+Size: 7675
+SHA256sum: 4778ead2d7100fcb2047b7bcc47fb6d2634cc6446a7692cc1455f3d05ce33e3d
 Description:  File type determination utility
 
 Package: glib2
@@ -306,15 +306,15 @@ SourceName: glib2
 License: LGPL-2.1-or-later
 LicenseFiles: COPYING
 Section: libs
-SourceDateEpoch: 1756500878
+SourceDateEpoch: 1773474815
 URL: http://www.gtk.org/
 CPE-ID: cpe:/a:gnome:glib
 Maintainer: Peter Wagner <tripolar@gmx.at>
 Architecture: mipsel_24kc
 Installed-Size: 2990080
 Filename: glib2_2.82.0-r1_mipsel_24kc.ipk
-Size: 1031606
-SHA256sum: d78e7e06535434b110aa7dba66563c178a7c3c1d348ca546943509cce98c6e7f
+Size: 1031477
+SHA256sum: 92ef8e44425a556ca3fc20127c2fb4d6e61c752b5385a8a6e28f3bd775c69a9c
 Description:  The GLib library of C routines
 
 Package: gpioctl-sysfs
@@ -325,13 +325,13 @@ SourceName: libugpio
 License: LGPL-2.1-or-later
 LicenseFiles: COPYING.LESSER
 Section: utils
-SourceDateEpoch: 1756500878
+SourceDateEpoch: 1773474815
 Maintainer: Michael Heimpold <mhei@heimpold.de>
 Architecture: mipsel_24kc
 Installed-Size: 71680
 Filename: gpioctl-sysfs_0.0.7-r1_mipsel_24kc.ipk
-Size: 2568
-SHA256sum: b3c23469293ded0f0bfc2aa286e270069821a854e741d027409d68c08c411579
+Size: 2573
+SHA256sum: 6c53647e989c6aea95f174b5ff4c3c0a6e943cb12d33a912d44562cdfeb1c110
 Description:  Tool for controlling gpio pins using the sysfs api provided by the kernel.
 
 Package: gpiod-tools
@@ -342,13 +342,13 @@ SourceName: libgpiod
 License: LGPL-2.1-or-later
 LicenseFiles: COPYING
 Section: utils
-SourceDateEpoch: 1756500878
+SourceDateEpoch: 1773474815
 Maintainer: Michael Heimpold <mhei@heimpold.de>
 Architecture: mipsel_24kc
 Installed-Size: 409600
 Filename: gpiod-tools_2.1.3-r1_mipsel_24kc.ipk
-Size: 50052
-SHA256sum: 25fbc83fe924e780c5571a3dbd4567ffefa36483e5f942a92ac2a4f5e1635937
+Size: 50134
+SHA256sum: dbe0615262920e07ae8afbebdcb4f5e0573d18d3a9876f0c8faa4df9e1f867e5
 Description:  Tools for interacting with the linux GPIO character device
  (gpiod stands for GPIO device).
 
@@ -360,14 +360,14 @@ SourceName: hidapi
 License: BSD-3-Clause
 LicenseFiles: LICENSE-bsd.txt
 Section: libs
-SourceDateEpoch: 1756500878
+SourceDateEpoch: 1773474815
 URL: https://github.com/libusb/hidapi
 Maintainer: Paul Fertser <fercerpav@gmail.com>
 Architecture: mipsel_24kc
 Installed-Size: 143360
 Filename: hidapi_0.14.0-r1_mipsel_24kc.ipk
-Size: 16440
-SHA256sum: 746eb44c10b8975ea58d4b3b0235c14cd49ac17313e214af9b1117e3d09c5e1f
+Size: 16438
+SHA256sum: f4e5255a9b2e57874c6590e2cc8976a3f9d9a05321bdcca7cd2abd97e9c286fd
 Description:  HIDAPI is a multi-platform library which allows an application to interface
  with USB and Bluetooth HID-Class devices on Windows, Linux, FreeBSD, and Mac
  OS X.  HIDAPI can be either built as a shared library (.so or .dll) or
@@ -382,7 +382,7 @@ SourceName: i2c-tools
 License: GPL-2.0-or-later LGPL-2.1-or-later
 LicenseFiles: COPYING COPYING.LGPL
 Section: utils
-SourceDateEpoch: 1756500878
+SourceDateEpoch: 1773474815
 URL: https://i2c.wiki.kernel.org/index.php/I2C_Tools
 CPE-ID: cpe:/a:i2c-tools_project:i2c-tools
 Maintainer: Daniel Golle <daniel@makrotopia.org>
@@ -390,7 +390,7 @@ Architecture: mipsel_24kc
 Installed-Size: 337920
 Filename: i2c-tools_4.3-r3_mipsel_24kc.ipk
 Size: 28822
-SHA256sum: 5d8efcdb38d2bd1cbad0c6f6d1d0d44bc89f9ce8a760be8ad649c9285d2cd6de
+SHA256sum: 96a38e19f1262178e8308bd92aac8a0460a0520758faa0a15102394ee84c778f
 Description:  This package contains an heterogeneous set of I2C tools for Linux. These tools
  were originally part of the lm-sensors package.
 
@@ -401,14 +401,14 @@ Source: feeds/packages/net/iftop
 SourceName: iftop
 License: GPL-2.0
 Section: net
-SourceDateEpoch: 1756500878
+SourceDateEpoch: 1773474815
 URL: http://www.ex-parrot.com/~pdw/iftop/
 Maintainer: Paul Spooren <mail@aparcar.org>
 Architecture: mipsel_24kc
 Installed-Size: 71680
 Filename: iftop_2018.10.03~77901c8c-r2_mipsel_24kc.ipk
-Size: 20461
-SHA256sum: a94be41fe1fe93e9fd9ddee5d83daf2e6480190a32d5d5762bb339e1587a2e74
+Size: 20460
+SHA256sum: db98430a9eaa54468e63c267b6b48cafcb398ca49095e45fc41d28ba8e5f2cf1
 Description:  iftop does for network usage what top(1) does for CPU usage. It
  listens to network traffic on a named interface and displays a
  table of current bandwidth usage by pairs of hosts. Handy for
@@ -422,14 +422,14 @@ SourceName: libiio
 License: LGPL-2.1
 LicenseFiles: COPYING.txt
 Section: utils
-SourceDateEpoch: 1756500878
+SourceDateEpoch: 1773474815
 URL: https://github.com/analogdevicesinc/libiio
 Maintainer: Michael Heimpold <mhei@heimpold.de>
 Architecture: mipsel_24kc
 Installed-Size: 471040
 Filename: iio-utils_0.25-r1_mipsel_24kc.ipk
-Size: 52140
-SHA256sum: f7947d055b96baa6bc0458af30353b0ad3099652a8821fe2d81a2e44135199a1
+Size: 52371
+SHA256sum: da0034569677796a08681e7e44c3ea91bb5c759482b5516c6780dc668f7d0075
 Description:  Command line tools for IIO devices.
 
 Package: iiod
@@ -440,14 +440,14 @@ SourceName: libiio
 License: LGPL-2.1
 LicenseFiles: COPYING.txt
 Section: net
-SourceDateEpoch: 1756500878
+SourceDateEpoch: 1773474815
 URL: https://github.com/analogdevicesinc/libiio
 Maintainer: Michael Heimpold <mhei@heimpold.de>
 Architecture: mipsel_24kc
 Installed-Size: 71680
 Filename: iiod_0.25-r1_mipsel_24kc.ipk
-Size: 21569
-SHA256sum: 7e6a5dc35b5c07f0069369c055af122b8d9e73e7a22ef7a0f47a1e4f2eca8067
+Size: 21567
+SHA256sum: d58a11652b019aab5a52070ddf5855811e375440d68ff82d50834e7097a7d500
 Description:  Daemon to access IIO devices via network.
 
 Package: iperf3
@@ -457,15 +457,15 @@ Source: feeds/packages/net/iperf3
 SourceName: iperf
 License: BSD-3-Clause
 Section: net
-SourceDateEpoch: 1756500878
+SourceDateEpoch: 1773474815
 URL: https://github.com/esnet/iperf
 CPE-ID: cpe:/a:es:iperf3
 Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: mipsel_24kc
 Installed-Size: 71680
 Filename: iperf3_3.17.1-r4_mipsel_24kc.ipk
-Size: 2886
-SHA256sum: f7ccda0b7f4ec4b3ab8d0ef0855f98847f7cc878d90888dcaed757fbeb17ff21
+Size: 2887
+SHA256sum: 78bf47eed934503ad3bd39f9f41bbc341ff9183c978febc6d91036386bcbfbba
 Description:  Iperf is a modern alternative for measuring TCP and UDP bandwidth
  performance, allowing the tuning of various parameters and
  characteristics.
@@ -477,15 +477,15 @@ Source: feeds/packages/net/iperf
 SourceName: iperf
 License: BSD-3-Clause
 Section: net
-SourceDateEpoch: 1756500878
+SourceDateEpoch: 1773474815
 URL: http://sourceforge.net/projects/iperf2/
 CPE-ID: cpe:/a:iperf_project:iperf
 Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: mipsel_24kc
 Installed-Size: 337920
 Filename: iperf_2.1.9-r1_mipsel_24kc.ipk
-Size: 136848
-SHA256sum: e46d7deb66c5100cbf0eb7b7dc4cc8e0414cbcb0aa22d3dfb7572c8191534c71
+Size: 136844
+SHA256sum: 7fbb3ce64b9a19f1774da0475a5f317b679a10bdf4b6d6174a29fe112b4e07e0
 Description:  Iperf is a modern alternative for measuring TCP and UDP bandwidth
  performance, allowing the tuning of various parameters and
  characteristics.
@@ -498,15 +498,15 @@ SourceName: attr
 License: LGPL-2.1-or-later
 LicenseFiles: doc/COPYING.LGPL
 Section: libs
-SourceDateEpoch: 1756500878
+SourceDateEpoch: 1773474815
 URL: http://savannah.nongnu.org/projects/attr
 CPE-ID: cpe:/a:attr_project:attr
 Maintainer: Maxim Storchak <m.storchak@gmail.com>
 Architecture: mipsel_24kc
 Installed-Size: 81920
 Filename: libattr_2.5.2-r3_mipsel_24kc.ipk
-Size: 6612
-SHA256sum: 409e3106abcd51ac47739698a035b39354adb37bcfbab1369d2970c237846e28
+Size: 6611
+SHA256sum: 7654b11b94fc20167c642ff6734cb465df741e1cd5800ebd6f4fc8e39220c51d
 Description:  Extended attributes support
  This package provides libattr
 
@@ -519,15 +519,15 @@ SourceName: libconfig
 License: LGPL-2.1-or-later
 LicenseFiles: COPYING.LIB
 Section: libs
-SourceDateEpoch: 1756500878
+SourceDateEpoch: 1773474815
 URL: https://hyperrealm.github.io/libconfig/
 ABIVersion: 11
 Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: mipsel_24kc
 Installed-Size: 71680
 Filename: libconfig11_1.7.3-r1_mipsel_24kc.ipk
-Size: 15651
-SHA256sum: f01414141048c61c0e5e816e28f99f22765d3eb7e7946e858ac91aa363cda9f5
+Size: 15656
+SHA256sum: d3fa7261fb77fca6c9df942dc80588485b3666cf516a2190767494535df499e1
 Description:  Libconfig is a simple library for manipulating structured configuration
  files. This file format is more compact and more readable than XML. And
  unlike XML, it is type-aware, so it is not necessary to do string
@@ -544,15 +544,15 @@ Depends: libc
 Source: feeds/packages/libs/libdaemon
 SourceName: libdaemon
 Section: libs
-SourceDateEpoch: 1756500878
+SourceDateEpoch: 1773474815
 URL: http://0pointer.de/lennart/projects/libdaemon/
 CPE-ID: cpe:/a:libdaemon_project:libdaemon
 Maintainer: Ted Hess <thess@kitschensync.net>
 Architecture: mipsel_24kc
 Installed-Size: 71680
 Filename: libdaemon_0.14-r5_mipsel_24kc.ipk
-Size: 8438
-SHA256sum: d2aa580fdad58445807af4136179077d5c65a9a48854f1cb9ef772c50db1419f
+Size: 8428
+SHA256sum: 9df70630368880213f16e5aa72fa1b6f6c1bab450e100b4b0f510e2a533e7c58
 Description:  libdaemon is a lightweight C library that eases the writing of UNIX daemons.
  It consists of the following parts:
  - A wrapper around fork() which does the correct daemonization procedure of a process
@@ -571,15 +571,15 @@ Source: feeds/packages/utils/dbus
 SourceName: dbus
 License: AFL-2.1
 Section: utils
-SourceDateEpoch: 1756500878
+SourceDateEpoch: 1773474815
 URL: https://dbus.freedesktop.org/
 CPE-ID: cpe:/a:freedesktop:dbus
 Maintainer: Robert Marko <robimarko@gmail.com>
 Architecture: mipsel_24kc
 Installed-Size: 276480
 Filename: libdbus_1.14.10-r1_mipsel_24kc.ipk
-Size: 102812
-SHA256sum: 3de6a8bcdf6f1c043b57124d675a1b6cf6314eae15b79d83e62ba250ea0a36cb
+Size: 102807
+SHA256sum: 8d53d9e8c9f80a98a18331cbd958e571e06dda2dbad25f4207b7f99fb22ddbfe
 Description:  Simple interprocess messaging system (library)
 
 Package: libevdev
@@ -590,14 +590,14 @@ SourceName: libevdev
 License: MIT
 LicenseFiles: COPYING
 Section: libs
-SourceDateEpoch: 1756500878
+SourceDateEpoch: 1773474815
 URL: https://www.freedesktop.org/wiki/Software/libevdev/
 Maintainer: Daniel Golle <daniel@makrotopia.org>
 Architecture: mipsel_24kc
 Installed-Size: 71680
 Filename: libevdev_1.13.1-r1_mipsel_24kc.ipk
-Size: 24334
-SHA256sum: 4b1897b3cff45980672f687075122da433bbaa0f8b4a9d6b783a821a1f2955e2
+Size: 24442
+SHA256sum: 9dbf8990e94145fd5519bdd86bcb0ef8f4853bd589ce1bb5bb4e5d88fc9d7aa8
 Description:  libevdev is a wrapper library for evdev devices. it moves the common
  tasks when dealing with evdev devices into a library and provides a
  library interface to the callers, thus avoiding erroneous ioctls, etc.
@@ -613,15 +613,15 @@ SourceName: expat
 License: MIT
 LicenseFiles: COPYING
 Section: libs
-SourceDateEpoch: 1756500878
+SourceDateEpoch: 1773474815
 URL: https://libexpat.github.io/
 CPE-ID: cpe:/a:libexpat_project:libexpat
 Maintainer: Ted Hess <thess@kitschensync.net>
 Architecture: mipsel_24kc
 Installed-Size: 143360
 Filename: libexpat_2.7.1-r1_mipsel_24kc.ipk
-Size: 42825
-SHA256sum: b4ed4fb834fd29d3efc15a0281d4f16765849ee8f164e5a2bd13b3ebd1b73b85
+Size: 42835
+SHA256sum: 8bdf05f5a08470509bd25f4571d26687ea0e462b967a6d2deb5e2d02a62197d9
 Description:  A fast, non-validating, stream-oriented XML parsing library.
 
 Package: libffi
@@ -632,15 +632,15 @@ SourceName: libffi
 License: MIT
 LicenseFiles: LICENSE
 Section: libs
-SourceDateEpoch: 1756500878
+SourceDateEpoch: 1773474815
 URL: https://sourceware.org/libffi/
 CPE-ID: cpe:/a:libffi_project:libffi
 Maintainer: Peter Wagner <tripolar@gmx.at>
 Architecture: mipsel_24kc
 Installed-Size: 71680
 Filename: libffi_3.4.7-r1_mipsel_24kc.ipk
-Size: 15346
-SHA256sum: 5828ccef73273c6b705bb632e665c25a3a0c610b6505132464507e9f76c9d64c
+Size: 15347
+SHA256sum: c880cf194b13a47e6e0aa38e8b31544ff1d6c9e479f35aa92169a72bc6f1aed6
 Description:  The libffi library provides a portable, high level programming interface to
  various calling conventions. This allows a programmer to call any function
  specified by a call interface description at run-time.
@@ -660,14 +660,14 @@ SourceName: gdbm
 License: GPL-3.0-or-later
 LicenseFiles: COPYING
 Section: libs
-SourceDateEpoch: 1756500878
+SourceDateEpoch: 1773474815
 URL: https://www.gnu.org/software/gdbm/
 Maintainer: Marcel Denia <naoir@gmx.net>
 Architecture: mipsel_24kc
 Installed-Size: 143360
 Filename: libgdbm_1.23-r1_mipsel_24kc.ipk
-Size: 26424
-SHA256sum: 6ae4b0aaf3cfb8857b48475d9f6c5487decc6c1ac44b2ddd2ded832c1b6b19a8
+Size: 26431
+SHA256sum: e6e216fb25fcc81281c848894281705b2f3fe81c3dbb894581a4c3bb26f09889
 Description:  GNU database manager library
  GNU dbm is a set of database routines that use extendible hashing and
  works similar to the standard UNIX dbm routines.
@@ -680,14 +680,14 @@ SourceName: libgpiod
 License: LGPL-2.1-or-later
 LicenseFiles: COPYING
 Section: libs
-SourceDateEpoch: 1756500878
+SourceDateEpoch: 1773474815
 URL: https://git.kernel.org/pub/scm/libs/libgpiod/libgpiod.git
 Maintainer: Michael Heimpold <mhei@heimpold.de>
 Architecture: mipsel_24kc
 Installed-Size: 71680
 Filename: libgpiod_2.1.3-r1_mipsel_24kc.ipk
-Size: 10006
-SHA256sum: 22d07ad9891f472a27ab3a76cf823daf4bed36446887029f9af82c92d12aa434
+Size: 10007
+SHA256sum: 39ca49ef26d3550894a04569b9ed8ebe6040c4c5a77fb8f8862c3bcdd5cae0f0
 Description:  C library for interacting with the linux GPIO character device
  (gpiod stands for GPIO device).
 
@@ -699,15 +699,15 @@ SourceName: i2c-tools
 License: GPL-2.0-or-later LGPL-2.1-or-later
 LicenseFiles: COPYING COPYING.LGPL
 Section: libs
-SourceDateEpoch: 1756500878
+SourceDateEpoch: 1773474815
 URL: https://i2c.wiki.kernel.org/index.php/I2C_Tools
 CPE-ID: cpe:/a:i2c-tools_project:i2c-tools
 Maintainer: Daniel Golle <daniel@makrotopia.org>
 Architecture: mipsel_24kc
 Installed-Size: 71680
 Filename: libi2c_4.3-r3_mipsel_24kc.ipk
-Size: 2551
-SHA256sum: d17c8f770eb293ebf0d64ce08f4d78f2edca91aed958e3a071fe1d0022e9cccb
+Size: 2554
+SHA256sum: 6d1761ede8db52926101d746903e70615bd841f4bbe03794a82c4eb977159a01
 Description:  This package contains i2c functionality needed by i2c-tools.
 
 Package: libiio
@@ -718,14 +718,14 @@ SourceName: libiio
 License: LGPL-2.1
 LicenseFiles: COPYING.txt
 Section: libs
-SourceDateEpoch: 1756500878
+SourceDateEpoch: 1773474815
 URL: https://github.com/analogdevicesinc/libiio
 Maintainer: Michael Heimpold <mhei@heimpold.de>
 Architecture: mipsel_24kc
 Installed-Size: 143360
 Filename: libiio_0.25-r1_mipsel_24kc.ipk
-Size: 34914
-SHA256sum: 3193993758eb9be6c2429aeef8844eec37aa6d20959d8de8e485a30e0ba12186
+Size: 34917
+SHA256sum: 14ea286ed49583817089fca3e9b9d55284c06b2187d3ea07b08f33dcad5e9cdd
 Description:  libiio is used to interface to the Linux Industrial Input/Output (IIO) Subsystem.
  The Linux IIO subsystem is intended to provide support for devices that in some
  sense are analog to digital or digital to analog converters (ADCs, DACs). This
@@ -744,7 +744,7 @@ Source: feeds/packages/net/iperf3
 SourceName: iperf
 License: BSD-3-Clause
 Section: libs
-SourceDateEpoch: 1756500878
+SourceDateEpoch: 1773474815
 URL: https://github.com/esnet/iperf
 CPE-ID: cpe:/a:es:iperf3
 Maintainer: Felix Fietkau <nbd@nbd.name>
@@ -752,7 +752,7 @@ Architecture: mipsel_24kc
 Installed-Size: 143360
 Filename: libiperf3_3.17.1-r4_mipsel_24kc.ipk
 Size: 61668
-SHA256sum: ebc259a374484ceab36be447128f4d1f51388f9937cc4c2e7628cf31b2122c40
+SHA256sum: 0bc6cfa21832d54a1e19828b0b509268cfa9ad7a2292a1379401e2e3adb3e32d
 Description:  Libiperf is a library providing an API for iperf3 functionality.
 
 Package: liblzma
@@ -763,14 +763,14 @@ SourceName: xz
 License: Public-Domain LGPL-2.1-or-later 0BSD
 LicenseFiles: COPYING
 Section: libs
-SourceDateEpoch: 1756500878
+SourceDateEpoch: 1773474815
 URL: https://tukaani.org/xz
 CPE-ID: cpe:/a:tukaani:xz
 Architecture: mipsel_24kc
 Installed-Size: 143360
 Filename: liblzma_5.6.2-r2_mipsel_24kc.ipk
 Size: 61630
-SHA256sum: 1d80297d6b5cf95c2336c48e97722383568c7eb3c798046f89e0a0295cf5495e
+SHA256sum: b4193996f29b8b4805b32bccd41900faeff7c69ef9c49606ea067f6c985146ac
 Description:  liblzma library from XZ Utils
 
 Package: libmagic
@@ -781,7 +781,7 @@ SourceName: file
 License: BSD-2-Clause
 LicenseFiles: COPYING
 Section: libs
-SourceDateEpoch: 1756500878
+SourceDateEpoch: 1773474815
 URL: https://darwinsys.com/file/
 CPE-ID: cpe:/a:file_project:file
 Maintainer: Marko Ratkaj <markoratkaj@gmail.com>
@@ -789,7 +789,7 @@ Architecture: mipsel_24kc
 Installed-Size: 1003520
 Filename: libmagic_5.45-r1_mipsel_24kc.ipk
 Size: 285738
-SHA256sum: ca1a8d9b4816f63d18752bc033ff351c90338eaabbfa7132a604794481c49909
+SHA256sum: d010ee3c14d4bb5f6c6691970211e3f43be28c077a2747ee5bb175aeb7d6914f
 Description:  File type determination library
 
 Package: libogg0
@@ -801,15 +801,15 @@ SourceName: libogg
 License: BSD-3-Clause
 LicenseFiles: COPYING
 Section: libs
-SourceDateEpoch: 1756500878
+SourceDateEpoch: 1773474815
 URL: https://xiph.org/ogg/
 ABIVersion: 0
 Maintainer: Ted Hess <thess@kitschensync.net>
 Architecture: mipsel_24kc
 Installed-Size: 71680
 Filename: libogg0_1.3.5-r1_mipsel_24kc.ipk
-Size: 16344
-SHA256sum: f4caf6d1e780fcb42959482ccb4bff11019ba2eb3aeea0d413f34acf950a0722
+Size: 16353
+SHA256sum: 2725f61128d478dcfd7d2cc4a528070638660625b330b3a4f721e9c60f7c2200
 Description:  Ogg project codecs use the Ogg bitstream format to arrange the raw,
  compressed bitstream into a more robust, useful form.  For example,
  the Ogg bitstream makes seeking, time stamping and error recovery
@@ -824,15 +824,15 @@ SourceName: opus
 License: BSD-3-Clause
 LicenseFiles: COPYING
 Section: libs
-SourceDateEpoch: 1756500878
+SourceDateEpoch: 1773474815
 URL: https://opus-codec.org
 CPE-ID: cpe:/a:opus-codec:opus
 Maintainer: Ted Hess <thess@kitchensync.net>, Ian Leonard <antonlacon@gmail.com>
 Architecture: mipsel_24kc
 Installed-Size: 337920
 Filename: libopus_1.5.2-r1_mipsel_24kc.ipk
-Size: 180338
-SHA256sum: 25cefc2d40fd1c4a6e38081ffd66db0bbaebb32f71ab5d91c78452d1f47bde13
+Size: 180326
+SHA256sum: 56313e231a50b886994249612be359579c65118036cebf08a76802c1aba075df
 Description:  Opus is a totally open, royalty-free, highly versatile audio codec. Opus is
  unmatched for interactive speech and music transmission over the Internet, but
  is also intended for storage and streaming applications.
@@ -845,19 +845,19 @@ SourceName: opusfile
 License: BSD-2-Clause
 LicenseFiles: COPYING
 Section: libs
-SourceDateEpoch: 1756500878
+SourceDateEpoch: 1773474815
 URL: http://opus-codec.org/
 CPE-ID: cpe:/a:xiph:opusfile
 Maintainer: Eduardo Abinader <eduardoabinader@gmail.com>
 Architecture: mipsel_24kc
 Installed-Size: 143360
 Filename: libopusfile_0.12-r2_mipsel_24kc.ipk
-Size: 35307
-SHA256sum: 1113e922674595316019c4390680db53ced23b9c78f37866409ec1b08994517c
+Size: 35293
+SHA256sum: 832776a7973a873f4029d558ba51e20c1bf6b1687131eb86feeb16d1c0b8371c
 Description:  The opusfile library provides seeking, decode, and playback of Opus streams in the Ogg container (.opus files)
 
 Package: libpython3-3.11
-Version: 3.11.10-r1
+Version: 3.11.14-r1
 Depends: libc, libpthread
 Provides: libpython3
 Source: feeds/packages/lang/python/python3
@@ -865,16 +865,16 @@ SourceName: python3
 License: Python-2.0.1 0BSD
 LicenseFiles: LICENSE Doc/copyright.rst Doc/license.rst Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi_osx/LICENSE Modules/expat/COPYING
 Section: lang
-SourceDateEpoch: 1756500878
+SourceDateEpoch: 1773474815
 URL: https://www.python.org/
 ABIVersion: -3.11
 CPE-ID: cpe:/a:python:python
 Maintainer: Jeffery To <jeffery.to@gmail.com>
 Architecture: mipsel_24kc
 Installed-Size: 3368960
-Filename: libpython3-3.11_3.11.10-r1_mipsel_24kc.ipk
-Size: 1184663
-SHA256sum: cae869e403c7518cd258825f9aa2a0ca5f4b62e93d5cf1155ebc34a764882729
+Filename: libpython3-3.11_3.11.14-r1_mipsel_24kc.ipk
+Size: 1182571
+SHA256sum: 9b32e9894da5b95b511a7a15e68828453b55d388eae734336dc856fe376f95c6
 Description:  Python is an interpreted, interactive, object-oriented programming
  language. It incorporates modules, exceptions, dynamic typing, very high
  level dynamic data types, and classes. It supports multiple programming
@@ -896,14 +896,14 @@ SourceName: qrencode
 License: LGPL-2.1-or-later
 LicenseFiles: COPYING
 Section: libs
-SourceDateEpoch: 1756500878
+SourceDateEpoch: 1773474815
 URL: https://fukuchi.org/works/qrencode/
 Maintainer: Jonathan Bennett <JBennett@incomsystems.biz>
 Architecture: mipsel_24kc
 Installed-Size: 71680
 Filename: libqrencode_4.1.1-r1_mipsel_24kc.ipk
-Size: 15774
-SHA256sum: c5da60fdf62b740b5b0bfed257b11aa2edd6e8c5cc4ecf64aa2f734eaaaf7ab2
+Size: 15777
+SHA256sum: 969851b1ca98f55b1fb10c8ab7ad8cc9ad1b9b33a988c3b5b00abff9b448bd54
 Description:  Libqrencode is a C library for encoding data in a QR Code symbol,
  a kind of 2D symbology that can be scanned by handy terminals such
  as a mobile phone with CCD. The capacity of QR Code is up to 7000
@@ -917,14 +917,14 @@ SourceName: rrdtool1
 License: GPL-2.0-or-later
 LicenseFiles: COPYING COPYRIGHT
 Section: libs
-SourceDateEpoch: 1756500878
+SourceDateEpoch: 1773474815
 URL: http://oss.oetiker.ch/rrdtool/
 Maintainer: Jo-Philipp Wich <jo@mein.io>
 Architecture: mipsel_24kc
 Installed-Size: 604160
 Filename: librrd1_1.0.50-r6_mipsel_24kc.ipk
-Size: 130229
-SHA256sum: fdb097aee9e4888104689e12ed4c4980f1545aa8fc19a4f39895ad1ca9d42faa
+Size: 130246
+SHA256sum: 87485d57df84708fd5139abfd402757e97fa3442d11514bc85d9f3d28a1df5d6
 Description:  RRD is the Acronym for Round Robin Database. RRD is a system to store and
  display time-series data (i.e. network bandwidth, machine-room temperature,
  server load average). It stores the data in a very compact way that will
@@ -946,36 +946,37 @@ SourceName: rtl-sdr
 License: GPL-2.0-or-later
 LicenseFiles: COPYING
 Section: libs
-SourceDateEpoch: 1756500878
+SourceDateEpoch: 1773474815
 URL: http://sdr.osmocom.org/trac/wiki/rtl-sdr
 Maintainer: Vasilis Tsiligiannis <b_tsiligiannis@silverton.gr>
 Architecture: mipsel_24kc
 Installed-Size: 71680
 Filename: librtlsdr_2.0.1-r1_mipsel_24kc.ipk
-Size: 20381
-SHA256sum: 17f99e752895f3671797941fe03990e3820b2cee42fed4d37bdf59303ef60350
+Size: 20383
+SHA256sum: 0479d160156c67c69ee2f55e7fb3771aa0fd9d6e605c2c55899deeaee985bb02
 Description:  rtl-sdr allows DVB-T dongles based on the Realtek RTL2832U to be used as
  an inexpensive SDR.
  
  This package contains the librtlsdr shared library.
 
 Package: libsqlite3-0
-Version: 3500400-r1
+Version: 3510200-r1
 Depends: libc, libpthread, zlib
 Provides: libsqlite3
 Source: feeds/packages/libs/sqlite3
 SourceName: sqlite
-License: PUBLICDOMAIN
+License: blessing
+LicenseFiles: LICENSE.md
 Section: libs
-SourceDateEpoch: 1756500878
+SourceDateEpoch: 1773474815
 URL: https://www.sqlite.org/
 ABIVersion: -0
 CPE-ID: cpe:/a:sqlite:sqlite
 Architecture: mipsel_24kc
 Installed-Size: 942080
-Filename: libsqlite3-0_3500400-r1_mipsel_24kc.ipk
-Size: 536307
-SHA256sum: 804da59c87edb9fd29591ce9f4959d03bf379f8d980cd2a5b69c1ac63e8cbc96
+Filename: libsqlite3-0_3510200-r1_mipsel_24kc.ipk
+Size: 542017
+SHA256sum: 0f8dd3ed5c66656d807fc7388598fbe4ae4bd820e889236cb2b5b36a927145d4
 Description:  SQLite is a small C library that implements a self-contained, embeddable,
  zero-configuration SQL database engine.
  This package contains the SQLite (v3.x) shared library, used by other
@@ -991,14 +992,14 @@ SourceName: libudev-zero
 License: MIT
 LicenseFiles: COPYING
 Section: libs
-SourceDateEpoch: 1756500878
+SourceDateEpoch: 1773474815
 URL: https://github.com/illiliti/libudev-zero
 Maintainer: Daniel Golle <daniel@makrotopia.org>
 Architecture: mipsel_24kc
 Installed-Size: 71680
 Filename: libudev-zero_1.0.3-r1_mipsel_24kc.ipk
-Size: 8600
-SHA256sum: 9206b773a0b5090e9ad4e8a5f6a379a4d98a31354715aa45a304a80a242714a0
+Size: 8598
+SHA256sum: 5e195eb3dab46e60473d03a7a608d9f86a5a4b99e42fd6681f80326b3a52aa6c
 Description:  Drop-in replacement for libudev
 
 Package: libugpio
@@ -1009,14 +1010,14 @@ SourceName: libugpio
 License: LGPL-2.1-or-later
 LicenseFiles: COPYING.LESSER
 Section: libs
-SourceDateEpoch: 1756500878
+SourceDateEpoch: 1773474815
 URL: https://github.com/mhei/libugpio
 Maintainer: Michael Heimpold <mhei@heimpold.de>
 Architecture: mipsel_24kc
 Installed-Size: 71680
 Filename: libugpio_0.0.7-r1_mipsel_24kc.ipk
-Size: 4744
-SHA256sum: a3352fa9bdefef98454f14ec7662cb56fb9c4e91e8b7d0d3dc162fcbf08e21d7
+Size: 4748
+SHA256sum: 9d4987fe16b8606cb930104fac30c012b7901687b6613ff803c1e1c363f31bc4
 Description:  libugpio is a library to ease the use of linux kernel's sysfs
  gpio interface from C programs and/or other libraries.
 
@@ -1027,14 +1028,14 @@ Source: feeds/packages/utils/picocom
 SourceName: picocom
 License: LICENSE.txt
 Section: utils
-SourceDateEpoch: 1756500878
+SourceDateEpoch: 1773474815
 URL: https://github.com/npat-efault/picocom
 CPE-ID: cpe:/a:picocom_project:picocom
 Architecture: mipsel_24kc
 Installed-Size: 71680
 Filename: picocom_3.1-r5_mipsel_24kc.ipk
-Size: 18059
-SHA256sum: 7c4400449e97222589da7199298d77e7ab86d79ca89eeeeb9bb8ca814b116b06
+Size: 18063
+SHA256sum: de0ae89161ce5ce6d71ff53219dc14162b6e4f52bb730e823d1d6f4cb50fd8aa
 Description:  minimal dumb-terminal emulation program
 
 Package: portaudio
@@ -1045,13 +1046,13 @@ SourceName: portaudio
 License: MIT
 LicenseFiles: LICENSE.txt
 Section: sound
-SourceDateEpoch: 1756500878
+SourceDateEpoch: 1773474815
 URL: http://www.portaudio.com/
 Architecture: mipsel_24kc
 Installed-Size: 143360
 Filename: portaudio_190600_20161030-r2_mipsel_24kc.ipk
-Size: 37670
-SHA256sum: 8c3c837b5a9bb4360e8f297fa1c25193396fcd81c107ba58490dfc5a0bcc5d5f
+Size: 37686
+SHA256sum: 729e4afc7aeba2e8bfdb21c69ea89c227125333b7031651bc2bda84ed8167a0d
 Description:  PortAudio is a free, cross-platform, open-source, audio I/O library.  It lets
  you write simple audio programs in 'C' or C++ that will compile and run on many
  platforms including Windows, Macintosh OS X, and Unix (OSS/ALSA). It is
@@ -1066,14 +1067,14 @@ SourceName: pv
 License: Artistic-2.0
 LicenseFiles: doc/COPYING
 Section: utils
-SourceDateEpoch: 1756500878
+SourceDateEpoch: 1773474815
 URL: https://www.ivarch.com/programs/pv.shtml
 Maintainer: Jo-Philipp Wich <jo@mein.io>
 Architecture: mipsel_24kc
 Installed-Size: 71680
 Filename: pv_1.6.6-r1_mipsel_24kc.ipk
-Size: 21515
-SHA256sum: 928c5389607c0cf123b971e33c0920a726cec271428c0ef6a4470c4acda61183
+Size: 21510
+SHA256sum: dc3a48cc36ba355c93a1a348aef438b6217db9335c0c24c7aff1030d1d21be68
 Description:  Pipe Viewer is a terminal-based tool for monitoring the progress of data
  through a pipeline. It can be inserted into any normal pipeline between
  two processes to give a visual indication of how quickly data is passing
@@ -1081,22 +1082,22 @@ Description:  Pipe Viewer is a terminal-based tool for monitoring the progress o
  estimate of how long it will be until completion.
 
 Package: python3-asyncio
-Version: 3.11.10-r1
+Version: 3.11.14-r1
 Depends: libc, python3-light
 Source: feeds/packages/lang/python/python3
 SourceName: python3
 License: Python-2.0.1 0BSD
 LicenseFiles: LICENSE Doc/copyright.rst Doc/license.rst Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi_osx/LICENSE Modules/expat/COPYING
 Section: lang
-SourceDateEpoch: 1756500878
+SourceDateEpoch: 1773474815
 URL: https://www.python.org/
 CPE-ID: cpe:/a:python:python
 Maintainer: Jeffery To <jeffery.to@gmail.com>
 Architecture: mipsel_24kc
 Installed-Size: 706560
-Filename: python3-asyncio_3.11.10-r1_mipsel_24kc.ipk
-Size: 248863
-SHA256sum: f736c601e00af3147556c769194463a8c461a54342bff7a202733cfd7b0c347c
+Filename: python3-asyncio_3.11.14-r1_mipsel_24kc.ipk
+Size: 248858
+SHA256sum: c8b0b75577fb4ad607ab3f0c0d58920df8fe94bc6c2c871f6792597db140d47f
 Description:  Python is an interpreted, interactive, object-oriented programming
  language. It incorporates modules, exceptions, dynamic typing, very high
  level dynamic data types, and classes. It supports multiple programming
@@ -1111,22 +1112,22 @@ Description:  Python is an interpreted, interactive, object-oriented programming
  This package contains the asyncio module.
 
 Package: python3-base
-Version: 3.11.10-r1
+Version: 3.11.14-r1
 Depends: libc, libpython3-3.11
 Source: feeds/packages/lang/python/python3
 SourceName: python3
 License: Python-2.0.1 0BSD
 LicenseFiles: LICENSE Doc/copyright.rst Doc/license.rst Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi_osx/LICENSE Modules/expat/COPYING
 Section: lang
-SourceDateEpoch: 1756500878
+SourceDateEpoch: 1773474815
 URL: https://www.python.org/
 CPE-ID: cpe:/a:python:python
 Maintainer: Jeffery To <jeffery.to@gmail.com>
 Architecture: mipsel_24kc
 Installed-Size: 1126400
-Filename: python3-base_3.11.10-r1_mipsel_24kc.ipk
-Size: 222034
-SHA256sum: 33f79246a4c9c75c9018fef95a6a12962a05218f74a4d2500e96e60d90f2f0f2
+Filename: python3-base_3.11.14-r1_mipsel_24kc.ipk
+Size: 222709
+SHA256sum: 9f537e1330fa94da4d7f84ef9776b34efcc2312e6707441352ea9ffd38ea4764
 Description:  Python is an interpreted, interactive, object-oriented programming
  language. It incorporates modules, exceptions, dynamic typing, very high
  level dynamic data types, and classes. It supports multiple programming
@@ -1142,22 +1143,22 @@ Description:  Python is an interpreted, interactive, object-oriented programming
  interpreter to start.
 
 Package: python3-cgi
-Version: 3.11.10-r1
+Version: 3.11.14-r1
 Depends: libc, python3-light, python3-email
 Source: feeds/packages/lang/python/python3
 SourceName: python3
 License: Python-2.0.1 0BSD
 LicenseFiles: LICENSE Doc/copyright.rst Doc/license.rst Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi_osx/LICENSE Modules/expat/COPYING
 Section: lang
-SourceDateEpoch: 1756500878
+SourceDateEpoch: 1773474815
 URL: https://www.python.org/
 CPE-ID: cpe:/a:python:python
 Maintainer: Jeffery To <jeffery.to@gmail.com>
 Architecture: mipsel_24kc
 Installed-Size: 51200
-Filename: python3-cgi_3.11.10-r1_mipsel_24kc.ipk
-Size: 20164
-SHA256sum: 7a77485e4cdcd6ddb4a1ce22ccec5c107ceac59b1dd0d7018461741890f3f120
+Filename: python3-cgi_3.11.14-r1_mipsel_24kc.ipk
+Size: 20158
+SHA256sum: a42c417f1aa0c7e021f1efd706bef39ac157c97f486c9b1beb57dc086a156030
 Description:  Python is an interpreted, interactive, object-oriented programming
  language. It incorporates modules, exceptions, dynamic typing, very high
  level dynamic data types, and classes. It supports multiple programming
@@ -1172,22 +1173,22 @@ Description:  Python is an interpreted, interactive, object-oriented programming
  This package contains the cgi module.
 
 Package: python3-cgitb
-Version: 3.11.10-r1
+Version: 3.11.14-r1
 Depends: libc, python3-light, python3-cgi, python3-pydoc
 Source: feeds/packages/lang/python/python3
 SourceName: python3
 License: Python-2.0.1 0BSD
 LicenseFiles: LICENSE Doc/copyright.rst Doc/license.rst Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi_osx/LICENSE Modules/expat/COPYING
 Section: lang
-SourceDateEpoch: 1756500878
+SourceDateEpoch: 1773474815
 URL: https://www.python.org/
 CPE-ID: cpe:/a:python:python
 Maintainer: Jeffery To <jeffery.to@gmail.com>
 Architecture: mipsel_24kc
 Installed-Size: 30720
-Filename: python3-cgitb_3.11.10-r1_mipsel_24kc.ipk
-Size: 10244
-SHA256sum: b044be970b1a6d2d591e8a8d41ae99ba9a988447c1d73c325c23962b585e835d
+Filename: python3-cgitb_3.11.14-r1_mipsel_24kc.ipk
+Size: 10245
+SHA256sum: 6479a8654ef7e48593bf1594c083235b5fd3fe3cdc2f19819b851757488f1f73
 Description:  Python is an interpreted, interactive, object-oriented programming
  language. It incorporates modules, exceptions, dynamic typing, very high
  level dynamic data types, and classes. It supports multiple programming
@@ -1202,22 +1203,22 @@ Description:  Python is an interpreted, interactive, object-oriented programming
  This package contains the cgitb module.
 
 Package: python3-codecs
-Version: 3.11.10-r1
+Version: 3.11.14-r1
 Depends: libc, python3-light
 Source: feeds/packages/lang/python/python3
 SourceName: python3
 License: Python-2.0.1 0BSD
 LicenseFiles: LICENSE Doc/copyright.rst Doc/license.rst Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi_osx/LICENSE Modules/expat/COPYING
 Section: lang
-SourceDateEpoch: 1756500878
+SourceDateEpoch: 1773474815
 URL: https://www.python.org/
 CPE-ID: cpe:/a:python:python
 Maintainer: Jeffery To <jeffery.to@gmail.com>
 Architecture: mipsel_24kc
 Installed-Size: 2048000
-Filename: python3-codecs_3.11.10-r1_mipsel_24kc.ipk
-Size: 740836
-SHA256sum: 9587c2ef95515c3cc5d98f040a05975f1f3d645472ac0146a94d3e12fbe4aaa9
+Filename: python3-codecs_3.11.14-r1_mipsel_24kc.ipk
+Size: 740903
+SHA256sum: 926fd2de852f16daf2fe7787cc41d614738deeedf337ea7551ca15bfad2ccda0
 Description:  Python is an interpreted, interactive, object-oriented programming
  language. It incorporates modules, exceptions, dynamic typing, very high
  level dynamic data types, and classes. It supports multiple programming
@@ -1232,22 +1233,22 @@ Description:  Python is an interpreted, interactive, object-oriented programming
  This package contains codecs and Unicode support.
 
 Package: python3-ctypes
-Version: 3.11.10-r1
+Version: 3.11.14-r1
 Depends: libc, python3-light, libffi
 Source: feeds/packages/lang/python/python3
 SourceName: python3
 License: Python-2.0.1 0BSD
 LicenseFiles: LICENSE Doc/copyright.rst Doc/license.rst Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi_osx/LICENSE Modules/expat/COPYING
 Section: lang
-SourceDateEpoch: 1756500878
+SourceDateEpoch: 1773474815
 URL: https://www.python.org/
 CPE-ID: cpe:/a:python:python
 Maintainer: Jeffery To <jeffery.to@gmail.com>
 Architecture: mipsel_24kc
 Installed-Size: 245760
-Filename: python3-ctypes_3.11.10-r1_mipsel_24kc.ipk
-Size: 73240
-SHA256sum: 1add24d27238af85b0977159bb9f6d5cb84eb27c70d8f2eef4fda3744c4b080c
+Filename: python3-ctypes_3.11.14-r1_mipsel_24kc.ipk
+Size: 73248
+SHA256sum: 63eff862a653c46455808be94fd6a6dccf597d647ad8945d43d05d984516e9c2
 Description:  Python is an interpreted, interactive, object-oriented programming
  language. It incorporates modules, exceptions, dynamic typing, very high
  level dynamic data types, and classes. It supports multiple programming
@@ -1262,22 +1263,22 @@ Description:  Python is an interpreted, interactive, object-oriented programming
  This package contains the ctypes module.
 
 Package: python3-dbm
-Version: 3.11.10-r1
+Version: 3.11.14-r1
 Depends: libc, python3-light, libgdbm
 Source: feeds/packages/lang/python/python3
 SourceName: python3
 License: Python-2.0.1 0BSD
 LicenseFiles: LICENSE Doc/copyright.rst Doc/license.rst Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi_osx/LICENSE Modules/expat/COPYING
 Section: lang
-SourceDateEpoch: 1756500878
+SourceDateEpoch: 1773474815
 URL: https://www.python.org/
 CPE-ID: cpe:/a:python:python
 Maintainer: Jeffery To <jeffery.to@gmail.com>
 Architecture: mipsel_24kc
 Installed-Size: 163840
-Filename: python3-dbm_3.11.10-r1_mipsel_24kc.ipk
-Size: 21639
-SHA256sum: 1004a4d1e441ba085663697e9d14ffa7edb69256c88259828cd07f64f37372c5
+Filename: python3-dbm_3.11.14-r1_mipsel_24kc.ipk
+Size: 21648
+SHA256sum: 15988d269315564f6c3ba201da770d38181bf847f34f68928b03e80076d0624b
 Description:  Python is an interpreted, interactive, object-oriented programming
  language. It incorporates modules, exceptions, dynamic typing, very high
  level dynamic data types, and classes. It supports multiple programming
@@ -1292,22 +1293,22 @@ Description:  Python is an interpreted, interactive, object-oriented programming
  This package contains the dbm module.
 
 Package: python3-decimal
-Version: 3.11.10-r1
+Version: 3.11.14-r1
 Depends: libc, python3-light
 Source: feeds/packages/lang/python/python3
 SourceName: python3
 License: Python-2.0.1 0BSD
 LicenseFiles: LICENSE Doc/copyright.rst Doc/license.rst Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi_osx/LICENSE Modules/expat/COPYING
 Section: lang
-SourceDateEpoch: 1756500878
+SourceDateEpoch: 1773474815
 URL: https://www.python.org/
 CPE-ID: cpe:/a:python:python
 Maintainer: Jeffery To <jeffery.to@gmail.com>
 Architecture: mipsel_24kc
 Installed-Size: 215040
-Filename: python3-decimal_3.11.10-r1_mipsel_24kc.ipk
-Size: 72593
-SHA256sum: f9ee157e3db5b8a4b2f8f8f2e9a22d1c0d96dc58f77165d30dd5573ec3e5f595
+Filename: python3-decimal_3.11.14-r1_mipsel_24kc.ipk
+Size: 72672
+SHA256sum: 698b22b3ba6750e4e75ed62e6422272de1008ac4a7beeced3e563c6735b98d7f
 Description:  Python is an interpreted, interactive, object-oriented programming
  language. It incorporates modules, exceptions, dynamic typing, very high
  level dynamic data types, and classes. It supports multiple programming
@@ -1322,22 +1323,22 @@ Description:  Python is an interpreted, interactive, object-oriented programming
  This package contains the decimal module.
 
 Package: python3-distutils
-Version: 3.11.10-r1
+Version: 3.11.14-r1
 Depends: libc, python3-light, python3-email
 Source: feeds/packages/lang/python/python3
 SourceName: python3
 License: Python-2.0.1 0BSD
 LicenseFiles: LICENSE Doc/copyright.rst Doc/license.rst Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi_osx/LICENSE Modules/expat/COPYING
 Section: lang
-SourceDateEpoch: 1756500878
+SourceDateEpoch: 1773474815
 URL: https://www.python.org/
 CPE-ID: cpe:/a:python:python
 Maintainer: Jeffery To <jeffery.to@gmail.com>
 Architecture: mipsel_24kc
 Installed-Size: 696320
-Filename: python3-distutils_3.11.10-r1_mipsel_24kc.ipk
-Size: 262538
-SHA256sum: 0110cd669ed8db237437bac7d3158281a7814c39d6af2e935e53265a453f9bcb
+Filename: python3-distutils_3.11.14-r1_mipsel_24kc.ipk
+Size: 262534
+SHA256sum: 4bbcee0ad5dfcca6a84b18acbc92f869e201a4ab4adca4cb39f02dfb6f73854f
 Description:  Python is an interpreted, interactive, object-oriented programming
  language. It incorporates modules, exceptions, dynamic typing, very high
  level dynamic data types, and classes. It supports multiple programming
@@ -1352,22 +1353,22 @@ Description:  Python is an interpreted, interactive, object-oriented programming
  This package contains the distutils module.
 
 Package: python3-email
-Version: 3.11.10-r1
+Version: 3.11.14-r1
 Depends: libc, python3-light
 Source: feeds/packages/lang/python/python3
 SourceName: python3
 License: Python-2.0.1 0BSD
 LicenseFiles: LICENSE Doc/copyright.rst Doc/license.rst Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi_osx/LICENSE Modules/expat/COPYING
 Section: lang
-SourceDateEpoch: 1756500878
+SourceDateEpoch: 1773474815
 URL: https://www.python.org/
 CPE-ID: cpe:/a:python:python
 Maintainer: Jeffery To <jeffery.to@gmail.com>
 Architecture: mipsel_24kc
 Installed-Size: 532480
-Filename: python3-email_3.11.10-r1_mipsel_24kc.ipk
-Size: 187259
-SHA256sum: 9501daa885158f61d802b578730ec5c403d0fb4971ff21ef1e50e866cae46824
+Filename: python3-email_3.11.14-r1_mipsel_24kc.ipk
+Size: 187785
+SHA256sum: cc0d724b6780e6339921b18ce445aeca9ca55372598489227dc6cd314404b383
 Description:  Python is an interpreted, interactive, object-oriented programming
  language. It incorporates modules, exceptions, dynamic typing, very high
  level dynamic data types, and classes. It supports multiple programming
@@ -1382,22 +1383,22 @@ Description:  Python is an interpreted, interactive, object-oriented programming
  This package contains the email module.
 
 Package: python3-light
-Version: 3.11.10-r1
+Version: 3.11.14-r1
 Depends: libc, python3-base, libbz2-1.0, zlib
 Source: feeds/packages/lang/python/python3
 SourceName: python3
 License: Python-2.0.1 0BSD
 LicenseFiles: LICENSE Doc/copyright.rst Doc/license.rst Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi_osx/LICENSE Modules/expat/COPYING
 Section: lang
-SourceDateEpoch: 1756500878
+SourceDateEpoch: 1773474815
 URL: https://www.python.org/
 CPE-ID: cpe:/a:python:python
 Maintainer: Jeffery To <jeffery.to@gmail.com>
 Architecture: mipsel_24kc
-Installed-Size: 9594880
-Filename: python3-light_3.11.10-r1_mipsel_24kc.ipk
-Size: 2844323
-SHA256sum: 39901d3b0c34bd4158df35b2cf8526ed7f809f52600bdeac7820d7240a6e435d
+Installed-Size: 9615360
+Filename: python3-light_3.11.14-r1_mipsel_24kc.ipk
+Size: 2850064
+SHA256sum: eb173cc05b8599df7f7713ab1b0407b5f5bdb75459c2a1033de04cfacb993e1e
 Description:  Python is an interpreted, interactive, object-oriented programming
  language. It incorporates modules, exceptions, dynamic typing, very high
  level dynamic data types, and classes. It supports multiple programming
@@ -1413,22 +1414,22 @@ Description:  Python is an interpreted, interactive, object-oriented programming
  commonly used parts of the standard library.
 
 Package: python3-logging
-Version: 3.11.10-r1
+Version: 3.11.14-r1
 Depends: libc, python3-light
 Source: feeds/packages/lang/python/python3
 SourceName: python3
 License: Python-2.0.1 0BSD
 LicenseFiles: LICENSE Doc/copyright.rst Doc/license.rst Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi_osx/LICENSE Modules/expat/COPYING
 Section: lang
-SourceDateEpoch: 1756500878
+SourceDateEpoch: 1773474815
 URL: https://www.python.org/
 CPE-ID: cpe:/a:python:python
 Maintainer: Jeffery To <jeffery.to@gmail.com>
 Architecture: mipsel_24kc
 Installed-Size: 225280
-Filename: python3-logging_3.11.10-r1_mipsel_24kc.ipk
-Size: 85157
-SHA256sum: 3bf5cfdf4e1417556a1a950a517a2c3f21e22d9a99f2fb247e4ae1a5cd7c7d0e
+Filename: python3-logging_3.11.14-r1_mipsel_24kc.ipk
+Size: 85159
+SHA256sum: f81b45954fc859bc30e139cd7a8da12a9a9f1f80193f50298d42f0157e37fa9e
 Description:  Python is an interpreted, interactive, object-oriented programming
  language. It incorporates modules, exceptions, dynamic typing, very high
  level dynamic data types, and classes. It supports multiple programming
@@ -1443,22 +1444,22 @@ Description:  Python is an interpreted, interactive, object-oriented programming
  This package contains the logging module.
 
 Package: python3-lzma
-Version: 3.11.10-r1
+Version: 3.11.14-r1
 Depends: libc, python3-light, liblzma
 Source: feeds/packages/lang/python/python3
 SourceName: python3
 License: Python-2.0.1 0BSD
 LicenseFiles: LICENSE Doc/copyright.rst Doc/license.rst Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi_osx/LICENSE Modules/expat/COPYING
 Section: lang
-SourceDateEpoch: 1756500878
+SourceDateEpoch: 1773474815
 URL: https://www.python.org/
 CPE-ID: cpe:/a:python:python
 Maintainer: Jeffery To <jeffery.to@gmail.com>
 Architecture: mipsel_24kc
 Installed-Size: 92160
-Filename: python3-lzma_3.11.10-r1_mipsel_24kc.ipk
-Size: 19103
-SHA256sum: ae3412bf773cf595df374e82275186a0dfd74a4df243f1c3663df499c53f000a
+Filename: python3-lzma_3.11.14-r1_mipsel_24kc.ipk
+Size: 19111
+SHA256sum: bac2154f66e5835c774707cbe2c6c8530f472fd2c0c1078a44eb16ae354f3c59
 Description:  Python is an interpreted, interactive, object-oriented programming
  language. It incorporates modules, exceptions, dynamic typing, very high
  level dynamic data types, and classes. It supports multiple programming
@@ -1473,22 +1474,22 @@ Description:  Python is an interpreted, interactive, object-oriented programming
  This package contains the lzma module.
 
 Package: python3-multiprocessing
-Version: 3.11.10-r1
+Version: 3.11.14-r1
 Depends: libc, python3-light
 Source: feeds/packages/lang/python/python3
 SourceName: python3
 License: Python-2.0.1 0BSD
 LicenseFiles: LICENSE Doc/copyright.rst Doc/license.rst Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi_osx/LICENSE Modules/expat/COPYING
 Section: lang
-SourceDateEpoch: 1756500878
+SourceDateEpoch: 1773474815
 URL: https://www.python.org/
 CPE-ID: cpe:/a:python:python
 Maintainer: Jeffery To <jeffery.to@gmail.com>
 Architecture: mipsel_24kc
 Installed-Size: 512000
-Filename: python3-multiprocessing_3.11.10-r1_mipsel_24kc.ipk
-Size: 174974
-SHA256sum: aad840d88da7a6acba95847e60761412e83faba882855bd0c07f0ef721051e55
+Filename: python3-multiprocessing_3.11.14-r1_mipsel_24kc.ipk
+Size: 174972
+SHA256sum: 9c9b9264c7f1b9df7e36ff7e4b67eaeab13b7521273ad9f8d920c157897cd8d2
 Description:  Python is an interpreted, interactive, object-oriented programming
  language. It incorporates modules, exceptions, dynamic typing, very high
  level dynamic data types, and classes. It supports multiple programming
@@ -1503,22 +1504,22 @@ Description:  Python is an interpreted, interactive, object-oriented programming
  This package contains the multiprocessing module.
 
 Package: python3-ncurses
-Version: 3.11.10-r1
+Version: 3.11.14-r1
 Depends: libc, python3-light, libncursesw6
 Source: feeds/packages/lang/python/python3
 SourceName: python3
 License: Python-2.0.1 0BSD
 LicenseFiles: LICENSE Doc/copyright.rst Doc/license.rst Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi_osx/LICENSE Modules/expat/COPYING
 Section: lang
-SourceDateEpoch: 1756500878
+SourceDateEpoch: 1773474815
 URL: https://www.python.org/
 CPE-ID: cpe:/a:python:python
 Maintainer: Jeffery To <jeffery.to@gmail.com>
 Architecture: mipsel_24kc
 Installed-Size: 245760
-Filename: python3-ncurses_3.11.10-r1_mipsel_24kc.ipk
-Size: 46621
-SHA256sum: 71d75942949edacbca44a13de6f4060d09b2d751f6155f85c6752497b6987a54
+Filename: python3-ncurses_3.11.14-r1_mipsel_24kc.ipk
+Size: 46612
+SHA256sum: 65d266cccb4af17606b9d67ed5d9185abdbf0ce3d721d704002d26330a5342eb
 Description:  Python is an interpreted, interactive, object-oriented programming
  language. It incorporates modules, exceptions, dynamic typing, very high
  level dynamic data types, and classes. It supports multiple programming
@@ -1533,22 +1534,22 @@ Description:  Python is an interpreted, interactive, object-oriented programming
  This package contains the ncurses module.
 
 Package: python3-openssl
-Version: 3.11.10-r1
+Version: 3.11.14-r1
 Depends: libc, python3-light, libopenssl3, ca-certs
 Source: feeds/packages/lang/python/python3
 SourceName: python3
 License: Python-2.0.1 0BSD
 LicenseFiles: LICENSE Doc/copyright.rst Doc/license.rst Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi_osx/LICENSE Modules/expat/COPYING
 Section: lang
-SourceDateEpoch: 1756500878
+SourceDateEpoch: 1773474815
 URL: https://www.python.org/
 CPE-ID: cpe:/a:python:python
 Maintainer: Jeffery To <jeffery.to@gmail.com>
 Architecture: mipsel_24kc
 Installed-Size: 235520
-Filename: python3-openssl_3.11.10-r1_mipsel_24kc.ipk
-Size: 67499
-SHA256sum: 75d2409f5d6153d1ddc381cfa23d9884069d0bdb135f5d10a69367e8253a55bf
+Filename: python3-openssl_3.11.14-r1_mipsel_24kc.ipk
+Size: 67673
+SHA256sum: 6ad2901cf9c285bc245dd3b4467db3f004b4cc19867755c0564242821fd4fc89
 Description:  Python is an interpreted, interactive, object-oriented programming
  language. It incorporates modules, exceptions, dynamic typing, very high
  level dynamic data types, and classes. It supports multiple programming
@@ -1563,22 +1564,22 @@ Description:  Python is an interpreted, interactive, object-oriented programming
  This package contains the ssl module.
 
 Package: python3-pydoc
-Version: 3.11.10-r1
+Version: 3.11.14-r1
 Depends: libc, python3-light
 Source: feeds/packages/lang/python/python3
 SourceName: python3
 License: Python-2.0.1 0BSD
 LicenseFiles: LICENSE Doc/copyright.rst Doc/license.rst Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi_osx/LICENSE Modules/expat/COPYING
 Section: lang
-SourceDateEpoch: 1756500878
+SourceDateEpoch: 1773474815
 URL: https://www.python.org/
 CPE-ID: cpe:/a:python:python
 Maintainer: Jeffery To <jeffery.to@gmail.com>
 Architecture: mipsel_24kc
 Installed-Size: 768000
-Filename: python3-pydoc_3.11.10-r1_mipsel_24kc.ipk
-Size: 252583
-SHA256sum: 4b9ebd1d8178f7e3eba97ea2c8fede1d3c6bdb0705d3a564caaab3dabb920c47
+Filename: python3-pydoc_3.11.14-r1_mipsel_24kc.ipk
+Size: 252597
+SHA256sum: f352c495fe7afa6fc67912e9693e5a90c36fa4349ee8f76494e9a034db570a61
 Description:  Python is an interpreted, interactive, object-oriented programming
  language. It incorporates modules, exceptions, dynamic typing, very high
  level dynamic data types, and classes. It supports multiple programming
@@ -1593,22 +1594,22 @@ Description:  Python is an interpreted, interactive, object-oriented programming
  This package contains the pydoc module.
 
 Package: python3-readline
-Version: 3.11.10-r1
+Version: 3.11.14-r1
 Depends: libc, python3-light, libreadline8
 Source: feeds/packages/lang/python/python3
 SourceName: python3
 License: Python-2.0.1 0BSD
 LicenseFiles: LICENSE Doc/copyright.rst Doc/license.rst Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi_osx/LICENSE Modules/expat/COPYING
 Section: lang
-SourceDateEpoch: 1756500878
+SourceDateEpoch: 1773474815
 URL: https://www.python.org/
 CPE-ID: cpe:/a:python:python
 Maintainer: Jeffery To <jeffery.to@gmail.com>
 Architecture: mipsel_24kc
 Installed-Size: 71680
-Filename: python3-readline_3.11.10-r1_mipsel_24kc.ipk
-Size: 9906
-SHA256sum: 4e67d2baf76ebcdfea972747dd205afb9941f6a5246f8ac9c39a6ae257143654
+Filename: python3-readline_3.11.14-r1_mipsel_24kc.ipk
+Size: 9900
+SHA256sum: 2a967c896e439b104107faf44351cdb4d6ac685986056fd4dc35fe6ac93ddba9
 Description:  Python is an interpreted, interactive, object-oriented programming
  language. It incorporates modules, exceptions, dynamic typing, very high
  level dynamic data types, and classes. It supports multiple programming
@@ -1623,22 +1624,22 @@ Description:  Python is an interpreted, interactive, object-oriented programming
  This package contains the readline module.
 
 Package: python3-sqlite3
-Version: 3.11.10-r1
+Version: 3.11.14-r1
 Depends: libc, python3-light, libsqlite3-0
 Source: feeds/packages/lang/python/python3
 SourceName: python3
 License: Python-2.0.1 0BSD
 LicenseFiles: LICENSE Doc/copyright.rst Doc/license.rst Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi_osx/LICENSE Modules/expat/COPYING
 Section: lang
-SourceDateEpoch: 1756500878
+SourceDateEpoch: 1773474815
 URL: https://www.python.org/
 CPE-ID: cpe:/a:python:python
 Maintainer: Jeffery To <jeffery.to@gmail.com>
 Architecture: mipsel_24kc
 Installed-Size: 153600
-Filename: python3-sqlite3_3.11.10-r1_mipsel_24kc.ipk
-Size: 37375
-SHA256sum: 5b32a47ce25268f95f81de3291d6b823568642bbdfe6fa7740c22d6d01af5e66
+Filename: python3-sqlite3_3.11.14-r1_mipsel_24kc.ipk
+Size: 37356
+SHA256sum: 037d778a8c6298bd7efbb3dce4b048dbd9bf97a29cac5ee07060b04aa675eaa7
 Description:  Python is an interpreted, interactive, object-oriented programming
  language. It incorporates modules, exceptions, dynamic typing, very high
  level dynamic data types, and classes. It supports multiple programming
@@ -1653,22 +1654,22 @@ Description:  Python is an interpreted, interactive, object-oriented programming
  This package contains the sqlite3 module.
 
 Package: python3-unittest
-Version: 3.11.10-r1
+Version: 3.11.14-r1
 Depends: libc, python3-light
 Source: feeds/packages/lang/python/python3
 SourceName: python3
 License: Python-2.0.1 0BSD
 LicenseFiles: LICENSE Doc/copyright.rst Doc/license.rst Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi_osx/LICENSE Modules/expat/COPYING
 Section: lang
-SourceDateEpoch: 1756500878
+SourceDateEpoch: 1773474815
 URL: https://www.python.org/
 CPE-ID: cpe:/a:python:python
 Maintainer: Jeffery To <jeffery.to@gmail.com>
 Architecture: mipsel_24kc
 Installed-Size: 348160
-Filename: python3-unittest_3.11.10-r1_mipsel_24kc.ipk
-Size: 131781
-SHA256sum: 256893b562160e5b865f4ef7c26e81dc60faf1cda714b68a87877c279d5a088f
+Filename: python3-unittest_3.11.14-r1_mipsel_24kc.ipk
+Size: 131783
+SHA256sum: 8d1ae827880c2a830dc741d606f5b961267b303558c5ad5d50293592207aac6e
 Description:  Python is an interpreted, interactive, object-oriented programming
  language. It incorporates modules, exceptions, dynamic typing, very high
  level dynamic data types, and classes. It supports multiple programming
@@ -1683,22 +1684,22 @@ Description:  Python is an interpreted, interactive, object-oriented programming
  This package contains the unittest module.
 
 Package: python3-urllib
-Version: 3.11.10-r1
+Version: 3.11.14-r1
 Depends: libc, python3-light, python3-email
 Source: feeds/packages/lang/python/python3
 SourceName: python3
 License: Python-2.0.1 0BSD
 LicenseFiles: LICENSE Doc/copyright.rst Doc/license.rst Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi_osx/LICENSE Modules/expat/COPYING
 Section: lang
-SourceDateEpoch: 1756500878
+SourceDateEpoch: 1773474815
 URL: https://www.python.org/
 CPE-ID: cpe:/a:python:python
 Maintainer: Jeffery To <jeffery.to@gmail.com>
 Architecture: mipsel_24kc
 Installed-Size: 215040
-Filename: python3-urllib_3.11.10-r1_mipsel_24kc.ipk
-Size: 85648
-SHA256sum: 8c095da44613e2937a91575b86c6a5ed94a7a6afe60366b52b9dec52dae220bc
+Filename: python3-urllib_3.11.14-r1_mipsel_24kc.ipk
+Size: 85754
+SHA256sum: 96ee77589a8d4732725378a50bf9188e92d30daca55a53587b7557c80f1c7068
 Description:  Python is an interpreted, interactive, object-oriented programming
  language. It incorporates modules, exceptions, dynamic typing, very high
  level dynamic data types, and classes. It supports multiple programming
@@ -1713,22 +1714,22 @@ Description:  Python is an interpreted, interactive, object-oriented programming
  This package contains the URL handling modules.
 
 Package: python3-uuid
-Version: 3.11.10-r1
+Version: 3.11.14-r1
 Depends: libc, python3-light, libuuid1
 Source: feeds/packages/lang/python/python3
 SourceName: python3
 License: Python-2.0.1 0BSD
 LicenseFiles: LICENSE Doc/copyright.rst Doc/license.rst Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi_osx/LICENSE Modules/expat/COPYING
 Section: lang
-SourceDateEpoch: 1756500878
+SourceDateEpoch: 1773474815
 URL: https://www.python.org/
 CPE-ID: cpe:/a:python:python
 Maintainer: Jeffery To <jeffery.to@gmail.com>
 Architecture: mipsel_24kc
 Installed-Size: 112640
-Filename: python3-uuid_3.11.10-r1_mipsel_24kc.ipk
-Size: 16591
-SHA256sum: 8e050599fc914578157ffbc913df927b76d2deeea88b11c2d31d07625aea1681
+Filename: python3-uuid_3.11.14-r1_mipsel_24kc.ipk
+Size: 16596
+SHA256sum: e430de71b616c8f223df8dd9028b565d6eb8a4ad2f325918202be4d5627d3cbf
 Description:  Python is an interpreted, interactive, object-oriented programming
  language. It incorporates modules, exceptions, dynamic typing, very high
  level dynamic data types, and classes. It supports multiple programming
@@ -1743,22 +1744,22 @@ Description:  Python is an interpreted, interactive, object-oriented programming
  This package contains the uuid module.
 
 Package: python3-xml
-Version: 3.11.10-r1
+Version: 3.11.14-r1
 Depends: libc, python3-light, python3-urllib
 Source: feeds/packages/lang/python/python3
 SourceName: python3
 License: Python-2.0.1 0BSD
 LicenseFiles: LICENSE Doc/copyright.rst Doc/license.rst Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi_osx/LICENSE Modules/expat/COPYING
 Section: lang
-SourceDateEpoch: 1756500878
+SourceDateEpoch: 1773474815
 URL: https://www.python.org/
 CPE-ID: cpe:/a:python:python
 Maintainer: Jeffery To <jeffery.to@gmail.com>
 Architecture: mipsel_24kc
 Installed-Size: 737280
-Filename: python3-xml_3.11.10-r1_mipsel_24kc.ipk
-Size: 265838
-SHA256sum: fc311b75d6757a9cce01c05f012669a1977690c8fcfb255668c151cfd11449b0
+Filename: python3-xml_3.11.14-r1_mipsel_24kc.ipk
+Size: 268070
+SHA256sum: ff3305a1e6d56b196b060bebf9d960b803660d97aa16776ad419f9c68f113867
 Description:  Python is an interpreted, interactive, object-oriented programming
  language. It incorporates modules, exceptions, dynamic typing, very high
  level dynamic data types, and classes. It supports multiple programming
@@ -1773,22 +1774,22 @@ Description:  Python is an interpreted, interactive, object-oriented programming
  This package contains the XML modules.
 
 Package: python3
-Version: 3.11.10-r1
+Version: 3.11.14-r1
 Depends: libc, python3-light, python3-asyncio, python3-cgi, python3-cgitb, python3-codecs, python3-ctypes, python3-dbm, python3-decimal, python3-distutils, python3-email, python3-logging, python3-lzma, python3-multiprocessing, python3-ncurses, python3-openssl, python3-pydoc, python3-readline, python3-sqlite3, python3-unittest, python3-urllib, python3-uuid, python3-xml
 Source: feeds/packages/lang/python/python3
 SourceName: python3
 License: Python-2.0.1 0BSD
 LicenseFiles: LICENSE Doc/copyright.rst Doc/license.rst Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi_osx/LICENSE Modules/expat/COPYING
 Section: lang
-SourceDateEpoch: 1756500878
+SourceDateEpoch: 1773474815
 URL: https://www.python.org/
 CPE-ID: cpe:/a:python:python
 Maintainer: Jeffery To <jeffery.to@gmail.com>
 Architecture: mipsel_24kc
 Installed-Size: 10240
-Filename: python3_3.11.10-r1_mipsel_24kc.ipk
-Size: 1461
-SHA256sum: 52aa4f39db45f5376fd0c3a0eabd046f79f63e5392448cdb294aad620843d291
+Filename: python3_3.11.14-r1_mipsel_24kc.ipk
+Size: 1462
+SHA256sum: 12733eaafbd8a62669f0d31a59d1213b50c3d152b3f0006c4d79174378041b5b
 Description:  Python is an interpreted, interactive, object-oriented programming
  language. It incorporates modules, exceptions, dynamic typing, very high
  level dynamic data types, and classes. It supports multiple programming
@@ -1811,14 +1812,14 @@ SourceName: qrencode
 License: LGPL-2.1-or-later
 LicenseFiles: COPYING
 Section: utils
-SourceDateEpoch: 1756500878
+SourceDateEpoch: 1773474815
 URL: http://fukuchi.org/works/qrencode/
 Maintainer: Jonathan Bennett <JBennett@incomsystems.biz>
 Architecture: mipsel_24kc
 Installed-Size: 71680
 Filename: qrencode_4.1.1-r1_mipsel_24kc.ipk
-Size: 9913
-SHA256sum: 6afdf099990b6c3c97e304a6020332c7fcb7e6489f744890dc50e01b4c40e4f7
+Size: 9907
+SHA256sum: 95280f321ddf40532c4f7c283e69d92313e68f7810c4abb0e720fb91b17ff15f
 Description:  Qrencode is a C program for encoding data in a QR Code symbol,
  a kind of 2D symbology that can be scanned by handy terminals such
  as a mobile phone with CCD. The capacity of QR Code is up to 7000
@@ -1832,32 +1833,32 @@ SourceName: rtl-sdr
 License: GPL-2.0-or-later
 LicenseFiles: COPYING
 Section: utils
-SourceDateEpoch: 1756500878
+SourceDateEpoch: 1773474815
 URL: http://sdr.osmocom.org/trac/wiki/rtl-sdr
 Maintainer: Vasilis Tsiligiannis <b_tsiligiannis@silverton.gr>
 Architecture: mipsel_24kc
 Installed-Size: 542720
 Filename: rtl-sdr_2.0.1-r1_mipsel_24kc.ipk
-Size: 56884
-SHA256sum: e082b2aa17a8eb198ccb359db0d741aa4605b3192118df7121af28e60179040e
+Size: 56877
+SHA256sum: 4484a82de60242a197f6914811edccb0026459d685bd798ae44c23132859225d
 Description:  rtl-sdr allows DVB-T dongles based on the Realtek RTL2832U to be used as
  an inexpensive SDR.
  
  This package contains the utilities and daemons.
 
 Package: zoneinfo-core
-Version: 2025b-r1
+Version: 2025c-r1
 Depends: libc
 Source: feeds/packages/utils/zoneinfo
 SourceName: zoneinfo
 License: Public-Domain
 Section: utils
-SourceDateEpoch: 1756500878
+SourceDateEpoch: 1773474815
 Maintainer: Vladimir Ulrich <admin@evl.su>
 Architecture: mipsel_24kc
 Installed-Size: 112640
-Filename: zoneinfo-core_2025b-r1_mipsel_24kc.ipk
-Size: 24585
-SHA256sum: f46623534fee415984f907f7d1777f27fb346fe5d3109304685eb04816f37487
+Filename: zoneinfo-core_2025c-r1_mipsel_24kc.ipk
+Size: 24582
+SHA256sum: 2c47e54e0446c282d711fea2bfa5b9e0a6ded08fb9847db2df4f94896adc01e7
 Description:  Zone Information (core)
 

@@ -10,8 +10,8 @@ URL: http://openwrt.org/
 Architecture: aarch64_cortex-a72
 Installed-Size: 266240
 Filename: base-files_5~d9340319c6_aarch64_cortex-a72.ipk
-Size: 51580
-SHA256sum: c894d79d861c891a58295e29e2ce088cbb7c8403b4d8e741f2d756cb270731ec
+Size: 51582
+SHA256sum: 2aa56b102f1f799f8f64e3742f6b24fc3806157090efcb2811bc7fc83f9a0785
 Description:  This package contains a base filesystem and system scripts for OpenWrt.
 
 Package: bcm27xx-gpu-fw
@@ -741,14 +741,14 @@ SourceName: batman-adv
 License: GPL-2.0-only MIT
 LicenseFiles: LICENSES/preferred/GPL-2.0 LICENSES/preferred/MIT
 Section: kernel
-SourceDateEpoch: 1773412763
+SourceDateEpoch: 1773711185
 URL: https://www.open-mesh.org/
 Maintainer: Simon Wunderlich <sw@simonwunderlich.de>
 Architecture: aarch64_cortex-a72
 Installed-Size: 327680
 Filename: kmod-batman-adv_6.6.102.2025.4-r2_aarch64_cortex-a72.ipk
-Size: 102952
-SHA256sum: 72afcb68d24e26e8ac2566f829948ee739dda59c1d3b51eb85f27dea9028ad36
+Size: 102963
+SHA256sum: 11534532fcab868b44bcb41a0107d839efcbf50c7d049ff5a928f85acd49082a
 Description:  B.A.T.M.A.N. (better approach to mobile ad-hoc networking) is
  a routing protocol for multi-hop ad-hoc mesh networks. The
  networks may be wired or wireless. See
@@ -4161,13 +4161,13 @@ SourceName: morse_driver
 License: GPLv2
 LicenseFiles: LICENSE
 Section: kernel
-SourceDateEpoch: 1773412763
+SourceDateEpoch: 1773711185
 Maintainer: Morse Micro
 Architecture: aarch64_cortex-a72
 Installed-Size: 737280
 Filename: kmod-morse_6.6.102.1.16.4-gateworks-r1_aarch64_cortex-a72.ipk
-Size: 236161
-SHA256sum: 6957a5257c2d24005b57f327d4e9d7a3fed17ac2045284f4d89b30766ad8c30f
+Size: 236174
+SHA256sum: a6f4ae40df3faf0ffe57adb6d21d5b96e6c58309f0bd2ebe581a74f368cead11
 Description:  Morse Micro WIFI HaLow driver
 
 Package: kmod-mt76-connac
@@ -7843,13 +7843,13 @@ Source: feeds/packages/net/siit
 SourceName: siit
 License: GPL-2.0-or-later
 Section: kernel
-SourceDateEpoch: 1756500878
+SourceDateEpoch: 1773474815
 Maintainer: Vladimir Ulrich <admin@evl.su>
 Architecture: aarch64_cortex-a72
 Installed-Size: 20480
 Filename: kmod-siit_6.6.102.1.2-r4_aarch64_cortex-a72.ipk
-Size: 5980
-SHA256sum: 3823422a718808f71641d56227e26339810c75758116f99974d68fd21f8392da
+Size: 5983
+SHA256sum: 693627b3408e3d34f25b1f72b547ad08701590ffa11a194a3f93e8a23cc3a6ec
 Description:  Stateless IP ICMP Translation Algorithm
 
 Package: kmod-sis190
@@ -9819,14 +9819,14 @@ Source: feeds/packages/libs/dmx_usb_module
 SourceName: dmx_usb_module
 License: GPL-2.0-only
 Section: kernel
-SourceDateEpoch: 1756500878
+SourceDateEpoch: 1773474815
 URL: http://www.erwinrol.com/open-dmx-usb-linux-driver/
 Maintainer: Martijn Zilverschoon <martijn@friedzombie.com>
 Architecture: aarch64_cortex-a72
 Installed-Size: 30720
 Filename: kmod-usb-serial-dmx_usb_module_6.6.102.19.12.1-r2_aarch64_cortex-a72.ipk
-Size: 6335
-SHA256sum: 619f22209dec2de16975dae6a53e6379765616dd0ac4663df46c2569d56134cf
+Size: 6330
+SHA256sum: d879145a8c3ee2a07f98392cfa1349b001220692db69a82cc4d86beeb5b0cefa
 Description:  Open DMX USB is an open USB to DMX dongle hardware design developed by Enttec.
  The Open in Open DMX USB refers to the fact that everybody is free to use the
  design and produce its own USB DMX Dongle without paying any licenses.
@@ -10140,14 +10140,14 @@ SourceName: usb-serial-xr_usb_serial_common
 License: GPL-2.0-or-later
 LicenseFiles: LICENSE
 Section: kernel
-SourceDateEpoch: 1756500878
+SourceDateEpoch: 1773474815
 URL: https://www.exar.com/content/document.ashx?id=21651
 Maintainer: Daniel Golle <daniel@makrotopia.org>
 Architecture: aarch64_cortex-a72
 Installed-Size: 51200
 Filename: kmod-usb-serial-xr_usb_serial_common_6.6.102.2023.03.21~90ad5301-r3_aarch64_cortex-a72.ipk
-Size: 14551
-SHA256sum: ee91e57c2b82f8433d4a3c518ea3b71f4429a85f49feb98d368491656c972d40
+Size: 14562
+SHA256sum: 6f11f0910769297bd69a0b826f65f6ffa98cfa12cc9c93252decfd54548669a0
 Description:  Support for Exar USB to RS-485/RS-422
 
 Package: kmod-usb-serial
@@ -10401,14 +10401,14 @@ Depends: kernel (=6.6.102~9207b7ec6d63d64c0dbda9c8fcd1377c-r1), kmod-video-core
 Source: feeds/packages/kernel/v4l2loopback
 SourceName: v4l2loopback
 Section: kernel
-SourceDateEpoch: 1756500878
+SourceDateEpoch: 1773474815
 CPE-ID: cpe:/o:v4l2loopback_project:v4l2loopback
 Maintainer: Michel Promonet <michel.promonet@free.fr>
 Architecture: aarch64_cortex-a72
 Installed-Size: 81920
 Filename: kmod-v4l2loopback_6.6.102.0.13.2-r1_aarch64_cortex-a72.ipk
-Size: 22426
-SHA256sum: 70fd08ebbe4354e44e016ff8fcf91cc9af63cbd44929cee34e7f65349a411120
+Size: 22410
+SHA256sum: a57befb1477e4162a43f199e04d5c6d839622dea2160224bfcb62dce94b82bc8
 Description:  This module allows you to create "virtual video devices".
  Normal (v4l2) applications will read these devices as if
  they were ordinary video devices, but the video will not be

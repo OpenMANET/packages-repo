@@ -10,8 +10,8 @@ URL: http://openwrt.org/
 Architecture: mipsel_24kc
 Installed-Size: 337920
 Filename: base-files_5~d9340319c6_mipsel_24kc.ipk
-Size: 66298
-SHA256sum: 9f30075f99daef40ec976c1195765f67c4a3f587e99b23135f6d1963787de0ac
+Size: 66315
+SHA256sum: cb3eebc99707c03897d601c1fe32574cb47fc8497072eb0fe0a5d5a86123f658
 Description:  This package contains a base filesystem and system scripts for OpenWrt.
 
 Package: block-mount
@@ -546,14 +546,14 @@ SourceName: batman-adv
 License: GPL-2.0-only MIT
 LicenseFiles: LICENSES/preferred/GPL-2.0 LICENSES/preferred/MIT
 Section: kernel
-SourceDateEpoch: 1773412763
+SourceDateEpoch: 1773711185
 URL: https://www.open-mesh.org/
 Maintainer: Simon Wunderlich <sw@simonwunderlich.de>
 Architecture: mipsel_24kc
 Installed-Size: 276480
 Filename: kmod-batman-adv_6.6.102.2025.4-r2_mipsel_24kc.ipk
-Size: 103743
-SHA256sum: 401d2735caa5a384eeb52b8c488c2471bdb551def5ebb9afeccd170d197bb5f1
+Size: 103724
+SHA256sum: 10335e1da36293409d215f2207d46847874c0abc080d09d74aeeb2cd2207af32
 Description:  B.A.T.M.A.N. (better approach to mobile ad-hoc networking) is
  a routing protocol for multi-hop ad-hoc mesh networks. The
  networks may be wired or wireless. See
@@ -3838,13 +3838,13 @@ SourceName: morse_driver
 License: GPLv2
 LicenseFiles: LICENSE
 Section: kernel
-SourceDateEpoch: 1773412763
+SourceDateEpoch: 1773711185
 Maintainer: Morse Micro
 Architecture: mipsel_24kc
 Installed-Size: 563200
 Filename: kmod-morse_6.6.102.1.16.4-gateworks-r1_mipsel_24kc.ipk
-Size: 236077
-SHA256sum: 4510169ce02255a54cbb6363e2b93fd133ac5075c07381e7e3f145c22ba789e4
+Size: 236078
+SHA256sum: 7e12e7ae184fae06959eb8b8261e556fb81f0975534a736e6b0a41cc03f24a2a
 Description:  Morse Micro WIFI HaLow driver
 
 Package: kmod-mt76-connac
@@ -7450,13 +7450,13 @@ Source: feeds/packages/net/siit
 SourceName: siit
 License: GPL-2.0-or-later
 Section: kernel
-SourceDateEpoch: 1756500878
+SourceDateEpoch: 1773474815
 Maintainer: Vladimir Ulrich <admin@evl.su>
 Architecture: mipsel_24kc
 Installed-Size: 20480
 Filename: kmod-siit_6.6.102.1.2-r4_mipsel_24kc.ipk
-Size: 6141
-SHA256sum: 74949a5c52b740b2055bb5be8646a3aeecadcd3ae1e499d32333bd8a649d8dcc
+Size: 6146
+SHA256sum: b6e13278e7973892263359b69c5782a08fcf9c61761246604275b6ca9a323723
 Description:  Stateless IP ICMP Translation Algorithm
 
 Package: kmod-sis190
@@ -9184,14 +9184,14 @@ Source: feeds/packages/libs/dmx_usb_module
 SourceName: dmx_usb_module
 License: GPL-2.0-only
 Section: kernel
-SourceDateEpoch: 1756500878
+SourceDateEpoch: 1773474815
 URL: http://www.erwinrol.com/open-dmx-usb-linux-driver/
 Maintainer: Martijn Zilverschoon <martijn@friedzombie.com>
 Architecture: mipsel_24kc
 Installed-Size: 20480
 Filename: kmod-usb-serial-dmx_usb_module_6.6.102.19.12.1-r2_mipsel_24kc.ipk
-Size: 6080
-SHA256sum: c27a922f479d7959e6a7e99cd8eacb6a273cdc6b33c1f7ed3d3d080a2b518a9d
+Size: 6088
+SHA256sum: 2aebf261f5dd76f9bb6cd8c03074bd8e13dec513d34313eeb35ac1ffef84bbe0
 Description:  Open DMX USB is an open USB to DMX dongle hardware design developed by Enttec.
  The Open in Open DMX USB refers to the fact that everybody is free to use the
  design and produce its own USB DMX Dongle without paying any licenses.
@@ -9473,14 +9473,14 @@ SourceName: usb-serial-xr_usb_serial_common
 License: GPL-2.0-or-later
 LicenseFiles: LICENSE
 Section: kernel
-SourceDateEpoch: 1756500878
+SourceDateEpoch: 1773474815
 URL: https://www.exar.com/content/document.ashx?id=21651
 Maintainer: Daniel Golle <daniel@makrotopia.org>
 Architecture: mipsel_24kc
 Installed-Size: 40960
 Filename: kmod-usb-serial-xr_usb_serial_common_6.6.102.2023.03.21~90ad5301-r3_mipsel_24kc.ipk
-Size: 13283
-SHA256sum: 99b7ade134fa4dc13f416c583e013bd52fa125b1e96a48f9375bb72de8882a8b
+Size: 13284
+SHA256sum: 9460bf7cdc3c6307faf05aaa58a86fc7c9439219bd5f50da371051c506f3c67f
 Description:  Support for Exar USB to RS-485/RS-422
 
 Package: kmod-usb-serial
@@ -9750,14 +9750,14 @@ Depends: kernel (=6.6.102~d516dde5a4b7c105bdeaedad11bbc4b6-r1), kmod-video-core
 Source: feeds/packages/kernel/v4l2loopback
 SourceName: v4l2loopback
 Section: kernel
-SourceDateEpoch: 1756500878
+SourceDateEpoch: 1773474815
 CPE-ID: cpe:/o:v4l2loopback_project:v4l2loopback
 Maintainer: Michel Promonet <michel.promonet@free.fr>
 Architecture: mipsel_24kc
 Installed-Size: 61440
 Filename: kmod-v4l2loopback_6.6.102.0.13.2-r1_mipsel_24kc.ipk
-Size: 22586
-SHA256sum: 70aeef039822a1d2da1ffdb9f690270fda21bf7892b8094842a01b299f1b28d1
+Size: 22597
+SHA256sum: d5f52b94b7cc156914749b8656940c5e8e886638285b628feb456c9e94773c6a
 Description:  This module allows you to create "virtual video devices".
  Normal (v4l2) applications will read these devices as if
  they were ordinary video devices, but the video will not be
