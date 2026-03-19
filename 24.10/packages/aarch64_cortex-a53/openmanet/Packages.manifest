@@ -10,8 +10,8 @@ Maintainer: info@openmanet.net
 Architecture: aarch64_cortex-a53
 Installed-Size: 4966400
 Filename: adsbtocot_1-r2_aarch64_cortex-a53.ipk
-Size: 874516
-SHA256sum: 5be4b4561b52a60dc42e303580e5012ae4a73bfc4b1bec2b85134523745044e5
+Size: 874513
+SHA256sum: ec5642a69411d79678329b2a96d0787562e2b4c0a569af1c334245c2f4ee3847
 Description:  Installs ADSBCOT from PyPI and provides a procd service to forward ADS-B tracks
  from dump1090 to CoT/TAK (multicast or unicast).
 
@@ -474,8 +474,8 @@ Maintainer: OpenWrt LuCI community
 Architecture: all
 Installed-Size: 2498560
 Filename: luci-theme-openmanetargon_git-26.076.05585-f38f030_all.ipk
-Size: 2311893
-SHA256sum: 7425fe4ac34dcdc512db053bd0573a7278284feacf048819c88253db9b5d4067
+Size: 2311887
+SHA256sum: a1b5469aa530698438d91244d7b98b829a6a93dc98698dd7dd452999f7d15ff9
 Description:  LuCI OpenMANET Argon Theme
 
 Package: mediamtx
