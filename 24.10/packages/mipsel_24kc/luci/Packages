@@ -70,8 +70,8 @@ URL: https://github.com/openwrt/luci
 Architecture: mipsel_24kc
 Installed-Size: 573440
 Filename: luci-base_git-25.233.06936-53e6515_mipsel_24kc.ipk
-Size: 130754
-SHA256sum: 3ef6f89b7177a98a481bfc0c4b324eeb3b22bd5cac37acc30e4c084ce9659b71
+Size: 130755
+SHA256sum: 2449b5819a643a829fea58f202be81be2a5542fa1275f283bfc5ece304167c83
 Description:  LuCI core runtime
 
 Package: luci-lib-base

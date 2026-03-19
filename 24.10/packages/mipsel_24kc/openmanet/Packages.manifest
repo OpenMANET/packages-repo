@@ -10,8 +10,8 @@ Maintainer: info@openmanet.net
 Architecture: mipsel_24kc
 Installed-Size: 4966400
 Filename: adsbtocot_1-r2_mipsel_24kc.ipk
-Size: 874504
-SHA256sum: 6ea4f2e27c81e2dc60b5b36c91cf01cf6d6a76358f968dc3f2a768eeb8ba7884
+Size: 874513
+SHA256sum: f79aa5eb09fc8535220a56cd37a0092cc4adbc4145ae73f6ceb9a1286c531b1b
 Description:  Installs ADSBCOT from PyPI and provides a procd service to forward ADS-B tracks
  from dump1090 to CoT/TAK (multicast or unicast).
 
@@ -478,8 +478,8 @@ Maintainer: OpenWrt LuCI community
 Architecture: all
 Installed-Size: 2498560
 Filename: luci-theme-openmanetargon_git-26.076.05585-f38f030_all.ipk
-Size: 2311889
-SHA256sum: 7a561a0354308336674ada3a32a454172e3c8dd2dff8cb33f088948e46f153ca
+Size: 2311893
+SHA256sum: 356781df89aa696ea44916ab208853feae6466ac1950ed02c3677bcb1fa305fe
 Description:  LuCI OpenMANET Argon Theme
 
 Package: mediamtx
