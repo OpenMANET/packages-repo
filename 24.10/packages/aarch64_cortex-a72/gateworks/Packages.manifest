@@ -4,32 +4,32 @@ Depends: libc
 Source: feeds/gateworks/gateworks/button-hotplug-gw
 SourceName: button-hotplug-gw
 Section: utils
-SourceDateEpoch: 1757031620
+SourceDateEpoch: 1772583612
 URL: http://trac.gateworks.com/wiki/
 Maintainer: Gateworks Corporation <support@gateworks.com>
 Architecture: aarch64_cortex-a72
 Installed-Size: 10240
 Filename: button-hotplug-gw_1_aarch64_cortex-a72.ipk
-Size: 2060
-SHA256sum: 80ff8174207126a7ec114b010907c5170837a66aa036b1a0a27a26909cb6fe41
+Size: 2059
+SHA256sum: d2c9dad58a33fc56ac555b9ebf37c2e3c9ab8c84a6785aaf6fda00f5891ef418
 Description:  OpenWrt button events are dispatched through the hotplug system to
  the button subsystem. This script and default config adds a handler
  script that can track button-presses and execute handlers configured
  via uci.
 
 Package: gsc-update
-Version: 1.6-r2
+Version: 1.7-r2
 Depends: libc
 Source: feeds/gateworks/gateworks/gsc-update
 SourceName: gsc-update
 Section: base
-SourceDateEpoch: 1757031620
+SourceDateEpoch: 1772583612
 Maintainer: Gateworks Corporation <support@gateworks.com>
 Architecture: aarch64_cortex-a72
 Installed-Size: 81920
-Filename: gsc-update_1.6-r2_aarch64_cortex-a72.ipk
-Size: 6577
-SHA256sum: 50badc3352c3195530b6bcf3619c2325f1e03a293768419f754b512f3e68da67
+Filename: gsc-update_1.7-r2_aarch64_cortex-a72.ipk
+Size: 7732
+SHA256sum: 9e430a77ec2463ce639d961634043f01c292ec535f7d585abbc12cf3efd5d543
 Description:  Gateworks System Controller Firmware Update Application
 
 Package: gwsoc
@@ -38,13 +38,13 @@ Depends: libc, hidapi, libusb-1.0-0, librt
 Source: feeds/gateworks/gateworks/gwsoc
 SourceName: gwsoc
 Section: utils
-SourceDateEpoch: 1757031620
+SourceDateEpoch: 1772583612
 Maintainer: Gateworks Corporation <support@gateworks.com>
 Architecture: aarch64_cortex-a72
 Installed-Size: 71680
 Filename: gwsoc_1.0-r1_aarch64_cortex-a72.ipk
 Size: 8356
-SHA256sum: c386af611d9268abfa4f73f9a464b0b5b665c28373574c61514554c78c23717c
+SHA256sum: 6f0d12ff3e63f34f9214201f027d20ad30d6984854b1d3b6e2956f59d9d7f2a8
 Description:  Utility for communicating with Gateworks GWSoC family of products
  such as the GW16113.
 

@@ -10,8 +10,8 @@ URL: http://openwrt.org/
 Architecture: aarch64_cortex-a53
 Installed-Size: 266240
 Filename: base-files_5~d9340319c6_aarch64_cortex-a53.ipk
-Size: 51583
-SHA256sum: 3344716a5e2191f17c829b3244b8b53feb86015f5384fc9c0a9cc3e7e56a9065
+Size: 51581
+SHA256sum: afc137589fbcf27aab1ea4bcc906455f15389aa79a19791986fa86355d6beba6
 Description:  This package contains a base filesystem and system scripts for OpenWrt.
 
 Package: bcm27xx-gpu-fw
@@ -741,14 +741,14 @@ SourceName: batman-adv
 License: GPL-2.0-only MIT
 LicenseFiles: LICENSES/preferred/GPL-2.0 LICENSES/preferred/MIT
 Section: kernel
-SourceDateEpoch: 1773711185
+SourceDateEpoch: 1778804995
 URL: https://www.open-mesh.org/
 Maintainer: Simon Wunderlich <sw@simonwunderlich.de>
 Architecture: aarch64_cortex-a53
 Installed-Size: 327680
 Filename: kmod-batman-adv_6.6.102.2025.4-r2_aarch64_cortex-a53.ipk
-Size: 102949
-SHA256sum: a85a94cc4919d04b1d57039c112ce0e1cc5c877e008d0b3736099a54a54b1162
+Size: 103023
+SHA256sum: 9a46b2f25120951b0c80981fc24034192b13d783ccd45dd5500221aac2227210
 Description:  B.A.T.M.A.N. (better approach to mobile ad-hoc networking) is
  a routing protocol for multi-hop ad-hoc mesh networks. The
  networks may be wired or wireless. See
@@ -2117,12 +2117,12 @@ Depends: kernel (=6.6.102~9dce694b0ff341f683f3a2753650e961-r1)
 Source: feeds/gateworks/gateworks/ftdi-usb-spi
 SourceName: ftdi-usb-spi
 Section: kernel
-SourceDateEpoch: 1757031620
+SourceDateEpoch: 1772583612
 Architecture: aarch64_cortex-a53
 Installed-Size: 30720
 Filename: kmod-ftdi-usb-spi_6.6.102.1.0-r1_aarch64_cortex-a53.ipk
-Size: 7343
-SHA256sum: c71078c7a24e313fa1726ae425edb70c3970f6a3ec5135509f90032c9a408f74
+Size: 7341
+SHA256sum: a6c4f5593008027857a439667c022f5a110f916e6455144dbe289f119cc5bc5e
 Description:  This package contains the driver to register a SPI controller and device for GW16146
 
 Package: kmod-fuse
@@ -4145,13 +4145,13 @@ SourceName: morse_driver
 License: GPLv2
 LicenseFiles: LICENSE
 Section: kernel
-SourceDateEpoch: 1773711185
+SourceDateEpoch: 1778804995
 Maintainer: Morse Micro
 Architecture: aarch64_cortex-a53
 Installed-Size: 737280
 Filename: kmod-morse_6.6.102.1.16.4-gateworks-r1_aarch64_cortex-a53.ipk
-Size: 236178
-SHA256sum: 9df0e00aff9336dca54e75c5cb6d66a3e5d9100bd1e8a3716d5ae4c8ebbc3d8d
+Size: 236132
+SHA256sum: 3a688feae57151541b61b35fff3f788d0491fac63618d858d12e1a3760e31a5b
 Description:  Morse Micro WIFI HaLow driver
 
 Package: kmod-mt76-connac

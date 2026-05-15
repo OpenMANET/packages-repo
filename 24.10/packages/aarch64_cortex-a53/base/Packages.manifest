@@ -2134,31 +2134,6 @@ Size: 20587
 SHA256sum: c8dc44018c4b769b09769858ffc062c840f4b948d7446ea78b66e564a3fcf220
 Description:  A command line option parsing library
 
-Package: libreadline8
-Version: 8.2-r2
-Depends: libc, libncursesw6
-Provides: libreadline
-Source: feeds/base/libs/readline
-SourceName: readline
-License: GPL-3.0-or-later
-LicenseFiles: COPYING
-Section: libs
-SourceDateEpoch: 1765570807
-URL: http://cnswww.cns.cwru.edu/php/chet/readline/rltop.html
-ABIVersion: 8
-CPE-ID: cpe:/a:gnu:readline
-Architecture: aarch64_cortex-a53
-Installed-Size: 430080
-Filename: libreadline8_8.2-r2_aarch64_cortex-a53.ipk
-Size: 140994
-SHA256sum: 39af37791f28d83a0c7c8d344004440369c32acbc94c07b62d56ed33e7f26218
-Description:  The Readline library provides a set of functions for use by applications
- that allow users to edit command lines as they are typed in. Both Emacs
- and vi editing modes are available. The Readline library includes
- additional functions to maintain a list of previously-entered command
- lines, to recall and perhaps reedit those lines, and perform csh-like
- history expansion on previous commands.
-
 Package: libsmartcols1
 Version: 2.40.2-r1
 Depends: libc, librt

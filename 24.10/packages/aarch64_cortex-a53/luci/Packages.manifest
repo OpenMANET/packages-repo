@@ -146,8 +146,8 @@ Maintainer: OpenWrt LuCI community
 Architecture: aarch64_cortex-a53
 Installed-Size: 573440
 Filename: luci-base_git-25.233.06936-53e6515_aarch64_cortex-a53.ipk
-Size: 132019
-SHA256sum: 38a3f7530f5e725a1bbba96581551469087bdd57570a11cc0000a2c3955e63f3
+Size: 132020
+SHA256sum: 63db1d79a682d9f47c80c61f71d375d35c3c5923d3cb5fe4e5a7771a975ea662
 Description:  LuCI core runtime
 
 Package: luci-compat
@@ -461,8 +461,8 @@ Maintainer: OpenWrt LuCI community
 Architecture: all
 Installed-Size: 81920
 Filename: luci-theme-bootstrap_git-25.233.06936-53e6515_all.ipk
-Size: 16954
-SHA256sum: 25d524a74b15bf96b88950a5e219b89e9538455a50abe2c38dcdc14f194780c2
+Size: 16959
+SHA256sum: 89bba2ab08e1dc04778554464707c078aeab5b6bdf76d06afd0e2702f1c9c96e
 Description:  Bootstrap Theme (default)
 
 Package: luci

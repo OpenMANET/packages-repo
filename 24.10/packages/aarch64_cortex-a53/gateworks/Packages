@@ -7,21 +7,21 @@ Architecture: aarch64_cortex-a53
 Installed-Size: 10240
 Filename: button-hotplug-gw_1_aarch64_cortex-a53.ipk
 Size: 2061
-SHA256sum: 09e9fa9d1cda3aa4d504d0d28090ebd214394806fc8a86edbc1ad0a24f98996f
+SHA256sum: aa8bd885fa432fbf3845e1c269e367473d8fa7d33e0ac4cad859e52a69b1b4ed
 Description:  OpenWrt button events are dispatched through the hotplug system to
  the button subsystem. This script and default config adds a handler
  script that can track button-presses and execute handlers configured
  via uci.
 
 Package: gsc-update
-Version: 1.6-r2
+Version: 1.7-r2
 Depends: libc
 Section: base
 Architecture: aarch64_cortex-a53
 Installed-Size: 81920
-Filename: gsc-update_1.6-r2_aarch64_cortex-a53.ipk
-Size: 6575
-SHA256sum: 37f28b42482e01b458aae91579824521f269ef6c899f14cb2543be94c32288cb
+Filename: gsc-update_1.7-r2_aarch64_cortex-a53.ipk
+Size: 7724
+SHA256sum: f1ba2030851c156b7a81adcf3fd85f13a36232e567aa18c1b0de1ff9f4d2b688
 Description:  Gateworks System Controller Firmware Update Application
 
 Package: gwsoc
@@ -31,8 +31,8 @@ Section: utils
 Architecture: aarch64_cortex-a53
 Installed-Size: 71680
 Filename: gwsoc_1.0-r1_aarch64_cortex-a53.ipk
-Size: 8347
-SHA256sum: 6defe2205b4f30817fc7adcbed7b6e46a279bd821f91fc2a3c994967882c810d
+Size: 8350
+SHA256sum: 9c02b768b9719e970c9d4a7346d1802111be4fa823ec78789d0de6f4a1e194a1
 Description:  Utility for communicating with Gateworks GWSoC family of products
  such as the GW16113.
 
@@ -43,7 +43,7 @@ Section: base
 Architecture: aarch64_cortex-a53
 Installed-Size: 20480
 Filename: luci-app-gateworks_1.0-r1_aarch64_cortex-a53.ipk
-Size: 2440
-SHA256sum: fcb7e67a62978d8ae71fc6618225089ee3d1c6bc9b6ef7bee29cd6799a1ca604
+Size: 2436
+SHA256sum: 3b37d8ebdba050d4fa197f70ea05359ffeab8ed5f3a8a6ee78e2dcaa338e61e5
 Description:  Luci web-admin support for Gateworks Boards
 

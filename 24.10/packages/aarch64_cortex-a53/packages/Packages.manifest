@@ -367,10 +367,10 @@ URL: https://containerd.io/
 CPE-ID: cpe:/a:linuxfoundation:containerd
 Maintainer: Gerard Ryan <G.M0N3Y.2503@gmail.com>
 Architecture: aarch64_cortex-a53
-Installed-Size: 112148480
+Installed-Size: 116643840
 Filename: containerd_1.7.22-r1_aarch64_cortex-a53.ipk
-Size: 36858915
-SHA256sum: eaa966d0161b221e4d4c30904e4cc5d239c6c8eb81673b110c759647a8a73f47
+Size: 38345149
+SHA256sum: 939ce321ff440d4dc85e592401ef0b5ef643f9d09a53ebc6d4deb31a3d719b49
 Description:  An industry-standard container runtime with an emphasis on simplicity, robustness and portability
 
 Package: dbus
@@ -403,10 +403,10 @@ SourceDateEpoch: 1773474815
 URL: https://www.docker.com/
 Maintainer: Gerard Ryan <G.M0N3Y.2503@gmail.com>
 Architecture: aarch64_cortex-a53
-Installed-Size: 26378240
+Installed-Size: 26716160
 Filename: docker_27.3.1-r1_aarch64_cortex-a53.ipk
-Size: 8619054
-SHA256sum: 2ee28fd9448b86dd829037c8e2f65906cb414fb014127d108b17673f948d64ee
+Size: 8714510
+SHA256sum: 21412d4e58c9082bee9e533e0dae7a11c2985959f7eb80648d21a67cc9f250d4
 Description:  The CLI used in the Docker CE and Docker EE products.
 
 Package: dockerd
@@ -422,29 +422,11 @@ SourceDateEpoch: 1773474815
 URL: https://www.docker.com/
 Maintainer: Gerard Ryan <G.M0N3Y.2503@gmail.com>
 Architecture: aarch64_cortex-a53
-Installed-Size: 62310400
+Installed-Size: 62842880
 Filename: dockerd_27.3.1-r3_aarch64_cortex-a53.ipk
-Size: 20524626
-SHA256sum: 07d9918d5545517f814d798df393ea7aab43d25f105e4f7bf8b28fff4d096c48
+Size: 20694278
+SHA256sum: e29e8cd289cc5267025ef0fd4490b87ebcf234844899015458a1e654e2f48ee0
 Description:  The Docker CE Engine.
-
-Package: dump1090
-Version: 9.0-r3
-Depends: libc, librtlsdr, uhttpd, libncurses6
-Source: feeds/packages/utils/dump1090
-SourceName: dump1090
-License: GPL-2.0-or-later
-LicenseFiles: COPYING LICENSE
-Section: utils
-SourceDateEpoch: 1773474815
-URL: https://github.com/flightaware/dump1090
-Maintainer: Álvaro Fernández Rojas <noltari@gmail.com>
-Architecture: aarch64_cortex-a53
-Installed-Size: 10711040
-Filename: dump1090_9.0-r3_aarch64_cortex-a53.ipk
-Size: 2500460
-SHA256sum: 9c87df1e07724d6dc900892162000c813cb7647643b4effca4a61b34e1ee7783
-Description:  Dump1090 is a Mode S decoder specifically designed for RTLSDR devices.
 
 Package: evtest
 Version: 1.35-r1
@@ -1124,6 +1106,25 @@ Size: 36688
 SHA256sum: d34bf8e5b04f77e828fe4a486ff1c1fcd729ff9cc9adc1c9f3e70ff40890df2c
 Description:  The opusfile library provides seeking, decode, and playback of Opus streams in the Ogg container (.opus files)
 
+Package: libpam
+Version: 1.5.2-r1
+Depends: libc
+Source: feeds/packages/libs/libpam
+SourceName: libpam
+License: BSD-3c GPL
+LicenseFiles: COPYING Copyright
+Section: libs
+SourceDateEpoch: 1773474815
+URL: http://www.kernel.org/pub/linux/libs/pam
+CPE-ID: cpe:/a:linux-pam:linux-pam
+Maintainer: Nikos Mavrogiannopoulos <n.mavrogiannopoulos@gmail.com>
+Architecture: aarch64_cortex-a53
+Installed-Size: 3256320
+Filename: libpam_1.5.2-r1_aarch64_cortex-a53.ipk
+Size: 230579
+SHA256sum: 3de5b68fc534c972d85d9ecacd45229baa9a29960bd633253e678ecb63a3551b
+Description:  The Linux-PAM Pluggable Authentication Modules.
+
 Package: libpci
 Version: 3.14.0-r1
 Depends: libc
@@ -1141,38 +1142,6 @@ Filename: libpci_3.14.0-r1_aarch64_cortex-a53.ipk
 Size: 30113
 SHA256sum: 71a9bef4d2c96ef8c30ab04769311f29a9f1d7594ff3e14de94b23acfa5c20ae
 Description:  Linux PCI Libraries
-
-Package: libpython3-3.11
-Version: 3.11.14-r1
-Depends: libc, libpthread
-Provides: libpython3
-Source: feeds/packages/lang/python/python3
-SourceName: python3
-License: Python-2.0.1 0BSD
-LicenseFiles: LICENSE Doc/copyright.rst Doc/license.rst Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi_osx/LICENSE Modules/expat/COPYING
-Section: lang
-SourceDateEpoch: 1773474815
-URL: https://www.python.org/
-ABIVersion: -3.11
-CPE-ID: cpe:/a:python:python
-Maintainer: Jeffery To <jeffery.to@gmail.com>
-Architecture: aarch64_cortex-a53
-Installed-Size: 4679680
-Filename: libpython3-3.11_3.11.14-r1_aarch64_cortex-a53.ipk
-Size: 1362698
-SHA256sum: 5cd4eea776e75c850a2cee96274b98572911b34fea98d23d4fa01d8e00ff27d2
-Description:  Python is an interpreted, interactive, object-oriented programming
- language. It incorporates modules, exceptions, dynamic typing, very high
- level dynamic data types, and classes. It supports multiple programming
- paradigms beyond object-oriented programming, such as procedural and
- functional programming. Python combines remarkable power with very clear
- syntax. It has interfaces to many system calls and libraries, as well as
- to various window systems, and is extensible in C or C++. It is also
- usable as an extension language for applications that need a
- programmable interface. Finally, Python is portable: it runs on many
- Unix variants including Linux and macOS, and on Windows.
- 
- This package contains only core Python library.
 
 Package: libqrencode
 Version: 4.1.1-r1
@@ -1224,27 +1193,6 @@ Description:  RRD is the Acronym for Round Robin Database. RRD is a system to st
  separate dynamic linked libraries.
  This package contains a shared library, used by other programs.
 
-Package: librtlsdr
-Version: 2.0.1-r1
-Depends: libc, libusb-1.0-0
-Source: feeds/packages/utils/rtl-sdr
-SourceName: rtl-sdr
-License: GPL-2.0-or-later
-LicenseFiles: COPYING
-Section: libs
-SourceDateEpoch: 1773474815
-URL: http://sdr.osmocom.org/trac/wiki/rtl-sdr
-Maintainer: Vasilis Tsiligiannis <b_tsiligiannis@silverton.gr>
-Architecture: aarch64_cortex-a53
-Installed-Size: 71680
-Filename: librtlsdr_2.0.1-r1_aarch64_cortex-a53.ipk
-Size: 24488
-SHA256sum: 14592699cd1b8e0e0dba331463c474cd4d35e41fcaa0510b2356b212b47bd495
-Description:  rtl-sdr allows DVB-T dongles based on the Realtek RTL2832U to be used as
- an inexpensive SDR.
- 
- This package contains the librtlsdr shared library.
-
 Package: libseccomp
 Version: 2.5.5-r1
 Depends: libc
@@ -1263,29 +1211,6 @@ Filename: libseccomp_2.5.5-r1_aarch64_cortex-a53.ipk
 Size: 43918
 SHA256sum: f4095b92c54a834c32d41ad9c506dd149d503bd8fccb5a05b5c4f74b68ffb6c4
 Description:  This package contains the seccomp library.
-
-Package: libsqlite3-0
-Version: 3510200-r1
-Depends: libc, libpthread, zlib
-Provides: libsqlite3
-Source: feeds/packages/libs/sqlite3
-SourceName: sqlite
-License: blessing
-LicenseFiles: LICENSE.md
-Section: libs
-SourceDateEpoch: 1773474815
-URL: https://www.sqlite.org/
-ABIVersion: -0
-CPE-ID: cpe:/a:sqlite:sqlite
-Architecture: aarch64_cortex-a53
-Installed-Size: 1136640
-Filename: libsqlite3-0_3510200-r1_aarch64_cortex-a53.ipk
-Size: 582368
-SHA256sum: af3e05370c86547d0025b9b658da3296dbf70f70e8048b07d95b0da24428b6dc
-Description:  SQLite is a small C library that implements a self-contained, embeddable,
- zero-configuration SQL database engine.
- This package contains the SQLite (v3.x) shared library, used by other
- programs.
 
 Package: libudev-zero
 Version: 1.0.3-r1
@@ -1563,729 +1488,6 @@ Description:  Pipe Viewer is a terminal-based tool for monitoring the progress o
  through, how long it has taken, how near to completion it is, and an
  estimate of how long it will be until completion.
 
-Package: python3-asyncio
-Version: 3.11.14-r1
-Depends: libc, python3-light
-Source: feeds/packages/lang/python/python3
-SourceName: python3
-License: Python-2.0.1 0BSD
-LicenseFiles: LICENSE Doc/copyright.rst Doc/license.rst Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi_osx/LICENSE Modules/expat/COPYING
-Section: lang
-SourceDateEpoch: 1773474815
-URL: https://www.python.org/
-CPE-ID: cpe:/a:python:python
-Maintainer: Jeffery To <jeffery.to@gmail.com>
-Architecture: aarch64_cortex-a53
-Installed-Size: 706560
-Filename: python3-asyncio_3.11.14-r1_aarch64_cortex-a53.ipk
-Size: 248860
-SHA256sum: 513ffd5f99debcd6abf5f361d58a25d91d00726b978f7e54bae358a35f84b39c
-Description:  Python is an interpreted, interactive, object-oriented programming
- language. It incorporates modules, exceptions, dynamic typing, very high
- level dynamic data types, and classes. It supports multiple programming
- paradigms beyond object-oriented programming, such as procedural and
- functional programming. Python combines remarkable power with very clear
- syntax. It has interfaces to many system calls and libraries, as well as
- to various window systems, and is extensible in C or C++. It is also
- usable as an extension language for applications that need a
- programmable interface. Finally, Python is portable: it runs on many
- Unix variants including Linux and macOS, and on Windows.
- 
- This package contains the asyncio module.
-
-Package: python3-base
-Version: 3.11.14-r1
-Depends: libc, libpython3-3.11
-Source: feeds/packages/lang/python/python3
-SourceName: python3
-License: Python-2.0.1 0BSD
-LicenseFiles: LICENSE Doc/copyright.rst Doc/license.rst Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi_osx/LICENSE Modules/expat/COPYING
-Section: lang
-SourceDateEpoch: 1773474815
-URL: https://www.python.org/
-CPE-ID: cpe:/a:python:python
-Maintainer: Jeffery To <jeffery.to@gmail.com>
-Architecture: aarch64_cortex-a53
-Installed-Size: 1126400
-Filename: python3-base_3.11.14-r1_aarch64_cortex-a53.ipk
-Size: 222711
-SHA256sum: 14aa69b0d5fb845f03813b6ec451815b5e087b0a0678d39542caaf1c5dc13064
-Description:  Python is an interpreted, interactive, object-oriented programming
- language. It incorporates modules, exceptions, dynamic typing, very high
- level dynamic data types, and classes. It supports multiple programming
- paradigms beyond object-oriented programming, such as procedural and
- functional programming. Python combines remarkable power with very clear
- syntax. It has interfaces to many system calls and libraries, as well as
- to various window systems, and is extensible in C or C++. It is also
- usable as an extension language for applications that need a
- programmable interface. Finally, Python is portable: it runs on many
- Unix variants including Linux and macOS, and on Windows.
- 
- This package contains only the interpreter and the bare minimum for the
- interpreter to start.
-
-Package: python3-cgi
-Version: 3.11.14-r1
-Depends: libc, python3-light, python3-email
-Source: feeds/packages/lang/python/python3
-SourceName: python3
-License: Python-2.0.1 0BSD
-LicenseFiles: LICENSE Doc/copyright.rst Doc/license.rst Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi_osx/LICENSE Modules/expat/COPYING
-Section: lang
-SourceDateEpoch: 1773474815
-URL: https://www.python.org/
-CPE-ID: cpe:/a:python:python
-Maintainer: Jeffery To <jeffery.to@gmail.com>
-Architecture: aarch64_cortex-a53
-Installed-Size: 51200
-Filename: python3-cgi_3.11.14-r1_aarch64_cortex-a53.ipk
-Size: 20161
-SHA256sum: 688b5c34a95073adbf09619558ab0a278e8ba211cadbc121841995c5ce0cd2b3
-Description:  Python is an interpreted, interactive, object-oriented programming
- language. It incorporates modules, exceptions, dynamic typing, very high
- level dynamic data types, and classes. It supports multiple programming
- paradigms beyond object-oriented programming, such as procedural and
- functional programming. Python combines remarkable power with very clear
- syntax. It has interfaces to many system calls and libraries, as well as
- to various window systems, and is extensible in C or C++. It is also
- usable as an extension language for applications that need a
- programmable interface. Finally, Python is portable: it runs on many
- Unix variants including Linux and macOS, and on Windows.
- 
- This package contains the cgi module.
-
-Package: python3-cgitb
-Version: 3.11.14-r1
-Depends: libc, python3-light, python3-cgi, python3-pydoc
-Source: feeds/packages/lang/python/python3
-SourceName: python3
-License: Python-2.0.1 0BSD
-LicenseFiles: LICENSE Doc/copyright.rst Doc/license.rst Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi_osx/LICENSE Modules/expat/COPYING
-Section: lang
-SourceDateEpoch: 1773474815
-URL: https://www.python.org/
-CPE-ID: cpe:/a:python:python
-Maintainer: Jeffery To <jeffery.to@gmail.com>
-Architecture: aarch64_cortex-a53
-Installed-Size: 30720
-Filename: python3-cgitb_3.11.14-r1_aarch64_cortex-a53.ipk
-Size: 10247
-SHA256sum: 0a51e0e912467da37edd98d65a9e465f53a529755a1e2677b0032c1f30019b7b
-Description:  Python is an interpreted, interactive, object-oriented programming
- language. It incorporates modules, exceptions, dynamic typing, very high
- level dynamic data types, and classes. It supports multiple programming
- paradigms beyond object-oriented programming, such as procedural and
- functional programming. Python combines remarkable power with very clear
- syntax. It has interfaces to many system calls and libraries, as well as
- to various window systems, and is extensible in C or C++. It is also
- usable as an extension language for applications that need a
- programmable interface. Finally, Python is portable: it runs on many
- Unix variants including Linux and macOS, and on Windows.
- 
- This package contains the cgitb module.
-
-Package: python3-codecs
-Version: 3.11.14-r1
-Depends: libc, python3-light
-Source: feeds/packages/lang/python/python3
-SourceName: python3
-License: Python-2.0.1 0BSD
-LicenseFiles: LICENSE Doc/copyright.rst Doc/license.rst Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi_osx/LICENSE Modules/expat/COPYING
-Section: lang
-SourceDateEpoch: 1773474815
-URL: https://www.python.org/
-CPE-ID: cpe:/a:python:python
-Maintainer: Jeffery To <jeffery.to@gmail.com>
-Architecture: aarch64_cortex-a53
-Installed-Size: 2181120
-Filename: python3-codecs_3.11.14-r1_aarch64_cortex-a53.ipk
-Size: 753136
-SHA256sum: 0f8eac507f6f723961eabb8493452830bcf76cb1758afb722d2d2b42d694cbfe
-Description:  Python is an interpreted, interactive, object-oriented programming
- language. It incorporates modules, exceptions, dynamic typing, very high
- level dynamic data types, and classes. It supports multiple programming
- paradigms beyond object-oriented programming, such as procedural and
- functional programming. Python combines remarkable power with very clear
- syntax. It has interfaces to many system calls and libraries, as well as
- to various window systems, and is extensible in C or C++. It is also
- usable as an extension language for applications that need a
- programmable interface. Finally, Python is portable: it runs on many
- Unix variants including Linux and macOS, and on Windows.
- 
- This package contains codecs and Unicode support.
-
-Package: python3-ctypes
-Version: 3.11.14-r1
-Depends: libc, python3-light, libffi
-Source: feeds/packages/lang/python/python3
-SourceName: python3
-License: Python-2.0.1 0BSD
-LicenseFiles: LICENSE Doc/copyright.rst Doc/license.rst Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi_osx/LICENSE Modules/expat/COPYING
-Section: lang
-SourceDateEpoch: 1773474815
-URL: https://www.python.org/
-CPE-ID: cpe:/a:python:python
-Maintainer: Jeffery To <jeffery.to@gmail.com>
-Architecture: aarch64_cortex-a53
-Installed-Size: 245760
-Filename: python3-ctypes_3.11.14-r1_aarch64_cortex-a53.ipk
-Size: 78762
-SHA256sum: 6c1e4760e380c8db2f8ca694a32ef14f01c458bb1be552e419207d8af3eff68c
-Description:  Python is an interpreted, interactive, object-oriented programming
- language. It incorporates modules, exceptions, dynamic typing, very high
- level dynamic data types, and classes. It supports multiple programming
- paradigms beyond object-oriented programming, such as procedural and
- functional programming. Python combines remarkable power with very clear
- syntax. It has interfaces to many system calls and libraries, as well as
- to various window systems, and is extensible in C or C++. It is also
- usable as an extension language for applications that need a
- programmable interface. Finally, Python is portable: it runs on many
- Unix variants including Linux and macOS, and on Windows.
- 
- This package contains the ctypes module.
-
-Package: python3-dbm
-Version: 3.11.14-r1
-Depends: libc, python3-light, libgdbm
-Source: feeds/packages/lang/python/python3
-SourceName: python3
-License: Python-2.0.1 0BSD
-LicenseFiles: LICENSE Doc/copyright.rst Doc/license.rst Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi_osx/LICENSE Modules/expat/COPYING
-Section: lang
-SourceDateEpoch: 1773474815
-URL: https://www.python.org/
-CPE-ID: cpe:/a:python:python
-Maintainer: Jeffery To <jeffery.to@gmail.com>
-Architecture: aarch64_cortex-a53
-Installed-Size: 163840
-Filename: python3-dbm_3.11.14-r1_aarch64_cortex-a53.ipk
-Size: 23070
-SHA256sum: a08a4086af8cba3b30352608efad6f0471b500edb23475578cbaf86ab83dfcc3
-Description:  Python is an interpreted, interactive, object-oriented programming
- language. It incorporates modules, exceptions, dynamic typing, very high
- level dynamic data types, and classes. It supports multiple programming
- paradigms beyond object-oriented programming, such as procedural and
- functional programming. Python combines remarkable power with very clear
- syntax. It has interfaces to many system calls and libraries, as well as
- to various window systems, and is extensible in C or C++. It is also
- usable as an extension language for applications that need a
- programmable interface. Finally, Python is portable: it runs on many
- Unix variants including Linux and macOS, and on Windows.
- 
- This package contains the dbm module.
-
-Package: python3-decimal
-Version: 3.11.14-r1
-Depends: libc, python3-light
-Source: feeds/packages/lang/python/python3
-SourceName: python3
-License: Python-2.0.1 0BSD
-LicenseFiles: LICENSE Doc/copyright.rst Doc/license.rst Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi_osx/LICENSE Modules/expat/COPYING
-Section: lang
-SourceDateEpoch: 1773474815
-URL: https://www.python.org/
-CPE-ID: cpe:/a:python:python
-Maintainer: Jeffery To <jeffery.to@gmail.com>
-Architecture: aarch64_cortex-a53
-Installed-Size: 215040
-Filename: python3-decimal_3.11.14-r1_aarch64_cortex-a53.ipk
-Size: 83117
-SHA256sum: fffd845cdbc85f2b00b683324fda9b98251a4cb50333cd79479d99bc5cd8ba7b
-Description:  Python is an interpreted, interactive, object-oriented programming
- language. It incorporates modules, exceptions, dynamic typing, very high
- level dynamic data types, and classes. It supports multiple programming
- paradigms beyond object-oriented programming, such as procedural and
- functional programming. Python combines remarkable power with very clear
- syntax. It has interfaces to many system calls and libraries, as well as
- to various window systems, and is extensible in C or C++. It is also
- usable as an extension language for applications that need a
- programmable interface. Finally, Python is portable: it runs on many
- Unix variants including Linux and macOS, and on Windows.
- 
- This package contains the decimal module.
-
-Package: python3-distutils
-Version: 3.11.14-r1
-Depends: libc, python3-light, python3-email
-Source: feeds/packages/lang/python/python3
-SourceName: python3
-License: Python-2.0.1 0BSD
-LicenseFiles: LICENSE Doc/copyright.rst Doc/license.rst Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi_osx/LICENSE Modules/expat/COPYING
-Section: lang
-SourceDateEpoch: 1773474815
-URL: https://www.python.org/
-CPE-ID: cpe:/a:python:python
-Maintainer: Jeffery To <jeffery.to@gmail.com>
-Architecture: aarch64_cortex-a53
-Installed-Size: 696320
-Filename: python3-distutils_3.11.14-r1_aarch64_cortex-a53.ipk
-Size: 262537
-SHA256sum: afb2ce5dec1a2a1a0f3d6528588efa08699f19e083e46089612b5fe161221dc4
-Description:  Python is an interpreted, interactive, object-oriented programming
- language. It incorporates modules, exceptions, dynamic typing, very high
- level dynamic data types, and classes. It supports multiple programming
- paradigms beyond object-oriented programming, such as procedural and
- functional programming. Python combines remarkable power with very clear
- syntax. It has interfaces to many system calls and libraries, as well as
- to various window systems, and is extensible in C or C++. It is also
- usable as an extension language for applications that need a
- programmable interface. Finally, Python is portable: it runs on many
- Unix variants including Linux and macOS, and on Windows.
- 
- This package contains the distutils module.
-
-Package: python3-email
-Version: 3.11.14-r1
-Depends: libc, python3-light
-Source: feeds/packages/lang/python/python3
-SourceName: python3
-License: Python-2.0.1 0BSD
-LicenseFiles: LICENSE Doc/copyright.rst Doc/license.rst Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi_osx/LICENSE Modules/expat/COPYING
-Section: lang
-SourceDateEpoch: 1773474815
-URL: https://www.python.org/
-CPE-ID: cpe:/a:python:python
-Maintainer: Jeffery To <jeffery.to@gmail.com>
-Architecture: aarch64_cortex-a53
-Installed-Size: 532480
-Filename: python3-email_3.11.14-r1_aarch64_cortex-a53.ipk
-Size: 187789
-SHA256sum: 28ab37a9aaeeb42e7cf40e2fdc12ff03984cb2662ce322c8be4decb65d74d321
-Description:  Python is an interpreted, interactive, object-oriented programming
- language. It incorporates modules, exceptions, dynamic typing, very high
- level dynamic data types, and classes. It supports multiple programming
- paradigms beyond object-oriented programming, such as procedural and
- functional programming. Python combines remarkable power with very clear
- syntax. It has interfaces to many system calls and libraries, as well as
- to various window systems, and is extensible in C or C++. It is also
- usable as an extension language for applications that need a
- programmable interface. Finally, Python is portable: it runs on many
- Unix variants including Linux and macOS, and on Windows.
- 
- This package contains the email module.
-
-Package: python3-light
-Version: 3.11.14-r1
-Depends: libc, python3-base, libbz2-1.0, zlib
-Source: feeds/packages/lang/python/python3
-SourceName: python3
-License: Python-2.0.1 0BSD
-LicenseFiles: LICENSE Doc/copyright.rst Doc/license.rst Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi_osx/LICENSE Modules/expat/COPYING
-Section: lang
-SourceDateEpoch: 1773474815
-URL: https://www.python.org/
-CPE-ID: cpe:/a:python:python
-Maintainer: Jeffery To <jeffery.to@gmail.com>
-Architecture: aarch64_cortex-a53
-Installed-Size: 9758720
-Filename: python3-light_3.11.14-r1_aarch64_cortex-a53.ipk
-Size: 2886873
-SHA256sum: 75f924d733da335d9fda19d37e24d9d08fbe177c94c479a0d979fb8e57896a67
-Description:  Python is an interpreted, interactive, object-oriented programming
- language. It incorporates modules, exceptions, dynamic typing, very high
- level dynamic data types, and classes. It supports multiple programming
- paradigms beyond object-oriented programming, such as procedural and
- functional programming. Python combines remarkable power with very clear
- syntax. It has interfaces to many system calls and libraries, as well as
- to various window systems, and is extensible in C or C++. It is also
- usable as an extension language for applications that need a
- programmable interface. Finally, Python is portable: it runs on many
- Unix variants including Linux and macOS, and on Windows.
- 
- This package installs the base interpreter package and contains the most
- commonly used parts of the standard library.
-
-Package: python3-logging
-Version: 3.11.14-r1
-Depends: libc, python3-light
-Source: feeds/packages/lang/python/python3
-SourceName: python3
-License: Python-2.0.1 0BSD
-LicenseFiles: LICENSE Doc/copyright.rst Doc/license.rst Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi_osx/LICENSE Modules/expat/COPYING
-Section: lang
-SourceDateEpoch: 1773474815
-URL: https://www.python.org/
-CPE-ID: cpe:/a:python:python
-Maintainer: Jeffery To <jeffery.to@gmail.com>
-Architecture: aarch64_cortex-a53
-Installed-Size: 225280
-Filename: python3-logging_3.11.14-r1_aarch64_cortex-a53.ipk
-Size: 85163
-SHA256sum: 79943fad026d0678659fca73ae3d649ef56e8b0e2ea961526ae93c9d81753b41
-Description:  Python is an interpreted, interactive, object-oriented programming
- language. It incorporates modules, exceptions, dynamic typing, very high
- level dynamic data types, and classes. It supports multiple programming
- paradigms beyond object-oriented programming, such as procedural and
- functional programming. Python combines remarkable power with very clear
- syntax. It has interfaces to many system calls and libraries, as well as
- to various window systems, and is extensible in C or C++. It is also
- usable as an extension language for applications that need a
- programmable interface. Finally, Python is portable: it runs on many
- Unix variants including Linux and macOS, and on Windows.
- 
- This package contains the logging module.
-
-Package: python3-lzma
-Version: 3.11.14-r1
-Depends: libc, python3-light, liblzma
-Source: feeds/packages/lang/python/python3
-SourceName: python3
-License: Python-2.0.1 0BSD
-LicenseFiles: LICENSE Doc/copyright.rst Doc/license.rst Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi_osx/LICENSE Modules/expat/COPYING
-Section: lang
-SourceDateEpoch: 1773474815
-URL: https://www.python.org/
-CPE-ID: cpe:/a:python:python
-Maintainer: Jeffery To <jeffery.to@gmail.com>
-Architecture: aarch64_cortex-a53
-Installed-Size: 92160
-Filename: python3-lzma_3.11.14-r1_aarch64_cortex-a53.ipk
-Size: 20400
-SHA256sum: b5dff021425b320b86a7f862a13b4e6fa8980126fac7d9434641a3b4016beb89
-Description:  Python is an interpreted, interactive, object-oriented programming
- language. It incorporates modules, exceptions, dynamic typing, very high
- level dynamic data types, and classes. It supports multiple programming
- paradigms beyond object-oriented programming, such as procedural and
- functional programming. Python combines remarkable power with very clear
- syntax. It has interfaces to many system calls and libraries, as well as
- to various window systems, and is extensible in C or C++. It is also
- usable as an extension language for applications that need a
- programmable interface. Finally, Python is portable: it runs on many
- Unix variants including Linux and macOS, and on Windows.
- 
- This package contains the lzma module.
-
-Package: python3-multiprocessing
-Version: 3.11.14-r1
-Depends: libc, python3-light
-Source: feeds/packages/lang/python/python3
-SourceName: python3
-License: Python-2.0.1 0BSD
-LicenseFiles: LICENSE Doc/copyright.rst Doc/license.rst Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi_osx/LICENSE Modules/expat/COPYING
-Section: lang
-SourceDateEpoch: 1773474815
-URL: https://www.python.org/
-CPE-ID: cpe:/a:python:python
-Maintainer: Jeffery To <jeffery.to@gmail.com>
-Architecture: aarch64_cortex-a53
-Installed-Size: 512000
-Filename: python3-multiprocessing_3.11.14-r1_aarch64_cortex-a53.ipk
-Size: 175457
-SHA256sum: 5ed41941d41882b0e4690902046e0e2fb9fd461335345a3d4596ca89c436856c
-Description:  Python is an interpreted, interactive, object-oriented programming
- language. It incorporates modules, exceptions, dynamic typing, very high
- level dynamic data types, and classes. It supports multiple programming
- paradigms beyond object-oriented programming, such as procedural and
- functional programming. Python combines remarkable power with very clear
- syntax. It has interfaces to many system calls and libraries, as well as
- to various window systems, and is extensible in C or C++. It is also
- usable as an extension language for applications that need a
- programmable interface. Finally, Python is portable: it runs on many
- Unix variants including Linux and macOS, and on Windows.
- 
- This package contains the multiprocessing module.
-
-Package: python3-ncurses
-Version: 3.11.14-r1
-Depends: libc, python3-light, libncursesw6
-Source: feeds/packages/lang/python/python3
-SourceName: python3
-License: Python-2.0.1 0BSD
-LicenseFiles: LICENSE Doc/copyright.rst Doc/license.rst Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi_osx/LICENSE Modules/expat/COPYING
-Section: lang
-SourceDateEpoch: 1773474815
-URL: https://www.python.org/
-CPE-ID: cpe:/a:python:python
-Maintainer: Jeffery To <jeffery.to@gmail.com>
-Architecture: aarch64_cortex-a53
-Installed-Size: 245760
-Filename: python3-ncurses_3.11.14-r1_aarch64_cortex-a53.ipk
-Size: 53494
-SHA256sum: 06a54cc80836364dafe77bd2479e92734f8fd2b340e70065afc4778881c31460
-Description:  Python is an interpreted, interactive, object-oriented programming
- language. It incorporates modules, exceptions, dynamic typing, very high
- level dynamic data types, and classes. It supports multiple programming
- paradigms beyond object-oriented programming, such as procedural and
- functional programming. Python combines remarkable power with very clear
- syntax. It has interfaces to many system calls and libraries, as well as
- to various window systems, and is extensible in C or C++. It is also
- usable as an extension language for applications that need a
- programmable interface. Finally, Python is portable: it runs on many
- Unix variants including Linux and macOS, and on Windows.
- 
- This package contains the ncurses module.
-
-Package: python3-openssl
-Version: 3.11.14-r1
-Depends: libc, python3-light, libopenssl3, ca-certs
-Source: feeds/packages/lang/python/python3
-SourceName: python3
-License: Python-2.0.1 0BSD
-LicenseFiles: LICENSE Doc/copyright.rst Doc/license.rst Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi_osx/LICENSE Modules/expat/COPYING
-Section: lang
-SourceDateEpoch: 1773474815
-URL: https://www.python.org/
-CPE-ID: cpe:/a:python:python
-Maintainer: Jeffery To <jeffery.to@gmail.com>
-Architecture: aarch64_cortex-a53
-Installed-Size: 307200
-Filename: python3-openssl_3.11.14-r1_aarch64_cortex-a53.ipk
-Size: 81199
-SHA256sum: 635474ad61fac218bec4dbb8e9b2e7179697e891e319b57a9a71bf102e1a7f2c
-Description:  Python is an interpreted, interactive, object-oriented programming
- language. It incorporates modules, exceptions, dynamic typing, very high
- level dynamic data types, and classes. It supports multiple programming
- paradigms beyond object-oriented programming, such as procedural and
- functional programming. Python combines remarkable power with very clear
- syntax. It has interfaces to many system calls and libraries, as well as
- to various window systems, and is extensible in C or C++. It is also
- usable as an extension language for applications that need a
- programmable interface. Finally, Python is portable: it runs on many
- Unix variants including Linux and macOS, and on Windows.
- 
- This package contains the ssl module.
-
-Package: python3-pydoc
-Version: 3.11.14-r1
-Depends: libc, python3-light
-Source: feeds/packages/lang/python/python3
-SourceName: python3
-License: Python-2.0.1 0BSD
-LicenseFiles: LICENSE Doc/copyright.rst Doc/license.rst Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi_osx/LICENSE Modules/expat/COPYING
-Section: lang
-SourceDateEpoch: 1773474815
-URL: https://www.python.org/
-CPE-ID: cpe:/a:python:python
-Maintainer: Jeffery To <jeffery.to@gmail.com>
-Architecture: aarch64_cortex-a53
-Installed-Size: 768000
-Filename: python3-pydoc_3.11.14-r1_aarch64_cortex-a53.ipk
-Size: 252601
-SHA256sum: c649585a9bd2286beacbf5b1d1a8be313833d2e65cc07692c705b30da06defbe
-Description:  Python is an interpreted, interactive, object-oriented programming
- language. It incorporates modules, exceptions, dynamic typing, very high
- level dynamic data types, and classes. It supports multiple programming
- paradigms beyond object-oriented programming, such as procedural and
- functional programming. Python combines remarkable power with very clear
- syntax. It has interfaces to many system calls and libraries, as well as
- to various window systems, and is extensible in C or C++. It is also
- usable as an extension language for applications that need a
- programmable interface. Finally, Python is portable: it runs on many
- Unix variants including Linux and macOS, and on Windows.
- 
- This package contains the pydoc module.
-
-Package: python3-readline
-Version: 3.11.14-r1
-Depends: libc, python3-light, libreadline8
-Source: feeds/packages/lang/python/python3
-SourceName: python3
-License: Python-2.0.1 0BSD
-LicenseFiles: LICENSE Doc/copyright.rst Doc/license.rst Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi_osx/LICENSE Modules/expat/COPYING
-Section: lang
-SourceDateEpoch: 1773474815
-URL: https://www.python.org/
-CPE-ID: cpe:/a:python:python
-Maintainer: Jeffery To <jeffery.to@gmail.com>
-Architecture: aarch64_cortex-a53
-Installed-Size: 71680
-Filename: python3-readline_3.11.14-r1_aarch64_cortex-a53.ipk
-Size: 11467
-SHA256sum: e4b116feba00b58b0b5011efcc416ccbfb81866326d97aac307b6ca167a91733
-Description:  Python is an interpreted, interactive, object-oriented programming
- language. It incorporates modules, exceptions, dynamic typing, very high
- level dynamic data types, and classes. It supports multiple programming
- paradigms beyond object-oriented programming, such as procedural and
- functional programming. Python combines remarkable power with very clear
- syntax. It has interfaces to many system calls and libraries, as well as
- to various window systems, and is extensible in C or C++. It is also
- usable as an extension language for applications that need a
- programmable interface. Finally, Python is portable: it runs on many
- Unix variants including Linux and macOS, and on Windows.
- 
- This package contains the readline module.
-
-Package: python3-sqlite3
-Version: 3.11.14-r1
-Depends: libc, python3-light, libsqlite3-0
-Source: feeds/packages/lang/python/python3
-SourceName: python3
-License: Python-2.0.1 0BSD
-LicenseFiles: LICENSE Doc/copyright.rst Doc/license.rst Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi_osx/LICENSE Modules/expat/COPYING
-Section: lang
-SourceDateEpoch: 1773474815
-URL: https://www.python.org/
-CPE-ID: cpe:/a:python:python
-Maintainer: Jeffery To <jeffery.to@gmail.com>
-Architecture: aarch64_cortex-a53
-Installed-Size: 163840
-Filename: python3-sqlite3_3.11.14-r1_aarch64_cortex-a53.ipk
-Size: 42316
-SHA256sum: e1f068abb52003c5d22ca5c3c351b526583db607627a5cf99bd32c8141bdf6d9
-Description:  Python is an interpreted, interactive, object-oriented programming
- language. It incorporates modules, exceptions, dynamic typing, very high
- level dynamic data types, and classes. It supports multiple programming
- paradigms beyond object-oriented programming, such as procedural and
- functional programming. Python combines remarkable power with very clear
- syntax. It has interfaces to many system calls and libraries, as well as
- to various window systems, and is extensible in C or C++. It is also
- usable as an extension language for applications that need a
- programmable interface. Finally, Python is portable: it runs on many
- Unix variants including Linux and macOS, and on Windows.
- 
- This package contains the sqlite3 module.
-
-Package: python3-unittest
-Version: 3.11.14-r1
-Depends: libc, python3-light
-Source: feeds/packages/lang/python/python3
-SourceName: python3
-License: Python-2.0.1 0BSD
-LicenseFiles: LICENSE Doc/copyright.rst Doc/license.rst Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi_osx/LICENSE Modules/expat/COPYING
-Section: lang
-SourceDateEpoch: 1773474815
-URL: https://www.python.org/
-CPE-ID: cpe:/a:python:python
-Maintainer: Jeffery To <jeffery.to@gmail.com>
-Architecture: aarch64_cortex-a53
-Installed-Size: 348160
-Filename: python3-unittest_3.11.14-r1_aarch64_cortex-a53.ipk
-Size: 131789
-SHA256sum: 8739977378f02446a24aa3a993245fab2bd8904769c9f9d0c9104aaf2e73225e
-Description:  Python is an interpreted, interactive, object-oriented programming
- language. It incorporates modules, exceptions, dynamic typing, very high
- level dynamic data types, and classes. It supports multiple programming
- paradigms beyond object-oriented programming, such as procedural and
- functional programming. Python combines remarkable power with very clear
- syntax. It has interfaces to many system calls and libraries, as well as
- to various window systems, and is extensible in C or C++. It is also
- usable as an extension language for applications that need a
- programmable interface. Finally, Python is portable: it runs on many
- Unix variants including Linux and macOS, and on Windows.
- 
- This package contains the unittest module.
-
-Package: python3-urllib
-Version: 3.11.14-r1
-Depends: libc, python3-light, python3-email
-Source: feeds/packages/lang/python/python3
-SourceName: python3
-License: Python-2.0.1 0BSD
-LicenseFiles: LICENSE Doc/copyright.rst Doc/license.rst Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi_osx/LICENSE Modules/expat/COPYING
-Section: lang
-SourceDateEpoch: 1773474815
-URL: https://www.python.org/
-CPE-ID: cpe:/a:python:python
-Maintainer: Jeffery To <jeffery.to@gmail.com>
-Architecture: aarch64_cortex-a53
-Installed-Size: 215040
-Filename: python3-urllib_3.11.14-r1_aarch64_cortex-a53.ipk
-Size: 85758
-SHA256sum: 8b0c496160932b69b95b164a8bc9e08caecfeee20f4aa1c1a38d8ff2c00b08f0
-Description:  Python is an interpreted, interactive, object-oriented programming
- language. It incorporates modules, exceptions, dynamic typing, very high
- level dynamic data types, and classes. It supports multiple programming
- paradigms beyond object-oriented programming, such as procedural and
- functional programming. Python combines remarkable power with very clear
- syntax. It has interfaces to many system calls and libraries, as well as
- to various window systems, and is extensible in C or C++. It is also
- usable as an extension language for applications that need a
- programmable interface. Finally, Python is portable: it runs on many
- Unix variants including Linux and macOS, and on Windows.
- 
- This package contains the URL handling modules.
-
-Package: python3-uuid
-Version: 3.11.14-r1
-Depends: libc, python3-light, libuuid1
-Source: feeds/packages/lang/python/python3
-SourceName: python3
-License: Python-2.0.1 0BSD
-LicenseFiles: LICENSE Doc/copyright.rst Doc/license.rst Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi_osx/LICENSE Modules/expat/COPYING
-Section: lang
-SourceDateEpoch: 1773474815
-URL: https://www.python.org/
-CPE-ID: cpe:/a:python:python
-Maintainer: Jeffery To <jeffery.to@gmail.com>
-Architecture: aarch64_cortex-a53
-Installed-Size: 112640
-Filename: python3-uuid_3.11.14-r1_aarch64_cortex-a53.ipk
-Size: 16768
-SHA256sum: 749de3aeb051f4bee5f4ab4e2140177fb789face8e2bacf6020ec6529ff3ed96
-Description:  Python is an interpreted, interactive, object-oriented programming
- language. It incorporates modules, exceptions, dynamic typing, very high
- level dynamic data types, and classes. It supports multiple programming
- paradigms beyond object-oriented programming, such as procedural and
- functional programming. Python combines remarkable power with very clear
- syntax. It has interfaces to many system calls and libraries, as well as
- to various window systems, and is extensible in C or C++. It is also
- usable as an extension language for applications that need a
- programmable interface. Finally, Python is portable: it runs on many
- Unix variants including Linux and macOS, and on Windows.
- 
- This package contains the uuid module.
-
-Package: python3-xml
-Version: 3.11.14-r1
-Depends: libc, python3-light, python3-urllib
-Source: feeds/packages/lang/python/python3
-SourceName: python3
-License: Python-2.0.1 0BSD
-LicenseFiles: LICENSE Doc/copyright.rst Doc/license.rst Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi_osx/LICENSE Modules/expat/COPYING
-Section: lang
-SourceDateEpoch: 1773474815
-URL: https://www.python.org/
-CPE-ID: cpe:/a:python:python
-Maintainer: Jeffery To <jeffery.to@gmail.com>
-Architecture: aarch64_cortex-a53
-Installed-Size: 808960
-Filename: python3-xml_3.11.14-r1_aarch64_cortex-a53.ipk
-Size: 281609
-SHA256sum: fc142f3c58d2d8a44f99f259b4cf53dd19e42e7e5efe0336dcad8334b9ac4604
-Description:  Python is an interpreted, interactive, object-oriented programming
- language. It incorporates modules, exceptions, dynamic typing, very high
- level dynamic data types, and classes. It supports multiple programming
- paradigms beyond object-oriented programming, such as procedural and
- functional programming. Python combines remarkable power with very clear
- syntax. It has interfaces to many system calls and libraries, as well as
- to various window systems, and is extensible in C or C++. It is also
- usable as an extension language for applications that need a
- programmable interface. Finally, Python is portable: it runs on many
- Unix variants including Linux and macOS, and on Windows.
- 
- This package contains the XML modules.
-
-Package: python3
-Version: 3.11.14-r1
-Depends: libc, python3-light, python3-asyncio, python3-cgi, python3-cgitb, python3-codecs, python3-ctypes, python3-dbm, python3-decimal, python3-distutils, python3-email, python3-logging, python3-lzma, python3-multiprocessing, python3-ncurses, python3-openssl, python3-pydoc, python3-readline, python3-sqlite3, python3-unittest, python3-urllib, python3-uuid, python3-xml
-Source: feeds/packages/lang/python/python3
-SourceName: python3
-License: Python-2.0.1 0BSD
-LicenseFiles: LICENSE Doc/copyright.rst Doc/license.rst Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi_osx/LICENSE Modules/expat/COPYING
-Section: lang
-SourceDateEpoch: 1773474815
-URL: https://www.python.org/
-CPE-ID: cpe:/a:python:python
-Maintainer: Jeffery To <jeffery.to@gmail.com>
-Architecture: aarch64_cortex-a53
-Installed-Size: 10240
-Filename: python3_3.11.14-r1_aarch64_cortex-a53.ipk
-Size: 1466
-SHA256sum: d24fac586d8d0a0fd4582ca6c2ad84fed2166aab3ff2f623047fe5d0e3216cd5
-Description:  Python is an interpreted, interactive, object-oriented programming
- language. It incorporates modules, exceptions, dynamic typing, very high
- level dynamic data types, and classes. It supports multiple programming
- paradigms beyond object-oriented programming, such as procedural and
- functional programming. Python combines remarkable power with very clear
- syntax. It has interfaces to many system calls and libraries, as well as
- to various window systems, and is extensible in C or C++. It is also
- usable as an extension language for applications that need a
- programmable interface. Finally, Python is portable: it runs on many
- Unix variants including Linux and macOS, and on Windows.
- 
- This package installs almost all parts of the standard Python
- installation.
-
 Package: qrencode
 Version: 4.1.1-r1
 Depends: libc, libqrencode
@@ -2361,27 +1563,6 @@ Description:  rsync is a program that allows files to be copied to and from remo
  The rsync remote-update protocol allows rsync to transfer just the differences
  between two sets of files across the network link.
 
-Package: rtl-sdr
-Version: 2.0.1-r1
-Depends: libc, librt, libpthread, librtlsdr
-Source: feeds/packages/utils/rtl-sdr
-SourceName: rtl-sdr
-License: GPL-2.0-or-later
-LicenseFiles: COPYING
-Section: utils
-SourceDateEpoch: 1773474815
-URL: http://sdr.osmocom.org/trac/wiki/rtl-sdr
-Maintainer: Vasilis Tsiligiannis <b_tsiligiannis@silverton.gr>
-Architecture: aarch64_cortex-a53
-Installed-Size: 542720
-Filename: rtl-sdr_2.0.1-r1_aarch64_cortex-a53.ipk
-Size: 59046
-SHA256sum: 7e674c6fe9b9e9e7209b0182f87140dc4fcb4118154fcad06adf472382f0e810
-Description:  rtl-sdr allows DVB-T dongles based on the Realtek RTL2832U to be used as
- an inexpensive SDR.
- 
- This package contains the utilities and daemons.
-
 Package: runc
 Version: 1.1.14-r1
 Depends: libc, libseccomp
@@ -2395,10 +1576,10 @@ URL: https://www.opencontainers.org/
 CPE-ID: cpe:/a:linuxfoundation:runc
 Maintainer: Gerard Ryan <G.M0N3Y.2503@gmail.com>
 Architecture: aarch64_cortex-a53
-Installed-Size: 10874880
+Installed-Size: 10936320
 Filename: runc_1.1.14-r1_aarch64_cortex-a53.ipk
-Size: 3832966
-SHA256sum: 47f4698b402240f2b96d647a71c26070b59d83ed532c08b16a596b7fcd789da5
+Size: 3859298
+SHA256sum: a3b2d2b710dd9832da2830793dfcb947e914b70f53a749adfc076b1b40951459
 Description:  runc is a CLI tool for spawning and running containers according to the OCI specification.
 
 Package: tini

@@ -117,7 +117,6 @@
     "libpcap": "1.10.5-r2",
     "libpcre2": "10.42-r1",
     "libpopt": "1.19-r1",
-    "libreadline": "8.2-r2",
     "libsmartcols": "2.40.2-r1",
     "libss": "1.47.0-r2",
     "libubox": "2025.07.23~49056d17-r1",
