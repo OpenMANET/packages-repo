@@ -375,8 +375,8 @@ Maintainer: Morse Micro
 Architecture: aarch64_cortex-a53
 Installed-Size: 215040
 Filename: smart_manager_1.16.4-r1_aarch64_cortex-a53.ipk
-Size: 63224
-SHA256sum: 6f1e04c90d120463f6e79d666f43525ebe0db02fa05e17b1d5f4f047fc24912a
+Size: 63176
+SHA256sum: 51f92365f48f827ea76a0349a2141edd77cc4883ed83c58cf2ffe5fdd72de9eb
 Description:  Morse Micro HaLow DCS Smart Manager
 
 Package: wpa_supplicant_s1g

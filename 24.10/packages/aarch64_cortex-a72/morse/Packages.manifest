@@ -474,8 +474,8 @@ Maintainer: Morse Micro
 Architecture: aarch64_cortex-a72
 Installed-Size: 215040
 Filename: smart_manager_1.16.4-r1_aarch64_cortex-a72.ipk
-Size: 63236
-SHA256sum: 8a5cccf7aab1fc16d659d803d34be282f23fb9af289277510da31139324dc2fc
+Size: 63190
+SHA256sum: 582ab4eef954bf6211717defb1a020a4d28b974602a17876d3a7342034404649
 Description:  Morse Micro HaLow DCS Smart Manager
 
 Package: wireshark

@@ -107,8 +107,8 @@ URL: https://github.com/openwrt/luci
 Architecture: aarch64_cortex-a72
 Installed-Size: 573440
 Filename: luci-base_git-25.233.06936-53e6515_aarch64_cortex-a72.ipk
-Size: 132028
-SHA256sum: b6bbcb8d2c2ca93f4657e9465d4d146c15ee1ecd25d1d2abf0a3dd23e8e71c63
+Size: 132027
+SHA256sum: 57c1583ebd13734b2311116c155a95613453de82aaecf9ad39fd6468c0d312c0
 Description:  LuCI core runtime
 
 Package: luci-compat
