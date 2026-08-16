@@ -7,8 +7,8 @@ URL: https://www.alsa-project.org/
 Architecture: aarch64_cortex-a72
 Installed-Size: 1341440
 Filename: alsa-lib_1.2.11-r1_aarch64_cortex-a72.ipk
-Size: 429656
-SHA256sum: 815e4b4e74fee476a85d1b122d5e508dcda70bdcc6eb64937d777df13270ca35
+Size: 429566
+SHA256sum: 8c28aa7ed6fe931d99e778859bd2f3c9c18cde68588f1f2de008d7102359e713
 Description:  This is the library package for alsa, needed by some userspace programs.
  You must have enabled the ALSA support in the kernel.
 
@@ -21,8 +21,8 @@ URL: https://www.alsa-project.org/
 Architecture: all
 Installed-Size: 870400
 Filename: alsa-ucm-conf_1.2.11-r1_all.ipk
-Size: 70765
-SHA256sum: 758435c752552cc0364360b48b17c86ec40dfeeea940f15c4d027da4192d3291
+Size: 70802
+SHA256sum: 5d761e30e61ccdf4fe120b2d3f2b14bcb5cf8d1f2d7e77894f13c6a2ccb43a7f
 Description:  This is a set of configuration files needed for some ALS utilities like alsactl.
 
 Package: alsa-utils
@@ -34,8 +34,8 @@ URL: https://www.alsa-project.org/
 Architecture: aarch64_cortex-a72
 Installed-Size: 440320
 Filename: alsa-utils_1.2.11-r1_aarch64_cortex-a72.ipk
-Size: 145141
-SHA256sum: 1458adc0714be7b688cff13f389079d3f94b4c347a8a2f4b352b06634af48295
+Size: 145237
+SHA256sum: 94f233d4ead43d213282c4f52c5761a74c79d597205162b5c521b0fbefd3713b
 Description:  ALSA (Advanced Linux Sound Architecture) utilities
 
 Package: arp-scan-database
@@ -47,8 +47,8 @@ URL: https://github.com/royhills/arp-scan
 Architecture: aarch64_cortex-a72
 Installed-Size: 1464320
 Filename: arp-scan-database_1.10.0-r2_aarch64_cortex-a72.ipk
-Size: 533491
-SHA256sum: f7a7b1dea8ef315dbdcdbae29bf20b66dbcbe8fc86c4d049925ffa2d4d1b7b6a
+Size: 533493
+SHA256sum: b151f83440e4edfce1779ff85d17131f661eb4f1461fee9254cb96c865af461c
 Description:  MAC database for ARP scanner
 
 Package: arp-scan
@@ -60,8 +60,8 @@ URL: https://github.com/royhills/arp-scan
 Architecture: aarch64_cortex-a72
 Installed-Size: 71680
 Filename: arp-scan_1.10.0-r2_aarch64_cortex-a72.ipk
-Size: 25275
-SHA256sum: 26b75fa68c69ab8ef8a07388adfeba59cf0949c842cf975cec2f425742581bb3
+Size: 25278
+SHA256sum: c823ef1805f01c79d80a6eb9f645ab5ce84c8a47d21a72f938fada257dac2cfc
 Description:  ARP scanner
 
 Package: bridge
@@ -75,8 +75,8 @@ CPE-ID: cpe:/a:kernel:bridge-utils
 Architecture: aarch64_cortex-a72
 Installed-Size: 71680
 Filename: bridge_1.7.1-r1_aarch64_cortex-a72.ipk
-Size: 11357
-SHA256sum: 8fefe494e5c924816734af589b99922d51dc196654ee5f05a43fecf6a685d80e
+Size: 11363
+SHA256sum: 45787a6edf979b1852e7597cd089a33d9d09642486d5f35555dd33b4fb91b75f
 Description:  Manage ethernet bridging: a way to connect networks together to
  form a larger network.
 
@@ -89,8 +89,8 @@ URL: https://btrfs.readthedocs.io
 Architecture: aarch64_cortex-a72
 Installed-Size: 2529280
 Filename: btrfs-progs_6.11-r1_aarch64_cortex-a72.ipk
-Size: 1141590
-SHA256sum: 940d3186b4265508b0c6a6fd108af95da89420ba4e238e290ec3da15bfa10bc7
+Size: 1141584
+SHA256sum: 4fe99d32701dc223818280005c3fb85b60dbc93f6c7249a70d5adce0bfbcb568
 Description:  Btrfs is a new copy on write filesystem for Linux aimed at implementing
  advanced features while focusing on fault tolerance, repair and easy
  administration. Initially developed by Oracle, Btrfs is licensed under the
@@ -104,8 +104,8 @@ Section: net
 Architecture: aarch64_cortex-a72
 Installed-Size: 81920
 Filename: cgi-io_2022.08.10~901b0f04-r21_aarch64_cortex-a72.ipk
-Size: 10301
-SHA256sum: 04ce71dcdcf2e4d0b8b3454a310991ab08d9efad5fb5778f2d045fc92fab8494
+Size: 10292
+SHA256sum: bd51e4cd9abc36baae2e68446e1529f44c98359401eee5a2347c3eb3d161f920
 Description:  This package contains an cgi utility that is useful for up/downloading files
 
 Package: collectd-mod-conntrack
@@ -118,8 +118,8 @@ CPE-ID: cpe:/a:collectd:collectd
 Architecture: aarch64_cortex-a72
 Installed-Size: 81920
 Filename: collectd-mod-conntrack_5.12.0-r54_aarch64_cortex-a72.ipk
-Size: 2873
-SHA256sum: a970b942c5abd8c2d67e6e0c5c544da0a7c118373f419e02e76099ccbc5c25ab
+Size: 2858
+SHA256sum: d89e932ac27a6a2fd59bca85cce48d52a66be38a2141753c7f11043467e2b100
 Description:  connection tracking table size input plugin
 
 Package: collectd-mod-cpu
@@ -132,8 +132,8 @@ CPE-ID: cpe:/a:collectd:collectd
 Architecture: aarch64_cortex-a72
 Installed-Size: 81920
 Filename: collectd-mod-cpu_5.12.0-r54_aarch64_cortex-a72.ipk
-Size: 5094
-SHA256sum: e3cfb655ff2bafbc3ac6a3ab59e01cfeb5077e1f989b18cb4a1a7bb96cb8a2d7
+Size: 5083
+SHA256sum: f5926d5efd0ad97f130f884e76bd3867a7de599a29b054eecbbb0846f39ec141
 Description:  CPU input plugin
 
 Package: collectd-mod-interface
@@ -146,8 +146,8 @@ CPE-ID: cpe:/a:collectd:collectd
 Architecture: aarch64_cortex-a72
 Installed-Size: 81920
 Filename: collectd-mod-interface_5.12.0-r54_aarch64_cortex-a72.ipk
-Size: 4844
-SHA256sum: ea19fe2c42eb554557cf3d6725e66a75252f959cd3d8a81a352b93e1fc78319a
+Size: 4843
+SHA256sum: 5709a6fdddb2f47e996ec8bc108a50b9682c295e8999fe96ddffd9f10fd2c426
 Description:  network interfaces input plugin
 
 Package: collectd-mod-ipstatistics
@@ -160,8 +160,8 @@ CPE-ID: cpe:/a:collectd:collectd
 Architecture: aarch64_cortex-a72
 Installed-Size: 71680
 Filename: collectd-mod-ipstatistics_5.12.0-r54_aarch64_cortex-a72.ipk
-Size: 2854
-SHA256sum: ce82902fcb3fcb4956e4946db46b14cb05d8a8475f072330f9430acf860803a2
+Size: 2858
+SHA256sum: 966e58ea5bcdf98fcf001453f3671f0fc7d4c281c463b761be5223b6301a47d7
 Description:  ipstatistics input plugin
 
 Package: collectd-mod-iwinfo
@@ -174,8 +174,8 @@ CPE-ID: cpe:/a:collectd:collectd
 Architecture: aarch64_cortex-a72
 Installed-Size: 81920
 Filename: collectd-mod-iwinfo_5.12.0-r54_aarch64_cortex-a72.ipk
-Size: 4980
-SHA256sum: 50716d8bb15157ab29d028f279ed942f75940d0887c5ee541e1d93dbcd0853e4
+Size: 4986
+SHA256sum: 4ed3693358501c95452211b0c089ff61ba80898c40d8aefb76d287fa347317cb
 Description:  libiwinfo wireless statistics plugin
 
 Package: collectd-mod-load
@@ -188,8 +188,8 @@ CPE-ID: cpe:/a:collectd:collectd
 Architecture: aarch64_cortex-a72
 Installed-Size: 81920
 Filename: collectd-mod-load_5.12.0-r54_aarch64_cortex-a72.ipk
-Size: 3042
-SHA256sum: dc28d3f8b3ed1662764a1be657121ac825a4ea5c034a72260e193e4d50cb2c01
+Size: 3039
+SHA256sum: daec884b13d2971110afa5c66eb0d03b3141a49440f978ff4b4d0d6b6020330e
 Description:  system load input plugin
 
 Package: collectd-mod-memory
@@ -202,8 +202,8 @@ CPE-ID: cpe:/a:collectd:collectd
 Architecture: aarch64_cortex-a72
 Installed-Size: 81920
 Filename: collectd-mod-memory_5.12.0-r54_aarch64_cortex-a72.ipk
-Size: 3707
-SHA256sum: 3e2bbf6b555d6fa0d788777b4c2e88b6ce9ecf3308c1654d63d903d90907c7cb
+Size: 3695
+SHA256sum: 0fedceec88e5842ce72d2f3dd62982f9a860da4613cc467b5c85a880065d0975
 Description:  physical memory usage input plugin
 
 Package: collectd-mod-network
@@ -216,8 +216,8 @@ CPE-ID: cpe:/a:collectd:collectd
 Architecture: aarch64_cortex-a72
 Installed-Size: 81920
 Filename: collectd-mod-network_5.12.0-r54_aarch64_cortex-a72.ipk
-Size: 16276
-SHA256sum: 92a43d9e2b58eb605df4fb9a85f822e542a0f4435d1c428c8505be0515324217
+Size: 16271
+SHA256sum: 9bab8e9d1028ecd1785a916f643462291f2cda6c4d97ee87d13749323f1ec052
 Description:  network input/output plugin
 
 Package: collectd-mod-ping
@@ -230,8 +230,8 @@ CPE-ID: cpe:/a:collectd:collectd
 Architecture: aarch64_cortex-a72
 Installed-Size: 81920
 Filename: collectd-mod-ping_5.12.0-r54_aarch64_cortex-a72.ipk
-Size: 6533
-SHA256sum: 1c7c4a55442c5c4224c1d4c39b4fc93d734cb87bed0d8d98cf7574f4cf55c4d6
+Size: 6548
+SHA256sum: fbd3c13b52d711bbc1f0d1a9807023826a54da880461328f1ccc3ca58d971dc0
 Description:  ping status input plugin
 
 Package: collectd-mod-rrdtool
@@ -244,8 +244,8 @@ CPE-ID: cpe:/a:collectd:collectd
 Architecture: aarch64_cortex-a72
 Installed-Size: 81920
 Filename: collectd-mod-rrdtool_5.12.0-r54_aarch64_cortex-a72.ipk
-Size: 12400
-SHA256sum: 80f77aff4677613a991d9e53a6f7b2e008f4092b5791dd6ff967845f70f9b49e
+Size: 12398
+SHA256sum: 9c0ecfffdf9c1195c9f8d2cd0cc6b8a8d15c65a7f06f9679a2a6186a394941f3
 Description:  RRDtool output plugin
 
 Package: collectd
@@ -258,8 +258,8 @@ CPE-ID: cpe:/a:collectd:collectd
 Architecture: aarch64_cortex-a72
 Installed-Size: 317440
 Filename: collectd_5.12.0-r54_aarch64_cortex-a72.ipk
-Size: 95881
-SHA256sum: c306eaa70e24b7a78c9f94537d4ffed69fea9557a86b7cc2cbaedc747a8c48ab
+Size: 95899
+SHA256sum: 74ab917c6c32c84cba289479aed5a5100aabc0dddbbd23ce53b784b67146a698
 Description:  collectd is a small daemon which collects system information periodically
  and provides mechanismns to store the values in a variety of ways.
 
@@ -271,10 +271,10 @@ Section: utils
 URL: https://containerd.io/
 CPE-ID: cpe:/a:linuxfoundation:containerd
 Architecture: aarch64_cortex-a72
-Installed-Size: 116643840
+Installed-Size: 107612160
 Filename: containerd_1.7.22-r1_aarch64_cortex-a72.ipk
-Size: 38345870
-SHA256sum: cde5e11aef522b4b1bb71643bd109585e9eb0300548fd36496895bca906e4bc1
+Size: 35168065
+SHA256sum: 364b9a4c5b5caf24d275117338dd0b0d6b53117999851f68ff44b2901e30e4d2
 Description:  An industry-standard container runtime with an emphasis on simplicity, robustness and portability
 
 Package: dbus
@@ -287,8 +287,8 @@ CPE-ID: cpe:/a:freedesktop:dbus
 Architecture: aarch64_cortex-a72
 Installed-Size: 552960
 Filename: dbus_1.14.10-r1_aarch64_cortex-a72.ipk
-Size: 121646
-SHA256sum: 5513be0614bef3295f3c0d6713119533d5a442c844218068ba693e22e1c08447
+Size: 121666
+SHA256sum: 741d7ff8deeeda9710fc3a7b85e81e4b5701fdcd4d00a101144ee6d18ff4a4e3
 Description:  Simple interprocess messaging system (daemon)
 
 Package: docker
@@ -298,10 +298,10 @@ License: Apache-2.0
 Section: utils
 URL: https://www.docker.com/
 Architecture: aarch64_cortex-a72
-Installed-Size: 26716160
+Installed-Size: 25815040
 Filename: docker_27.3.1-r1_aarch64_cortex-a72.ipk
-Size: 8714962
-SHA256sum: ae32e44fa790e5b159a741271b98178268cb72ab9d236fe0c68fa5f52faa2fbb
+Size: 8346061
+SHA256sum: f0c032991bf4a40c09cc79e1f31d32c71207b4adc8e16af04043729e6497b220
 Description:  The CLI used in the Docker CE and Docker EE products.
 
 Package: dockerd
@@ -311,10 +311,10 @@ License: Apache-2.0
 Section: utils
 URL: https://www.docker.com/
 Architecture: aarch64_cortex-a72
-Installed-Size: 62842880
+Installed-Size: 62330880
 Filename: dockerd_27.3.1-r3_aarch64_cortex-a72.ipk
-Size: 20694360
-SHA256sum: 51563da91014922b5fc95901806f6f305c6452cd9aced1d19901773ad3941019
+Size: 20420467
+SHA256sum: 505e4b4ddcd3ea5064eeb32df8f0d9ca4d68036daf9a2ce8c5e92db2c149391b
 Description:  The Docker CE Engine.
 
 Package: dump1090
@@ -326,8 +326,8 @@ URL: https://github.com/flightaware/dump1090
 Architecture: aarch64_cortex-a72
 Installed-Size: 10711040
 Filename: dump1090_9.0-r3_aarch64_cortex-a72.ipk
-Size: 2501920
-SHA256sum: c4dc61758d7aad1835a54cf1e177f0831891fd79749e57f39f999c090c8bd3ca
+Size: 2501657
+SHA256sum: b75dbd388400f7548711828f1be737134308fff75ab1669a963e3ef1776ed4ba
 Description:  Dump1090 is a Mode S decoder specifically designed for RTLSDR devices.
 
 Package: evtest
@@ -339,8 +339,8 @@ URL: https://gitlab.freedesktop.org/libevdev/evtest
 Architecture: aarch64_cortex-a72
 Installed-Size: 71680
 Filename: evtest_1.35-r1_aarch64_cortex-a72.ipk
-Size: 11279
-SHA256sum: b028e1fc8139ff2df5cd165573cedcb42cb82f27be10fc6043bfd82bbabf7b00
+Size: 11281
+SHA256sum: 2061eacb06010322768479d431f4718d7006870309a821747061b9ec3890d41d
 Description:  Utility to test event driven devices such as keyboards and mice
 
 Package: ffmpeg
@@ -353,8 +353,8 @@ CPE-ID: cpe:/a:ffmpeg:ffmpeg
 Architecture: aarch64_cortex-a72
 Installed-Size: 266240
 Filename: ffmpeg_6.1.3-r1_aarch64_cortex-a72.ipk
-Size: 109627
-SHA256sum: 841b11c9594afa1a0ea19942aa5035b3150bec91a0796bbc2797c3c88682e24b
+Size: 109615
+SHA256sum: 30f32a620ff96057da2c035adb2a11f100525d22e949404e72daeafb8eae0115
 Description:  FFmpeg is a a software package that can record, convert and stream digital
  audio and video in numerous formats.
  
@@ -374,8 +374,8 @@ CPE-ID: cpe:/a:file_project:file
 Architecture: aarch64_cortex-a72
 Installed-Size: 71680
 Filename: file_5.45-r1_aarch64_cortex-a72.ipk
-Size: 8714
-SHA256sum: 44a3349a5cda6dfbdcd046d4e671eb27c8e8938808e00819e1e4dfd0afc7ed8b
+Size: 8712
+SHA256sum: 2bf47716ee30ef031ff442ac15a047a05cfc99281fba1f722681672ea780bfc6
 Description:  File type determination utility
 
 Package: fping
@@ -387,8 +387,8 @@ URL: https://fping.org/
 Architecture: aarch64_cortex-a72
 Installed-Size: 71680
 Filename: fping_5.3-r1_aarch64_cortex-a72.ipk
-Size: 19891
-SHA256sum: 7dc0103a8a27f418bfaa83dc4511b5a738055eb65646dc04bc95f17e70e55938
+Size: 19882
+SHA256sum: 44913e75682fbec82b48df92a249836e4c107e319648f7e4de39d3bf6e6ccffe
 Description:  fping is a ping like program which uses the Internet Control Message Protocol
  (ICMP) echo request to determine if a target host is responding.  fping
  differs from ping in that you can specify any number of targets on the command
@@ -406,8 +406,8 @@ CPE-ID: cpe:/a:gnome:glib
 Architecture: aarch64_cortex-a72
 Installed-Size: 3952640
 Filename: glib2_2.82.0-r1_aarch64_cortex-a72.ipk
-Size: 1291835
-SHA256sum: 12f9ae328a701ddba163ec7fe86dc98cde12f9daf9b91e84cf920c82029422c1
+Size: 1298527
+SHA256sum: 19864e2509d9dda96f6449a66108315ec64acad175485d3cfd2b8c90a650a653
 Description:  The GLib library of C routines
 
 Package: gpioctl-sysfs
@@ -418,8 +418,8 @@ Section: utils
 Architecture: aarch64_cortex-a72
 Installed-Size: 71680
 Filename: gpioctl-sysfs_0.0.7-r1_aarch64_cortex-a72.ipk
-Size: 2728
-SHA256sum: dcdff99718626783c2a823c0ef7718d9d8e8232b685395af350299dde87769c1
+Size: 2729
+SHA256sum: dc140736c0992c9ca91ee9dc03b730371959628bbbae2c36b78bb9b6f7e7402b
 Description:  Tool for controlling gpio pins using the sysfs api provided by the kernel.
 
 Package: gpiod-tools
@@ -430,8 +430,8 @@ Section: utils
 Architecture: aarch64_cortex-a72
 Installed-Size: 399360
 Filename: gpiod-tools_2.1.3-r1_aarch64_cortex-a72.ipk
-Size: 57106
-SHA256sum: 41f0fa94f1c1da6024eda855db8565d5f874e5778f76c9242e05944b57b10050
+Size: 57136
+SHA256sum: 2dd512c7819619762dd18731b42c952d4a0e02f1a5aca0de63fbc2140500cff6
 Description:  Tools for interacting with the linux GPIO character device
  (gpiod stands for GPIO device).
 
@@ -445,8 +445,8 @@ CPE-ID: cpe:/a:gstreamer:good_plug-ins
 Architecture: aarch64_cortex-a72
 Installed-Size: 71680
 Filename: gst1-mod-jpeg_1.24.8-r1_aarch64_cortex-a72.ipk
-Size: 15712
-SHA256sum: d6b98fe18f18c929bacb3fc49489e8bc393d7d743d203dfb593c3849c6adc0fb
+Size: 15713
+SHA256sum: 185a9fad1093ff361a3a35a6f24d9c44d38fc2a51973aa94f58fef862bdd1ef3
 Description:  GStreamer open source multimedia framework
  .
  This package contains the GStreamer jpeg support plugin.
@@ -461,8 +461,8 @@ CPE-ID: cpe:/a:gstreamer:good_plug-ins
 Architecture: aarch64_cortex-a72
 Installed-Size: 481280
 Filename: gst1-mod-rtp_1.24.8-r1_aarch64_cortex-a72.ipk
-Size: 168420
-SHA256sum: 44e7426b60a2a5421a8da4cb1ee436f7ca7bf05315b3175749e705bb1c4a491e
+Size: 168424
+SHA256sum: 595a238fead1df46d3622646f334bc0ca765515d7ba32d23e4c913dc47ea44a9
 Description:  GStreamer open source multimedia framework
  .
  This package contains the GStreamer RTP plugin.
@@ -477,8 +477,8 @@ CPE-ID: cpe:/a:gstreamer:good_plug-ins
 Architecture: aarch64_cortex-a72
 Installed-Size: 337920
 Filename: gst1-mod-rtpmanager_1.24.8-r1_aarch64_cortex-a72.ipk
-Size: 123962
-SHA256sum: beb968d04a5dd413c9b0bed99e9b049ad5534054ba890cf2162af3be07cd9580
+Size: 123957
+SHA256sum: 25bc41f21f05699f834313249044b22f7cfcf40baef91238b824f9ea6ff14411
 Description:  GStreamer open source multimedia framework
  .
  This package contains the GStreamer RTP manager plugin.
@@ -493,8 +493,8 @@ CPE-ID: cpe:/a:gstreamer:good_plug-ins
 Architecture: aarch64_cortex-a72
 Installed-Size: 143360
 Filename: gst1-mod-rtsp_1.24.8-r1_aarch64_cortex-a72.ipk
-Size: 50816
-SHA256sum: 8932dcd2bfcd29c0e222557a554a22844b4b08dde3d5fbc6cf617caee6be688e
+Size: 50828
+SHA256sum: 43587657a926fbe7bc112c3b4ae081f8f2fdc1d92937b8f722fddb795b9db150
 Description:  GStreamer open source multimedia framework
  .
  This package contains the GStreamer RTSP plugin.
@@ -509,8 +509,8 @@ CPE-ID: cpe:/a:gstreamer:good_plug-ins
 Architecture: aarch64_cortex-a72
 Installed-Size: 71680
 Filename: gst1-mod-udp_1.24.8-r1_aarch64_cortex-a72.ipk
-Size: 25665
-SHA256sum: 0fa891a789f0857928b4a932e39cf878baf76b0ff57b9f94c896c85c3ecb0060
+Size: 25673
+SHA256sum: 0ea7bf9fd23c3cb213ddf4894c3b50fa7ad082986236765a22460ce8ecff556c
 Description:  GStreamer open source multimedia framework
  .
  This package contains the GStreamer UDP plugin.
@@ -525,8 +525,8 @@ CPE-ID: cpe:/a:gstreamer:good_plug-ins
 Architecture: aarch64_cortex-a72
 Installed-Size: 266240
 Filename: gst1-mod-video4linux2_1.24.8-r1_aarch64_cortex-a72.ipk
-Size: 86640
-SHA256sum: fc156a44b79d4de7b89428a77abd6f17b615e909ad411d836b7eca252d2a32e1
+Size: 86653
+SHA256sum: 3804af5ecf0ed16b800c30e9b54448fd59f68dc173bf85fa9625eb8d966ac3b1
 Description:  GStreamer open source multimedia framework
  .
  This package contains the GStreamer video4linux2 support plugin.
@@ -541,8 +541,8 @@ CPE-ID: cpe:/a:gstreamer:gst-plugins-base
 Architecture: aarch64_cortex-a72
 Installed-Size: 71680
 Filename: gst1-mod-videotestsrc_1.24.8-r1_aarch64_cortex-a72.ipk
-Size: 21383
-SHA256sum: 6b73da7ce1eee9f36ed4dc305814a99f98e3eb066a99408314537b4099c729b0
+Size: 21386
+SHA256sum: 4abc4acfb3e6aef499536894d24a9906733ace139edabf3a91874457ccfdad1f
 Description:  GStreamer open source multimedia framework
  .
  This package contains the GStreamer video test plugin.
@@ -557,8 +557,8 @@ CPE-ID: cpe:/a:gstreamer_project:gstreamer
 Architecture: aarch64_cortex-a72
 Installed-Size: 10240
 Filename: gstreamer1-libs_1.24.8-r1_aarch64_cortex-a72.ipk
-Size: 984
-SHA256sum: d9876a9a67c60e03c6349e2505e3bfa3fa0a918f1cf981b6f702f07acd0a790d
+Size: 987
+SHA256sum: df7fb483a39b5180a92dc39864b98a092870bf64d94041db43c8fe9288160558
 Description:  GStreamer open source multimedia framework
  .
  This meta package contains only dependencies on the other GStreamer
@@ -574,8 +574,8 @@ CPE-ID: cpe:/a:gstreamer:gst-plugins-base
 Architecture: aarch64_cortex-a72
 Installed-Size: 10240
 Filename: gstreamer1-plugins-base_1.24.8-r1_aarch64_cortex-a72.ipk
-Size: 956
-SHA256sum: 2bf7dce4257c73a70cae439224a561987d80fc360ebaba4644274e90685655ac
+Size: 958
+SHA256sum: 0c66a292738f60be0c4629bc857cfeeb1797fac7892d3c288696fcb7726e3330
 Description:  GStreamer plugins collection (base)
 
 Package: gstreamer1-utils
@@ -588,8 +588,8 @@ CPE-ID: cpe:/a:gstreamer_project:gstreamer
 Architecture: aarch64_cortex-a72
 Installed-Size: 204800
 Filename: gstreamer1-utils_1.24.8-r1_aarch64_cortex-a72.ipk
-Size: 35952
-SHA256sum: 29c306c2c9edb9861df9e3d8ec5832bee1a9dde600c5624cb07ff5f688283431
+Size: 35957
+SHA256sum: 5d54f3e7b9f318c994596662145e27efd7061d0e9c65fba4b953a08c716cad6f
 Description:  GStreamer open source multimedia framework
  .
  This package contains the GStreamer utilities.
@@ -603,8 +603,8 @@ URL: https://github.com/libusb/hidapi
 Architecture: aarch64_cortex-a72
 Installed-Size: 143360
 Filename: hidapi_0.14.0-r1_aarch64_cortex-a72.ipk
-Size: 20035
-SHA256sum: dbf263793c09fb548848fbac8b5b43ecd4f00a26c9582edb14b65d9802aaa264
+Size: 20058
+SHA256sum: bc3d738bd812effeefe3965b106fc6ce4e8cf860e904258cac08b384c7f1f191
 Description:  HIDAPI is a multi-platform library which allows an application to interface
  with USB and Bluetooth HID-Class devices on Windows, Linux, FreeBSD, and Mac
  OS X.  HIDAPI can be either built as a shared library (.so or .dll) or
@@ -621,8 +621,8 @@ CPE-ID: cpe:/a:i2c-tools_project:i2c-tools
 Architecture: aarch64_cortex-a72
 Installed-Size: 337920
 Filename: i2c-tools_4.3-r3_aarch64_cortex-a72.ipk
-Size: 34134
-SHA256sum: 97371c9f73c1732d847ab6c901b55ba983bd02d97867cc0dfd55abdfbc50aeec
+Size: 34041
+SHA256sum: e1064abf8067249382018106aa30d1c2320c618f05e0f444afc2be459f4fcad5
 Description:  This package contains an heterogeneous set of I2C tools for Linux. These tools
  were originally part of the lm-sensors package.
 
@@ -635,8 +635,8 @@ URL: http://www.ex-parrot.com/~pdw/iftop/
 Architecture: aarch64_cortex-a72
 Installed-Size: 71680
 Filename: iftop_2018.10.03~77901c8c-r2_aarch64_cortex-a72.ipk
-Size: 25703
-SHA256sum: 4d6737a4f1be4184ce2a80802e4813604ae4091c68bc9043448763a9897d471c
+Size: 25689
+SHA256sum: dbeffc57990b0d4da87ae9c14540fbcc1bebb1d87c2a4b6579f10c59f3187cfc
 Description:  iftop does for network usage what top(1) does for CPU usage. It
  listens to network traffic on a named interface and displays a
  table of current bandwidth usage by pairs of hosts. Handy for
@@ -651,8 +651,8 @@ URL: https://github.com/analogdevicesinc/libiio
 Architecture: aarch64_cortex-a72
 Installed-Size: 471040
 Filename: iio-utils_0.25-r1_aarch64_cortex-a72.ipk
-Size: 61685
-SHA256sum: 4c3c6641c26d4c814c650e92a75768f3e7613d5de91c3d50ac4ce3cd9e10b605
+Size: 61457
+SHA256sum: 7d068d8a681e6cffe1c36620d0577dfb9f2da9f27d2622faae017443bff6813a
 Description:  Command line tools for IIO devices.
 
 Package: iiod
@@ -664,8 +664,8 @@ URL: https://github.com/analogdevicesinc/libiio
 Architecture: aarch64_cortex-a72
 Installed-Size: 71680
 Filename: iiod_0.25-r1_aarch64_cortex-a72.ipk
-Size: 26302
-SHA256sum: 9cf0c4e7d822e4a94866c79a6c381f43705faac177e094a279f5dee26426ba55
+Size: 26274
+SHA256sum: 5cd1e60f78d77dc3924dc58136b92ce4c547e000b3a6dff1ab30c3d11b9813f9
 Description:  Daemon to access IIO devices via network.
 
 Package: iperf
@@ -678,8 +678,8 @@ CPE-ID: cpe:/a:iperf_project:iperf
 Architecture: aarch64_cortex-a72
 Installed-Size: 337920
 Filename: iperf_2.1.9-r1_aarch64_cortex-a72.ipk
-Size: 117595
-SHA256sum: b135ffffaa63ddea794bb971c553a1443bcdadb243901d65829bbb71d35a524d
+Size: 117586
+SHA256sum: 025700dbe06670404c33ee6dd18073ab5d384d66dc827d2070c17527dd7af3c5
 Description:  Iperf is a modern alternative for measuring TCP and UDP bandwidth
  performance, allowing the tuning of various parameters and
  characteristics.
@@ -693,8 +693,8 @@ URL: https://github.com/iptraf-ng/iptraf-ng
 Architecture: aarch64_cortex-a72
 Installed-Size: 204800
 Filename: iptraf-ng_1.2.1-r1_aarch64_cortex-a72.ipk
-Size: 74050
-SHA256sum: 59d6a11911408175508c00e2cdfaeb6f5c18e3c0f482d29fe400a6e937df8d4e
+Size: 74111
+SHA256sum: 662589d27b0ba8b29c14412a2b3027f2ee4dfe5fe8da9987c6aa2f15fcbb84d2
 Description:  iptraf-ng is a console-based network statistics utility for Linux. It gathers a
  variety of figures such as TCP connection packet and byte counts, interface
  statistics and activity indicators, TCP/UDP traffic breakdowns, and LAN
@@ -710,8 +710,8 @@ CPE-ID: cpe:/a:lame_project:lame
 Architecture: aarch64_cortex-a72
 Installed-Size: 276480
 Filename: lame-lib_3.100-r1_aarch64_cortex-a72.ipk
-Size: 127326
-SHA256sum: f2cf7ef31ee583ba0b4455474d612ed8f1deefa78e4aadc14d19003f0f3aa8bf
+Size: 127322
+SHA256sum: 68174e82f450bdc193efea0a060f8ead7f750138c97d07d710c250b79bd0425d
 Description:  lame mp3 encoder libs
 
 Package: libacl
@@ -724,8 +724,8 @@ CPE-ID: cpe:/a:acl_project:acl
 Architecture: aarch64_cortex-a72
 Installed-Size: 71680
 Filename: libacl_2.3.2-r2_aarch64_cortex-a72.ipk
-Size: 13531
-SHA256sum: a6033bfa6b9eb91594e9c63d0426aafeca8915162aa0c01ee86b40dd0ddd3fca
+Size: 13525
+SHA256sum: c5ee84a7f5d3fb0435715f0e49f56a39049482ae4db68ab4a4a9ea642eb7b438
 Description:  Access control list support
  This package provides libacl
 
@@ -739,8 +739,8 @@ CPE-ID: cpe:/a:attr_project:attr
 Architecture: aarch64_cortex-a72
 Installed-Size: 81920
 Filename: libattr_2.5.2-r3_aarch64_cortex-a72.ipk
-Size: 7665
-SHA256sum: e6627bac5258069e3a78f6f804ffe9bbb741cb1b623d710f93b98f3b854986b2
+Size: 7670
+SHA256sum: e432dad113445ddcb80a1f2f414f6fad4c31f961ada4df789f51769d4e13aeac
 Description:  Extended attributes support
  This package provides libattr
 
@@ -754,8 +754,8 @@ CPE-ID: cpe:/a:c-ares_project:c-ares
 Architecture: aarch64_cortex-a72
 Installed-Size: 266240
 Filename: libcares_1.34.6-r1_aarch64_cortex-a72.ipk
-Size: 100725
-SHA256sum: 8785dc9f4a65c7673a52b833b17af4c100f98d1eb6797ab189867c5dddac1d49
+Size: 100714
+SHA256sum: 87a97a073834594ec939d59605c8f407cf3bc28b5f83283965089e38278736c4
 Description:  c-ares is a C library for asynchronous DNS requests (including name resolves)
  
  C89 compatibility, MIT licensed, builds for and runs on POSIX, Windows,
@@ -773,8 +773,8 @@ ABIVersion: 11
 Architecture: aarch64_cortex-a72
 Installed-Size: 71680
 Filename: libconfig11_1.7.3-r1_aarch64_cortex-a72.ipk
-Size: 19731
-SHA256sum: f177a3cb1fd8957c8514e2b065a376b8c95406cfc6164f45686f9ff52573c71b
+Size: 19739
+SHA256sum: 70080a7658af292f21c8aefaaa7f5efe776524f95c919608b47525d3aad44bdf
 Description:  Libconfig is a simple library for manipulating structured configuration
  files. This file format is more compact and more readable than XML. And
  unlike XML, it is type-aware, so it is not necessary to do string
@@ -794,8 +794,8 @@ CPE-ID: cpe:/a:libdaemon_project:libdaemon
 Architecture: aarch64_cortex-a72
 Installed-Size: 71680
 Filename: libdaemon_0.14-r5_aarch64_cortex-a72.ipk
-Size: 10598
-SHA256sum: 805109805c605f8b4973cbc37887249669513213d49a5cc91f71f8a261854b03
+Size: 10596
+SHA256sum: 5284267f657b2b6447d6ce894dc5e3f9e8d68da0cbfc06e699c3cd99cbe91a58
 Description:  libdaemon is a lightweight C library that eases the writing of UNIX daemons.
  It consists of the following parts:
  - A wrapper around fork() which does the correct daemonization procedure of a process
@@ -817,8 +817,8 @@ CPE-ID: cpe:/a:freedesktop:dbus
 Architecture: aarch64_cortex-a72
 Installed-Size: 399360
 Filename: libdbus_1.14.10-r1_aarch64_cortex-a72.ipk
-Size: 133077
-SHA256sum: 461de92d7f6993897599bfadf941b0d9e92c29511b9af75ae87cf2edce270c34
+Size: 133081
+SHA256sum: 52c0ee3316ba4446769995a87a53032811a643a7f80ca83b59a9a6d8b2580cf3
 Description:  Simple interprocess messaging system (library)
 
 Package: libdrm
@@ -830,8 +830,8 @@ URL: https://dri.freedesktop.org/
 Architecture: aarch64_cortex-a72
 Installed-Size: 143360
 Filename: libdrm_2.4.120-r1_aarch64_cortex-a72.ipk
-Size: 34813
-SHA256sum: 2a8432a5dd2441c6fb2dcbf67178197ade7a7e77cf64b119e58a126d2af9c957
+Size: 34798
+SHA256sum: a1ae8c6b208fe0d0df2b8b2de563a3fcde3593c4e62df5ae44bdd7e77a5fde7f
 Description:  LIBDRM is the cross-driver middleware which allows user-space applications
  (such as Mesa and 2D drivers) to communicate with the Kernel by the means
  of the DRI protocol.
@@ -845,8 +845,8 @@ URL: https://www.freedesktop.org/wiki/Software/libevdev/
 Architecture: aarch64_cortex-a72
 Installed-Size: 143360
 Filename: libevdev_1.13.1-r1_aarch64_cortex-a72.ipk
-Size: 32887
-SHA256sum: 005c11b862761cfa942d2fa8da06434b2bd4991e1055f0c930e2be2c1b304467
+Size: 32892
+SHA256sum: 932ec105f3eee94d14a3e451ce48b25440ecfbaf97ad068ca417f35c6dc6e592
 Description:  libevdev is a wrapper library for evdev devices. it moves the common
  tasks when dealing with evdev devices into a library and provides a
  library interface to the callers, thus avoiding erroneous ioctls, etc.
@@ -864,8 +864,8 @@ CPE-ID: cpe:/a:libexpat_project:libexpat
 Architecture: aarch64_cortex-a72
 Installed-Size: 143360
 Filename: libexpat_2.7.1-r1_aarch64_cortex-a72.ipk
-Size: 51340
-SHA256sum: 35880c93a67677afaef14216ed26d9ee1229076f90997523da6118d927644ff2
+Size: 51341
+SHA256sum: 276818571caf1cf0c7d318bad28460c38e9b48144a9566ee6e0854f5cff1fb0a
 Description:  A fast, non-validating, stream-oriented XML parsing library.
 
 Package: libffi
@@ -878,8 +878,8 @@ CPE-ID: cpe:/a:libffi_project:libffi
 Architecture: aarch64_cortex-a72
 Installed-Size: 143360
 Filename: libffi_3.4.7-r1_aarch64_cortex-a72.ipk
-Size: 17634
-SHA256sum: b9974fc5ce979074986a4df6ba440bfd43fd79f454dfed379f26a9c694ca8a58
+Size: 17640
+SHA256sum: 710e80b6c8423cbd16a09d57b0c8f02ac2865472d1eeec995c77ba1f689222a7
 Description:  The libffi library provides a portable, high level programming interface to
  various calling conventions. This allows a programmer to call any function
  specified by a call interface description at run-time.
@@ -902,8 +902,8 @@ CPE-ID: cpe:/a:ffmpeg:ffmpeg
 Architecture: aarch64_cortex-a72
 Installed-Size: 15093760
 Filename: libffmpeg-full_6.1.3-r1_aarch64_cortex-a72.ipk
-Size: 6942575
-SHA256sum: 194f0521d6a2356369bc63e31a0d854b078adbd59360afdec51e3204cc2b4485
+Size: 6942554
+SHA256sum: 98e94fa29eab46783d60c6484234e3d8ce7f973c6d63f70c95f045044c3a95ba
 Description:  FFmpeg is a a software package that can record, convert and stream digital
  audio and video in numerous formats.
  
@@ -912,6 +912,23 @@ Description:  FFmpeg is a a software package that can record, convert and stream
  https://ffmpeg.org/legal.html for further information.
  .
  This package contains full-featured FFmpeg shared libraries.
+
+Package: libfreetype
+Version: 2.13.3-r1
+Depends: libc, zlib, libpng
+License: FTL GPL-2.0-only MIT ZLIB GPL-3.0-or-later
+Section: libs
+URL: https://www.freetype.org/
+CPE-ID: cpe:/a:freetype:freetype
+Architecture: aarch64_cortex-a72
+Installed-Size: 665600
+Filename: libfreetype_2.13.3-r1_aarch64_cortex-a72.ipk
+Size: 317063
+SHA256sum: a5e3b6a37e90bff824e1f73a393e0ec3cb6e994f99157e92551ebae206cbacb7
+Description:  The FreeType project is a team of volunteers who develop free,
+ portable and high-quality software solutions for digital typography.
+ They specifically target embedded systems and focus on bringing small,
+ efficient and ubiquitous products.
 
 Package: libgcrypt
 Version: 1.10.3-r1
@@ -923,8 +940,8 @@ CPE-ID: cpe:/a:gnupg:libgcrypt
 Architecture: aarch64_cortex-a72
 Installed-Size: 880640
 Filename: libgcrypt_1.10.3-r1_aarch64_cortex-a72.ipk
-Size: 411590
-SHA256sum: 7b9f18c18826985e6475547c46878a05ac39d0397f143d5640f669a3e42a3e46
+Size: 411597
+SHA256sum: 94b1e80abc032a54336174b7d58da7d03447889e07040ba613a18c723e5bc7b5
 Description:  This is a general purpose cryptographic library based on the code from
  GnuPG. It provides functions for all cryptograhic building blocks:
  symmetric ciphers (AES, DES, Arcfour, CAST5), hash algorithms (MD5, SHA-1,
@@ -943,8 +960,8 @@ URL: https://www.gnu.org/software/gdbm/
 Architecture: aarch64_cortex-a72
 Installed-Size: 143360
 Filename: libgdbm_1.23-r1_aarch64_cortex-a72.ipk
-Size: 30334
-SHA256sum: adf86a71bdaba3b7c85114ba41a685c63131d33f05a2575680f88c7cea9e865a
+Size: 30342
+SHA256sum: 61d3c535002f2f548667126cb442c44b809e9aef608a09bf87a200236abf7676
 Description:  GNU database manager library
  GNU dbm is a set of database routines that use extendible hashing and
  works similar to the standard UNIX dbm routines.
@@ -959,8 +976,8 @@ CPE-ID: cpe:/a:gnu:gnutls
 Architecture: aarch64_cortex-a72
 Installed-Size: 2242560
 Filename: libgnutls_3.8.5-r1_aarch64_cortex-a72.ipk
-Size: 913609
-SHA256sum: d551cecdf6be61148ae6169e04033d1464c53c90c077e8458381118698fef29b
+Size: 913620
+SHA256sum: 50423021d689c139be1c7a934036addad25b08e8db4afa65bb79fc20dfa81fb8
 Description:  GnuTLS is a secure communications library implementing the SSL, TLS
  and DTLS protocols and technologies around them. It provides a simple
  C language application programming interface (API) to access the secure
@@ -979,8 +996,8 @@ CPE-ID: cpe:/a:gnupg:libgpg-error
 Architecture: aarch64_cortex-a72
 Installed-Size: 204800
 Filename: libgpg-error_1.49-r1_aarch64_cortex-a72.ipk
-Size: 62563
-SHA256sum: e15b09237788afdc779f76e22af9345f42678e44516b92d3c3b7982a07756b9b
+Size: 62548
+SHA256sum: 6c4568966594a3892a912fe6edccba74ae998ae954d4e3faf4195b8f1b901c46
 Description:  An helper library for common error codes and descriptions.
  This is a library that defines common error values for all GnuPG
  components. Among these are GPG, GPGSM, GPGME, GPG-Agent, libgcrypt,
@@ -996,8 +1013,8 @@ URL: https://git.kernel.org/pub/scm/libs/libgpiod/libgpiod.git
 Architecture: aarch64_cortex-a72
 Installed-Size: 71680
 Filename: libgpiod_2.1.3-r1_aarch64_cortex-a72.ipk
-Size: 12807
-SHA256sum: 3497e67a7252aac581bd3a6abac3070f6b0cdbc7123121cfb0bd084172fc4672
+Size: 12804
+SHA256sum: 270bf9613bd9f90dea5430fb41e13b64d79798556bd4226fafd15a31872a3d9a
 Description:  C library for interacting with the linux GPIO character device
  (gpiod stands for GPIO device).
 
@@ -1011,8 +1028,8 @@ CPE-ID: cpe:/a:gstreamer:gst-plugins-base
 Architecture: aarch64_cortex-a72
 Installed-Size: 71680
 Filename: libgst1allocators_1.24.8-r1_aarch64_cortex-a72.ipk
-Size: 8307
-SHA256sum: a5325339dbe5b7eaa78eadff7ec57670b77f5a2b9446e6974aa09d3f2a5404f6
+Size: 8317
+SHA256sum: 0d19ddaa0ed6f13b8f388521205bb25e629c19c58fd71ec88864b5d1c1f7a438
 Description:  GStreamer open source multimedia framework
  .
  This package contains the GStreamer allocators library.
@@ -1027,8 +1044,8 @@ CPE-ID: cpe:/a:gstreamer:gst-plugins-base
 Architecture: aarch64_cortex-a72
 Installed-Size: 71680
 Filename: libgst1app_1.24.8-r1_aarch64_cortex-a72.ipk
-Size: 21069
-SHA256sum: 97fd79396831adcaceb06766d02efa62ab03f69722c1ef2c827560e0b9595513
+Size: 21059
+SHA256sum: 28f28ba4307a6bb5b11285316fe0155341503cd9227a3495a400b91821e6c9fd
 Description:  GStreamer open source multimedia framework
  .
  This package contains the GStreamer app library.
@@ -1043,8 +1060,8 @@ CPE-ID: cpe:/a:gstreamer:gst-plugins-base
 Architecture: aarch64_cortex-a72
 Installed-Size: 337920
 Filename: libgst1audio_1.24.8-r1_aarch64_cortex-a72.ipk
-Size: 114336
-SHA256sum: 0482d9cb3ad500b3ea809912afbd60ebe4b7c5956b78478845d09ce62a47e632
+Size: 114352
+SHA256sum: 9bc467e86806131bcfc6a6ecb516e8a4786e77e92090c054c719747455238e06
 Description:  GStreamer open source multimedia framework
  .
  This package contains the GStreamer audio library.
@@ -1059,8 +1076,8 @@ CPE-ID: cpe:/a:gstreamer_project:gstreamer
 Architecture: aarch64_cortex-a72
 Installed-Size: 143360
 Filename: libgst1net_1.24.8-r1_aarch64_cortex-a72.ipk
-Size: 28418
-SHA256sum: ed22791853239f8e3278e41b9251de22990f7dcae8660ae1dbe8bcffbd652235
+Size: 28411
+SHA256sum: a07ba0a76b10d9ff7b3ccda87f44c4fc012af75fde892b1a4ec323be822cbd01
 Description:  GStreamer open source multimedia framework
  .
  This package contains the GStreamer network classes library.
@@ -1075,8 +1092,8 @@ CPE-ID: cpe:/a:gstreamer:gst-plugins-base
 Architecture: aarch64_cortex-a72
 Installed-Size: 204800
 Filename: libgst1pbutils_1.24.8-r1_aarch64_cortex-a72.ipk
-Size: 70010
-SHA256sum: 4c60c16faa435419818775e9d2794551150699f72db22f61a0b0b7b7a358ce5a
+Size: 69979
+SHA256sum: 7b211fec9691bb89b7cc52d2405cfddddf7cc5ad904010ec63ea04baa5628526
 Description:  GStreamer open source multimedia framework
  .
  This package contains the GStreamer utils library.
@@ -1091,8 +1108,8 @@ CPE-ID: cpe:/a:gstreamer:gst-plugins-base
 Architecture: aarch64_cortex-a72
 Installed-Size: 143360
 Filename: libgst1rtp_1.24.8-r1_aarch64_cortex-a72.ipk
-Size: 48395
-SHA256sum: a4fc8c9880a64f11c33dd57a3d7a4a0a3aaa254e76f2703d09b66c7bd41affb5
+Size: 48392
+SHA256sum: 1c8577ad09b65c48e784588aa863e89c63bd7a780aaa9f00b78c6c11cfafefe1
 Description:  GStreamer open source multimedia framework
  .
  This package contains the GStreamer RTP library.
@@ -1107,8 +1124,8 @@ CPE-ID: cpe:/a:gstreamer:gst-plugins-base
 Architecture: aarch64_cortex-a72
 Installed-Size: 143360
 Filename: libgst1rtsp_1.24.8-r1_aarch64_cortex-a72.ipk
-Size: 50724
-SHA256sum: be64ee0c23b6c88276f59da6fa146b6a267568f4122cc7bcfc9f44be0d9d0dfc
+Size: 50711
+SHA256sum: 4bea558742922c4339b1c14c3421197b13a7fecf1637fd3794e7db3592e5a143
 Description:  GStreamer open source multimedia framework
  .
  This package contains the GStreamer RTSP library.
@@ -1123,8 +1140,8 @@ CPE-ID: cpe:/a:gstreamer:gst-plugins-base
 Architecture: aarch64_cortex-a72
 Installed-Size: 143360
 Filename: libgst1sdp_1.24.8-r1_aarch64_cortex-a72.ipk
-Size: 30200
-SHA256sum: ddbbc5bee05d24192e7e8960ab1a9a7a9bf2643085293075cbd68dc8b32c61ce
+Size: 30186
+SHA256sum: ec1e20b89d71b14562b4ab3c4e185b50285b259a3669b3ffa779fe0b06895d6b
 Description:  GStreamer open source multimedia framework
  .
  This package contains the GStreamer SDP library.
@@ -1139,8 +1156,8 @@ CPE-ID: cpe:/a:gstreamer:gst-plugins-base
 Architecture: aarch64_cortex-a72
 Installed-Size: 204800
 Filename: libgst1tag_1.24.8-r1_aarch64_cortex-a72.ipk
-Size: 64333
-SHA256sum: e842a39456d8447c0e9caa5327c19dbd977c0f283d7838f3ea637b6e7ebbce48
+Size: 64346
+SHA256sum: 10c96da9c8346334243b20dd4476207d7d48a33a4a76b41f172278a08414cd31
 Description:  GStreamer open source multimedia framework
  .
  This package contains the GStreamer tag support library.
@@ -1155,15 +1172,15 @@ CPE-ID: cpe:/a:gstreamer:gst-plugins-base
 Architecture: aarch64_cortex-a72
 Installed-Size: 604160
 Filename: libgst1video_1.24.8-r1_aarch64_cortex-a72.ipk
-Size: 198926
-SHA256sum: 77e9031ae7e97fe6828ffaf31b3d38ff665afa1283befff489a87e79a4b4e4af
+Size: 198944
+SHA256sum: 6acd02b71bc3017f2e2ab05c2e9f58d8d29f60eb901414e46023bf5bd8bbeab3
 Description:  GStreamer open source multimedia framework
  .
  This package contains the GStreamer video library.
 
 Package: libgstreamer1
 Version: 1.24.8-r1
-Depends: libc, glib2, libpthread, libxml2
+Depends: libc, glib2, libpthread, libxml2-16
 License: LGPL-2.1-or-later
 Section: multimedia
 URL: https://gstreamer.freedesktop.org/
@@ -1171,8 +1188,8 @@ CPE-ID: cpe:/a:gstreamer_project:gstreamer
 Architecture: aarch64_cortex-a72
 Installed-Size: 1853440
 Filename: libgstreamer1_1.24.8-r1_aarch64_cortex-a72.ipk
-Size: 611424
-SHA256sum: 0aef65ea29b477d3a22ce2167bf0ef6f184a55eeba9972cca99bb3522a7df761
+Size: 611350
+SHA256sum: 5308f1471de70d0046773367e2d6f97586d181e0c56f4a9ab4e247ee21ed81f8
 Description:  GStreamer open source multimedia framework
  .
  This package contains the GStreamer core library.
@@ -1187,21 +1204,21 @@ CPE-ID: cpe:/a:i2c-tools_project:i2c-tools
 Architecture: aarch64_cortex-a72
 Installed-Size: 71680
 Filename: libi2c_4.3-r3_aarch64_cortex-a72.ipk
-Size: 3020
-SHA256sum: cebfbd6f9f15e3a34c74da17001d1765de88f30777f8347811b08a75b51aadee
+Size: 3019
+SHA256sum: 0f6f585c1a3275cd8d15fc4063d1d4c13b50c27effd968fcc3fd8c71b7fda3a4
 Description:  This package contains i2c functionality needed by i2c-tools.
 
 Package: libiio
 Version: 0.25-r1
-Depends: libc, zlib, libavahi-client, libxml2
+Depends: libc, zlib, libavahi-client, libxml2-16
 License: LGPL-2.1
 Section: libs
 URL: https://github.com/analogdevicesinc/libiio
 Architecture: aarch64_cortex-a72
 Installed-Size: 143360
 Filename: libiio_0.25-r1_aarch64_cortex-a72.ipk
-Size: 45538
-SHA256sum: ef072ea92ec66d59627023735b441f08e91d06b2a2fc84b2f83207c8c7d2b6e5
+Size: 45542
+SHA256sum: c43eb912b34ba97d5e96090512f9c47070a24ac5b8206024ddf68b7cdc83582b
 Description:  libiio is used to interface to the Linux Industrial Input/Output (IIO) Subsystem.
  The Linux IIO subsystem is intended to provide support for devices that in some
  sense are analog to digital or digital to analog converters (ADCs, DACs). This
@@ -1224,8 +1241,8 @@ CPE-ID: cpe:/a:libjpeg-turbo:libjpeg-turbo
 Architecture: aarch64_cortex-a72
 Installed-Size: 471040
 Filename: libjpeg-turbo_3.0.3-r1_aarch64_cortex-a72.ipk
-Size: 178766
-SHA256sum: db217c4b97f72ed869a82dae5d1a66b27716f7543e1e4335f39cbba0a2bbe5ed
+Size: 178759
+SHA256sum: 55a7cc5396e9456856fcfe776d3a16cdbb467158547f9655077c0aa3e850d8ef
 Description:  libjpeg-turbo is a speed focused fork of libjpeg.
 
 Package: libkmod
@@ -1238,8 +1255,8 @@ CPE-ID: cpe:/a:kernel:kmod
 Architecture: aarch64_cortex-a72
 Installed-Size: 143360
 Filename: libkmod_32-r1_aarch64_cortex-a72.ipk
-Size: 38331
-SHA256sum: dd8219d136e923ec1138814b5f2c369b855cef89892e3e7d2cb25c176ecf5b7f
+Size: 38328
+SHA256sum: 87e40bdc5d0cb41ce2aecbab4c719c8db9c2fdf87b4f813c492dd8f99426b9d9
 Description:  Linux kernel module handling (library)
 
 Package: liblzma
@@ -1252,8 +1269,8 @@ CPE-ID: cpe:/a:tukaani:xz
 Architecture: aarch64_cortex-a72
 Installed-Size: 143360
 Filename: liblzma_5.6.2-r2_aarch64_cortex-a72.ipk
-Size: 65727
-SHA256sum: 63bec96d90708d3918f50ae0509ddd62e032688af6e508289c9f9c55149c598d
+Size: 65723
+SHA256sum: 9bc040325641e4e891bc7df799fdb44f5825d0b4326f1902b8d453cbce815e56
 Description:  liblzma library from XZ Utils
 
 Package: liblzo2
@@ -1268,8 +1285,8 @@ CPE-ID: cpe:/a:oberhumer:lzo
 Architecture: aarch64_cortex-a72
 Installed-Size: 143360
 Filename: liblzo2_2.10-r4_aarch64_cortex-a72.ipk
-Size: 39081
-SHA256sum: 247ebc4cf65799ffd82348c7093d2687a9d29635644edc65d4860c4d6d44ec40
+Size: 39082
+SHA256sum: e24cf82ec8d2ef06bb9e113053c62202818c714766d63dbd5e0c60685ed381ba
 Description:  LZO is a data compression library which is suitable for data de-/compression
  in real-time. This means it favours speed over compression ratio.
 
@@ -1283,8 +1300,8 @@ CPE-ID: cpe:/a:file_project:file
 Architecture: aarch64_cortex-a72
 Installed-Size: 1075200
 Filename: libmagic_5.45-r1_aarch64_cortex-a72.ipk
-Size: 290716
-SHA256sum: e23e83c383c3cdee3eb0b8b16850353d02e4c391d1e7f4d2b864709c1873e665
+Size: 290745
+SHA256sum: 75ddcd44c15bdd0c43ad6547ea8f2625e402006566468531601c693a9a726e51
 Description:  File type determination library
 
 Package: libogg0
@@ -1298,8 +1315,8 @@ ABIVersion: 0
 Architecture: aarch64_cortex-a72
 Installed-Size: 71680
 Filename: libogg0_1.3.5-r1_aarch64_cortex-a72.ipk
-Size: 18651
-SHA256sum: 0c81e23f7f63c40c50c35aafd8ad10c16d55f0390d4c1c0aa8ed057a43f38abc
+Size: 18647
+SHA256sum: 11e72d82e1d5200546c666ba9566d229c0894161b68d36c0782f4994d25f0146
 Description:  Ogg project codecs use the Ogg bitstream format to arrange the raw,
  compressed bitstream into a more robust, useful form.  For example,
  the Ogg bitstream makes seeking, time stamping and error recovery
@@ -1316,8 +1333,8 @@ CPE-ID: cpe:/a:noping:liboping
 Architecture: aarch64_cortex-a72
 Installed-Size: 71680
 Filename: liboping_1.10.0-r3_aarch64_cortex-a72.ipk
-Size: 8546
-SHA256sum: 242a6423e090ea74dda8bb078ae496621d70b1ef9f3d6acdaa12b0f835de0d20
+Size: 8544
+SHA256sum: a5a44555d4d48e808d3c391db051a00e35362def4afb6a08fb5ff4240632c7e1
 Description:  C library to generate ICMP echo requests.
 
 Package: libopus
@@ -1331,7 +1348,7 @@ Architecture: aarch64_cortex-a72
 Installed-Size: 337920
 Filename: libopus_1.5.2-r1_aarch64_cortex-a72.ipk
 Size: 195665
-SHA256sum: 253543ab98aca867d75f1d9573d663168c3f211fd81741b53cfada68a60cc3d7
+SHA256sum: 73cb7814a3634eb32dacd6fba9e67a1df6c4cc7ce1370ea172faa94f9de91a9f
 Description:  Opus is a totally open, royalty-free, highly versatile audio codec. Opus is
  unmatched for interactive speech and music transmission over the Internet, but
  is also intended for storage and streaming applications.
@@ -1346,8 +1363,8 @@ CPE-ID: cpe:/a:xiph:opusfile
 Architecture: aarch64_cortex-a72
 Installed-Size: 143360
 Filename: libopusfile_0.12-r2_aarch64_cortex-a72.ipk
-Size: 36697
-SHA256sum: 2aef0862ddaa23550f6f05351e1459e609d89d082409430a1e56247f416f930d
+Size: 36698
+SHA256sum: 2f409a756e12180c1b56a0b126b3931e07f23d3b09a3185618ac44593d24a631
 Description:  The opusfile library provides seeking, decode, and playback of Opus streams in the Ogg container (.opus files)
 
 Package: libpam
@@ -1360,8 +1377,8 @@ CPE-ID: cpe:/a:linux-pam:linux-pam
 Architecture: aarch64_cortex-a72
 Installed-Size: 3256320
 Filename: libpam_1.5.2-r1_aarch64_cortex-a72.ipk
-Size: 231488
-SHA256sum: 9a28646910ba96f9ddf47e7d67d8120090b29a2c56f8da5fa8aac86c390a098c
+Size: 231353
+SHA256sum: c56ac4062beb1c9e91ca8218cf72b36f95c2d00a7a50a4024fb90a36aebc369c
 Description:  The Linux-PAM Pluggable Authentication Modules.
 
 Package: libpci
@@ -1373,9 +1390,23 @@ URL: http://mj.ucw.cz/pciutils.shtml
 Architecture: aarch64_cortex-a72
 Installed-Size: 71680
 Filename: libpci_3.14.0-r1_aarch64_cortex-a72.ipk
-Size: 30246
-SHA256sum: a620d401b310763ac150bc3ed74ff4ac098809f9a9f43dbaf741595effac3eec
+Size: 30236
+SHA256sum: bcd4fd9c69a618f463295f002fb719dc82ccebc3d2d97e61ada973d6d5198d1d
 Description:  Linux PCI Libraries
+
+Package: libpng
+Version: 1.6.44-r2
+Depends: libc, zlib
+License: Libpng GPL-2.0-or-later BSD-3-Clause
+Section: libs
+URL: http://www.libpng.org/pub/png/libpng.html
+CPE-ID: cpe:/a:libpng:libpng
+Architecture: aarch64_cortex-a72
+Installed-Size: 276480
+Filename: libpng_1.6.44-r2_aarch64_cortex-a72.ipk
+Size: 98809
+SHA256sum: 7aa8355bdd87e8868516e2878b78a9d19f33dbd3f8bf3dba1702254fba6160ac
+Description:  A PNG format files handling library
 
 Package: libpython3-3.11
 Version: 3.11.14-r1
@@ -1389,8 +1420,8 @@ CPE-ID: cpe:/a:python:python
 Architecture: aarch64_cortex-a72
 Installed-Size: 4679680
 Filename: libpython3-3.11_3.11.14-r1_aarch64_cortex-a72.ipk
-Size: 1363872
-SHA256sum: 4d9708c278668f02c26443f752e4649001641e1104b66f378f81eec439f8aec1
+Size: 1364013
+SHA256sum: 215b14d36c58b232b43b13e96e236fe47cdd0a7deb56c908a7a539c085a393f6
 Description:  Python is an interpreted, interactive, object-oriented programming
  language. It incorporates modules, exceptions, dynamic typing, very high
  level dynamic data types, and classes. It supports multiple programming
@@ -1413,8 +1444,8 @@ URL: https://fukuchi.org/works/qrencode/
 Architecture: aarch64_cortex-a72
 Installed-Size: 71680
 Filename: libqrencode_4.1.1-r1_aarch64_cortex-a72.ipk
-Size: 19599
-SHA256sum: 6535cc306277715c0dd9831c278e279a11b337d320ad200190986e3b46733d66
+Size: 19607
+SHA256sum: 95c6fa654d36493c8701864797a4d7c0fdc30980f7859630fb362f9eaa9495ee
 Description:  Libqrencode is a C library for encoding data in a QR Code symbol,
  a kind of 2D symbology that can be scanned by handy terminals such
  as a mobile phone with CCD. The capacity of QR Code is up to 7000
@@ -1429,8 +1460,8 @@ URL: http://oss.oetiker.ch/rrdtool/
 Architecture: aarch64_cortex-a72
 Installed-Size: 604160
 Filename: librrd1_1.0.50-r6_aarch64_cortex-a72.ipk
-Size: 142074
-SHA256sum: f5aae7a321d0bd7f5f287d3bf2de1a893c657235406c5b49c60c87b4fa26e242
+Size: 142092
+SHA256sum: a86832549ea142f858de348626f7726339cd8ca7a6050aaeea5b85ec363852ea
 Description:  RRD is the Acronym for Round Robin Database. RRD is a system to store and
  display time-series data (i.e. network bandwidth, machine-room temperature,
  server load average). It stores the data in a very compact way that will
@@ -1453,8 +1484,8 @@ URL: http://sdr.osmocom.org/trac/wiki/rtl-sdr
 Architecture: aarch64_cortex-a72
 Installed-Size: 71680
 Filename: librtlsdr_2.0.1-r1_aarch64_cortex-a72.ipk
-Size: 24509
-SHA256sum: 3169755109e2839b9185cafa0aa318c9c31e9ed2b472b329624e8367505426be
+Size: 24506
+SHA256sum: 613636e610e8548860057e380188d67ea62d4959ec0b27e5ea398d2c6da4d34f
 Description:  rtl-sdr allows DVB-T dongles based on the Realtek RTL2832U to be used as
  an inexpensive SDR.
  
@@ -1470,12 +1501,12 @@ CPE-ID: cpe:/a:libseccomp_project:libseccomp
 Architecture: aarch64_cortex-a72
 Installed-Size: 143360
 Filename: libseccomp_2.5.5-r1_aarch64_cortex-a72.ipk
-Size: 43878
-SHA256sum: 3714a9fa1e22d424199922daeb967e61b5ba0b983a1b866380b004979873c9ed
+Size: 43867
+SHA256sum: de9bf981d4d7593e150b6112beae9d181a874f47b17e6dd9da2dde34fe8b5bd9
 Description:  This package contains the seccomp library.
 
 Package: libsqlite3-0
-Version: 3510200-r1
+Version: 3510100-r1
 Depends: libc, libpthread, zlib
 Provides: libsqlite3
 License: blessing
@@ -1485,9 +1516,9 @@ ABIVersion: -0
 CPE-ID: cpe:/a:sqlite:sqlite
 Architecture: aarch64_cortex-a72
 Installed-Size: 1136640
-Filename: libsqlite3-0_3510200-r1_aarch64_cortex-a72.ipk
-Size: 582728
-SHA256sum: 7ce0089cc75065d70304bbd0cb7af5129594dccfd310080a6f06b4c444bec39d
+Filename: libsqlite3-0_3510100-r1_aarch64_cortex-a72.ipk
+Size: 582567
+SHA256sum: 06a35120080cb0ddee294c54db141f903ee629baec99cb03b691314cc5d6f6a3
 Description:  SQLite is a small C library that implements a self-contained, embeddable,
  zero-configuration SQL database engine.
  This package contains the SQLite (v3.x) shared library, used by other
@@ -1504,8 +1535,8 @@ URL: https://github.com/illiliti/libudev-zero
 Architecture: aarch64_cortex-a72
 Installed-Size: 71680
 Filename: libudev-zero_1.0.3-r1_aarch64_cortex-a72.ipk
-Size: 11120
-SHA256sum: ff8e3c651c499ad435ba3332c1da2b348a7608a0dbb7a11118602c4a3cd8a362
+Size: 11118
+SHA256sum: 3cc2294d586684b3739265f4108528fb5c7704233e59383d64bc229d4b04d20f
 Description:  Drop-in replacement for libudev
 
 Package: libugpio
@@ -1517,8 +1548,8 @@ URL: https://github.com/mhei/libugpio
 Architecture: aarch64_cortex-a72
 Installed-Size: 71680
 Filename: libugpio_0.0.7-r1_aarch64_cortex-a72.ipk
-Size: 6143
-SHA256sum: 15177df7ab9b5d323fb0065bf112619ded2c34411e51b092d370cf9152661654
+Size: 6138
+SHA256sum: 9fbc4f5d91cd03664d9da788465437ca24aef155037a90f3a73c325a7d9bbb36
 Description:  libugpio is a library to ease the use of linux kernel's sysfs
  gpio interface from C programs and/or other libraries.
 
@@ -1534,8 +1565,8 @@ CPE-ID: cpe:/a:libuv:libuv
 Architecture: aarch64_cortex-a72
 Installed-Size: 204800
 Filename: libuv1_1.48.0-r1_aarch64_cortex-a72.ipk
-Size: 76023
-SHA256sum: 19a69355e52d358ac0b6703e0322b259cf0d9b4605b177de63ad834bd59214b5
+Size: 76024
+SHA256sum: e35d62c3d2508a94e34b5277ac5e78e329b998691664f2b60dafa962f6f3a4b4
 Description:  libuv is a multi-platform support library with a focus on asynchronous I/O. It
  was primarily developed for use by Node.js, but it's also used by Luvit, Julia,
  pyuv, and others.
@@ -1549,8 +1580,8 @@ URL: https://www.linuxtv.org/
 Architecture: aarch64_cortex-a72
 Installed-Size: 491520
 Filename: libv4l_1.28.0-r1_aarch64_cortex-a72.ipk
-Size: 89671
-SHA256sum: 6da7967789138e2480fbfe357d67327b4d35fffb53cf2a8fe5b2c56d663128ca
+Size: 89777
+SHA256sum: 1eb9f948947bf6ca710a9f86a4631ac2cf15b234b91cdb28d53fb1712c28251a
 Description:  libv4l is a collection of libraries which adds a thin abstraction layer on
  top of video4linux2 devices. The purpose of this (thin) layer is to make it
  easy for application writers to support a wide variety of devices without
@@ -1574,8 +1605,8 @@ URL: https://libwebsockets.org
 Architecture: aarch64_cortex-a72
 Installed-Size: 604160
 Filename: libwebsockets-full_4.3.3-r1_aarch64_cortex-a72.ipk
-Size: 202815
-SHA256sum: 6049d4779c1f2e762a8c52265ad0f386c9496e090a8816f53c8bc501bd4377fa
+Size: 202802
+SHA256sum: 85aeac87d518c753a1c28b901a96944b2d3629ab0bec02edd4bc71ec3eb738d7
 Description:  libwebsockets (Full - OpenSSL, libuv, plugins, CGI)
 
 Package: libx264
@@ -1587,13 +1618,27 @@ URL: https://www.videolan.org/developers/x264.html
 Architecture: aarch64_cortex-a72
 Installed-Size: 1648640
 Filename: libx264_2024.05.13~4613ac3c-r1_aarch64_cortex-a72.ipk
-Size: 836531
-SHA256sum: c679b063e194e38ac9572514e9eb40f4daeb40b89667d29dbb79f803328b2c50
+Size: 836483
+SHA256sum: ffa7f4b048842fc55a2fc9cc383327a322acfaea946e6683f1ac4fbd27042b03
 Description:  x264 is a free software library for encoding
  video streams into the H.264/MPEG-4 AVC compression format.
 
+Package: libyaml
+Version: 0.2.5-r1
+Depends: libc
+License: MIT
+Section: libs
+URL: https://pyyaml.org/wiki/LibYAML
+CPE-ID: cpe:/a:pyyaml_project:pyyaml
+Architecture: aarch64_cortex-a72
+Installed-Size: 143360
+Filename: libyaml_0.2.5-r1_aarch64_cortex-a72.ipk
+Size: 41879
+SHA256sum: 1a06290cab88e3066c312daa859ed3ac6f07a94362562872c77f43cd6d497f73
+Description:  Fast YAML 1.1 parser and emitter library
+
 Package: nano-full
-Version: 8.7.1-r2
+Version: 8.7-r1
 Depends: libc, libncurses6
 License: GPL-3.0-or-later
 Section: utils
@@ -1601,9 +1646,9 @@ URL: https://www.nano-editor.org/
 CPE-ID: cpe:/a:gnu:nano
 Architecture: aarch64_cortex-a72
 Installed-Size: 430080
-Filename: nano-full_8.7.1-r2_aarch64_cortex-a72.ipk
-Size: 183013
-SHA256sum: b536a213a81e4b92fa6de068c5ded00be882aae5d889c985954f2acb39bd0424
+Filename: nano-full_8.7-r1_aarch64_cortex-a72.ipk
+Size: 182994
+SHA256sum: 1f7ac4f3f9ef93ba800e0c223edc7c6638f1608eed7ed776aed09f47b1903d28
 Description:  nano-full - all features, including syntax highlighting (also uci),
  multibuffer, Unicode/UTF-8, nanorc, some key bindings.
  (libmagic-based file type detection is disabled)
@@ -1630,8 +1675,8 @@ CPE-ID: cpe:/a:openbsd:openssh
 Architecture: aarch64_cortex-a72
 Installed-Size: 204800
 Filename: openssh-sftp-server_9.9_p2-r1_aarch64_cortex-a72.ipk
-Size: 62325
-SHA256sum: c982cea407409fa0827336e8b95176450786e850d4fe1bdff1e9ee4ec766a05e
+Size: 62330
+SHA256sum: e40b7fa8a4bf3ce8ab4558d33a505b899724152696a0b7a44fd6f099d4013b27
 Description:  OpenSSH SFTP server.
 
 Package: pciids
@@ -1643,8 +1688,8 @@ URL: https://github.com/vcrhonek/hwdata
 Architecture: aarch64_cortex-a72
 Installed-Size: 1464320
 Filename: pciids_0.387-r1_aarch64_cortex-a72.ipk
-Size: 338461
-SHA256sum: fdacb2a9fc4b0cbda2a990021c06baa5c5fac50f1a2125be548ff77478b67ddb
+Size: 338444
+SHA256sum: 618dfee5d5917c552d6cbbc9e6e421683aeb7f4349902c249d3c7761a9adc94f
 Description:  PCI ID list
 
 Package: pciutils
@@ -1656,8 +1701,8 @@ URL: http://mj.ucw.cz/pciutils.shtml
 Architecture: aarch64_cortex-a72
 Installed-Size: 204800
 Filename: pciutils_3.14.0-r1_aarch64_cortex-a72.ipk
-Size: 52398
-SHA256sum: 29fda205284443ef2acb124c54891236485f0acfe90ce606971e42397326fac8
+Size: 52377
+SHA256sum: 115d02ba18632f324e153b9aa219533120f7601d831cbbfd4bbfbf9c00af2a0d
 Description:  contains collection of programs for inspecting and manipulating configuration
  of PCI devices
 
@@ -1671,8 +1716,8 @@ CPE-ID: cpe:/a:picocom_project:picocom
 Architecture: aarch64_cortex-a72
 Installed-Size: 71680
 Filename: picocom_3.1-r5_aarch64_cortex-a72.ipk
-Size: 23371
-SHA256sum: a8a1fc46003fdd2a5b6cb2f2a52a70f7a983f5f931f8ed8e8f774771933e8990
+Size: 23378
+SHA256sum: ce49cf537cc205f4d188c27cba92e0f41e4ee36fdf132cf90b9ee53f493dbd80
 Description:  minimal dumb-terminal emulation program
 
 Package: portaudio
@@ -1684,8 +1729,8 @@ URL: http://www.portaudio.com/
 Architecture: aarch64_cortex-a72
 Installed-Size: 143360
 Filename: portaudio_190600_20161030-r2_aarch64_cortex-a72.ipk
-Size: 44121
-SHA256sum: 031ad2171f6c6f46a90c11ad1c121bb608f0468d6357e3c46646d189b7ee7e09
+Size: 44127
+SHA256sum: db46c6773c25141392d683ff28300292385b717844ad54cd23cbb2a10327bc3c
 Description:  PortAudio is a free, cross-platform, open-source, audio I/O library.  It lets
  you write simple audio programs in 'C' or C++ that will compile and run on many
  platforms including Windows, Macintosh OS X, and Unix (OSS/ALSA). It is
@@ -1701,8 +1746,8 @@ URL: https://www.ivarch.com/programs/pv.shtml
 Architecture: aarch64_cortex-a72
 Installed-Size: 71680
 Filename: pv_1.6.6-r1_aarch64_cortex-a72.ipk
-Size: 24186
-SHA256sum: e86ecea61ed46caa136a937bb6476e4f7fa7739b36047f5340119e3399f87647
+Size: 24189
+SHA256sum: eab0116c57eecd9f203767d1463b5ae7e71f5593f2290000ec13a977881ccd9b
 Description:  Pipe Viewer is a terminal-based tool for monitoring the progress of data
  through a pipeline. It can be inserted into any normal pipeline between
  two processes to give a visual indication of how quickly data is passing
@@ -1719,8 +1764,8 @@ CPE-ID: cpe:/a:python:python
 Architecture: aarch64_cortex-a72
 Installed-Size: 706560
 Filename: python3-asyncio_3.11.14-r1_aarch64_cortex-a72.ipk
-Size: 248861
-SHA256sum: 11e5d87ecc647023d92b8f22bfcdc2d34b9a8a095baea3f12d27c81615794fc1
+Size: 248844
+SHA256sum: 9d2ec0d3162eb8738d40d9fc75ec852166cd3f08dd2a88616e67866f072276b4
 Description:  Python is an interpreted, interactive, object-oriented programming
  language. It incorporates modules, exceptions, dynamic typing, very high
  level dynamic data types, and classes. It supports multiple programming
@@ -1744,8 +1789,8 @@ CPE-ID: cpe:/a:python:python
 Architecture: aarch64_cortex-a72
 Installed-Size: 1126400
 Filename: python3-base_3.11.14-r1_aarch64_cortex-a72.ipk
-Size: 222785
-SHA256sum: 85d7b6b3cb955134d1209c6a314b8f14b77a074cc4e00f419ec046501d22d99f
+Size: 222827
+SHA256sum: 801efe369d953f14faac1279f30f37a7aeafc433ced139a9194cb19f446674a7
 Description:  Python is an interpreted, interactive, object-oriented programming
  language. It incorporates modules, exceptions, dynamic typing, very high
  level dynamic data types, and classes. It supports multiple programming
@@ -1770,8 +1815,8 @@ CPE-ID: cpe:/a:python:python
 Architecture: aarch64_cortex-a72
 Installed-Size: 51200
 Filename: python3-cgi_3.11.14-r1_aarch64_cortex-a72.ipk
-Size: 20162
-SHA256sum: 1ab5a0525380e19ad1715a788e1c8dbf470efa28492f17ed5b15c9a7a9d705c0
+Size: 20169
+SHA256sum: a42dff1b2754e498e885e23cf8a48b0add10fccb1e81828fc88dbbe792614202
 Description:  Python is an interpreted, interactive, object-oriented programming
  language. It incorporates modules, exceptions, dynamic typing, very high
  level dynamic data types, and classes. It supports multiple programming
@@ -1795,8 +1840,8 @@ CPE-ID: cpe:/a:python:python
 Architecture: aarch64_cortex-a72
 Installed-Size: 30720
 Filename: python3-cgitb_3.11.14-r1_aarch64_cortex-a72.ipk
-Size: 10247
-SHA256sum: 7c7775f79784ce3ab8f8384e82f199ab3267276d0118264224193912b3618784
+Size: 10254
+SHA256sum: b45b3ab5ad736366a04cee7340648c7844f36a1903c5840effe1800f11d2603a
 Description:  Python is an interpreted, interactive, object-oriented programming
  language. It incorporates modules, exceptions, dynamic typing, very high
  level dynamic data types, and classes. It supports multiple programming
@@ -1820,8 +1865,8 @@ CPE-ID: cpe:/a:python:python
 Architecture: aarch64_cortex-a72
 Installed-Size: 2181120
 Filename: python3-codecs_3.11.14-r1_aarch64_cortex-a72.ipk
-Size: 753283
-SHA256sum: 566cdd9c7a07169707bd20e968a432a6dd02bebc658691caf0c28b173d16c7ed
+Size: 753163
+SHA256sum: 593c7453e4772184c9511bc18838385ad36de2da67238f05c6308bf478591569
 Description:  Python is an interpreted, interactive, object-oriented programming
  language. It incorporates modules, exceptions, dynamic typing, very high
  level dynamic data types, and classes. It supports multiple programming
@@ -1845,8 +1890,8 @@ CPE-ID: cpe:/a:python:python
 Architecture: aarch64_cortex-a72
 Installed-Size: 245760
 Filename: python3-ctypes_3.11.14-r1_aarch64_cortex-a72.ipk
-Size: 78840
-SHA256sum: 3e3cdd0ff24e541699345f35f84c0a78ba0d43b7506c4988df2bc9a26ddea006
+Size: 78876
+SHA256sum: 6f617219fdb1098ce93d2ef2b169a8eada932b9850e517a18bd8e456c5b7894c
 Description:  Python is an interpreted, interactive, object-oriented programming
  language. It incorporates modules, exceptions, dynamic typing, very high
  level dynamic data types, and classes. It supports multiple programming
@@ -1870,8 +1915,8 @@ CPE-ID: cpe:/a:python:python
 Architecture: aarch64_cortex-a72
 Installed-Size: 163840
 Filename: python3-dbm_3.11.14-r1_aarch64_cortex-a72.ipk
-Size: 23114
-SHA256sum: 345dbddcfcf9235eb11493a39a72833f755c707972c58e91c0e1a3f6684780bf
+Size: 23111
+SHA256sum: c00fe940f880c42145a93cb869726b6cb6d38eef492cab3799c8759293f20ee5
 Description:  Python is an interpreted, interactive, object-oriented programming
  language. It incorporates modules, exceptions, dynamic typing, very high
  level dynamic data types, and classes. It supports multiple programming
@@ -1895,8 +1940,8 @@ CPE-ID: cpe:/a:python:python
 Architecture: aarch64_cortex-a72
 Installed-Size: 215040
 Filename: python3-decimal_3.11.14-r1_aarch64_cortex-a72.ipk
-Size: 83193
-SHA256sum: 2c55d20271729bcfad647b2f7fa2731509181915e2f30edca30a8b48205a5366
+Size: 83203
+SHA256sum: 0ba14fe19fac0a89b440124a0a3e826d9d0a3eb8b7fada4cac83f889018c6e67
 Description:  Python is an interpreted, interactive, object-oriented programming
  language. It incorporates modules, exceptions, dynamic typing, very high
  level dynamic data types, and classes. It supports multiple programming
@@ -1920,8 +1965,8 @@ CPE-ID: cpe:/a:python:python
 Architecture: aarch64_cortex-a72
 Installed-Size: 696320
 Filename: python3-distutils_3.11.14-r1_aarch64_cortex-a72.ipk
-Size: 262537
-SHA256sum: 52819c740a0a0a5581e06b649cf78cb779e06f99362cbe305847c057b3b7d5b3
+Size: 262533
+SHA256sum: d8d74ee2ab19542a5ff638549cd332d57656fdb984af5be760d8a2666533a04b
 Description:  Python is an interpreted, interactive, object-oriented programming
  language. It incorporates modules, exceptions, dynamic typing, very high
  level dynamic data types, and classes. It supports multiple programming
@@ -1945,8 +1990,8 @@ CPE-ID: cpe:/a:python:python
 Architecture: aarch64_cortex-a72
 Installed-Size: 532480
 Filename: python3-email_3.11.14-r1_aarch64_cortex-a72.ipk
-Size: 187789
-SHA256sum: fc271cf6c812b68b6f1bf7fb3da0690e720ecb3276eaf3646a9f811a83dd0c29
+Size: 187700
+SHA256sum: a37ff6f88855e9a49ac306eabc1d8d4bc08acd442fe0fcdd262341909402ec94
 Description:  Python is an interpreted, interactive, object-oriented programming
  language. It incorporates modules, exceptions, dynamic typing, very high
  level dynamic data types, and classes. It supports multiple programming
@@ -1970,8 +2015,8 @@ CPE-ID: cpe:/a:python:python
 Architecture: aarch64_cortex-a72
 Installed-Size: 9758720
 Filename: python3-light_3.11.14-r1_aarch64_cortex-a72.ipk
-Size: 2887864
-SHA256sum: c2af817dd9b1adbaa24f4fd50ab11bc44514cc136fd4ed13983c1fec0d07dd45
+Size: 2887911
+SHA256sum: 72e1aee56969994014c8ac9f3805b72e46e1c799418b44721c0dc4964aaaef5a
 Description:  Python is an interpreted, interactive, object-oriented programming
  language. It incorporates modules, exceptions, dynamic typing, very high
  level dynamic data types, and classes. It supports multiple programming
@@ -1996,8 +2041,8 @@ CPE-ID: cpe:/a:python:python
 Architecture: aarch64_cortex-a72
 Installed-Size: 225280
 Filename: python3-logging_3.11.14-r1_aarch64_cortex-a72.ipk
-Size: 85163
-SHA256sum: d81e8518c685c4fae3e9166ab95604e55b1a9f9ae4d328170ec364b280a83ed7
+Size: 85149
+SHA256sum: 0772df9c58996c05e720d41f1ce4e3f68e670ce784e3b5784089640649b8d4f6
 Description:  Python is an interpreted, interactive, object-oriented programming
  language. It incorporates modules, exceptions, dynamic typing, very high
  level dynamic data types, and classes. It supports multiple programming
@@ -2021,8 +2066,8 @@ CPE-ID: cpe:/a:python:python
 Architecture: aarch64_cortex-a72
 Installed-Size: 92160
 Filename: python3-lzma_3.11.14-r1_aarch64_cortex-a72.ipk
-Size: 20437
-SHA256sum: 8a7e205546dd920a2146eb6a5b4f69fe80b1387e257cf288b639e204bfb78f49
+Size: 20448
+SHA256sum: 933206f9717f400edb7d4cf83e7d3042140cc9a42c1f2e35ba362d6c321a7095
 Description:  Python is an interpreted, interactive, object-oriented programming
  language. It incorporates modules, exceptions, dynamic typing, very high
  level dynamic data types, and classes. It supports multiple programming
@@ -2046,8 +2091,8 @@ CPE-ID: cpe:/a:python:python
 Architecture: aarch64_cortex-a72
 Installed-Size: 512000
 Filename: python3-multiprocessing_3.11.14-r1_aarch64_cortex-a72.ipk
-Size: 175459
-SHA256sum: f95b36d9f04b0d7ee3a2272c0924dd80b886b14c5c8ca498851c6c439c95e109
+Size: 175456
+SHA256sum: ce79fa5e9508884eae355baca9fe39fce08268195b1f83c4279bb5448fc908de
 Description:  Python is an interpreted, interactive, object-oriented programming
  language. It incorporates modules, exceptions, dynamic typing, very high
  level dynamic data types, and classes. It supports multiple programming
@@ -2071,8 +2116,8 @@ CPE-ID: cpe:/a:python:python
 Architecture: aarch64_cortex-a72
 Installed-Size: 245760
 Filename: python3-ncurses_3.11.14-r1_aarch64_cortex-a72.ipk
-Size: 53601
-SHA256sum: 8878d35f33a891b5bb868e8a67d7472f9db1476298e4e2bc9cea9ca9eb91e866
+Size: 53571
+SHA256sum: 2f63cc1e52f7961b1d55a2ea541ba911006f1fc7884b27f6b9c5d26e326af268
 Description:  Python is an interpreted, interactive, object-oriented programming
  language. It incorporates modules, exceptions, dynamic typing, very high
  level dynamic data types, and classes. It supports multiple programming
@@ -2096,8 +2141,8 @@ CPE-ID: cpe:/a:python:python
 Architecture: aarch64_cortex-a72
 Installed-Size: 307200
 Filename: python3-openssl_3.11.14-r1_aarch64_cortex-a72.ipk
-Size: 81279
-SHA256sum: 4906d40aa76b75be586cd0a27921087cf21eaccf7b10613bb02fe6bdb00b7677
+Size: 81288
+SHA256sum: 8603eb706224112db316196bcb8dc8288c7e2e3fc659280c34162c4b12fcad2a
 Description:  Python is an interpreted, interactive, object-oriented programming
  language. It incorporates modules, exceptions, dynamic typing, very high
  level dynamic data types, and classes. It supports multiple programming
@@ -2121,8 +2166,8 @@ CPE-ID: cpe:/a:python:python
 Architecture: aarch64_cortex-a72
 Installed-Size: 768000
 Filename: python3-pydoc_3.11.14-r1_aarch64_cortex-a72.ipk
-Size: 252601
-SHA256sum: 9558b16116fb23a62cb949ad32d2b4c75f2dd706601f2c348efec26cbafe2767
+Size: 252585
+SHA256sum: 27b60a279bf467f2cb3cdc93d923bb83c6241160c7e8d357c4d4583c3d7d1abd
 Description:  Python is an interpreted, interactive, object-oriented programming
  language. It incorporates modules, exceptions, dynamic typing, very high
  level dynamic data types, and classes. It supports multiple programming
@@ -2146,8 +2191,8 @@ CPE-ID: cpe:/a:python:python
 Architecture: aarch64_cortex-a72
 Installed-Size: 71680
 Filename: python3-readline_3.11.14-r1_aarch64_cortex-a72.ipk
-Size: 11469
-SHA256sum: 3d1f915b54207284f0b716594cf52826aebf02fed3912d354b2785feabb5bf69
+Size: 11472
+SHA256sum: 3b5108c235d90dd8cec55da89071e1d399cde3f2d01ddc342385aff1279a16fd
 Description:  Python is an interpreted, interactive, object-oriented programming
  language. It incorporates modules, exceptions, dynamic typing, very high
  level dynamic data types, and classes. It supports multiple programming
@@ -2171,8 +2216,8 @@ CPE-ID: cpe:/a:python:python
 Architecture: aarch64_cortex-a72
 Installed-Size: 163840
 Filename: python3-sqlite3_3.11.14-r1_aarch64_cortex-a72.ipk
-Size: 42381
-SHA256sum: a677940f49e3d305125f257f44b539e607a33723e0b7c78cfcbe29fbc3fca533
+Size: 42374
+SHA256sum: 6a7487924adefc75d790d270e4a630b1cf0d7a0f48ab2efa14d5374f3352e34c
 Description:  Python is an interpreted, interactive, object-oriented programming
  language. It incorporates modules, exceptions, dynamic typing, very high
  level dynamic data types, and classes. It supports multiple programming
@@ -2196,8 +2241,8 @@ CPE-ID: cpe:/a:python:python
 Architecture: aarch64_cortex-a72
 Installed-Size: 348160
 Filename: python3-unittest_3.11.14-r1_aarch64_cortex-a72.ipk
-Size: 131788
-SHA256sum: 0165874bb159b7858ac59bb706ae9a875f53f88150bd959fa6b4f72ce4f1cb20
+Size: 131773
+SHA256sum: 8105102748109c7c07feed512ec38d0c90e947e41d491b8cb8eb7866c20fc4d8
 Description:  Python is an interpreted, interactive, object-oriented programming
  language. It incorporates modules, exceptions, dynamic typing, very high
  level dynamic data types, and classes. It supports multiple programming
@@ -2221,8 +2266,8 @@ CPE-ID: cpe:/a:python:python
 Architecture: aarch64_cortex-a72
 Installed-Size: 215040
 Filename: python3-urllib_3.11.14-r1_aarch64_cortex-a72.ipk
-Size: 85758
-SHA256sum: 48e2e69f90cfb6511801eefea0b6aa3357a63415e2ad2db34176ad335235dbea
+Size: 85761
+SHA256sum: f2ddf42bda360a2d3a346d00a5fa1459f1afa0ad66df3181ec5051602eb8b753
 Description:  Python is an interpreted, interactive, object-oriented programming
  language. It incorporates modules, exceptions, dynamic typing, very high
  level dynamic data types, and classes. It supports multiple programming
@@ -2247,7 +2292,7 @@ Architecture: aarch64_cortex-a72
 Installed-Size: 112640
 Filename: python3-uuid_3.11.14-r1_aarch64_cortex-a72.ipk
 Size: 16765
-SHA256sum: 0709642fa093430231c3b116c4c99c099f61e422def09b1dfaa7b07307c1544e
+SHA256sum: 2fe57bc1d5f766b8ebc3e6ce75c2bc531b9ed0956a78d0edc65e4c39bdf59afa
 Description:  Python is an interpreted, interactive, object-oriented programming
  language. It incorporates modules, exceptions, dynamic typing, very high
  level dynamic data types, and classes. It supports multiple programming
@@ -2271,8 +2316,8 @@ CPE-ID: cpe:/a:python:python
 Architecture: aarch64_cortex-a72
 Installed-Size: 808960
 Filename: python3-xml_3.11.14-r1_aarch64_cortex-a72.ipk
-Size: 281723
-SHA256sum: a0a48a6cba66ffe780a7d77b1853356a313960c635b886e199d1a2e44feea4de
+Size: 281734
+SHA256sum: 12e783ba2ccd08bbc54b1d9cb8fd1e8d76e4f844b423a8d196574e09c76aab91
 Description:  Python is an interpreted, interactive, object-oriented programming
  language. It incorporates modules, exceptions, dynamic typing, very high
  level dynamic data types, and classes. It supports multiple programming
@@ -2296,8 +2341,8 @@ CPE-ID: cpe:/a:python:python
 Architecture: aarch64_cortex-a72
 Installed-Size: 10240
 Filename: python3_3.11.14-r1_aarch64_cortex-a72.ipk
-Size: 1463
-SHA256sum: 2efdaac7d1f30240919554e61beecef3677beb0768862f99e662482a3094230e
+Size: 1467
+SHA256sum: 62187497f11caff3963d7d6b4e06275a2b101ea1f9f7dd7b40fac238fe11c471
 Description:  Python is an interpreted, interactive, object-oriented programming
  language. It incorporates modules, exceptions, dynamic typing, very high
  level dynamic data types, and classes. It supports multiple programming
@@ -2321,8 +2366,8 @@ URL: http://fukuchi.org/works/qrencode/
 Architecture: aarch64_cortex-a72
 Installed-Size: 71680
 Filename: qrencode_4.1.1-r1_aarch64_cortex-a72.ipk
-Size: 11234
-SHA256sum: 50fc051aeee8e12909a09c5e081edc90f253e96c4ce4d2906ccc2e47106a6a40
+Size: 11233
+SHA256sum: 7a2b73e6b563b772368bf37b85bc1b0321bccbd261ff2ac0b37fc52461e3ed5d
 Description:  Qrencode is a C program for encoding data in a QR Code symbol,
  a kind of 2D symbology that can be scanned by handy terminals such
  as a mobile phone with CCD. The capacity of QR Code is up to 7000
@@ -2337,8 +2382,8 @@ URL: http://oss.oetiker.ch/rrdtool/
 Architecture: aarch64_cortex-a72
 Installed-Size: 143360
 Filename: rrdtool1_1.0.50-r6_aarch64_cortex-a72.ipk
-Size: 12424
-SHA256sum: a1ad09525b18433e5cb89dc71542870a3f98de2f9e9d9ee4d63d3fa8eb488d6c
+Size: 12422
+SHA256sum: 07e38026fe2d2207d9d0dfad2987e7fc7bdb89c69d71f7035537d2b5071398cc
 Description:  RRD is the Acronym for Round Robin Database. RRD is a system to store and
  display time-series data (i.e. network bandwidth, machine-room temperature,
  server load average). It stores the data in a very compact way that will
@@ -2362,8 +2407,8 @@ CPE-ID: cpe:/a:rsync:rsync
 Architecture: aarch64_cortex-a72
 Installed-Size: 419840
 Filename: rsync_3.4.1-r1_aarch64_cortex-a72.ipk
-Size: 200300
-SHA256sum: 8aa1fbfb6594e5a78b51613faccc6817cb6472ac5754cc94349297ebf8eb0ee6
+Size: 200268
+SHA256sum: c21c40d018475e11567e459ffae2b5abd5cc1196d814dcc821d8ef47ca9b9c80
 Description:  rsync is a program that allows files to be copied to and from remote machines
  in much the same way as rcp. It has many more options than rcp, and uses the
  rsync remote-update protocol to greatly speed up file transfers when the
@@ -2381,8 +2426,8 @@ URL: http://sdr.osmocom.org/trac/wiki/rtl-sdr
 Architecture: aarch64_cortex-a72
 Installed-Size: 542720
 Filename: rtl-sdr_2.0.1-r1_aarch64_cortex-a72.ipk
-Size: 59149
-SHA256sum: 526d8a679811a3f1aa6eaf535b692dcb595605039c1b0df2e71c12013d86a04a
+Size: 59136
+SHA256sum: 808f134d077a112d1c7a50fe0cafc2d225523ee1517a6e2786962197672c75d1
 Description:  rtl-sdr allows DVB-T dongles based on the Realtek RTL2832U to be used as
  an inexpensive SDR.
  
@@ -2396,10 +2441,10 @@ Section: utils
 URL: https://www.opencontainers.org/
 CPE-ID: cpe:/a:linuxfoundation:runc
 Architecture: aarch64_cortex-a72
-Installed-Size: 10936320
+Installed-Size: 9830400
 Filename: runc_1.1.14-r1_aarch64_cortex-a72.ipk
-Size: 3859212
-SHA256sum: fc902cf5576cbd3e3c731989a97b05c22f8c62e765011310a13d2dade06c679e
+Size: 3446358
+SHA256sum: 3db11f4c27e1de9e04e3eaa04d103422754d895be25558d1a8796c38d85614d4
 Description:  runc is a CLI tool for spawning and running containers according to the OCI specification.
 
 Package: tini
@@ -2412,8 +2457,8 @@ CPE-ID: cpe:/a:tini_project:tini
 Architecture: aarch64_cortex-a72
 Installed-Size: 143360
 Filename: tini_0.19.0-r2_aarch64_cortex-a72.ipk
-Size: 41523
-SHA256sum: 2ea46402384793714e874c12e7a44b2c833c259c28acf7ee7275f95ff811bd0c
+Size: 41636
+SHA256sum: 5fd5ff288233500abfb107270e5054ae547b1126510acc91bd6c6f15a8362f8d
 Description:  A tiny but valid init process for containers.
 
 Package: ttyd
@@ -2426,8 +2471,8 @@ CPE-ID: cpe:/a:ttyd_project:ttyd
 Architecture: aarch64_cortex-a72
 Installed-Size: 512000
 Filename: ttyd_1.7.3-r1_aarch64_cortex-a72.ipk
-Size: 336058
-SHA256sum: b04096f18b780b7aecd691a6d8ff19f7bbb821e2f1dc01cdf55c35014bc6a087
+Size: 336040
+SHA256sum: 3d680e127dee7ea146abb450bcde1cc1c04bde5a1b860ce0db12930af9b0a522
 Description:  ttyd is a command-line tool for sharing terminal over the web.
 
 Package: usbids
@@ -2439,8 +2484,8 @@ URL: https://github.com/vcrhonek/hwdata
 Architecture: aarch64_cortex-a72
 Installed-Size: 737280
 Filename: usbids_0.387-r1_aarch64_cortex-a72.ipk
-Size: 255808
-SHA256sum: 4cdd7f270d7fac4d8dfca2766e265196fff6bb833db263c4f4ef1be6fab01602
+Size: 255811
+SHA256sum: 886fbb76cf4a7681e8bab224c93426f9244347eb17e985987d38e7a972f9295b
 Description:  USB ID list
 
 Package: usbutils
@@ -2452,8 +2497,8 @@ URL: http://www.linux-usb.org/
 Architecture: aarch64_cortex-a72
 Installed-Size: 245760
 Filename: usbutils_017-r1_aarch64_cortex-a72.ipk
-Size: 56703
-SHA256sum: 8847bbf01410f0614ad27bc41053ce82352cbd0da4075475b37db1980a4d37eb
+Size: 56695
+SHA256sum: 7afce36d9d5da8437daf056f76a21f37daadd43cfd21c24d71587d37f8f3200a
 Description:  USB devices listing utilities
 
 Package: v4l-utils
@@ -2465,8 +2510,8 @@ URL: https://www.linuxtv.org/
 Architecture: aarch64_cortex-a72
 Installed-Size: 2099200
 Filename: v4l-utils_1.28.0-r1_aarch64_cortex-a72.ipk
-Size: 649872
-SHA256sum: d304ca1981b4dc60be42037691215ed16abc6e3e7a6b188dc2ac87e95040426b
+Size: 649880
+SHA256sum: d5fab83adbdf9ba33cca04cbd61b9860d5e7810e328e2b2b790a731c67755198
 Description:  libv4l is a collection of libraries which adds a thin abstraction layer on
  top of video4linux2 devices. The purpose of this (thin) layer is to make it
  easy for application writers to support a wide variety of devices without
@@ -2489,7 +2534,7 @@ Section: utils
 Architecture: aarch64_cortex-a72
 Installed-Size: 112640
 Filename: zoneinfo-core_2025c-r1_aarch64_cortex-a72.ipk
-Size: 24579
-SHA256sum: b6b55617e06821a9e26b10eb6b58cd6bf147329d0bc33be4d0f321f85253c1d8
+Size: 24544
+SHA256sum: ca36746939eed0968d8bda41e597b2977a0413ecf87278a4ea359ba4cf5683b5
 Description:  Zone Information (core)
 

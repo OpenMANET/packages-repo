@@ -70,8 +70,8 @@ URL: https://github.com/openwrt/luci
 Architecture: mipsel_24kc
 Installed-Size: 573440
 Filename: luci-base_git-25.233.06936-53e6515_mipsel_24kc.ipk
-Size: 130750
-SHA256sum: 090ddff08867d5653be66d4413815c2f014ca9539c8d2fb854d20d380ea75480
+Size: 130753
+SHA256sum: 5faa1207e4ad158d66e5263f2f5dfb1ef3df6eaf3fc598819cd16777c3f953d6
 Description:  LuCI core runtime
 
 Package: luci-lib-base
@@ -183,8 +183,8 @@ URL: https://github.com/openwrt/luci
 Architecture: mipsel_24kc
 Installed-Size: 245760
 Filename: luci-mod-status_git-25.233.06936-53e6515_mipsel_24kc.ipk
-Size: 40805
-SHA256sum: 4ff296196661240a924f1d865d6307422184e4ce5b71f49f3489f48124840063
+Size: 40798
+SHA256sum: e57cd122aa035e2228748f087bf1c35479b75bfc63eecc33817a37d2c6ec802f
 Description:  LuCI Status Pages
 
 Package: luci-mod-system
@@ -270,8 +270,8 @@ Section: libs
 Architecture: mipsel_24kc
 Installed-Size: 71680
 Filename: rpcd-mod-luci_20240305-r1_mipsel_24kc.ipk
-Size: 13537
-SHA256sum: 620d15c387ddcfda9153a54cf8f6a9e40ff64d6870a20aaff730cfb5b2455af9
+Size: 13546
+SHA256sum: e6179b4756b817c1dd9c90d618a19bff2160a0f5768f72b94ab43c9b3116b145
 Description:  Provides LuCI backend ubus RPC operations.
 
 Package: rpcd-mod-rrdns

@@ -344,8 +344,8 @@ CPE-ID: cpe:/a:samba:ppp
 Architecture: mipsel_24kc
 Installed-Size: 71680
 Filename: chat_2.5.1-r1_mipsel_24kc.ipk
-Size: 9288
-SHA256sum: ca423d264d9de407d2b315f10248971b07556054cab5432ca97831e7682b9ff4
+Size: 9287
+SHA256sum: b2d6a683ed9142eb4c46e5d64861543479cd32e41eea0111e3ca5ff08cf7ea03
 Description:  This package contains an utility to establish conversation with other PPP servers
  (via a modem).
 
@@ -499,8 +499,8 @@ CPE-ID: cpe:/a:w1.fi:hostapd
 Architecture: mipsel_24kc
 Installed-Size: 20480
 Filename: hostapd-common_2024.09.15~5ace39b0-r2_mipsel_24kc.ipk
-Size: 2712
-SHA256sum: 072386e90c26aed18bd8b453e01d88c695620da163d31f6b0a17cfa308b94af6
+Size: 2706
+SHA256sum: 1d9fcf4ecca65ef790203a73a77490eaeb0dd11c446d1e488f3af51a41e45a2c
 Description:  hostapd/wpa_supplicant common support files
 
 Package: ibt-firmware
@@ -572,8 +572,8 @@ CPE-ID: cpe:/a:kernel:iw
 Architecture: mipsel_24kc
 Installed-Size: 215040
 Filename: iw-full_6.9-r1_mipsel_24kc.ipk
-Size: 79225
-SHA256sum: 30510a94c182a99846c782cd344574e685db321af8f4d8bc13d3a7f08b3516d9
+Size: 79209
+SHA256sum: cb66fa79dd37f09bcb70ab1b6e0a32d3324831f1476354edaae6439d49b8ff19
 Description:  cfg80211 interface configuration utility (full version)
 
 Package: iw
@@ -586,20 +586,20 @@ CPE-ID: cpe:/a:kernel:iw
 Architecture: mipsel_24kc
 Installed-Size: 143360
 Filename: iw_6.9-r1_mipsel_24kc.ipk
-Size: 46015
-SHA256sum: ed189565fe8ac80a4897f8d2ab00ddd78afcaebf216afdadee7d60d945e1bbb6
+Size: 46022
+SHA256sum: 90c1ec175f593d369b3ed8f59214d38a8ec08f67052f31e025df7d288a7286b9
 Description:  cfg80211 interface configuration utility
 
 Package: iwinfo
-Version: 2025.06.10~6161ce59-r1
+Version: 2026.04.29~20baf99c-r1
 Depends: libc, libiwinfo20250326
 License: GPL-2.0
 Section: utils
 Architecture: mipsel_24kc
 Installed-Size: 71680
-Filename: iwinfo_2025.06.10~6161ce59-r1_mipsel_24kc.ipk
-Size: 7547
-SHA256sum: e9bca5a8f3b4853471bc8215a3667c706ace58aade77b2796b8a5379325181fa
+Filename: iwinfo_2026.04.29~20baf99c-r1_mipsel_24kc.ipk
+Size: 7653
+SHA256sum: bb95316dcafc7b3a6184f1e84005304be66569dd286ed4828d2e2647641faae4
 Description:  Command line frontend for the wireless information library.
 
 Package: iwlwifi-firmware-iwl1000
@@ -891,8 +891,8 @@ URL: https://git.openwrt.org/project/jsonpath.git
 Architecture: mipsel_24kc
 Installed-Size: 71680
 Filename: jsonfilter_2025.04.18~8a86fb78-r1_mipsel_24kc.ipk
-Size: 8934
-SHA256sum: 476a5083ecc54253e1d8c88a7a97153321e3bc307a436557db2d092f974fa1be
+Size: 8940
+SHA256sum: 2431ede7471e7a8855d286804fc38f0b51c2e92cd4b9be1d7caf966a55fb6262
 Description:  OpenWrt JSON filter utility
 
 Package: libblkid1
@@ -979,7 +979,7 @@ Package: libelf1
 Version: 0.192-r1
 Depends: libc, zlib
 Provides: libelf, libelf11
-License: GPL-3.0-or-later
+License: GPL-2.0-or-later OR LGPL-3.0-or-later
 Section: libs
 URL: https://fedorahosted.org/elfutils/
 ABIVersion: 1
@@ -987,8 +987,8 @@ CPE-ID: cpe:/a:elfutils_project:elfutils
 Architecture: mipsel_24kc
 Installed-Size: 143360
 Filename: libelf1_0.192-r1_mipsel_24kc.ipk
-Size: 39105
-SHA256sum: ed8095b176a525a73506a7f95bd377d6f9dcb0855103668792e703aa7638bc17
+Size: 39113
+SHA256sum: 4b38a426da408d1d17754a8af000f798ae57966da45cc158f08c39fcaa854ff6
 Description:  ELF manipulation libraries (libelf)
 
 Package: libf2fs6
@@ -1024,32 +1024,32 @@ SHA256sum: da0faccd91fc5494241ba552b6e2db717dde19e73dc85198d24b6aef803cb987
 Description:  The libfdisk library is used for manipulating with partition tables.
 
 Package: libiwinfo-data
-Version: 2025.06.10~6161ce59-r1
+Version: 2026.04.29~20baf99c-r1
 Depends: libc
 License: GPL-2.0
 Section: opt
 Architecture: mipsel_24kc
 Installed-Size: 30720
-Filename: libiwinfo-data_2025.06.10~6161ce59-r1_mipsel_24kc.ipk
-Size: 3985
-SHA256sum: be65969fcdf7c31f49ef46a4f42bb88631484645000fa4041ab1fab0285c345a
+Filename: libiwinfo-data_2026.04.29~20baf99c-r1_mipsel_24kc.ipk
+Size: 4047
+SHA256sum: 214da7bf4db12c4750c230dd787d5bf6d1e5552f8da6edd737ea6cfa421d87f9
 Description:  libiwinfo Lua binding
 
 Package: libiwinfo-lua
-Version: 2025.06.10~6161ce59-r1
+Version: 2026.04.29~20baf99c-r1
 Depends: libc, libiwinfo20250326, liblua5.1.5
 License: GPL-2.0
 Section: lang
 Architecture: mipsel_24kc
 Installed-Size: 71680
-Filename: libiwinfo-lua_2025.06.10~6161ce59-r1_mipsel_24kc.ipk
-Size: 6367
-SHA256sum: 719389b50274a1294055d79aafacac4f5b29a82b4aaeda28cbbf68a4f8789653
+Filename: libiwinfo-lua_2026.04.29~20baf99c-r1_mipsel_24kc.ipk
+Size: 6481
+SHA256sum: 522c2ab77c4918871cdfe9922d9dfa3c626477649c204b3fc307f800d2c8efb5
 Description:  This is the Lua binding for the iwinfo library. It provides access to all enabled
  backends.
 
 Package: libiwinfo20250326
-Version: 2025.06.10~6161ce59-r1
+Version: 2026.04.29~20baf99c-r1
 Depends: libc, libnl-tiny1, libuci20250120, libubus20250102, libiwinfo-data
 Provides: libiwinfo
 License: GPL-2.0
@@ -1057,9 +1057,9 @@ Section: libs
 ABIVersion: 20250326
 Architecture: mipsel_24kc
 Installed-Size: 81920
-Filename: libiwinfo20250326_2025.06.10~6161ce59-r1_mipsel_24kc.ipk
-Size: 27913
-SHA256sum: 751e0b15d2bd6857655493027b1de59a33e4e91578cda7f61c670ce41940b0ae
+Filename: libiwinfo20250326_2026.04.29~20baf99c-r1_mipsel_24kc.ipk
+Size: 29376
+SHA256sum: 5c4839b4af8fdd852403ce4b04ff5b6e4b68d024d70714da23e5cb2e6157ae75
 Description:  Wireless information library with simplified API for nl80211
  and wext driver interfaces.
 
@@ -1309,7 +1309,7 @@ Description:  Socket handling, connection management, sending and receiving of d
  message construction and parsing, object caching system, etc.
 
 Package: libopenssl-conf
-Version: 3.0.17-r1
+Version: 3.0.19-r1
 Depends: libc, libopenssl3
 License: Apache-2.0
 Section: libs
@@ -1317,9 +1317,9 @@ URL: https://www.openssl.org/
 CPE-ID: cpe:/a:openssl:openssl
 Architecture: mipsel_24kc
 Installed-Size: 20480
-Filename: libopenssl-conf_3.0.17-r1_mipsel_24kc.ipk
-Size: 6484
-SHA256sum: 2ae9fbe8534da944671a232a92634be12a659ca65fad6b3c2cd1a8075c010c76
+Filename: libopenssl-conf_3.0.19-r1_mipsel_24kc.ipk
+Size: 6492
+SHA256sum: 1114337ff825cb7440ab35bb1ed07940e1eea5a76ceff5e9fc9081aec44f4638
 Description:  The OpenSSL Project is a collaborative effort to develop a robust,
  commercial-grade, full-featured, and Open Source toolkit implementing the
  Transport Layer Security (TLS) protocol as well as a full-strength
@@ -1327,7 +1327,7 @@ Description:  The OpenSSL Project is a collaborative effort to develop a robust,
  This package installs the OpenSSL configuration file /etc/ssl/openssl.cnf.
 
 Package: libopenssl-legacy
-Version: 3.0.17-r1
+Version: 3.0.19-r1
 Depends: libc, libopenssl3, libopenssl-conf
 License: Apache-2.0
 Section: libs
@@ -1335,16 +1335,16 @@ URL: https://www.openssl.org/
 CPE-ID: cpe:/a:openssl:openssl
 Architecture: mipsel_24kc
 Installed-Size: 143360
-Filename: libopenssl-legacy_3.0.17-r1_mipsel_24kc.ipk
-Size: 27970
-SHA256sum: 5ac9575dc8fb2f66a445403c71f2ee3b55f0852e0491de5d2435839c23eaf6a2
+Filename: libopenssl-legacy_3.0.19-r1_mipsel_24kc.ipk
+Size: 27920
+SHA256sum: 6dd4ea4479048a910478ce6526f272920c4b70e25c81fb3cae2ecac3ca97e73e
 Description:  The OpenSSL legacy provider supplies OpenSSL implementations of algorithms that
  have been deemed legacy. Such algorithms have commonly fallen out of use, have
  been deemed insecure by the cryptography community, or something similar.  See
  https://www.openssl.org/docs/man3.0/man7/OSSL_PROVIDER-legacy.html
 
 Package: libopenssl3
-Version: 3.0.17-r1
+Version: 3.0.19-r1
 Depends: libc, libatomic1
 Provides: libopenssl
 License: Apache-2.0
@@ -1354,9 +1354,9 @@ ABIVersion: 3
 CPE-ID: cpe:/a:openssl:openssl
 Architecture: mipsel_24kc
 Installed-Size: 3717120
-Filename: libopenssl3_3.0.17-r1_mipsel_24kc.ipk
-Size: 1392279
-SHA256sum: 3df6092d7e0d0b37d68c1eb90784711177f91740af892815d4677b7ae618c2cf
+Filename: libopenssl3_3.0.19-r1_mipsel_24kc.ipk
+Size: 1391927
+SHA256sum: 4f5d3c1f761e22bebc07c6f5181354540384ca3c81f1278aa4a21f9588e69629
 Description:  The OpenSSL Project is a collaborative effort to develop a robust,
  commercial-grade, full-featured, and Open Source toolkit implementing the
  Transport Layer Security (TLS) protocol as well as a full-strength
@@ -1446,19 +1446,19 @@ SHA256sum: 425e17e9a4ce629cb70d1caad59ca7bc42efd1b2446b7254eeb6f968353f70fb
 Description:  Basic utility library
 
 Package: libubus-lua
-Version: 2025.07.02~5952b48e-r1
+Version: 2025.10.17~60e04048-r1
 Depends: libc, libubus20250102, liblua5.1.5
 License: LGPL-2.1
 Section: libs
 Architecture: mipsel_24kc
 Installed-Size: 71680
-Filename: libubus-lua_2025.07.02~5952b48e-r1_mipsel_24kc.ipk
-Size: 7417
-SHA256sum: 70f9875d96b956800eb88c1fb9eb1b90fb7a00b6dfced8bd276614d5fa3599a6
+Filename: libubus-lua_2025.10.17~60e04048-r1_mipsel_24kc.ipk
+Size: 7424
+SHA256sum: 1f9ffd391d3145da8ba63dbefb50afbee080db6e87d774b62de842024264aeb3
 Description:  Lua binding for the OpenWrt RPC client
 
 Package: libubus20250102
-Version: 2025.07.02~5952b48e-r1
+Version: 2025.10.17~60e04048-r1
 Depends: libc, libubox20240329
 Provides: libubus
 License: LGPL-2.1
@@ -1466,9 +1466,9 @@ Section: libs
 ABIVersion: 20250102
 Architecture: mipsel_24kc
 Installed-Size: 71680
-Filename: libubus20250102_2025.07.02~5952b48e-r1_mipsel_24kc.ipk
-Size: 10776
-SHA256sum: 45c57d1a075e8d962717c201b68eb42c146aeea91e2157b97df1c17d725c6119
+Filename: libubus20250102_2025.10.17~60e04048-r1_mipsel_24kc.ipk
+Size: 10780
+SHA256sum: 57f967aa7f97a47114f55f3ec2d806055af46008018d15747d947d17ab15e9ee
 Description:  OpenWrt RPC client library
 
 Package: libuci20250120
@@ -1575,18 +1575,20 @@ Description:  The UUID library is used to generate unique identifiers for object
  generates UUIDs compatible with those created by the Open Software
  Foundation (OSF) Distributed Computing Environment (DCE) utility.
 
-Package: libxml2
-Version: 2.14.5-r1
+Package: libxml2-16
+Version: 2.14.5-r2
 Depends: libc, libpthread, zlib
+Provides: libxml2
 License: MIT
 Section: libs
 URL: http://xmlsoft.org/
+ABIVersion: -16
 CPE-ID: cpe:/a:xmlsoft:libxml2
 Architecture: mipsel_24kc
 Installed-Size: 870400
-Filename: libxml2_2.14.5-r1_mipsel_24kc.ipk
-Size: 397165
-SHA256sum: 75d33a7ead8005a4c7192680a6d827e0f39f6e9b4ab2eb27b1f666d1cec68abf
+Filename: libxml2-16_2.14.5-r2_mipsel_24kc.ipk
+Size: 397257
+SHA256sum: 7e2fcf07572036495caed500991dd8fa93f3139e3b4d6f4f1590d3a8933e5f47
 Description:  A library for manipulating XML and HTML resources.
 
 Package: logd
@@ -1690,8 +1692,8 @@ Section: base
 Architecture: mipsel_24kc
 Installed-Size: 256000
 Filename: netifd_2025.05.23~7901e66c-r1_mipsel_24kc.ipk
-Size: 92659
-SHA256sum: 4d1bc148b8ef0092b4c33a6cf85d828dcc6f8fc24be4f344754bbaa9047ec3e8
+Size: 93204
+SHA256sum: 8bc08a303d9ffe9b6ea970724f09069f7b217df53f92924bd2a7ee84ae373d6c
 Description:  OpenWrt Network Interface Configuration Daemon
 
 Package: nftables-json
@@ -1721,7 +1723,7 @@ SHA256sum: ceb37e2b3a709bd0824bc96b350d73e30ebf0a545cd9a468c26ee6368d6f54e9
 Description:  Embedded DHCPv6-client for OpenWrt
 
 Package: openssl-util
-Version: 3.0.17-r1
+Version: 3.0.19-r1
 Depends: libc, libopenssl3, libopenssl-conf
 License: Apache-2.0
 Section: utils
@@ -1729,9 +1731,9 @@ URL: https://www.openssl.org/
 CPE-ID: cpe:/a:openssl:openssl
 Architecture: mipsel_24kc
 Installed-Size: 757760
-Filename: openssl-util_3.0.17-r1_mipsel_24kc.ipk
-Size: 296705
-SHA256sum: 7f634052385c3870395054109d49d6d9fb76755ae6b6d34f24071916d227faf5
+Filename: openssl-util_3.0.19-r1_mipsel_24kc.ipk
+Size: 297178
+SHA256sum: d90c47b7d58bf3dc619eac098c5e8b85fc5a5140a154248151df6c62993adab2
 Description:  The OpenSSL Project is a collaborative effort to develop a robust,
  commercial-grade, full-featured, and Open Source toolkit implementing the
  Transport Layer Security (TLS) protocol as well as a full-strength
@@ -1782,8 +1784,8 @@ CPE-ID: cpe:/a:samba:ppp
 Architecture: mipsel_24kc
 Installed-Size: 71680
 Filename: ppp-mod-pppoe_2.5.1-r1_mipsel_24kc.ipk
-Size: 12349
-SHA256sum: b5dda67de7818b12295c5123c937d2839775ea6fe00f2e2eedd3224aa4e69d76
+Size: 12346
+SHA256sum: d8c81b4004c184890e75d9cf99973f4ae01fc4a4ff70817ebf7511356f2fa02d
 Description:  This package contains a PPPoE (PPP over Ethernet) plugin for ppp.
 
 Package: ppp
@@ -1796,45 +1798,45 @@ CPE-ID: cpe:/a:samba:ppp
 Architecture: mipsel_24kc
 Installed-Size: 307200
 Filename: ppp_2.5.1-r1_mipsel_24kc.ipk
-Size: 124484
-SHA256sum: 60a089cce340561e9231ce98a5867fda84f40c78c06c9e8089dc4bc916a98508
+Size: 124649
+SHA256sum: 65207e375ff4e69236d0f92d9def02d3146c2384796036c508b89b6d6a6559b9
 Description:  This package contains the PPP (Point-to-Point Protocol) daemon.
 
 Package: procd-seccomp
-Version: 2024.12.22~42d39376-r1
+Version: 2026.03.14~c59f2d80-r1
 Depends: libc, libubox20240329, libblobmsg-json20240329
 License: GPL-2.0
 Section: base
 Architecture: mipsel_24kc
 Installed-Size: 204800
-Filename: procd-seccomp_2024.12.22~42d39376-r1_mipsel_24kc.ipk
-Size: 18266
-SHA256sum: e084b95ba568bbba9c17237034e3cba8749f42c27dc27c43679418a5a1b921d2
+Filename: procd-seccomp_2026.03.14~c59f2d80-r1_mipsel_24kc.ipk
+Size: 18274
+SHA256sum: 4255ac3698cacbbfbbe0ae33bf28d5e2d22f88bde5e44e472bea237d43f36680
 Description:  OpenWrt process seccomp helper + utrace
 
 Package: procd-ujail
-Version: 2024.12.22~42d39376-r1
+Version: 2026.03.14~c59f2d80-r1
 Depends: libc, libubox20240329, libubus20250102, libuci20250120, libblobmsg-json20240329
 License: GPL-2.0
 Section: base
 Architecture: mipsel_24kc
 Installed-Size: 143360
-Filename: procd-ujail_2024.12.22~42d39376-r1_mipsel_24kc.ipk
-Size: 40143
-SHA256sum: 23a4cdca124c75c0634ff4ad637c71dbf08fe155bd397c54e8bb98c036bcf881
+Filename: procd-ujail_2026.03.14~c59f2d80-r1_mipsel_24kc.ipk
+Size: 40105
+SHA256sum: b6c5cb7cd86a9e406781db89d60ac4a2f48e7ae52ed55346b59529d26b08096e
 Description:  OpenWrt process jail helper
 
 Package: procd
-Version: 2024.12.22~42d39376-r1
+Version: 2026.03.14~c59f2d80-r1
 Depends: libc, ubusd, ubus, libjson-script20240329, ubox, libubox20240329, libudebug, libubus20250102, libblobmsg-json20240329, libjson-c5, jshn
 Conflicts: procd-selinux
 License: GPL-2.0
 Section: base
 Architecture: mipsel_24kc
 Installed-Size: 501760
-Filename: procd_2024.12.22~42d39376-r1_mipsel_24kc.ipk
-Size: 57074
-SHA256sum: 6e1badeffd4555a57dab79552d886029b5e9576d4da44836ec0e50c9d45b1b65
+Filename: procd_2026.03.14~c59f2d80-r1_mipsel_24kc.ipk
+Size: 57468
+SHA256sum: adf9790305bac3dc64fa76ca00d3900e7fd77c3a247c52ac0b6d1ddfcfbcf1ca
 Description:  OpenWrt system process manager
 
 Package: qos-scripts
@@ -1876,51 +1878,51 @@ SHA256sum: 3f9108a55d2b41ce0efd46a7f3a300bc446d9fa1b3675377594432d9e981dc6a
 Description:  Transparent routing / relay daemon
 
 Package: rpcd-mod-file
-Version: 2023.07.01~c07ab2f9-r1
+Version: 2025.09.01~bba95191-r1
 Depends: libc, libubus20250102, libubox20240329, rpcd
 License: ISC
 Section: utils
 Architecture: mipsel_24kc
 Installed-Size: 71680
-Filename: rpcd-mod-file_2023.07.01~c07ab2f9-r1_mipsel_24kc.ipk
-Size: 7339
-SHA256sum: e2bcc3750017b7dbf1c98cb0d105ce52ee6f2261de21dd66e2f6bfb9b94a3c9a
+Filename: rpcd-mod-file_2025.09.01~bba95191-r1_mipsel_24kc.ipk
+Size: 7336
+SHA256sum: 5d0baa43ed8f8a198182883610f6f9a9a039785b0f4a2f0083ec87a64d1866be
 Description:  Provides ubus calls for file and directory operations.
 
 Package: rpcd-mod-iwinfo
-Version: 2023.07.01~c07ab2f9-r1
-Depends: libiwinfo (>= 2023-01-21), libc, libubus20250102, libubox20240329, rpcd, libiwinfo20250326
+Version: 2025.09.01~bba95191-r1
+Depends: libiwinfo (>=2023.01.21), libc, libubus20250102, libubox20240329, rpcd, libiwinfo20250326
 License: ISC
 Section: utils
 Architecture: mipsel_24kc
 Installed-Size: 71680
-Filename: rpcd-mod-iwinfo_2023.07.01~c07ab2f9-r1_mipsel_24kc.ipk
-Size: 7979
-SHA256sum: 46d2b37ff4eb70e3a1752c470890e9b30d161ae8c2fcc79129533749bfe8798e
+Filename: rpcd-mod-iwinfo_2025.09.01~bba95191-r1_mipsel_24kc.ipk
+Size: 7858
+SHA256sum: 07fc6e9cfb3bc4a3345888643e66ffda5a88875f39d93f544ce16d7c7a696646
 Description:  Provides ubus calls for accessing iwinfo data.
 
 Package: rpcd-mod-ucode
-Version: 2023.07.01~c07ab2f9-r1
+Version: 2025.09.01~bba95191-r1
 Depends: libc, libubus20250102, libubox20240329, rpcd, libucode20230711
 License: ISC
 Section: utils
 Architecture: mipsel_24kc
 Installed-Size: 71680
-Filename: rpcd-mod-ucode_2023.07.01~c07ab2f9-r1_mipsel_24kc.ipk
-Size: 8564
-SHA256sum: 2f51c840c646c6f8d3dddc0d1229c3328423d2ae60b25c49bd4c2b9410c11e80
+Filename: rpcd-mod-ucode_2025.09.01~bba95191-r1_mipsel_24kc.ipk
+Size: 8576
+SHA256sum: ffd42ee35203f8e97f4e5f340f9bacae64f14b54b8e1d3e864b9974c8eab981a
 Description:  Allows implementing plugins using ucode scripts.
 
 Package: rpcd
-Version: 2023.07.01~c07ab2f9-r1
+Version: 2025.09.01~bba95191-r1
 Depends: libc, libubus20250102, libubox20240329, libuci20250120, libblobmsg-json20240329, libjson-c5
 License: ISC
 Section: utils
 Architecture: mipsel_24kc
 Installed-Size: 81920
-Filename: rpcd_2023.07.01~c07ab2f9-r1_mipsel_24kc.ipk
-Size: 23775
-SHA256sum: d1f2948de9930c2dd94a3dba82a1bf84ee2506ed6198f0e8682bf6f4b1029168
+Filename: rpcd_2025.09.01~bba95191-r1_mipsel_24kc.ipk
+Size: 23799
+SHA256sum: d77b3cf8b08b72e75a1e30b60d345b9a7b1c5c5dac1ad87b541c6ae125392158
 Description:  This package provides the UBUS RPC backend server to expose various
  functionality to frontend programs via JSON-RPC.
 
@@ -2244,27 +2246,27 @@ SHA256sum: 9cdfe8c7e99d90420598a520d08bca80882f5a35f46d34379637126507710433
 Description:  OpenWrt system helper toolbox
 
 Package: ubus
-Version: 2025.07.02~5952b48e-r1
+Version: 2025.10.17~60e04048-r1
 Depends: libc, libubus20250102, libblobmsg-json20240329, ubusd
 License: LGPL-2.1
 Section: base
 Architecture: mipsel_24kc
 Installed-Size: 71680
-Filename: ubus_2025.07.02~5952b48e-r1_mipsel_24kc.ipk
-Size: 6493
-SHA256sum: 1f5aba08daef5e683cf1e003cc01961fa2fa3745368d7d9f80523b51ad82b780
+Filename: ubus_2025.10.17~60e04048-r1_mipsel_24kc.ipk
+Size: 6505
+SHA256sum: 304a978d996cbf3486fbc58afd2fd7b4bc266972c0e4e74ff6b8d5deda5bf89b
 Description:  OpenWrt RPC client utility
 
 Package: ubusd
-Version: 2025.07.02~5952b48e-r1
+Version: 2025.10.17~60e04048-r1
 Depends: libc, libubox20240329, libblobmsg-json20240329
 License: LGPL-2.1
 Section: base
 Architecture: mipsel_24kc
 Installed-Size: 71680
-Filename: ubusd_2025.07.02~5952b48e-r1_mipsel_24kc.ipk
-Size: 12348
-SHA256sum: 8bd6264ba1097e86c25fe5f1cdfc97be85fb3ba1f3584cc0d3dcca01ed852e59
+Filename: ubusd_2025.10.17~60e04048-r1_mipsel_24kc.ipk
+Size: 12786
+SHA256sum: f6ac631658d6a69032733a2fe30fcec19b95c115c75793fcc8d2c680edc79b9e
 Description:  OpenWrt RPC daemon
 
 Package: uci
@@ -2398,8 +2400,8 @@ Section: net
 Architecture: mipsel_24kc
 Installed-Size: 71680
 Filename: uhttpd-mod-ubus_2025.07.06~7e64e8ba-r4_mipsel_24kc.ipk
-Size: 8616
-SHA256sum: f56a3aca2bd6623d7560bd633520d3180cd6837c9895b63eb1d993fe20bef80f
+Size: 8623
+SHA256sum: b35fc1a4485381e969b4fb6052571a7f6a2118373227d1a81f820204b860f9a6
 Description:  The ubus plugin adds a HTTP/JSON RPC proxy for ubus and publishes the
  session.* namespace and procedures.
 
@@ -2411,8 +2413,8 @@ Section: net
 Architecture: mipsel_24kc
 Installed-Size: 92160
 Filename: uhttpd_2025.07.06~7e64e8ba-r4_mipsel_24kc.ipk
-Size: 28781
-SHA256sum: aac5b80b7a276b54e4bda5023079b185f7ff112a85809ce66a30e595cd2f610d
+Size: 29304
+SHA256sum: b17adf1d0068cc246e7a296b6e01352d24e5a0b214136433407d46cc7e7b18bb
 Description:  uHTTPd is a tiny single threaded HTTP server with TLS, CGI and Lua
  support. It is intended as a drop-in replacement for the Busybox
  HTTP daemon.
@@ -2494,10 +2496,10 @@ Depends: libc, netifd, ucode, ucode-mod-nl80211, ucode-mod-rtnl, ucode-mod-ubus,
 License: GPL-2.0
 Section: utils
 Architecture: all
-Installed-Size: 133120
+Installed-Size: 143360
 Filename: wifi-scripts_1.0-r1_all.ipk
-Size: 30259
-SHA256sum: 4a168db28f0489e5552672e6718eccbe15651e91d8412a9d922324aeb26ffbc9
+Size: 31125
+SHA256sum: 68436b3ee03d64636ad64e2df0d75d51137b034aa2ee37fbd032aa374b9d079a
 Description:  A set of scripts that handle setup and configuration of Wi-Fi devices.
 
 Package: wil6210-firmware
@@ -2513,16 +2515,16 @@ SHA256sum: 6e07d7ad5150bba7f0ddfd5fee33988983c8ccd0b2df20b709d2d07e16f77c0a
 Description:  wil6210 firmware
 
 Package: wireless-regdb
-Version: 2025.07.10-r1
+Version: 2026.02.04-r1
 Depends: libc
 License: ISC
 Section: firmware
 URL: https://git.kernel.org/pub/scm/linux/kernel/git/wens/wireless-regdb.git/
 Architecture: all
 Installed-Size: 10240
-Filename: wireless-regdb_2025.07.10-r1_all.ipk
-Size: 3509
-SHA256sum: 4e9031881500fd56a37f393bfb2bb0349bc174017dda5320103569b543749c4f
+Filename: wireless-regdb_2026.02.04-r1_all.ipk
+Size: 3540
+SHA256sum: e374456b321d5977d5cb3d253211ddee5da586581f55a8c28834cfa4fd0db832
 Description:  Wireless Regulatory Database
 
 Package: wl12xx-firmware
@@ -2561,8 +2563,8 @@ CPE-ID: cpe:/a:w1.fi:hostapd
 Architecture: mipsel_24kc
 Installed-Size: 1443840
 Filename: wpad-openssl_2024.09.15~5ace39b0-r2_mipsel_24kc.ipk
-Size: 763545
-SHA256sum: 8fb48cac6d8fbdde1bbf6d389d35cd580c8bc15ff83d2a2fb329c6b0dda6659d
+Size: 764651
+SHA256sum: cd70e9d874738040e3723e548b81b9836a376ffbb7990773aaa4c870e82e8e1d
 Description:  This package contains a full featured IEEE 802.1x/WPA/EAP/RADIUS
  Authenticator and Supplicant
 

@@ -3,7 +3,7 @@
   "architecture": "mipsel_24kc",
   "packages": {
     "button-hotplug-gw": "1",
-    "gsc-update": "1.6-r2",
+    "gsc-update": "1.7-r2",
     "gwsoc": "1.0-r1"
   }
 }

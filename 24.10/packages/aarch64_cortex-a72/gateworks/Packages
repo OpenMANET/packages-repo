@@ -7,7 +7,7 @@ Architecture: aarch64_cortex-a72
 Installed-Size: 10240
 Filename: button-hotplug-gw_1_aarch64_cortex-a72.ipk
 Size: 2059
-SHA256sum: d2c9dad58a33fc56ac555b9ebf37c2e3c9ab8c84a6785aaf6fda00f5891ef418
+SHA256sum: 9ff8305f267685d3385dc924be2863cfe4fff64943a82443fd173fec1b1dbeb0
 Description:  OpenWrt button events are dispatched through the hotplug system to
  the button subsystem. This script and default config adds a handler
  script that can track button-presses and execute handlers configured
@@ -20,8 +20,8 @@ Section: base
 Architecture: aarch64_cortex-a72
 Installed-Size: 81920
 Filename: gsc-update_1.7-r2_aarch64_cortex-a72.ipk
-Size: 7732
-SHA256sum: 9e430a77ec2463ce639d961634043f01c292ec535f7d585abbc12cf3efd5d543
+Size: 7734
+SHA256sum: e9afd99b3124babe87d24ed4214f475abf661763b37f38a8220d5dc4784d2714
 Description:  Gateworks System Controller Firmware Update Application
 
 Package: gwsoc
@@ -31,8 +31,8 @@ Section: utils
 Architecture: aarch64_cortex-a72
 Installed-Size: 71680
 Filename: gwsoc_1.0-r1_aarch64_cortex-a72.ipk
-Size: 8356
-SHA256sum: 6f0d12ff3e63f34f9214201f027d20ad30d6984854b1d3b6e2956f59d9d7f2a8
+Size: 8359
+SHA256sum: 209fce8023a0e4b052363a6a1e7f58d16f21c94fdaf1de32b9cd70ff817cfae4
 Description:  Utility for communicating with Gateworks GWSoC family of products
  such as the GW16113.
 

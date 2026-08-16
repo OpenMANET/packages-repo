@@ -107,8 +107,8 @@ URL: https://github.com/openwrt/luci
 Architecture: aarch64_cortex-a53
 Installed-Size: 573440
 Filename: luci-base_git-25.233.06936-53e6515_aarch64_cortex-a53.ipk
-Size: 132013
-SHA256sum: d3e84cf380495715be24e7919dd80484b8b9ec70bdf240717a70df4ba28384a0
+Size: 132014
+SHA256sum: 577495ae9c9275c9762be7f9a280851bdf182cc7e6d291535eb72c6fe966f004
 Description:  LuCI core runtime
 
 Package: luci-compat
@@ -258,8 +258,8 @@ URL: https://github.com/openwrt/luci
 Architecture: aarch64_cortex-a53
 Installed-Size: 245760
 Filename: luci-mod-status_git-25.233.06936-53e6515_aarch64_cortex-a53.ipk
-Size: 41068
-SHA256sum: aa498980e2b156c548bed5a7a8d3f6ca990fbf24a5b4a5e0399d5bf451560587
+Size: 41059
+SHA256sum: ac55f552fe47553434b05b56238172dff37e1f72d3f22710ea0425f383161e85
 Description:  LuCI Status Pages
 
 Package: luci-mod-system
@@ -346,8 +346,8 @@ URL: https://github.com/openwrt/luci
 Architecture: all
 Installed-Size: 81920
 Filename: luci-theme-bootstrap_git-25.233.06936-53e6515_all.ipk
-Size: 16956
-SHA256sum: 84b4e02a7fb15e65a68473759f5b927c089413c78c9be72652c59e14ff1f1cdb
+Size: 16954
+SHA256sum: 552c809f3082a1936b06a866c505e6ce99775b5a7a69073a596ebf2b571ef88d
 Description:  Bootstrap Theme (default)
 
 Package: luci
@@ -371,8 +371,8 @@ Section: libs
 Architecture: aarch64_cortex-a53
 Installed-Size: 71680
 Filename: rpcd-mod-luci_20240305-r1_aarch64_cortex-a53.ipk
-Size: 15658
-SHA256sum: acec9afe5c1bba67d12c3a62a34cc618f8ce83e2d1ea309a8a07906dba7f5264
+Size: 15664
+SHA256sum: 6b0097404371ffc980b5d8700baf3ed15728c925096329406916377500ea7d30
 Description:  Provides LuCI backend ubus RPC operations.
 
 Package: rpcd-mod-rrdns

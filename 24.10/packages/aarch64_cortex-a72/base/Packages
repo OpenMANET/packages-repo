@@ -405,8 +405,8 @@ CPE-ID: cpe:/a:samba:ppp
 Architecture: aarch64_cortex-a72
 Installed-Size: 71680
 Filename: chat_2.5.1-r1_aarch64_cortex-a72.ipk
-Size: 10735
-SHA256sum: 63d799369e7bff8c89c2874d4e4370452f3274533c9176e714031042ff3e36bb
+Size: 10741
+SHA256sum: a40eba26aa373b6bdf750fa71ca4c8e31af8a0619b52dd2be25e3ab0a632837e
 Description:  This package contains an utility to establish conversation with other PPP servers
  (via a modem).
 
@@ -601,8 +601,8 @@ CPE-ID: cpe:/a:w1.fi:hostapd
 Architecture: aarch64_cortex-a72
 Installed-Size: 20480
 Filename: hostapd-common_2024.09.15~5ace39b0-r2_aarch64_cortex-a72.ipk
-Size: 2708
-SHA256sum: 0b92c4fbc4178665ca0174b37a59b64c9b268abd7af87ab89f2e3493eb1fba8d
+Size: 2714
+SHA256sum: 10461be2cb6d3e12d75527be4522a65a70e99b45b3537bb04a4050a7610f4006
 Description:  hostapd/wpa_supplicant common support files
 
 Package: ibt-firmware
@@ -658,8 +658,8 @@ CPE-ID: cpe:/a:kernel:iw
 Architecture: aarch64_cortex-a72
 Installed-Size: 286720
 Filename: iw-full_6.9-r1_aarch64_cortex-a72.ipk
-Size: 95099
-SHA256sum: 3ff98b75219e91a48aa7aa90646de170b40d6fcbe0c50ad2df277eb6e66b92f2
+Size: 95113
+SHA256sum: 8e37aa449f7fed46d525dce9edd93435f9d138f88ca346b927d0e14e5b6fa52b
 Description:  cfg80211 interface configuration utility (full version)
 
 Package: iw
@@ -672,20 +672,20 @@ CPE-ID: cpe:/a:kernel:iw
 Architecture: aarch64_cortex-a72
 Installed-Size: 143360
 Filename: iw_6.9-r1_aarch64_cortex-a72.ipk
-Size: 55588
-SHA256sum: 743f2ef5a645cc41044ffe2cb84fcc2bcad5769a7c2cc43a6853d0f795487bb8
+Size: 55599
+SHA256sum: d40a6a30ce25de1c57451e1c2a7255c0178c8b59875555d05ecb64a089b26f0c
 Description:  cfg80211 interface configuration utility
 
 Package: iwinfo
-Version: 2025.06.10~6161ce59-r1
+Version: 2026.04.29~20baf99c-r1
 Depends: libc, libiwinfo20250326
 License: GPL-2.0
 Section: utils
 Architecture: aarch64_cortex-a72
 Installed-Size: 71680
-Filename: iwinfo_2025.06.10~6161ce59-r1_aarch64_cortex-a72.ipk
-Size: 8308
-SHA256sum: 957b08e5c88509e4beafa58cab05422845ed910301c162606fd63119e007ae02
+Filename: iwinfo_2026.04.29~20baf99c-r1_aarch64_cortex-a72.ipk
+Size: 8401
+SHA256sum: 9bb5fea23fd5ea428469c28b9c9b49c3cbbce4ea55a13c250d01fb52aadaf5a6
 Description:  Command line frontend for the wireless information library.
 
 Package: iwlwifi-firmware-ax200
@@ -1001,8 +1001,8 @@ URL: https://git.openwrt.org/project/jsonpath.git
 Architecture: aarch64_cortex-a72
 Installed-Size: 71680
 Filename: jsonfilter_2025.04.18~8a86fb78-r1_aarch64_cortex-a72.ipk
-Size: 11145
-SHA256sum: 9d40505e1b83d47555476674642f17d1c7f04df4c6e42f70cdec2f21a0956bad
+Size: 11175
+SHA256sum: f43c6c5bc6251e860e91a63a36198a4880a51d90aa8dd7f9bedb7b601f4d1d3f
 Description:  OpenWrt JSON filter utility
 
 Package: libblkid1
@@ -1102,6 +1102,22 @@ SHA256sum: fa94a1dc7b31f367a599f7325737baaed1c2a884c02a95eb166d25ce9d6bd812
 Description:  This package contains libcom_err, the common error description library
  bundled with e2fsprogs.
 
+Package: libdw1
+Version: 0.192-r1
+Depends: libc, libelf1, libbz2-1.0, musl-fts
+Provides: libdw
+License: GPL-2.0-or-later OR LGPL-3.0-or-later
+Section: libs
+URL: https://fedorahosted.org/elfutils/
+ABIVersion: 1
+CPE-ID: cpe:/a:elfutils_project:elfutils
+Architecture: aarch64_cortex-a72
+Installed-Size: 665600
+Filename: libdw1_0.192-r1_aarch64_cortex-a72.ipk
+Size: 231857
+SHA256sum: 60b450456f3d54272223d82d2ace43bd186d7870df9cd4ef4d51a4e82288c047
+Description:  ELF manipulation libraries (libdw)
+
 Package: libe2p2
 Version: 1.47.0-r2
 Depends: libc, libuuid1
@@ -1123,7 +1139,7 @@ Package: libelf1
 Version: 0.192-r1
 Depends: libc, zlib
 Provides: libelf, libelf11
-License: GPL-3.0-or-later
+License: GPL-2.0-or-later OR LGPL-3.0-or-later
 Section: libs
 URL: https://fedorahosted.org/elfutils/
 ABIVersion: 1
@@ -1131,9 +1147,90 @@ CPE-ID: cpe:/a:elfutils_project:elfutils
 Architecture: aarch64_cortex-a72
 Installed-Size: 143360
 Filename: libelf1_0.192-r1_aarch64_cortex-a72.ipk
-Size: 43389
-SHA256sum: 147e08e85dbca41516ba5912129e89e94e4e384b3c424c52982705bc61df67fb
+Size: 43427
+SHA256sum: d535bcf09f862ce5d3cdccf8ec3362fbbd61f2fe249ba448f9f4c0f836088815
 Description:  ELF manipulation libraries (libelf)
+
+Package: libevent2-7
+Version: 2.1.12-r2
+Depends: libc
+Provides: libevent2
+License: BSD-3-Clause
+Section: libs
+URL: http://libevent.org
+ABIVersion: -7
+CPE-ID: cpe:/a:libevent_project:libevent
+Architecture: aarch64_cortex-a72
+Installed-Size: 266240
+Filename: libevent2-7_2.1.12-r2_aarch64_cortex-a72.ipk
+Size: 110963
+SHA256sum: 167ce251408c11a0f821115e17df2c235fab2b0baaa604e0de52b07d5bc48497
+Description:  The libevent API provides a mechanism to execute a callback function
+ when a specific event occurs on a file descriptor or after a timeout
+ has been reached. Furthermore, libevent also support callbacks due
+ to signals or regular timeouts.
+ 
+ libevent is meant to replace the event loop found in event driven
+ network servers. An application just needs to call event_dispatch()
+ and then add or remove events dynamically without having to change
+ the event loop.
+ 
+ This package contains the libevent shared library historically
+ containing both the core & extra libraries.
+
+Package: libevent2-core7
+Version: 2.1.12-r2
+Depends: libc
+Provides: libevent2-core
+License: BSD-3-Clause
+Section: libs
+URL: http://libevent.org
+ABIVersion: 7
+CPE-ID: cpe:/a:libevent_project:libevent
+Architecture: aarch64_cortex-a72
+Installed-Size: 204800
+Filename: libevent2-core7_2.1.12-r2_aarch64_cortex-a72.ipk
+Size: 65907
+SHA256sum: 8457fcb21f62b5349774030f5176cc433bec50505d2e83362fd7f5ef29e5a3b4
+Description:  The libevent API provides a mechanism to execute a callback function
+ when a specific event occurs on a file descriptor or after a timeout
+ has been reached. Furthermore, libevent also support callbacks due
+ to signals or regular timeouts.
+ 
+ libevent is meant to replace the event loop found in event driven
+ network servers. An application just needs to call event_dispatch()
+ and then add or remove events dynamically without having to change
+ the event loop.
+ 
+ This package contains the libevent core shared library for the event,
+ buffer & utility functions.
+
+Package: libevent2-pthreads7
+Version: 2.1.12-r2
+Depends: libc, libpthread, libevent2-core7
+Provides: libevent2-pthreads
+License: BSD-3-Clause
+Section: libs
+URL: http://libevent.org
+ABIVersion: 7
+CPE-ID: cpe:/a:libevent_project:libevent
+Architecture: aarch64_cortex-a72
+Installed-Size: 71680
+Filename: libevent2-pthreads7_2.1.12-r2_aarch64_cortex-a72.ipk
+Size: 3162
+SHA256sum: 354e4e7343e01915eba61641254423afffb9e671c71603a7bd318693a84ec8c0
+Description:  The libevent API provides a mechanism to execute a callback function
+ when a specific event occurs on a file descriptor or after a timeout
+ has been reached. Furthermore, libevent also support callbacks due
+ to signals or regular timeouts.
+ 
+ libevent is meant to replace the event loop found in event driven
+ network servers. An application just needs to call event_dispatch()
+ and then add or remove events dynamically without having to change
+ the event loop.
+ 
+ This package contains the libevent Pthreads shared library for
+ threading & locking.
 
 Package: libext2fs2
 Version: 1.47.0-r2
@@ -1215,32 +1312,32 @@ Description:  GMP is a free library for arbitrary precision arithmetic, operatin
  signed integers, rational numbers, and floating point numbers.
 
 Package: libiwinfo-data
-Version: 2025.06.10~6161ce59-r1
+Version: 2026.04.29~20baf99c-r1
 Depends: libc
 License: GPL-2.0
 Section: opt
 Architecture: aarch64_cortex-a72
 Installed-Size: 30720
-Filename: libiwinfo-data_2025.06.10~6161ce59-r1_aarch64_cortex-a72.ipk
-Size: 3992
-SHA256sum: 5dc4ff0172a2b49f4ed6dc3a70ef12465797766151660cf5c40e2891c41823a1
+Filename: libiwinfo-data_2026.04.29~20baf99c-r1_aarch64_cortex-a72.ipk
+Size: 4052
+SHA256sum: c91c7860497fa0ac74b3053d58979e5237dc54c86217282f47723d7f445289aa
 Description:  libiwinfo Lua binding
 
 Package: libiwinfo-lua
-Version: 2025.06.10~6161ce59-r1
+Version: 2026.04.29~20baf99c-r1
 Depends: libc, libiwinfo20250326, liblua5.1.5
 License: GPL-2.0
 Section: lang
 Architecture: aarch64_cortex-a72
 Installed-Size: 71680
-Filename: libiwinfo-lua_2025.06.10~6161ce59-r1_aarch64_cortex-a72.ipk
-Size: 7448
-SHA256sum: a69b93820e2bfedd9839297340cf3d8174f68dcc1db51002b54fff3186c939cf
+Filename: libiwinfo-lua_2026.04.29~20baf99c-r1_aarch64_cortex-a72.ipk
+Size: 7566
+SHA256sum: 0bab27bf05e914e5bdc0329bf59e3784b19f7f68066d90a26a0ae63d2ef06d19
 Description:  This is the Lua binding for the iwinfo library. It provides access to all enabled
  backends.
 
 Package: libiwinfo20250326
-Version: 2025.06.10~6161ce59-r1
+Version: 2026.04.29~20baf99c-r1
 Depends: libc, libnl-tiny1, libuci20250120, libubus20250102, libiwinfo-data
 Provides: libiwinfo
 License: GPL-2.0
@@ -1248,9 +1345,9 @@ Section: libs
 ABIVersion: 20250326
 Architecture: aarch64_cortex-a72
 Installed-Size: 143360
-Filename: libiwinfo20250326_2025.06.10~6161ce59-r1_aarch64_cortex-a72.ipk
-Size: 34898
-SHA256sum: 54cd68482ec5c2f42c74e2518db26fc5f8070a333621599b6471a3e4d58df88f
+Filename: libiwinfo20250326_2026.04.29~20baf99c-r1_aarch64_cortex-a72.ipk
+Size: 36231
+SHA256sum: ef13e4530ce04d82a3748eafb1bc474c0299e22a23c7d963dc67d52fe4fa8a01
 Description:  Wireless information library with simplified API for nl80211
  and wext driver interfaces.
 
@@ -1318,6 +1415,24 @@ Description:  Lua is a powerful light-weight programming language designed for e
  applications. Lua is also frequently used as a general-purpose, stand-alone 
  language. Lua is free software.
  This package contains the Lua shared libraries, needed by other programs.
+
+Package: libmbedtls21
+Version: 3.6.5-r1
+Depends: libc
+Provides: libmbedtls
+License: GPL-2.0-or-later
+Section: libs
+URL: https://www.trustedfirmware.org/projects/mbed-tls/
+ABIVersion: 21
+CPE-ID: cpe:/a:arm:mbed_tls
+Architecture: aarch64_cortex-a72
+Installed-Size: 860160
+Filename: libmbedtls21_3.6.5-r1_aarch64_cortex-a72.ipk
+Size: 329630
+SHA256sum: 093d2b8fe886fb2bb2ab13ac8fb6fd4a3b9ddfedd0c6be604dcc9ebf449075b6
+Description:  The aim of the mbedtls project is to provide a quality, open-source
+ cryptographic library written in C and targeted at embedded systems.
+ This package contains the mbedtls library.
 
 Package: libmnl0
 Version: 1.0.5-r1
@@ -1533,7 +1648,7 @@ Description:  Socket handling, connection management, sending and receiving of d
  message construction and parsing, object caching system, etc.
 
 Package: libopenssl-conf
-Version: 3.0.17-r1
+Version: 3.0.19-r1
 Depends: libc, libopenssl3
 License: Apache-2.0
 Section: libs
@@ -1541,9 +1656,9 @@ URL: https://www.openssl.org/
 CPE-ID: cpe:/a:openssl:openssl
 Architecture: aarch64_cortex-a72
 Installed-Size: 20480
-Filename: libopenssl-conf_3.0.17-r1_aarch64_cortex-a72.ipk
-Size: 6487
-SHA256sum: ef02e1ae017aa4ca52cc748534cb6a2b5a8c21a76adaaf23be2fd237ffa0daf7
+Filename: libopenssl-conf_3.0.19-r1_aarch64_cortex-a72.ipk
+Size: 6499
+SHA256sum: cbd1a12e61d8ce1a2574d0b708fefc2ea2e3427cac4dbc573b5e5739292700a3
 Description:  The OpenSSL Project is a collaborative effort to develop a robust,
  commercial-grade, full-featured, and Open Source toolkit implementing the
  Transport Layer Security (TLS) protocol as well as a full-strength
@@ -1551,7 +1666,7 @@ Description:  The OpenSSL Project is a collaborative effort to develop a robust,
  This package installs the OpenSSL configuration file /etc/ssl/openssl.cnf.
 
 Package: libopenssl-legacy
-Version: 3.0.17-r1
+Version: 3.0.19-r1
 Depends: libc, libopenssl3, libopenssl-conf
 License: Apache-2.0
 Section: libs
@@ -1559,16 +1674,16 @@ URL: https://www.openssl.org/
 CPE-ID: cpe:/a:openssl:openssl
 Architecture: aarch64_cortex-a72
 Installed-Size: 143360
-Filename: libopenssl-legacy_3.0.17-r1_aarch64_cortex-a72.ipk
-Size: 33965
-SHA256sum: 5f83d8281e72daab257d6d2bcfd13bc1189f6a81a767ed62c195643e962ba771
+Filename: libopenssl-legacy_3.0.19-r1_aarch64_cortex-a72.ipk
+Size: 33959
+SHA256sum: 659f9b9a6967aefc17df4e2eff88d9e4154e92d49b47192d7027e026116c803b
 Description:  The OpenSSL legacy provider supplies OpenSSL implementations of algorithms that
  have been deemed legacy. Such algorithms have commonly fallen out of use, have
  been deemed insecure by the cryptography community, or something similar.  See
  https://www.openssl.org/docs/man3.0/man7/OSSL_PROVIDER-legacy.html
 
 Package: libopenssl3
-Version: 3.0.17-r1
+Version: 3.0.19-r1
 Depends: libc
 Provides: libopenssl
 License: Apache-2.0
@@ -1578,9 +1693,9 @@ ABIVersion: 3
 CPE-ID: cpe:/a:openssl:openssl
 Architecture: aarch64_cortex-a72
 Installed-Size: 4618240
-Filename: libopenssl3_3.0.17-r1_aarch64_cortex-a72.ipk
-Size: 1760521
-SHA256sum: 124119a1f83cbc6c3db2cd8ec047a3e5578a1818cd8e7c9c35a371f7ca3119c5
+Filename: libopenssl3_3.0.19-r1_aarch64_cortex-a72.ipk
+Size: 1762055
+SHA256sum: ebbd6718e7c7ec96209846f51d1b2f5cfebb1cef2bd04e57030363a4b5e888dc
 Description:  The OpenSSL Project is a collaborative effort to develop a robust,
  commercial-grade, full-featured, and Open Source toolkit implementing the
  Transport Layer Security (TLS) protocol as well as a full-strength
@@ -1703,19 +1818,19 @@ SHA256sum: 06f0b37c44cbc58bd44dc69d6927b998d2c0981d522bd0a286ec2aed17fa1d74
 Description:  Basic utility library
 
 Package: libubus-lua
-Version: 2025.07.02~5952b48e-r1
+Version: 2025.10.17~60e04048-r1
 Depends: libc, libubus20250102, liblua5.1.5
 License: LGPL-2.1
 Section: libs
 Architecture: aarch64_cortex-a72
 Installed-Size: 71680
-Filename: libubus-lua_2025.07.02~5952b48e-r1_aarch64_cortex-a72.ipk
-Size: 8113
-SHA256sum: e943d2b4140317f095afb20fb599bbe794a86c932bf6516aeb543abd4fb6da9f
+Filename: libubus-lua_2025.10.17~60e04048-r1_aarch64_cortex-a72.ipk
+Size: 8112
+SHA256sum: a0a7a1558f327d5c4db1277235e4edd687bbcff21d240a0d9b59195265075865
 Description:  Lua binding for the OpenWrt RPC client
 
 Package: libubus20250102
-Version: 2025.07.02~5952b48e-r1
+Version: 2025.10.17~60e04048-r1
 Depends: libc, libubox20240329
 Provides: libubus
 License: LGPL-2.1
@@ -1723,9 +1838,9 @@ Section: libs
 ABIVersion: 20250102
 Architecture: aarch64_cortex-a72
 Installed-Size: 71680
-Filename: libubus20250102_2025.07.02~5952b48e-r1_aarch64_cortex-a72.ipk
-Size: 13242
-SHA256sum: 23bdd71f3fd30ad889c13023c5a32249415110cf2533f633fc0fcd2936af51da
+Filename: libubus20250102_2025.10.17~60e04048-r1_aarch64_cortex-a72.ipk
+Size: 13249
+SHA256sum: 3af63329376ea345fb4df294fff3c6c5b5fff6b9e677f97756fbff84f414ab79
 Description:  OpenWrt RPC client library
 
 Package: libuci20250120
@@ -1782,6 +1897,22 @@ Size: 5211
 SHA256sum: 78b045431a4fa67e8d4a4e439f15e97ad46e9ae4926efb08020efc607c61e804
 Description:  udebug client library
 
+Package: libunwind8
+Version: 1.8.1-r1
+Depends: libc, zlib
+Provides: libunwind
+License: X11
+Section: libs
+URL: http://www.nongnu.org/libunwind/
+ABIVersion: 8
+CPE-ID: cpe:/a:libunwind_project:libunwind
+Architecture: aarch64_cortex-a72
+Installed-Size: 409600
+Filename: libunwind8_1.8.1-r1_aarch64_cortex-a72.ipk
+Size: 80659
+SHA256sum: 9aee61b2882f31d240c027d57ef9291588559e4114bd9c06d1e720f548617c92
+Description:  Libunwind defines a portable and efficient C programming interface (API) to determine the call-chain of a program.
+
 Package: libusb-1.0-0
 Version: 1.0.27-r1
 Depends: libc, libpthread, librt, libatomic1
@@ -1798,6 +1929,21 @@ Size: 36216
 SHA256sum: a6fa1bae25e568720ae03a9b1a17e4cdb0ea9e8f9cb07a29da34fe5518e28360
 Description:  libusb is a C library that gives applications easy access to USB devices on
  many different operating systems.
+
+Package: libustream-mbedtls20201210
+Version: 2024.07.28~99bd3d2b-r1
+Depends: libc, libubox20240329, libmbedtls21
+Conflicts: libustream-openssl, libustream-wolfssl
+Provides: libustream-mbedtls
+License: ISC
+Section: libs
+ABIVersion: 20201210
+Architecture: aarch64_cortex-a72
+Installed-Size: 71680
+Filename: libustream-mbedtls20201210_2024.07.28~99bd3d2b-r1_aarch64_cortex-a72.ipk
+Size: 6944
+SHA256sum: f4fff54ac1499ad21bec087584c7f62f0a380149a5260ebb324f2290182ceb33
+Description:  ustream SSL Library (mbedtls)
 
 Package: libustream-openssl20201210
 Version: 2024.07.28~99bd3d2b-r1
@@ -1832,18 +1978,20 @@ Description:  The UUID library is used to generate unique identifiers for object
  generates UUIDs compatible with those created by the Open Software
  Foundation (OSF) Distributed Computing Environment (DCE) utility.
 
-Package: libxml2
-Version: 2.14.5-r1
+Package: libxml2-16
+Version: 2.14.5-r2
 Depends: libc, libpthread, zlib
+Provides: libxml2
 License: MIT
 Section: libs
 URL: http://xmlsoft.org/
+ABIVersion: -16
 CPE-ID: cpe:/a:xmlsoft:libxml2
 Architecture: aarch64_cortex-a72
 Installed-Size: 1187840
-Filename: libxml2_2.14.5-r1_aarch64_cortex-a72.ipk
-Size: 481448
-SHA256sum: 6ae5a53b4ac2eb977d0b473f3ecb4464ec9aa2a796da07df69ed8838ca5cc178
+Filename: libxml2-16_2.14.5-r2_aarch64_cortex-a72.ipk
+Size: 481487
+SHA256sum: 6ff14b27b2f5df4767ddba6a9afca862ff937b2c2d0cfcb4ff8f7452bb02ab21
 Description:  A library for manipulating XML and HTML resources.
 
 Package: logd
@@ -1903,6 +2051,19 @@ Size: 27210
 SHA256sum: accf65b4180be8ce41c5d86f544ad3d796d102072e5be713c2709417deda0504
 Description:  MediaTek MT7601U firmware
 
+Package: musl-fts
+Version: 1.2.7-r1
+Depends: libc, libpthread
+License: LGPL-2.1
+Section: libs
+URL: https://github.com/pullmoll/musl-fts
+Architecture: aarch64_cortex-a72
+Installed-Size: 71680
+Filename: musl-fts_1.2.7-r1_aarch64_cortex-a72.ipk
+Size: 5867
+SHA256sum: 5363178ccdcbf75937fda16683d3d31d9abc42f08330e76067b6d5bba073cf0d
+Description:  The musl-fts package implements the fts(3) functions fts_open, fts_read, fts_children, fts_set and fts_close, which are missing in musl libc.
+
 Package: mwifiex-pcie-firmware
 Version: 20241110-r2
 Depends: libc
@@ -1947,8 +2108,8 @@ Section: base
 Architecture: aarch64_cortex-a72
 Installed-Size: 327680
 Filename: netifd_2025.05.23~7901e66c-r1_aarch64_cortex-a72.ipk
-Size: 121432
-SHA256sum: 393cca8d8b6bdda0f0b75ddccfb251ee52be8d32cebbd58972d37e752fda5608
+Size: 122150
+SHA256sum: 01922c10709746dfeff87e50168f33e273993df86cee15fd31084b05dc576ba7
 Description:  OpenWrt Network Interface Configuration Daemon
 
 Package: nftables-json
@@ -1977,8 +2138,26 @@ Size: 28199
 SHA256sum: 739e75cee65d23759826cfbbd9f140fe7bd5074fe86dfee2ce868f5df0ade7a4
 Description:  Embedded DHCPv6-client for OpenWrt
 
+Package: odhcpd-ipv6only
+Version: 2025.10.02~b14cf98c-r2
+Depends: libc, libjson-c5, libubox20240329, libuci20250120, libubus20250102, libnl-tiny1
+License: GPL-2.0
+Section: net
+Architecture: aarch64_cortex-a72
+Installed-Size: 143360
+Filename: odhcpd-ipv6only_2025.10.02~b14cf98c-r2_aarch64_cortex-a72.ipk
+Size: 52886
+SHA256sum: 4dcfc4310a3f2a593fd5299f446145bd7992a71a17d7c2d43accb58679ff7053
+Description:  odhcpd is a daemon for serving and relaying IP management protocols to
+ configure clients and downstream routers. It tries to follow the RFC 6204
+ requirements for IPv6 home routers.
+ 
+ This is a variant providing server services for RA, stateless and stateful
+ DHCPv6,  prefix delegation and can be used to relay RA, DHCPv6 and NDP between
+ routed (non-bridged) interfaces in case no delegated prefixes are available.
+
 Package: openssl-util
-Version: 3.0.17-r1
+Version: 3.0.19-r1
 Depends: libc, libopenssl3, libopenssl-conf
 License: Apache-2.0
 Section: utils
@@ -1986,9 +2165,9 @@ URL: https://www.openssl.org/
 CPE-ID: cpe:/a:openssl:openssl
 Architecture: aarch64_cortex-a72
 Installed-Size: 829440
-Filename: openssl-util_3.0.17-r1_aarch64_cortex-a72.ipk
-Size: 304261
-SHA256sum: 74dd61f518793b843eb5cdd01dcd08a93f625b0fa63c73fe31e1e08bb9697499
+Filename: openssl-util_3.0.19-r1_aarch64_cortex-a72.ipk
+Size: 304573
+SHA256sum: 2c9e14b7dba5d405ab1d18102686b1365835755485826789176da6652e5130fe
 Description:  The OpenSSL Project is a collaborative effort to develop a robust,
  commercial-grade, full-featured, and Open Source toolkit implementing the
  Transport Layer Security (TLS) protocol as well as a full-strength
@@ -2053,8 +2232,8 @@ CPE-ID: cpe:/a:samba:ppp
 Architecture: aarch64_cortex-a72
 Installed-Size: 71680
 Filename: ppp-mod-pppoe_2.5.1-r1_aarch64_cortex-a72.ipk
-Size: 13872
-SHA256sum: baea9ae903c48779b483fe81d718b028df6562d37d154034347fa97382525785
+Size: 13865
+SHA256sum: b079f1d9515f9c66728236663bcc0f475608029758cfda5c82daa9dc4d9962d3
 Description:  This package contains a PPPoE (PPP over Ethernet) plugin for ppp.
 
 Package: ppp
@@ -2065,47 +2244,47 @@ Section: net
 URL: https://ppp.samba.org/
 CPE-ID: cpe:/a:samba:ppp
 Architecture: aarch64_cortex-a72
-Installed-Size: 378880
+Installed-Size: 389120
 Filename: ppp_2.5.1-r1_aarch64_cortex-a72.ipk
-Size: 150850
-SHA256sum: 9a7052adda39f62d25b7ee8d7b0bd31a077bc41e46844ee8e571e934c064b49e
+Size: 150941
+SHA256sum: 200a26b7fc781197ec2b5a8fd5a6e533ee2434a4da277ef379977ae647aa277a
 Description:  This package contains the PPP (Point-to-Point Protocol) daemon.
 
 Package: procd-seccomp
-Version: 2024.12.22~42d39376-r1
+Version: 2026.03.14~c59f2d80-r1
 Depends: libc, libubox20240329, libblobmsg-json20240329
 License: GPL-2.0
 Section: base
 Architecture: aarch64_cortex-a72
 Installed-Size: 204800
-Filename: procd-seccomp_2024.12.22~42d39376-r1_aarch64_cortex-a72.ipk
-Size: 19599
-SHA256sum: a767df6260a857bb48f4bf2620977d97e460a22463813ff020fee4cc3696b348
+Filename: procd-seccomp_2026.03.14~c59f2d80-r1_aarch64_cortex-a72.ipk
+Size: 19592
+SHA256sum: d199125cbbbd2cd547e5ae15d27a30281ca0425f858e3b7ca305783e86a27601
 Description:  OpenWrt process seccomp helper + utrace
 
 Package: procd-ujail
-Version: 2024.12.22~42d39376-r1
+Version: 2026.03.14~c59f2d80-r1
 Depends: libc, libubox20240329, libubus20250102, libuci20250120, libblobmsg-json20240329
 License: GPL-2.0
 Section: base
 Architecture: aarch64_cortex-a72
 Installed-Size: 143360
-Filename: procd-ujail_2024.12.22~42d39376-r1_aarch64_cortex-a72.ipk
-Size: 44087
-SHA256sum: 2818917b54b43d8dbcd5ed293ffbfbf20f5c7092d383b289bd1e397136e3dece
+Filename: procd-ujail_2026.03.14~c59f2d80-r1_aarch64_cortex-a72.ipk
+Size: 44192
+SHA256sum: 6ad9d14ac40fed4f82b9fdeff64cd107ac8c888b9c59eea750638af6d6b17a5a
 Description:  OpenWrt process jail helper
 
 Package: procd
-Version: 2024.12.22~42d39376-r1
+Version: 2026.03.14~c59f2d80-r1
 Depends: libc, ubusd, ubus, libjson-script20240329, ubox, libubox20240329, libudebug, libubus20250102, libblobmsg-json20240329, libjson-c5, jshn
 Conflicts: procd-selinux
 License: GPL-2.0
 Section: base
 Architecture: aarch64_cortex-a72
 Installed-Size: 501760
-Filename: procd_2024.12.22~42d39376-r1_aarch64_cortex-a72.ipk
-Size: 64046
-SHA256sum: b1905592c121a6ce2c66512b57b0111c635b71d2e402da0a048ac97652a072bd
+Filename: procd_2026.03.14~c59f2d80-r1_aarch64_cortex-a72.ipk
+Size: 64313
+SHA256sum: 9f7733e7abec3d85fdae7960b07bc199dc4dcae00815dbbf992cd7af758b986b
 Description:  OpenWrt system process manager
 
 Package: qos-scripts
@@ -2159,51 +2338,51 @@ SHA256sum: 8b7ec9c5de303c1968565ddc3f3ee878b7312067a93a9690696bd7f6880ed567
 Description:  Transparent routing / relay daemon
 
 Package: rpcd-mod-file
-Version: 2023.07.01~c07ab2f9-r1
+Version: 2025.09.01~bba95191-r1
 Depends: libc, libubus20250102, libubox20240329, rpcd
 License: ISC
 Section: utils
 Architecture: aarch64_cortex-a72
 Installed-Size: 71680
-Filename: rpcd-mod-file_2023.07.01~c07ab2f9-r1_aarch64_cortex-a72.ipk
-Size: 8440
-SHA256sum: 59f8638f8887895a60a97caec0e17820fc103b8133ecae6951ea4f76b768eee1
+Filename: rpcd-mod-file_2025.09.01~bba95191-r1_aarch64_cortex-a72.ipk
+Size: 8446
+SHA256sum: 3f23a10bcb146ebae7bd3bfab893168ce2c233f7df112498a19c8b7b4a558915
 Description:  Provides ubus calls for file and directory operations.
 
 Package: rpcd-mod-iwinfo
-Version: 2023.07.01~c07ab2f9-r1
-Depends: libiwinfo (>= 2023-01-21), libc, libubus20250102, libubox20240329, rpcd, libiwinfo20250326
+Version: 2025.09.01~bba95191-r1
+Depends: libiwinfo (>=2023.01.21), libc, libubus20250102, libubox20240329, rpcd, libiwinfo20250326
 License: ISC
 Section: utils
 Architecture: aarch64_cortex-a72
 Installed-Size: 71680
-Filename: rpcd-mod-iwinfo_2023.07.01~c07ab2f9-r1_aarch64_cortex-a72.ipk
-Size: 8963
-SHA256sum: 6b63965ca4ee0965e47c0cbbd258154c44603c861efc1f92170ab6f092c3d4e3
+Filename: rpcd-mod-iwinfo_2025.09.01~bba95191-r1_aarch64_cortex-a72.ipk
+Size: 8824
+SHA256sum: e1a044660dd617151f9917d00e94f55912c104fdeef16713bb0a5160cef904c0
 Description:  Provides ubus calls for accessing iwinfo data.
 
 Package: rpcd-mod-ucode
-Version: 2023.07.01~c07ab2f9-r1
+Version: 2025.09.01~bba95191-r1
 Depends: libc, libubus20250102, libubox20240329, rpcd, libucode20230711
 License: ISC
 Section: utils
 Architecture: aarch64_cortex-a72
 Installed-Size: 71680
-Filename: rpcd-mod-ucode_2023.07.01~c07ab2f9-r1_aarch64_cortex-a72.ipk
-Size: 8935
-SHA256sum: 43956a57680acfd759da1bd4fa044c63ef2183d00f3573640873e9613d0420f5
+Filename: rpcd-mod-ucode_2025.09.01~bba95191-r1_aarch64_cortex-a72.ipk
+Size: 8951
+SHA256sum: f368b176a9711d38bce144ae27b5c069fdf3024f8bf84a7062cd0b26febf2cf5
 Description:  Allows implementing plugins using ucode scripts.
 
 Package: rpcd
-Version: 2023.07.01~c07ab2f9-r1
+Version: 2025.09.01~bba95191-r1
 Depends: libc, libubus20250102, libubox20240329, libuci20250120, libblobmsg-json20240329, libjson-c5
 License: ISC
 Section: utils
 Architecture: aarch64_cortex-a72
 Installed-Size: 81920
-Filename: rpcd_2023.07.01~c07ab2f9-r1_aarch64_cortex-a72.ipk
-Size: 27969
-SHA256sum: 2e51066d401db4492b44a44f4a5d17c5a1d8c29fcfe4ef91556c6ba3397b5992
+Filename: rpcd_2025.09.01~bba95191-r1_aarch64_cortex-a72.ipk
+Size: 28012
+SHA256sum: 302232d433112ad9431c7ca5850fc10d053ab4bd9717130e9b3615ee53a39411
 Description:  This package provides the UBUS RPC backend server to expose various
  functionality to frontend programs via JSON-RPC.
 
@@ -2541,27 +2720,27 @@ SHA256sum: cc8629bcc3ec43304cb50675320fb1c60c003d93ba6a8ee573b02ec9350aa858
 Description:  OpenWrt system helper toolbox
 
 Package: ubus
-Version: 2025.07.02~5952b48e-r1
+Version: 2025.10.17~60e04048-r1
 Depends: libc, libubus20250102, libblobmsg-json20240329, ubusd
 License: LGPL-2.1
 Section: base
 Architecture: aarch64_cortex-a72
 Installed-Size: 71680
-Filename: ubus_2025.07.02~5952b48e-r1_aarch64_cortex-a72.ipk
-Size: 7544
-SHA256sum: 3a18606743c7650e96fdf373961e74308ed2895cb4130b2aafb0ed12d02a1159
+Filename: ubus_2025.10.17~60e04048-r1_aarch64_cortex-a72.ipk
+Size: 7548
+SHA256sum: 38d2a8065117861db4caa25734615e71425c28550eeb51c8b0b42eaccaeaa9d2
 Description:  OpenWrt RPC client utility
 
 Package: ubusd
-Version: 2025.07.02~5952b48e-r1
+Version: 2025.10.17~60e04048-r1
 Depends: libc, libubox20240329, libblobmsg-json20240329
 License: LGPL-2.1
 Section: base
 Architecture: aarch64_cortex-a72
 Installed-Size: 71680
-Filename: ubusd_2025.07.02~5952b48e-r1_aarch64_cortex-a72.ipk
-Size: 14177
-SHA256sum: f8e602d056da408bb6d33f3a6852839d17dabb9ca5ef0d83d8701f6aab19e919
+Filename: ubusd_2025.10.17~60e04048-r1_aarch64_cortex-a72.ipk
+Size: 14688
+SHA256sum: 92ff7e0fd92f72ee34338a45d2d8bf38a76727bfbc91f003f880f90f9507ea0e
 Description:  OpenWrt RPC daemon
 
 Package: uci
@@ -2695,8 +2874,8 @@ Section: net
 Architecture: aarch64_cortex-a72
 Installed-Size: 71680
 Filename: uhttpd-mod-ubus_2025.07.06~7e64e8ba-r4_aarch64_cortex-a72.ipk
-Size: 9557
-SHA256sum: 4b084e0f1a500feb909eac1993fdbe1ec16f03a76688c3a717499183c6d18857
+Size: 9558
+SHA256sum: d8671d163e4c552822b837670844ff7bd514ee4c04bdba192c772e6283285510
 Description:  The ubus plugin adds a HTTP/JSON RPC proxy for ubus and publishes the
  session.* namespace and procedures.
 
@@ -2708,8 +2887,8 @@ Section: net
 Architecture: aarch64_cortex-a72
 Installed-Size: 92160
 Filename: uhttpd_2025.07.06~7e64e8ba-r4_aarch64_cortex-a72.ipk
-Size: 32316
-SHA256sum: 75ccccd1d82fa9ed9632f91258b64d8c494a040b23d4badc41875027cf029ffe
+Size: 32844
+SHA256sum: b21a7d1ce5c8ecd155034694c6d6ee93902d5779777adef55e5b16cac503c68e
 Description:  uHTTPd is a tiny single threaded HTTP server with TLS, CGI and Lua
  support. It is intended as a drop-in replacement for the Busybox
  HTTP daemon.
@@ -2781,10 +2960,10 @@ Depends: libc, netifd, ucode, ucode-mod-nl80211, ucode-mod-rtnl, ucode-mod-ubus,
 License: GPL-2.0
 Section: utils
 Architecture: all
-Installed-Size: 133120
+Installed-Size: 143360
 Filename: wifi-scripts_1.0-r1_all.ipk
-Size: 30189
-SHA256sum: b794da3896ae666806997eb46f1d39b7c74b5bc8ecf93bc83f23db3ffdf9f879
+Size: 30925
+SHA256sum: a7bcbb43fe140593a84e4c2102e7ba6791e7616b507452f2cd9cd38454f5ebc1
 Description:  A set of scripts that handle setup and configuration of Wi-Fi devices.
 
 Package: wil6210-firmware
@@ -2800,16 +2979,16 @@ SHA256sum: 37361da60445a60d53cc42e3c0b39b1ac25d76f841048c2402f1c5911e953d9e
 Description:  wil6210 firmware
 
 Package: wireless-regdb
-Version: 2025.07.10-r1
+Version: 2026.02.04-r1
 Depends: libc
 License: ISC
 Section: firmware
 URL: https://git.kernel.org/pub/scm/linux/kernel/git/wens/wireless-regdb.git/
 Architecture: all
 Installed-Size: 10240
-Filename: wireless-regdb_2025.07.10-r1_all.ipk
-Size: 3509
-SHA256sum: 4e9031881500fd56a37f393bfb2bb0349bc174017dda5320103569b543749c4f
+Filename: wireless-regdb_2026.02.04-r1_all.ipk
+Size: 3540
+SHA256sum: e374456b321d5977d5cb3d253211ddee5da586581f55a8c28834cfa4fd0db832
 Description:  Wireless Regulatory Database
 
 Package: wl12xx-firmware
@@ -2836,6 +3015,22 @@ Size: 343976
 SHA256sum: 838df812f891c07747267d8489c8d0ed802798863b06e3f611e110eed64e90a8
 Description:  TI WL18xx firmware
 
+Package: wpad-basic-mbedtls
+Version: 2024.09.15~5ace39b0-r2
+Depends: hostapd-common (=2024.09.15~5ace39b0-r2), libc, libnl-tiny1, hostapd-common, ucode, libucode20230711, ucode-mod-fs, ucode-mod-nl80211, ucode-mod-rtnl, ucode-mod-ubus, ucode-mod-uloop, libubus20250102, libblobmsg-json20240329, libudebug, libmbedtls21
+Conflicts: hostapd, hostapd-basic, hostapd-basic-openssl, hostapd-basic-wolfssl, hostapd-basic-mbedtls, hostapd-mini, hostapd-openssl, hostapd-wolfssl, hostapd-mbedtls, wpad, wpad-mesh-openssl, wpad-mesh-wolfssl, wpad-mesh-mbedtls, wpad-basic, wpad-basic-openssl, wpad-basic-wolfssl, wpad, wpad-mesh-openssl, wpad-mesh-wolfssl, wpad-mesh-mbedtls, wpad-basic, wpad-basic-openssl, wpad-basic-wolfssl
+Provides: hostapd, wpa-supplicant
+License: BSD-3-Clause
+Section: net
+URL: http://hostap.epitest.fi/
+CPE-ID: cpe:/a:w1.fi:hostapd
+Architecture: aarch64_cortex-a72
+Installed-Size: 1167360
+Filename: wpad-basic-mbedtls_2024.09.15~5ace39b0-r2_aarch64_cortex-a72.ipk
+Size: 552839
+SHA256sum: 480fa399d08f535dc8109c05185b58a97459e530b4ba50fd0704b4c2a42c15ac
+Description:  This package contains a basic IEEE 802.1x/WPA Authenticator and Supplicant with WPA-PSK, SAE (WPA3-Personal), 802.11r and 802.11w support.
+
 Package: wpad-openssl
 Version: 2024.09.15~5ace39b0-r2
 Depends: hostapd-common (=2024.09.15~5ace39b0-r2), libc, libnl-tiny1, hostapd-common, ucode, libucode20230711, ucode-mod-fs, ucode-mod-nl80211, ucode-mod-rtnl, ucode-mod-ubus, ucode-mod-uloop, libubus20250102, libblobmsg-json20240329, libudebug, libopenssl3, libopenssl-legacy
@@ -2848,8 +3043,8 @@ CPE-ID: cpe:/a:w1.fi:hostapd
 Architecture: aarch64_cortex-a72
 Installed-Size: 1761280
 Filename: wpad-openssl_2024.09.15~5ace39b0-r2_aarch64_cortex-a72.ipk
-Size: 843601
-SHA256sum: c6ea5d1b02f6a3e3adc114648a81f2063b58e165b4bd772c2d81cfe858930859
+Size: 844755
+SHA256sum: 862bc53166cf84f322dde8ca52ad46135660c285165437d47ea14a9a00023dbb
 Description:  This package contains a full featured IEEE 802.1x/WPA/EAP/RADIUS
  Authenticator and Supplicant
 

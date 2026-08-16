@@ -107,8 +107,8 @@ URL: https://github.com/openwrt/luci
 Architecture: aarch64_cortex-a72
 Installed-Size: 573440
 Filename: luci-base_git-25.233.06936-53e6515_aarch64_cortex-a72.ipk
-Size: 132027
-SHA256sum: 57c1583ebd13734b2311116c155a95613453de82aaecf9ad39fd6468c0d312c0
+Size: 132028
+SHA256sum: ad6a887be7369135c2429dc3f781729075025d872f865dad7f76100caa3c1c2a
 Description:  LuCI core runtime
 
 Package: luci-compat
@@ -338,8 +338,8 @@ URL: https://github.com/openwrt/luci
 Architecture: aarch64_cortex-a72
 Installed-Size: 245760
 Filename: luci-mod-status_git-25.233.06936-53e6515_aarch64_cortex-a72.ipk
-Size: 41076
-SHA256sum: d786090fbf0ffb3aeb4beff4ee54154cd8a8b188037d838a1c68aa5371772d51
+Size: 41078
+SHA256sum: cd657426b5c7e99f585147d6a0a7b07461dd9cd73a3296e75cd5e544e3b61d38
 Description:  LuCI Status Pages
 
 Package: luci-mod-system
@@ -425,8 +425,8 @@ Section: libs
 Architecture: aarch64_cortex-a72
 Installed-Size: 71680
 Filename: rpcd-mod-luci_20240305-r1_aarch64_cortex-a72.ipk
-Size: 15714
-SHA256sum: 2046331103a89da7d7451570b950e9264ffa3a5d7ff94a619d313c1d01434c7e
+Size: 15720
+SHA256sum: 0e8992c70d2eeaa5d3c2d08d71dbe77154c1092aa7665d75a9210791adf17adc
 Description:  Provides LuCI backend ubus RPC operations.
 
 Package: rpcd-mod-rrdns

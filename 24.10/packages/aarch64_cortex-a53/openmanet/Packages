@@ -7,8 +7,8 @@ URL: https://www.open-mesh.org/
 Architecture: aarch64_cortex-a53
 Installed-Size: 215040
 Filename: alfred_2025.5-r1_aarch64_cortex-a53.ipk
-Size: 34443
-SHA256sum: 500802ccee52b6ff70aa24ee9b130776a37c28fce212bdb72444e8023ab9d084
+Size: 34441
+SHA256sum: 378e62fd4292e80d3a1d6332a4936093f6302d7ba1fdb7a3957d8501391806f6
 Description:  alfred is a user space daemon for distributing arbitrary local information
  over the mesh/network in a decentralized fashion. This data can be anything
  which appears to be useful - originally designed to replace the batman-adv
@@ -33,8 +33,8 @@ CPE-ID: cpe:/a:avahi:avahi
 Architecture: aarch64_cortex-a53
 Installed-Size: 10240
 Filename: avahi-daemon-service-http_0.8-r8_aarch64_cortex-a53.ipk
-Size: 1548
-SHA256sum: b0e725d8dbe6b7f7f882c8a0b2eccb731d41b5d3317418c61b28e8ee49495d9b
+Size: 1549
+SHA256sum: 9fa80d054ccb931099e8c0050aa96e3da712756b974ee80a7e9734a0d9caab33
 Description:  Avahi is an mDNS/DNS-SD (aka RendezVous/Bonjour/ZeroConf)
  implementation (library). It facilitates
  service discovery on a local network -- this means that
@@ -57,8 +57,8 @@ CPE-ID: cpe:/a:avahi:avahi
 Architecture: aarch64_cortex-a53
 Installed-Size: 10240
 Filename: avahi-daemon-service-ssh_0.8-r8_aarch64_cortex-a53.ipk
-Size: 1522
-SHA256sum: b2c3357680cc658ed61b17409c5ca87dcc5d0b04f65dfaf8d7e7c544929c1509
+Size: 1523
+SHA256sum: a40befdd15a16fb025eb26ea6bfab8c477d77577e58322ff7f32008e5eddf273
 Description:  Avahi is an mDNS/DNS-SD (aka RendezVous/Bonjour/ZeroConf)
  implementation (library). It facilitates
  service discovery on a local network -- this means that
@@ -82,8 +82,8 @@ CPE-ID: cpe:/a:avahi:avahi
 Architecture: aarch64_cortex-a53
 Installed-Size: 143360
 Filename: avahi-dbus-daemon_0.8-r8_aarch64_cortex-a53.ipk
-Size: 41521
-SHA256sum: 488079571922e276e0811394aa5b02fd2ac8cfcc2dae36bdd4b302d63232c08a
+Size: 41536
+SHA256sum: fb3c16d627fb2ffbaf1bd813ed2f78886e336aae92d3e4da73ac28834c5d8e6a
 Description:  Avahi is an mDNS/DNS-SD (aka RendezVous/Bonjour/ZeroConf)
  implementation (library). It facilitates
  service discovery on a local network -- this means that
@@ -106,8 +106,8 @@ CPE-ID: cpe:/a:avahi:avahi
 Architecture: aarch64_cortex-a53
 Installed-Size: 604160
 Filename: avahi-utils_0.8-r8_aarch64_cortex-a53.ipk
-Size: 47918
-SHA256sum: 73b5b030bd93b722814715b8134ab6086601bbfdf051c7ffb8e20891ad5d4903
+Size: 49000
+SHA256sum: 15f8669ae3fe3ba081928c0e68f4f9ed9bfcd4e5e4954533b1f338d0ae5c3e50
 Description:  Avahi is an mDNS/DNS-SD (aka RendezVous/Bonjour/ZeroConf)
  implementation (library). It facilitates
  service discovery on a local network -- this means that
@@ -134,8 +134,8 @@ URL: https://www.open-mesh.org/
 Architecture: aarch64_cortex-a53
 Installed-Size: 143360
 Filename: batctl-full_2025.4-r2_aarch64_cortex-a53.ipk
-Size: 53767
-SHA256sum: 6f6927875a7916fd685528ceaceb4ec305c7edfe19e915a1830192ac185fbc30
+Size: 53792
+SHA256sum: 6dccbee4ab630711578a8cfe50b69c07761b430aa9a132df022b892d4a7c48e9
 Description:  batctl is a more intuitive managment utility for B.A.T.M.A.N.-Advanced.
  It is an easier method for configuring batman-adv and provides some
  additional tools for debugging as well. This package builds
@@ -143,31 +143,31 @@ Description:  batctl is a more intuitive managment utility for B.A.T.M.A.N.-Adva
  Subcommands for configuration, online and offline debugging are enabled.
 
 Package: bsp-common
-Version: 1.0-r2
+Version: 1.0-r5
 Depends: libc
 License: GPLv2
 Section: utils
 Architecture: aarch64_cortex-a53
 Installed-Size: 20480
-Filename: bsp-common_1.0-r2_aarch64_cortex-a53.ipk
-Size: 3305
-SHA256sum: cc9f9531cb06e3b36fd6679d4aabfe3a3f0f90a7f7b19ce5daaeefb521fa3c38
+Filename: bsp-common_1.0-r5_aarch64_cortex-a53.ipk
+Size: 4848
+SHA256sum: aa7cb7abbac3f1fe38f0dd6546e23ef18f730a7cd3c8b86b7b59bab28d300c41
 Description:  This package provides common board support files for OpenMANET boards.
 
 Package: bsp-venice
-Version: 1.0-r1
+Version: 1.0-r3
 Depends: libc, bsp-common, gpsd, kmod-thermal, kmod-hwmon-gsc, ntpd
 License: GPLv2
 Section: utils
 Architecture: aarch64_cortex-a53
 Installed-Size: 20480
-Filename: bsp-venice_1.0-r1_aarch64_cortex-a53.ipk
-Size: 2155
-SHA256sum: c21a2ae51de5d6c148d9507675fdd67ec77dda13a284245e45cc9be2a2cfb5b8
+Filename: bsp-venice_1.0-r3_aarch64_cortex-a53.ipk
+Size: 3053
+SHA256sum: 39ac054a5b7964dba4c5ff1f5e2b983439e0601618c133c5a8f86ce196e2382c
 Description:  This package provides board support for the OpenMANET Venice board.
 
 Package: gpsd-clients
-Version: 3.25-r1
+Version: 3.25-r2
 Depends: libc, libusb-1.0-0, libncurses6
 License: BSD-3-Clause
 Section: utils
@@ -175,9 +175,9 @@ URL: https://gpsd.gitlab.io/gpsd/
 CPE-ID: cpe:/a:gpsd_project:gpsd
 Architecture: aarch64_cortex-a53
 Installed-Size: 2252800
-Filename: gpsd-clients_3.25-r1_aarch64_cortex-a53.ipk
-Size: 1048643
-SHA256sum: d7a80b9f094f745effdfcc9252f521611918ba80067e2ecee1c99f434bf7a78b
+Filename: gpsd-clients_3.25-r2_aarch64_cortex-a53.ipk
+Size: 1048659
+SHA256sum: 05f77adcf51cd2d80a7470d635f16eda70567e8a694ef232200a00b6e484c414
 Description:  gpsd is a userland daemon acting as a translator between GPS and AIS receivers
  and their clients. gpsd listens on port 2947 for clients requesting
  position/time/velocity information.  The receivers are expected to generate
@@ -189,7 +189,7 @@ Description:  gpsd is a userland daemon acting as a translator between GPS and A
  testing the GPS daemon.
 
 Package: gpsd
-Version: 3.25-r1
+Version: 3.25-r2
 Depends: libc, libusb-1.0-0
 License: BSD-3-Clause
 Section: utils
@@ -197,9 +197,9 @@ URL: https://gpsd.gitlab.io/gpsd/
 CPE-ID: cpe:/a:gpsd_project:gpsd
 Architecture: aarch64_cortex-a53
 Installed-Size: 604160
-Filename: gpsd_3.25-r1_aarch64_cortex-a53.ipk
-Size: 292416
-SHA256sum: 6657510247be51d7cf3cb2e2b1b127e109441e2592ba22a967c7fb9a75bea4b3
+Filename: gpsd_3.25-r2_aarch64_cortex-a53.ipk
+Size: 292909
+SHA256sum: f6fc56afb1c372e1f3c85351f073c083a494b1fb1cb384a216ffa5d285827a22
 Description:  gpsd is a userland daemon acting as a translator between GPS and AIS receivers
  and their clients. gpsd listens on port 2947 for clients requesting
  position/time/velocity information.  The receivers are expected to generate
@@ -208,6 +208,19 @@ Description:  gpsd is a userland daemon acting as a translator between GPS and A
  protocols.  gpsd takes this information from the GPS and translates it into
  something uniform and easier to understand for clients.
  This package contains the GPS daemon.
+
+Package: hostapd_s1g
+Version: mm8108-2.0.0-r5
+Depends: libc, kmod-dot11ah, kmod-cfg80211, morsecli, libnl200, libopenssl3, libubus20250102, libblobmsg-json20240329
+License: BSD-3-Clause
+Section: net
+Architecture: aarch64_cortex-a53
+Installed-Size: 1976320
+Filename: hostapd_s1g_mm8108-2.0.0-r5_aarch64_cortex-a53.ipk
+Size: 871536
+SHA256sum: 9ec601506d6556279c49ff5f572b6fb32d1bb3d8154d5c2f3d9dd11c6ba4345a
+Description:  This package contains a full featured Morse Micro patched
+ Authenticator.
 
 Package: libavahi-client
 Version: 0.8-r8
@@ -219,8 +232,8 @@ CPE-ID: cpe:/a:avahi:avahi
 Architecture: aarch64_cortex-a53
 Installed-Size: 71680
 Filename: libavahi-client_0.8-r8_aarch64_cortex-a53.ipk
-Size: 20072
-SHA256sum: fb75c28df8dfe7a5f32a6e99b5905bc3fd1ef49b1ae12265b058be77bcfd0498
+Size: 20074
+SHA256sum: 2e1ff0da959821ec374a50448abd0df179bd049cbe4eb67a6bd17f557313a2cb
 Description:  Avahi is an mDNS/DNS-SD (aka RendezVous/Bonjour/ZeroConf)
  implementation (library). It facilitates
  service discovery on a local network -- this means that
@@ -247,8 +260,8 @@ CPE-ID: cpe:/a:avahi:avahi
 Architecture: aarch64_cortex-a53
 Installed-Size: 276480
 Filename: libavahi-dbus-support_0.8-r8_aarch64_cortex-a53.ipk
-Size: 82117
-SHA256sum: b1f18fe985de926027e9ee7ed79972475fe0c89e27c6f3c59370b42f921eb555
+Size: 82105
+SHA256sum: 9be126169bedd60ed5e6f99f674a98218c330990aba56839cbdedf97a9cf6602
 Description:  Avahi is an mDNS/DNS-SD (aka RendezVous/Bonjour/ZeroConf)
  implementation (library). It facilitates
  service discovery on a local network -- this means that
@@ -275,7 +288,7 @@ Description:  Avahi is an mDNS/DNS-SD (aka RendezVous/Bonjour/ZeroConf)
  libavahi-client or avahi-utils.
 
 Package: libgps30
-Version: 3.25-r1
+Version: 3.25-r2
 Depends: libc, libusb-1.0-0
 Provides: libgps
 License: BSD-3-Clause
@@ -285,9 +298,9 @@ ABIVersion: 30
 CPE-ID: cpe:/a:gpsd_project:gpsd
 Architecture: aarch64_cortex-a53
 Installed-Size: 143360
-Filename: libgps30_3.25-r1_aarch64_cortex-a53.ipk
-Size: 65294
-SHA256sum: 6b2ab0ec307d23cdd1ad6cb698154a0790cb33d131ace9e365aa59512676f782
+Filename: libgps30_3.25-r2_aarch64_cortex-a53.ipk
+Size: 65301
+SHA256sum: 1b41146dd31a98fdc2fea8570c4de770764bd4197e6b11517725dcf8f16f9286
 Description:  gpsd is a userland daemon acting as a translator between GPS and AIS receivers
  and their clients. gpsd listens on port 2947 for clients requesting
  position/time/velocity information.  The receivers are expected to generate
@@ -297,110 +310,195 @@ Description:  gpsd is a userland daemon acting as a translator between GPS and A
  something uniform and easier to understand for clients.
  This package contains the libgps library.
 
+Package: libwpa_client_s1g
+Version: mm8108-2.0.0-r2
+Depends: libc, wpa_supplicant_s1g
+License: BSD-3-Clause
+Section: net
+Architecture: aarch64_cortex-a53
+Installed-Size: 71680
+Filename: libwpa_client_s1g_mm8108-2.0.0-r2_aarch64_cortex-a53.ipk
+Size: 18839
+SHA256sum: 6a613df08ada3583507caab9268d7998c96f74aeaf1bcd1e312134b65fcfac1b
+Description:  wpa_supplicant_s1g client library
+
 Package: luci-app-ekhwizards
-Version: git-26.136.72260-04e7dec
+Version: git-26.228.09961-4736e44
 Depends: libc, luci-base, luci-app-morseconfig
 License: Apache-2.0
 Section: luci
 URL: https://github.com/openwrt/luci
 Architecture: all
 Installed-Size: 153600
-Filename: luci-app-ekhwizards_git-26.136.72260-04e7dec_all.ipk
-Size: 22376
-SHA256sum: c3fa2d8838baf8237dc87a24cd32c5ac27ba41c9341afeea38ea778224133ee8
+Filename: luci-app-ekhwizards_git-26.228.09961-4736e44_all.ipk
+Size: 22383
+SHA256sum: 20879f31367eecf7572410bc2b18bd016e5ac9191a300f15037dd3d5093ae838
 Description:  LuCI Wizards for HaLow evaluation kits
 
 Package: luci-app-morseconfig
-Version: git-26.136.72260-04e7dec
+Version: git-26.228.09961-4736e44
 Depends: libc, luci-base, libiwinfo20250326, libiwinfo-lua, luci-lib-morseui, netifd-morse, morse-regdb, qrencode
 License: Apache-2.0
 Section: luci
 URL: https://github.com/openwrt/luci
 Architecture: all
 Installed-Size: 512000
-Filename: luci-app-morseconfig_git-26.136.72260-04e7dec_all.ipk
-Size: 117806
-SHA256sum: 49865cda11d7ff605d7ec07d8db311c986ef18d62d8f349efb0c659d06510b9b
+Filename: luci-app-morseconfig_git-26.228.09961-4736e44_all.ipk
+Size: 117804
+SHA256sum: fd1f8184b98cc2af14fe2d2ec820cf7127af3a54b07c2aee3710532122289a9f
 Description:  LuCI Morse Configuration
 
 Package: luci-lib-morseui
-Version: git-26.136.72260-04e7dec
+Version: git-26.228.09961-4736e44
 Depends: libc, luci-base
 License: Apache-2.0
 Section: luci
 URL: https://github.com/openwrt/luci
 Architecture: all
 Installed-Size: 30720
-Filename: luci-lib-morseui_git-26.136.72260-04e7dec_all.ipk
-Size: 6832
-SHA256sum: 3086c8ca86773724f4707fc916588f2ab30c7989b8d23420f0667d6337be5527
+Filename: luci-lib-morseui_git-26.228.09961-4736e44_all.ipk
+Size: 6834
+SHA256sum: 2411078c3f8d28365a76e2c1d68328d88445be1183029fe70584e62b1226d1e0
 Description:  LuCI Morse UI Library
 
 Package: luci-lib-vivagraphjs
-Version: git-26.136.72260-04e7dec
+Version: git-26.228.09961-4736e44
 Depends: libc
 Section: luci
 URL: https://github.com/anvaka/VivaGraphJS/
 Architecture: all
 Installed-Size: 71680
-Filename: luci-lib-vivagraphjs_git-26.136.72260-04e7dec_all.ipk
-Size: 22410
-SHA256sum: d60fd13aae81a35de7685a437ac13e46a683cdcac67dec73dc21789beef35ee8
+Filename: luci-lib-vivagraphjs_git-26.228.09961-4736e44_all.ipk
+Size: 22409
+SHA256sum: d9f8a97280582cfb555d5c37c5533a1935d53e5e6c28e5f5f60c2b3d2b0772f7
 Description:  minified VivaGraphJS javascript library
 
 Package: luci-mod-home
-Version: git-26.136.72260-04e7dec
+Version: git-26.228.09961-4736e44
 Depends: libc, luci-base, libiwinfo20250326, luci-app-morseconfig, luci-lib-vivagraphjs, morse-mode
 License: Apache-2.0
 Section: luci
 URL: https://github.com/openwrt/luci
 Architecture: all
 Installed-Size: 71680
-Filename: luci-mod-home_git-26.136.72260-04e7dec_all.ipk
-Size: 17027
-SHA256sum: 9c21a862da855f243a3025404e47df2e8037847a0b62dbc9c672c6cd9b793494
+Filename: luci-mod-home_git-26.228.09961-4736e44_all.ipk
+Size: 17031
+SHA256sum: 82f23e0421645b63a7de4e6260221dd4359032dbcc4e2e949757c65c1058a4c6
 Description:  LuCI Home
 
 Package: luci-theme-openmanetargon
-Version: git-26.136.72260-04e7dec
+Version: git-26.228.09961-4736e44
 Depends: libc, morse-mode, luci-lua-runtime
 License: Apache-2.0
 Section: luci
 URL: https://github.com/openwrt/luci
 Architecture: all
 Installed-Size: 1157120
-Filename: luci-theme-openmanetargon_git-26.136.72260-04e7dec_all.ipk
-Size: 991347
-SHA256sum: 36cff6924eb483812d6416b911133a2fb38642c76d3011b9b38d71ced699f414
+Filename: luci-theme-openmanetargon_git-26.228.09961-4736e44_all.ipk
+Size: 991356
+SHA256sum: a157858e85ffe633a9b73f8100119f3657b86f930932dc722a089621d90ffc38
 Description:  LuCI OpenMANET Argon Theme
 
-Package: mediamtx
-Version: 1.4.0-r2
+Package: mm8108-firmware
+Version: 2.0.0-r1
 Depends: libc
-Section: multimedia
-URL: https://github.com/bluenviron/mediamtx
+Section: firmware
+URL: https://github.com/MorseMicro/morse-firmware.git
 Architecture: aarch64_cortex-a53
-Installed-Size: 20101120
-Filename: mediamtx_1.4.0-r2_aarch64_cortex-a53.ipk
-Size: 7380258
-SHA256sum: 3c48db3f1ceccc4038d090a581f8d4778d3350ef6e55a0f6db3668737915ee19
-Description:  Ready-to-use server and proxy that allows users to publish, read and proxy live video and audio streams through various protocols.
- 
- If libcamera is enabled, it will try to build its rpicamera support.
+Installed-Size: 501760
+Filename: mm8108-firmware_2.0.0-r1_aarch64_cortex-a53.ipk
+Size: 250979
+SHA256sum: 9f4e9d89be66f96e95e60059be262293f842ded353f0ff34bed44f0115755f9d
+Description:  Morse Micro mm8108 WIFI HaLow firmware
+
+Package: morse-copy-coredump
+Version: 2
+Depends: libc, kmod-dot11ah
+Section: net
+Architecture: aarch64_cortex-a53
+Installed-Size: 10240
+Filename: morse-copy-coredump_2_aarch64_cortex-a53.ipk
+Size: 1532
+SHA256sum: 5d21bc54f96a7f6c7533354591b79a6aba0c0bc80b39285466d5d409df945614
+Description:  Copy morse driver coredumps from sysfs to /var/log
+ when they appear (detected via hotplug).
+
+Package: morsecli
+Version: mm8108-2.0.0-r7
+Depends: libc, kmod-dot11ah, libnl200, libusb-1.0-0
+License: GPLv2
+Section: utils
+Architecture: aarch64_cortex-a53
+Installed-Size: 215040
+Filename: morsecli_mm8108-2.0.0-r7_aarch64_cortex-a53.ipk
+Size: 75953
+SHA256sum: b316de6a19bb49146f01a87ec4b4c1579f944a66d1228ec9b89644d38c2e492f
+Description:  Morse Micro WIFI HaLow driver command line tool
+
+Package: netifd-morse
+Version: 2
+Depends: libc, kmod-dot11ah, morse-regdb, wpa_supplicant_s1g, hostapd_s1g, morsecli
+License: GPLv2
+Section: net
+Architecture: aarch64_cortex-a53
+Installed-Size: 143360
+Filename: netifd-morse_2_aarch64_cortex-a53.ipk
+Size: 33290
+SHA256sum: 633227cac75434615bc0d137c578e913197d90e9295904380be3857baf898b65
+Description:  Morse Micro HaLow support for netifd
+
+Package: openmanet-morse-stack
+Version: 1.0-r1
+Depends: libc, netifd-morse, morse-mode, morse-boot-prints, morse-regdb, morsecli, hostapd_s1g, wpa_supplicant_s1g, libwpa_client_s1g, smart_manager, morse-copy-coredump, morse-bundle, morse-button, morse-leds, morse_mesh11sd, morse-board-config, morse-board-config-hotplug-model, luci-lib-morseui, luci-lib-vivagraphjs, luci-app-morseconfig, luci-app-ekhwizards, luci-mod-home, luci-theme-openmanetargon
+License: Apache-2.0
+Section: net
+Architecture: aarch64_cortex-a53
+Installed-Size: 10240
+Filename: openmanet-morse-stack_1.0-r1_aarch64_cortex-a53.ipk
+Size: 1107
+SHA256sum: 8996c469bff53b490addf46cc4e46ca82f5a7eda3cc69071c38fc103b899f211
+Description:  Meta-package selecting the complete radio-agnostic Morse Micro HaLow
+ userspace and LuCI stack used on all OpenMANET boards. Enabled once in
+ boards/common/openmanet_diffconfig via
+ CONFIG_PACKAGE_openmanet-morse-stack=y.
 
 Package: openmanetd
-Version: 1.3.2-r1
-Depends: libc, kmod-batman-adv, alfred, libnl-tiny1, librt, portaudio, libopus, libevdev, alsa-lib, kmod-usb-core, kmod-usb-audio, kmod-sound-core, libopusfile, hidapi, libpam
+Version: 1.3.10-r2
+Depends: libc, kmod-batman-adv, alfred, libnl-tiny1, librt, libopus, libevdev, alsa-lib, kmod-usb-core, kmod-usb-audio, kmod-sound-core, libopusfile, hidapi, libpam
 License: MIT
 Section: utils
 Architecture: aarch64_cortex-a53
-Installed-Size: 34887680
-Filename: openmanetd_1.3.2-r1_aarch64_cortex-a53.ipk
-Size: 11591254
-SHA256sum: 7db1bd8691377d54c40382db3a1fd16bd49984e2bd7a49e146ee7d62ff4784ef
+Installed-Size: 36270080
+Filename: openmanetd_1.3.10-r2_aarch64_cortex-a53.ipk
+Size: 11983840
+SHA256sum: af9e8ff5b9ff90d38e022ba169646e4b5a0d3011ad9d7bff8633447f576c93ae
 Description:  A management application for openmanetd written in Go.
  Includes:
- - pttgo: A multicast push-to-talk voice application written in Go using PortAudio, Opus, and evdev.
+ - comms: A multicast push-to-talk voice application written in Go using PortAudio, Opus, and evdev.
+
+Package: openvlm
+Version: 1.0.3-r2
+Depends: libc, libevdev, kmod-usb-audio, kmod-usb-hid, libudev-zero, alsa-utils
+License: MIT
+Section: utils
+Architecture: aarch64_cortex-a53
+Installed-Size: 3092480
+Filename: openvlm_1.0.3-r2_aarch64_cortex-a53.ipk
+Size: 1249529
+SHA256sum: a6f2a56f3cf9a8da354b2be4892460b89c75103c7d3261f8cde7e8ed24e043cc
+Description:  Cross-platform CLI for reading, writing, and validating the EEPROM on OpenVLM USB audio devices.
+
+Package: smart_manager
+Version: mm8108-2.0.0-r3
+Depends: libc, kmod-dot11ah, libnl200, libpthread, libconfig11, hostapd_s1g
+License: BSD-3-Clause
+Section: net
+Architecture: aarch64_cortex-a53
+Installed-Size: 225280
+Filename: smart_manager_mm8108-2.0.0-r3_aarch64_cortex-a53.ipk
+Size: 63992
+SHA256sum: 35d6389481178441547587fabf9416ce0fc8b03ddb5acdabded7b8c4fb663f9e
+Description:  Morse Micro HaLow DCS Smart Manager
 
 Package: tailscale
 Version: 1.94.1-r1
@@ -413,8 +511,20 @@ CPE-ID: cpe:/a:tailscale:tailscale
 Architecture: aarch64_cortex-a53
 Installed-Size: 25835520
 Filename: tailscale_1.94.1-r1_aarch64_cortex-a53.ipk
-Size: 9722391
-SHA256sum: 739c8a62fb2f45b9950ad5657c79669f15733faec2263324530f4af16d228775
+Size: 9733366
+SHA256sum: 8448395d3561cf6e44be612f40e1fb1edc398fb7dc0b201442b90057709aa815
 Description:  It creates a secure network between your servers, computers,
  and cloud instances. Even when separated by firewalls or subnets.
+
+Package: wpa_supplicant_s1g
+Version: mm8108-2.0.0-r2
+Depends: libc, kmod-dot11ah, kmod-cfg80211, morsecli, libnl200, libopenssl3, libubus20250102, libblobmsg-json20240329
+License: BSD-3-Clause
+Section: net
+Architecture: aarch64_cortex-a53
+Installed-Size: 2836480
+Filename: wpa_supplicant_s1g_mm8108-2.0.0-r2_aarch64_cortex-a53.ipk
+Size: 1272187
+SHA256sum: 12dfc0ab0b397aeca9413c0665b3c3172b68b4995c62adc20d6ba4cc7631c562
+Description:  Morse Micro HaLow wpa_supplicant
 
